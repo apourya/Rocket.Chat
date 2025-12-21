@@ -1,0 +1,2 @@
+function module(t,e,l){let n,a,r,i;l.link("@babel/runtime/helpers/objectSpread2",{default(t){n=t}},0),l.link("./attachments/AttachmentsItem",{default(t){a=t}},0),l.link("react/jsx-runtime",{jsx(t){r=t},Fragment(t){i=t}},1),l.exportDefault(t=>{let{attachments:e,id:l}=t;return r(i,{children:null==e?void 0:e.map((t,e)=>r(a,{id:l,attachment:n({},t)},e))})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/16bf6927a95c28d5f638309c90303d1ac6cbb107.map

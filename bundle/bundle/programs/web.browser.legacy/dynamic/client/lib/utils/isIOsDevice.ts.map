@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/lib/utils/isIOsDevice.ts","meteor://💻app/<anon>"],"sourcesContent":["export const isIOsDevice = !!navigator.platform.match(/iPhone|iPod|iPad/);\n",null],"names":["module","export","isIOsDevice","navigator","platform","match"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,YAAc,WAAW,OAACA,CAAe,CAAA,GAA/C,IAAMA,EAAc,CAAC,CAACC,UAAUC,QAAQ,CAACC,KAAK,CAAC"}

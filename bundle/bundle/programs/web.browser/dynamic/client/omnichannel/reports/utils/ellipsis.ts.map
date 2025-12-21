@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/omnichannel/reports/utils/ellipsis.ts","meteor://💻app/<anon>"],"sourcesContent":["export const ellipsis = (value: string | number, max: number) => {\n\treturn String(value).length > max ? `${String(value).substring(0, max)}...` : value;\n};\n",null],"names":["module","export","ellipsis","value","max","String","length","concat","substring"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,SAAWA,IAACA,CAAmC,GAArD,IAAMA,EAAWA,CAACC,EAAwBC,IACzCC,OAAOF,GAAOG,MAAM,CAAGF,EAAG,GAAAG,MAAA,CAAMF,OAAOF,GAAOK,SAAS,CAAC,EAAGJ,GAAI,OAAQD"}

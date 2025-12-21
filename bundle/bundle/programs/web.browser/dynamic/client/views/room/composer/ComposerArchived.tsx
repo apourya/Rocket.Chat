@@ -1,0 +1,2 @@
+function module(e,t,o){let l,n,r,a;o.link("@rocket.chat/ui-composer",{MessageFooterCallout(e){l=e},MessageFooterCalloutContent(e){n=e}},0),o.link("react-i18next",{useTranslation(e){r=e}},1),o.link("react/jsx-runtime",{jsx(e){a=e}},2),o.exportDefault(()=>{let{t:e}=r();return a(l,{children:a(n,{children:e("Room_archived")})})})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/79cd0b47c73c09bd45bf1d8c8d531a8c22eb65eb.map

@@ -1,0 +1,2 @@
+function module(n,t,r){r.export({useFormatMemorySize:function(){return o}}),r.link("../../lib/utils/stringUtils",{numberFormat:function(n){u=n}},0);var u,e=function(n){if("number"!=typeof n)return null;var t,r=["bytes","kB","MB","GB"];for(t=0;t<r.length-1&&!(n<Math.pow(1024,t+1));++t);return u(n/Math.pow(1024,t),0===t?0:2)+" "+r[t]},o=function(){return e}}
+//# sourceMappingURL=/dynamic/client/hooks/97450214cab5c4a100094113e24bd5873b540d6b.map

@@ -1,0 +1,2 @@
+function module(t,n,e){var a,i,u,c;e.link("@babel/runtime/helpers/objectSpread2",{default:function(t){a=t}},0),e.link("./attachments/AttachmentsItem",{default:function(t){i=t}},0),e.link("react/jsx-runtime",{jsx:function(t){u=t},Fragment:function(t){c=t}},1),e.exportDefault(function(t){var n=t.attachments,e=t.id;return u(c,{children:null==n?void 0:n.map(function(t,n){return u(i,{id:e,attachment:a({},t)},n)})})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/ad24c4c391aa4b4a63e198264b57ffba0cc782b5.map

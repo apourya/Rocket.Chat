@@ -1,0 +1,2 @@
+function module(t,n,e){var o,u,i,c;e.link("@babel/runtime/helpers/objectSpread2",{default:function(t){o=t}},0),e.link("@rocket.chat/fuselage",{Box:function(t){u=t}},0),e.link("@rocket.chat/ui-contexts",{useSetting:function(t){i=t}},1),e.link("react/jsx-runtime",{jsx:function(t){c=t}},2),e.exportDefault(function(t){var n=i("Layout_Home_Body","");return c(u,o({withRichContent:!0,dangerouslySetInnerHTML:{__html:n}},t))})}
+//# sourceMappingURL=/dynamic/client/views/home/0d8366217760992265bb3870013002f7d31d1291.map

@@ -1,0 +1,2 @@
+function module(t,o,e){let n,i,u,s;e.export({useOmnichannelContinuousSoundNotification:()=>l}),e.link("@rocket.chat/ui-contexts",{useCustomSound(t){n=t},useSetting(t){i=t},useUserSubscriptions(t){u=t}},0),e.link("react",{useEffect(t){s=t}},1);let c={t:"l",ls:{$exists:!1},open:!0},l=t=>{let o=u(c),{notificationSounds:e}=n(),l=i("Livechat_continuous_sound_notification_new_livechat_room"),a=o.length>0||t.length>0;s(()=>{if(l&&a)return e.playNewRoomLoop(),()=>{e.stopNewRoom()}},[l,o,a,e])}}
+//# sourceMappingURL=/dynamic/client/hooks/fb01fa5de461d2b6571035aa3471acad2054b005.map

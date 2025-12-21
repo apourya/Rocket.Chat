@@ -1,0 +1,2 @@
+function module(n,e,i){i.export({useRoomName:function(){return c}}),i.link("@rocket.chat/core-typings",{isDirectMessageRoom:function(n){t=n}},0),i.link("@rocket.chat/ui-client",{useUserDisplayName:function(n){o=n}},1),i.link("@rocket.chat/ui-contexts",{useUserSubscription:function(n){u=n}},2);var t,o,u,c=function(n){var e=u(n._id),i=o({name:null==e?void 0:e.fname,username:null==e?void 0:e.name});return t(n)?i:n.fname||n.name}}
+//# sourceMappingURL=/dynamic/client/hooks/5241f8a5482e3deaa6da0c345acf5cd78141db46.map

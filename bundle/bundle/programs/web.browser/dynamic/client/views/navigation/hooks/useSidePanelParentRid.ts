@@ -1,0 +1,2 @@
+function module(e,t,o){let l,n,a;o.export({useSidePanelParentRid:()=>i}),o.link("@rocket.chat/fuselage-hooks",{useEffectEvent(e){l=e},useLocalStorage(e){n=e}},0),o.link("../contexts/RoomsNavigationContext",{collapsibleFilters(e){a=e}},1);let i=()=>{let[e,t]=n("sidePanelParentRid",void 0);return{parentRid:e,setParentRoom:l((e,o)=>{a.some(t=>e===t)&&t(o)})}}}
+//# sourceMappingURL=/dynamic/client/views/navigation/hooks/7a3ab50b2a31768c994fd353e236e2867e3d1f37.map

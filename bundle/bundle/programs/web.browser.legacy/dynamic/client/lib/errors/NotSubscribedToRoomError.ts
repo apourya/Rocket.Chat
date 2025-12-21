@@ -1,0 +1,2 @@
+function module(o,r,t){t.link("@babel/runtime/helpers/inheritsLoose",{default:function(o){n=o}},0),t.export({NotSubscribedToRoomError:function(){return i}}),t.link("./RocketChatError",{RocketChatError:function(o){e=o}},0);var n,e,i=function(o){function r(){var r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Not subscribed to this room",t=arguments.length>1?arguments[1]:void 0;return o.call(this,"not-subscribed-room",r,t)||this}return n(r,o),r}(e)}
+//# sourceMappingURL=/dynamic/client/lib/errors/c2b22a1cfc93a7546f58d33aeecf0d06e18e4161.map

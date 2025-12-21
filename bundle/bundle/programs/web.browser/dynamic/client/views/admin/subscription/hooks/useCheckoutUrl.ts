@@ -1,0 +1,2 @@
+function module(e,t,r){let n;r.export({useCheckoutUrl:()=>l}),r.link("@rocket.chat/ui-contexts",{useAbsoluteUrl(e){n=e}},0);let l=()=>{let e=n()("/links/manage-subscription");return t=>{let r=new URL(e);return t&&Object.entries(t).forEach(e=>{let[t,n]=e;r.searchParams.append(t,n.toString())}),r.toString()}}}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/hooks/258166ed1a12f55c2ab7a08efafc42caf4c652a5.map

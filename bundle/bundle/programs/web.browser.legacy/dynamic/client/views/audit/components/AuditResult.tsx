@@ -1,0 +1,2 @@
+function module(e,n,t){var i,s,l,a;t.link("react",{memo:function(e){i=e}},0),t.link("./AuditMessageList",{default:function(e){s=e}},1),t.link("../../../components/GenericNoResults",{default:function(e){l=e}},2),t.link("react/jsx-runtime",{jsx:function(e){a=e}},3),t.exportDefault(i(function(e){var n=e.className,t=e.messages;return 0===t.length?a(l,{}):a("div",{className:n,role:"list","aria-live":"polite",children:a(s,{messages:t})})}))}
+//# sourceMappingURL=/dynamic/client/views/audit/components/f71dc8ea5c781a5bfd8e3067a54d0f5a84b391a2.map

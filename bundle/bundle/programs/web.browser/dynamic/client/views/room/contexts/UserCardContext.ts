@@ -1,0 +1,2 @@
+function module(e,t,o){let r,n;o.export({UserCardContext:()=>s,useUserCard:()=>d}),o.link("react",{createContext(e){r=e},useContext(e){n=e}},0);let s=r({openUserCard:()=>void 0,closeUserCard:()=>void 0,triggerProps:{},triggerRef:{current:null},state:{isOpen:!1,setOpen:()=>void 0,open:()=>void 0,close:()=>void 0,toggle:()=>void 0}}),d=()=>n(s)}
+//# sourceMappingURL=/dynamic/client/views/room/contexts/fd644f06bb08a55c1fbb62a75edb6a720c34a903.map

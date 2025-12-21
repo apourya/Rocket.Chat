@@ -1,0 +1,2 @@
+function module(e,t,h){let i,l,n,r;h.export({ReportCardLoadingState:()=>o}),h.link("@rocket.chat/fuselage",{Box(e){i=e},Skeleton(e){l=e}},0),h.link("react/jsx-runtime",{jsx(e){n=e},jsxs(e){r=e}},1);let o=()=>r(i,{display:"flex",height:"100%",width:"100%",children:[n(i,{flexGrow:1,children:n(l,{style:{transform:"none"},height:"100%",mb:8,mie:16})}),r(i,{flexGrow:1,children:[n(l,{height:28}),n(l,{height:28}),n(l,{height:28}),n(l,{height:28}),n(l,{height:28})]})]})}
+//# sourceMappingURL=/dynamic/client/omnichannel/reports/components/e0a3781a3f01abbdba3b26d56983d3e975d521a6.map

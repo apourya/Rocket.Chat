@@ -1,0 +1,2 @@
+function module(n,o,e){var t,i,r,u;e.link("./ParentRoom",{default:function(n){t=n}},0),e.link("../../../components/Header",{HeaderTagSkeleton:function(n){i=n}},1),e.link("../../../hooks/useRoomInfoEndpoint",{useRoomInfoEndpoint:function(n){r=n}},2),e.link("react/jsx-runtime",{jsx:function(n){u=n}},3),e.exportDefault(function(n){var o=n.rid,e=r(o),l=e.data,a=e.isPending,f=e.isError;return a?u(i,{}):f||!(null!=l&&l.room)?null:u(t,{room:l.room})})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/dcab74b657cad91368592f8f3c6352462457af94.map

@@ -1,0 +1,2 @@
+function module(e,t,o){let a,l;o.export({OmnichannelCoreSourceRoomIcon:()=>i}),o.link("@rocket.chat/fuselage",{Icon(e){a=e}},0),o.link("react/jsx-runtime",{jsx(e){l=e}},1);let n={widget:"livechat",email:"mail",sms:"sms",app:"headset",api:"headset",other:"headset"},i=e=>{let{source:t,color:o,size:i}=e,s=n[(null==t?void 0:t.type)||"other"]||"headset";return l(a,{name:s,size:i,color:o})}}
+//# sourceMappingURL=/dynamic/client/components/RoomIcon/OmnichannelRoomIcon/54cd167b26a8e448b3a243229f5800eb79269a16.map

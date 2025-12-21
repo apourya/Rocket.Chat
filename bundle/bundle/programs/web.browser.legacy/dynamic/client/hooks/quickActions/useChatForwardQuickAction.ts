@@ -1,0 +1,2 @@
+function module(o,n,r){r.export({useChatForwardQuickAction:function(){return u}}),r.link("react",{useMemo:function(o){i=o}},0),r.link("../../views/room/lib/quickActions",{QuickActionsEnum:function(o){t=o}},1);var i,t,u=function(){return i(function(){return{groups:["live"],id:t.ChatForward,title:"Forward_chat",icon:"balloon-arrow-top-right",order:2}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/quickActions/a20e3f107e60b97f0e89e83b622dbc888dd2ddc8.map

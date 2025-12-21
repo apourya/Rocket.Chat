@@ -1,0 +1,2 @@
+function module(e,n,t){let u,r,i;t.export({useAgentsQuery:()=>l}),t.link("@rocket.chat/ui-contexts",{useEndpoint(e){u=e}},0),t.link("@tanstack/react-query",{useQuery(e){r=e}},1),t.link("../../../../lib/queryKeys",{omnichannelQueryKeys(e){i=e}},2);let l=function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},n=u("GET","/v1/livechat/users/agent");return r({queryKey:i.agents(e),queryFn:()=>n(e)})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/agents/hooks/65efd87a7106a963b905115e86854d4d5961ab45.map

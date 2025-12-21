@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({useUnreadMessages:function(){return o}}),t.link("@rocket.chat/ui-contexts",{useSession:function(n){u=n}},0),t.link("react-i18next",{useTranslation:function(n){r=n}},1);var u,r,o=function(){var n=r().t,e=u("unread");return function(){if("number"==typeof e)return n("unread_messages_counter",{count:e})}()}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/10f6feea46fefcb62253a25b64f0730ecae4aad8.map

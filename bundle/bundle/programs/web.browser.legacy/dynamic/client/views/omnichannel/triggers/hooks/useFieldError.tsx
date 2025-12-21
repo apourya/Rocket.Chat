@@ -1,0 +1,2 @@
+function module(r,n,o){o.export({useFieldError:function(){return u}}),o.link("react-hook-form",{get:function(r){t=r},useFormState:function(r){e=r}},0);var t,e,u=function(r){var n=r.control,o=r.name,u=Array.isArray(o)?o:[o],a=e({control:n,name:o}).errors;return u.map(function(r){return t(a,r)})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/triggers/hooks/829e14bbea66025086d300cef4065ad5712e6053.map

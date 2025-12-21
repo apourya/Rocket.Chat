@@ -1,0 +1,2 @@
+function module(o,t,e){let n,l,i,m;e.link("./VoipInfo",{VoipInfo(o){n=o}},0),e.link("../../../../room/contexts/RoomContext",{useVoipRoom(o){l=o}},1),e.link("../../../../room/contexts/RoomToolboxContext",{useRoomToolbox(o){i=o}},2),e.link("react/jsx-runtime",{jsx(o){m=o}},3),e.exportDefault(()=>{let o=l(),{closeTab:t}=i();return m(n,{room:o,onClickClose:t})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/calls/contextualBar/2e56dbb36fddf88b2e8fea75a70ec1c26dca62fc.map

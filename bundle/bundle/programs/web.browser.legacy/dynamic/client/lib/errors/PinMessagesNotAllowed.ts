@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/inheritsLoose",{default:function(n){i=n}},0),t.export({PinMessagesNotAllowed:function(){return r}}),t.link("./RocketChatError",{RocketChatError:function(n){o=n}},0);var i,o,r=function(n){function e(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Pinning messages is not allowed",t=arguments.length>1?arguments[1]:void 0;return n.call(this,"error-pinning-message",e,t)||this}return i(e,n),e}(o)}
+//# sourceMappingURL=/dynamic/client/lib/errors/571598a936416a8e7f033fc2926a354bafd8a61d.map

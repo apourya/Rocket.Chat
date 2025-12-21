@@ -1,0 +1,2 @@
+function module(e,t,l){let i,r,n,o;let a=["label","icon"];l.link("@babel/runtime/helpers/objectSpread2",{default(e){i=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){r=e}},1),l.link("@rocket.chat/fuselage",{Button(e){n=e}},0),l.link("react/jsx-runtime",{jsx(e){o=e}},1),l.exportDefault(e=>{let{label:t,icon:l}=e,u=r(e,a);return o(n,i(i({title:"string"==typeof t?t:void 0,"aria-label":"string"==typeof t?t:void 0},u),{},{icon:l,children:t}))})}
+//# sourceMappingURL=/dynamic/client/components/InfoPanel/851f43b03fbf79f9f2bf29710222ca921539a0b6.map

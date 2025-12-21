@@ -1,0 +1,2 @@
+function module(e,t,n){let u,s;n.export({useAppInstances:()=>a}),n.link("@rocket.chat/ui-contexts",{useEndpoint(e){u=e}},0),n.link("@tanstack/react-query",{useQuery(e){s=e}},1);let a=e=>{let{appId:t}=e,n=u("GET","/apps/:id/status",{id:t});return s({queryKey:["marketplace","apps",t],queryFn:()=>n()})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/9e637126263a5a2fde70d9874f5f9ed5c9bee55d.map

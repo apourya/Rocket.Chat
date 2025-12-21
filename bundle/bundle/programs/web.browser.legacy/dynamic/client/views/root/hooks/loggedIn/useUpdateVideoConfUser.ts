@@ -1,0 +1,2 @@
+function module(n,e,o){o.export({useUpdateVideoConfUser:function(){return f}}),o.link("@rocket.chat/ui-contexts",{useConnectionStatus:function(n){t=n},useIsLoggingIn:function(n){i=n}},0),o.link("react",{useEffect:function(n){u=n}},1),o.link("../../../../lib/VideoConfManager",{VideoConfManager:function(n){c=n}},2);var t,i,u,c,f=function(n){var e=t().connected,o=i();u(function(){c.updateUser(n,o,e)},[n,o,e])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/loggedIn/d02a1c3e40b4ed11d054b76f627ba1430ddb2592.map

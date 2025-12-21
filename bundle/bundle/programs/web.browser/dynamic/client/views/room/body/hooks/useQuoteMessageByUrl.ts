@@ -1,0 +1,2 @@
+function module(e,t,o){let a,r,s;o.export({useQuoteMessageByUrl:()=>l}),o.link("@rocket.chat/ui-contexts",{useSearchParameter(e){a=e}},0),o.link("react",{useEffect(e){r=e}},1),o.link("../../contexts/ChatContext",{useChat(e){s=e}},2);let l=()=>{let e=a("reply"),t=s();if(!t)throw Error("No ChatContext provided");r(()=>{e&&t.data.getMessageByID(e).then(e=>{var o;e&&(null===(o=t.composer)||void 0===o||o.quoteMessage(e))})},[t.data,t.composer,e])}}
+//# sourceMappingURL=/dynamic/client/views/room/body/hooks/09e9c651d14ca43ed39bf9fb11af2c51ae9cb1ce.map

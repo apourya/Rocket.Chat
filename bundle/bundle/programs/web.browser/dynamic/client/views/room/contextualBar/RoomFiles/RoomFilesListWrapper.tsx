@@ -1,0 +1,2 @@
+function module(e,l,t){let r,i,n,a;t.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),t.link("react",{forwardRef(e){i=e}},0),t.link("react-i18next",{useTranslation(e){n=e}},1),t.link("react/jsx-runtime",{jsx(e){a=e}},2);let u=i(function(e,l){let{t}=n();return a("div",r({role:"list","aria-label":t("Files_list"),ref:l},e))});t.exportDefault(u)}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomFiles/cc846195c543318816eb3a76c7918d3c85a160fd.map

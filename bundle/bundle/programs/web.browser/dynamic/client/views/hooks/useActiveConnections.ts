@@ -1,0 +1,2 @@
+function module(e,t,n){let r,c;n.export({useActiveConnections:()=>u}),n.link("@rocket.chat/ui-contexts",{useEndpoint(e){r=e}},0),n.link("@tanstack/react-query",{useQuery(e){c=e}},1);let u=()=>{let e=r("GET","/v1/presence.getConnections");return c({queryKey:["userConnections"],queryFn:async()=>{let{current:t,max:n}=await e();return{current:t,max:n,percentage:Math.min(t/n*100,100)}},staleTime:6e4})}}
+//# sourceMappingURL=/dynamic/client/views/hooks/9b8be427c0a1850ec8d177b863e449d521dbce3f.map

@@ -1,0 +1,2 @@
+function module(e,t,r){let n,s;r.export({useAsyncImage:()=>a}),r.link("react",{useEffect(e){n=e}},0),r.link("../../../../../hooks/useAsyncState",{useAsyncState(e){s=e}},1);let a=e=>{let{value:t,resolve:r,reject:a,reset:c}=s();return n(()=>{if(c(),!e)return;let t=new Image;t.addEventListener("load",()=>{r(t.src)}),t.addEventListener("error",e=>{a(e.error)}),t.src=e},[e,r,a,c]),t}}
+//# sourceMappingURL=/dynamic/client/components/message/content/location/hooks/e93fcadab5f501b642bd9a2db4bee435a86899fc.map

@@ -1,0 +1,2 @@
+function module(o,n,l){let e,t,u;l.link("./ParentDiscussion",{default(o){e=o}},0),l.link("../../../../../hooks/useRoomInfoEndpoint",{useRoomInfoEndpoint(o){t=o}},1),l.link("react/jsx-runtime",{jsx(o){u=o}},2),l.exportDefault(o=>{let{rid:n}=o,{data:l,isPending:i,isError:r}=t(n);return r||!(null!=l&&l.room)?null:u(e,{loading:i,room:l.room})})}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/ParentRoom/ParentDiscussion/71a04aa4750e5abb57ed28e92deb2ff719b22eed.map

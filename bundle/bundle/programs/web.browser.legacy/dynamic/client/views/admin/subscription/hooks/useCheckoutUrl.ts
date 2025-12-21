@@ -1,0 +1,2 @@
+function module(n,t,r){r.link("@babel/runtime/helpers/slicedToArray",{default:function(n){e=n}},0),r.export({useCheckoutUrl:function(){return i}}),r.link("@rocket.chat/ui-contexts",{useAbsoluteUrl:function(n){u=n}},0);var e,u,i=function(){var n=u()("/links/manage-subscription");return function(t){var r=new URL(n);return t&&Object.entries(t).forEach(function(n){var t=e(n,2),u=t[0],i=t[1];r.searchParams.append(u,i.toString())}),r.toString()}}}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/hooks/bcbd1224e94ffdb45898563a1ba56f1e8f67b145.map

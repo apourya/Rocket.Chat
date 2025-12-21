@@ -1,0 +1,2 @@
+function module(e,t,o){let i,n;o.export({useDesktopTitle:()=>l}),o.link("@rocket.chat/ui-contexts",{useSetting(e){i=e}},0),o.link("react",{useEffect(e){n=e}},1);let l=()=>{let e=i("Site_Name","Rocket.Chat");n(()=>{var t;"undefined"!=typeof window&&e&&(null===(t=window.RocketChatDesktop)||void 0===t||t.setTitle(e))},[e])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/452340a0a72f02393acf0b0d4c628b9df16d39e7.map

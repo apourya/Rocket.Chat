@@ -1,0 +1,2 @@
+function module(e,n,t){t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){r=e}},0),t.link("@rocket.chat/fuselage",{SidebarV2ListItem:function(e){i=e}},0),t.link("react",{forwardRef:function(e){u=e}},1),t.link("react/jsx-runtime",{jsx:function(e){f=e}},2);var r,i,u,f,a=u(function(e,n){return f(i,r({ref:n},e))});t.exportDefault(a)}
+//# sourceMappingURL=/dynamic/client/sidebarv2/RoomList/58e77bdad7904409e24e0c4204b35020c641f15b.map

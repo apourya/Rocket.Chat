@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({useCreateChannelTypePermission:function(){return u}}),t.link("@rocket.chat/ui-contexts",{usePermission:function(e){r=e}},0),t.link("react",{useMemo:function(e){c=e}},1);var r,c,u=function(e){var n=r("create-c"),t=r("create-p"),u=r("create-team-channel",e),i=r("create-team-group",e);return c(function(){if(e){if(!u&&i)return"p";if(u&&!i)return"c"}return!n&&t?"p":!!n&&!t&&"c"},[n,t,u,i,e])}}
+//# sourceMappingURL=/dynamic/client/hooks/a95b6d254e7879b9f26207af6a3a6d6fca628470.map

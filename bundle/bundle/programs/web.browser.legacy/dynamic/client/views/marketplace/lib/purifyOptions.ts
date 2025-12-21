@@ -1,0 +1,2 @@
+function module(r,i,n){n.export({purifyOptions:function(){return o}});var o={ALLOWED_TAGS:["b","i","em","strong","br","p","ul","ol","li","article","aside","figure","section","summary","h1","h2","h3","h4","h5","h6","hgroup","div","hr","span","wbr","abbr","acronym","cite","code","dfn","figcaption","mark","s","samp","sub","sup","var","time","q","del","ins","rp","rt","ruby","bdi","bdo"]}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/lib/4356d3a1a82d4a531cc9129a82f5da13bc621ebc.map

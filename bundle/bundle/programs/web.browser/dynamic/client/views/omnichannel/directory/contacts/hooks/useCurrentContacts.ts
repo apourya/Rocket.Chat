@@ -1,0 +1,2 @@
+function module(t,e,n){let c,r;n.export({useCurrentContacts:()=>u}),n.link("@rocket.chat/ui-contexts",{useEndpoint(t){c=t}},0),n.link("@tanstack/react-query",{useQuery(t){r=t}},1);let u=t=>{let e=c("GET","/v1/omnichannel/contacts.search");return r({queryKey:["current-contacts",t],queryFn:()=>e(t)})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/contacts/hooks/850fbc2e4ed2a45db512511d306e8e17e1b8b2d1.map

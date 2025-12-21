@@ -1,0 +1,2 @@
+function module(e,t,a){let l,n,r,i,o;a.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),a.link("react",{memo(e){n=e}},0),a.link("react-i18next",{useTranslation(e){r=e}},1),a.link("./ContextualbarAction",{default(e){i=e}},2),a.link("react/jsx-runtime",{jsx(e){o=e}},3),a.exportDefault(n(e=>{let{t}=r();return o(i,l(l({"data-qa":"ContextualbarActionClose"},e),{},{"aria-label":t("Close"),name:"cross"}))}))}
+//# sourceMappingURL=/dynamic/client/components/Contextualbar/48d6c9c913db294ef7501da5d985a6059aa38f35.map

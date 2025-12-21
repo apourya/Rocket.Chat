@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/omnichannel/directory/chats/ChatsTable/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './ChatsTable';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,eAAe,CAAAC,QAAA,SAAc,EAAA"}

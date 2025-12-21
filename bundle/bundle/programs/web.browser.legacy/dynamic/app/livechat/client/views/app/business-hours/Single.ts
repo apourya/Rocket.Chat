@@ -1,0 +1,2 @@
+function module(n,t,o){o.export({SingleBusinessHourBehavior:function(){return u}});var u=function(){function n(){}var t=n.prototype;return t.getView=function(){return"livechatBusinessHoursForm"},t.showCustomTemplate=function(){return!1},t.showBackButton=function(){return!1},n}()}
+//# sourceMappingURL=/dynamic/app/livechat/client/views/app/business-hours/bb8ba7a232b424193f0c222a63d931516c6ad84c.map

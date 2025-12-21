@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({useStatistics:function(){return i}}),n.link("@rocket.chat/ui-contexts",{useEndpoint:function(e){r=e}},0),n.link("@tanstack/react-query",{useQuery:function(e){u=e}},1);var r,u,i=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{refresh:"false"},t=e.refresh,n=r("GET","/v1/statistics");return u({queryKey:["analytics"],queryFn:function(){return n({refresh:t})},staleTime:6e5})}}
+//# sourceMappingURL=/dynamic/client/views/hooks/883bf3b3a45853846b70195e3101d8ba975cde00.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/lib/utils/renderMessageEmoji.ts","meteor://💻app/<anon>"],"sourcesContent":["import { emojiParser } from '../../../app/emoji/client/emojiParser';\n\nexport const renderMessageEmoji = (html: string) => emojiParser(html);\n",null],"names":["module","export","renderMessageEmoji","link","emojiParser","v","html"],"mappings":"uBAAAA,EAAAC,MAAS,CAAA,CAAAC,mBAAmB,WAAA,OAAAA,CAAuC,CAAA,GAAAF,EAAAG,IAAA,CAAA,wCAAA,CAAAC,YAAA,SAAAC,CAAA,EAAAD,EAAAC,CAAA,CAAA,EAAA,GAE5D,IAF4DD,EAEtDF,EAAsB,SAAAI,CAAY,EAAA,OAAKF,EAAYE,EAAK"}

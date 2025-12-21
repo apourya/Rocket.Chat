@@ -1,0 +1,2 @@
+function module(e,r,i){let t,l,n,a,d,u,c;i.link("@rocket.chat/ui-client",{FeaturePreview(e){t=e},FeaturePreviewOff(e){l=e},FeaturePreviewOn(e){n=e}},0),i.link("./SidebarPortal",{default(e){a=e}},1),i.link("./SidebarPortalV2",{default(e){d=e}},2),i.link("react/jsx-runtime",{jsx(e){u=e},jsxs(e){c=e}},3),i.exportDefault(e=>{let{children:r}=e;return c(t,{feature:"secondarySidebar",children:[u(l,{children:u(a,{children:r})}),u(n,{children:u(d,{children:r})})]})})}
+//# sourceMappingURL=/dynamic/client/portals/SidebarPortal/0fd7a08070bf8e9321eaad89ff2fc3f4d34e05bd.map

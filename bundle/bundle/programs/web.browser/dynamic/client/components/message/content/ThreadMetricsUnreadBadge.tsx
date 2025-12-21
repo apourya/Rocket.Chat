@@ -1,0 +1,2 @@
+function module(t,e,n){let l,a,r;n.link("@rocket.chat/fuselage",{Badge(t){l=t}},0),n.link("@rocket.chat/ui-contexts",{useTranslation(t){a=t}},1),n.link("react/jsx-runtime",{jsx(t){r=t}},2);let i=(t,e,n)=>!!t&&(e?["danger","Mentions_you"]:n?["warning","mention-all"]:["primary","Unread"]);n.exportDefault(t=>{let{unread:e,mention:n,all:u}=t,o=a(),s=i(e,n,u);if(!s)return null;let[c,k]=s;return r(l,{small:!0,variant:c,role:"status",title:o(k)})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/58d98bd4cd50a514a9496a9458a6cfec3cfed3a9.map

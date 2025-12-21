@@ -1,0 +1,2 @@
+function module(e,t,n){let i,a,l,o,r,s,c;n.link("react",{useEffect(e){i=e}},0),n.link("../../../cachedStores",{RoomsCachedStore(e){a=e},SubscriptionsCachedStore(e){l=e}},1),n.link("../PageLoading",{default(e){o=e}},2),n.link("../hooks/useMainReady",{useMainReady(e){r=e}},3),n.link("react/jsx-runtime",{jsx(e){s=e},Fragment(e){c=e}},4),n.exportDefault(e=>{let{children:t}=e,n=r();return(i(()=>{l.listen(),a.listen()},[]),n)?s(c,{children:t}):s(o,{})})}
+//# sourceMappingURL=/dynamic/client/views/root/MainLayout/b021fb3a09384571f074c5e40efd999b6b5978b3.map

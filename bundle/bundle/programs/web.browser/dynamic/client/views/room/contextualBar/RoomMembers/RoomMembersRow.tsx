@@ -1,0 +1,2 @@
+function module(e,t,n){let a,i,r;n.link("react",{memo(e){a=e}},0),n.link("./RoomMembersItem",{default(e){i=e}},1),n.link("react/jsx-runtime",{jsx(e){r=e}},2),n.exportDefault(a(e=>{let{user:t,data:{onClickView:n,rid:a},index:l,reload:d,useRealName:m}=e;return null!=t&&t._id?r(i,{useRealName:m,username:t.username,_id:t._id,rid:a,name:t.name,federated:t.federated,freeSwitchExtension:t.freeSwitchExtension,onClickView:n,reload:d},l):r(i.Skeleton,{})}))}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomMembers/34c452242a850b046682dcd7f6d8d7b39b722775.map

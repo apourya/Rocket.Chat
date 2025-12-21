@@ -1,0 +1,2 @@
+function module(e,o,r){let n,t,i,l;r.link("@rocket.chat/fuselage",{Margins(e){n=e}},0),r.link("./RoomForewordUsernameListItem",{default(e){t=e}},1),r.link("../../../../lib/rooms/roomCoordinator",{roomCoordinator(e){i=e}},2),r.link("react/jsx-runtime",{jsx(e){l=e}},3),r.exportDefault(e=>{let{usernames:o}=e;return l(n,{inline:4,children:o.map(e=>l(t,{username:e,href:i.getRouteLink("d",{name:e})||void 0},e))})})}
+//# sourceMappingURL=/dynamic/client/views/room/body/RoomForeword/15ac0b43728cf6349c0823f34f17e3715322353c.map

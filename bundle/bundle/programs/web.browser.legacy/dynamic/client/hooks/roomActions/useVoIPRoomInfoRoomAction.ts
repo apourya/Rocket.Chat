@@ -1,0 +1,2 @@
+function module(o,n,t){t.export({useVoIPRoomInfoRoomAction:function(){return c}}),t.link("react",{lazy:function(o){i=o},useMemo:function(o){r=o}},0);var i,r,e=i(function(){return t.dynamicImport("../../views/omnichannel/directory/calls/contextualBar/CallsContextualBarRoom")}),c=function(){return r(function(){return{id:"voip-room-info",groups:["voip"],title:"Call_Information",icon:"info-circled",tabComponent:e,order:0}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/23d23c9de5eaa9ce46b072b5cd885f835362cb06.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/startup/streamMessage/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './autotranslate';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAA,CAAA"}

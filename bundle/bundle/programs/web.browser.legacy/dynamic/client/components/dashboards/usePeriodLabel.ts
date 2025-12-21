@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/toConsumableArray",{default:function(n){i=n}},0),t.export({usePeriodLabel:function(){return l}}),t.link("react",{useMemo:function(n){r=n}},0),t.link("react-i18next",{useTranslation:function(n){o=n}},1),t.link("./periods",{getPeriod:function(n){u=n}},2);var i,r,o,u,l=function(n){var e=o().t;return r(function(){return e.apply(void 0,i(u(n).label))},[n,e])}}
+//# sourceMappingURL=/dynamic/client/components/dashboards/871bb57bcb6cdaa876659ce6a8a67a9bced81e8d.map

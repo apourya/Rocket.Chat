@@ -1,0 +1,2 @@
+function module(n,t,e){var i,o,u,c;e.link("@rocket.chat/ui-contexts",{usePermission:function(n){i=n}},0),e.link("./ViewLogsPage",{default:function(n){o=n}},1),e.link("../../notAuthorized/NotAuthorizedPage",{default:function(n){u=n}},2),e.link("react/jsx-runtime",{jsx:function(n){c=n}},3),e.exportDefault(function(){return i("view-logs")?c(o,{}):c(u,{})})}
+//# sourceMappingURL=/dynamic/client/views/admin/viewLogs/395810f405eaed551cc7e09c3f932142c10cd1a0.map

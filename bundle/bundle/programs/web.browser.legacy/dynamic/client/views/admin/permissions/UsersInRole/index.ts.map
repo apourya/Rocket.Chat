@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/admin/permissions/UsersInRole/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './UsersInRolePageWithData';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,4BAAe,CAAA,QAAA,SAA2B,EAAA"}

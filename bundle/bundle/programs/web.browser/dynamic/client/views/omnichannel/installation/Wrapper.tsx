@@ -1,0 +1,2 @@
+function module(e,l,n){let t,o;n.link("@rocket.chat/fuselage",{Box(e){t=e}},0),n.link("react/jsx-runtime",{jsx(e){o=e}},1),n.exportDefault(e=>o(t,{fontFamily:"mono",alignSelf:"center",fontScale:"p2",style:{wordBreak:"break-all"},mie:4,flexGrow:1,withRichContent:!0,children:o("pre",{children:o("code",{children:e})})}))}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/installation/38aa4631ec9c4ca466a1ab25618930e1508f15f8.map

@@ -1,0 +1,2 @@
+function module(n,e,t){var a,o;function u(){var n=o();a(function(){return null==n?void 0:n.readStateManager.handleWindowEvents()},[null==n?void 0:n.readStateManager])}t.export({useReadMessageWindowEvents:function(){return u}}),t.link("react",{useEffect:function(n){a=n}},0),t.link("../../contexts/ChatContext",{useChat:function(n){o=n}},1)}
+//# sourceMappingURL=/dynamic/client/views/room/body/hooks/e282af5fe1db50ca9de7530d6fe38af93d466a5f.map

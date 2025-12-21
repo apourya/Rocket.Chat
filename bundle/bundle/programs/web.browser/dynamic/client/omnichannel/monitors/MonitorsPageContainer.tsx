@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,i,u,s;n.link("./MonitorsPage",{default(e){l=e}},0),n.link("../../components/PageSkeleton",{default(e){o=e}},1),n.link("../../hooks/useHasLicenseModule",{useHasLicenseModule(e){i=e}},2),n.link("../../views/notAuthorized/NotAuthorizedPage",{default(e){u=e}},3),n.link("react/jsx-runtime",{jsx(e){s=e}},4),n.exportDefault(()=>{let e=i("livechat-enterprise");return"loading"===e?s(o,{}):e?s(l,{}):s(u,{})})}
+//# sourceMappingURL=/dynamic/client/omnichannel/monitors/6b1c9a51da8c0327dab935288778e95e51fe3620.map

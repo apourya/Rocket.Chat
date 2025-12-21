@@ -1,0 +1,2 @@
+function module(e,t,i){let o,l,n,u;i.link("@rocket.chat/ui-contexts",{usePermission(e){o=e}},0),i.link("./ViewLogsPage",{default(e){l=e}},1),i.link("../../notAuthorized/NotAuthorizedPage",{default(e){n=e}},2),i.link("react/jsx-runtime",{jsx(e){u=e}},3),i.exportDefault(()=>o("view-logs")?u(l,{}):u(n,{}))}
+//# sourceMappingURL=/dynamic/client/views/admin/viewLogs/8c9e1245221210755c5a23f82a73a52285fdd6f8.map

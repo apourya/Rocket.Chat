@@ -1,0 +1,2 @@
+function module(e,s,t){let n,i,a,o,l;t.link("./actions/JumpToMessageAction",{default(e){n=e}},0),t.link("./actions/ReactionMessageAction",{default(e){i=e}},1),t.link("react/jsx-runtime",{jsx(e){a=e},Fragment(e){o=e},jsxs(e){l=e}},2),t.exportDefault(e=>{let{message:s,room:t,subscription:u}=e;return l(o,{children:[a(i,{message:s,room:t,subscription:u}),a(n,{id:"jump-to-message",message:s})]})})}
+//# sourceMappingURL=/dynamic/client/components/message/toolbar/items/f8d728305db4a86aced8bfc923079bfdcdae7922.map

@@ -1,0 +1,2 @@
+function module(n,t,i){var e,o,u,c,r;i.link("@rocket.chat/ui-contexts",{usePermission:function(n){e=n}},0),i.link("react",{memo:function(n){o=n}},1),i.link("./SubscriptionPage",{default:function(n){u=n}},2),i.link("../../notAuthorized/NotAuthorizedPage",{default:function(n){c=n}},3),i.link("react/jsx-runtime",{jsx:function(n){r=n}},4),i.exportDefault(o(function(){return e("manage-cloud")?r(u,{}):r(c,{})}))}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/19eb7fe9d241ef3d34cfe2a9d8bbead0bd6fa796.map

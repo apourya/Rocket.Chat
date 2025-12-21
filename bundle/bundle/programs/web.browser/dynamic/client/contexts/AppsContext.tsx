@@ -1,0 +1,2 @@
+function module(e,r,a){let o,t;a.export({AppsContext:()=>p}),a.link("react",{createContext(e){o=e}},0),a.link("../lib/asyncState",{AsyncStatePhase(e){t=e}},1);let p=o({installedApps:{phase:t.LOADING,value:void 0,error:void 0},marketplaceApps:{phase:t.LOADING,value:void 0,error:void 0},privateApps:{phase:t.LOADING,value:void 0,error:void 0},reload:()=>Promise.resolve(),orchestrator:void 0,privateAppsEnabled:!1})}
+//# sourceMappingURL=/dynamic/client/contexts/f5b92bc8c3db91caca258f214a7943be28f47ec0.map

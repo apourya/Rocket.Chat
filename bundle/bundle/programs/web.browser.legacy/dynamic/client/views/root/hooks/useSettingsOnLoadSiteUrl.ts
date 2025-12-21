@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useSettingsOnLoadSiteUrl:function(){return u}}),e.link("@rocket.chat/ui-contexts",{useSetting:function(n){i=n}},0),e.link("react",{useEffect:function(n){o=n}},1);var i,o,u=function(){var n=i("Site_Url");o(function(){null!=n&&""!==n.trim()&&(window.__meteor_runtime_config__.ROOT_URL=n)},[n])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/1ecb4cb66b31522a10516023915b3063637d58d6.map

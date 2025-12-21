@@ -1,0 +1,2 @@
+function module(e,t,l){let r,u,n;l.export({onToggledFeature:()=>s}),l.link("@tanstack/react-query",{QueryObserver(e){r=e}},0),l.link("./fetchFeatures",{fetchFeatures(e){u=e}},1),l.link("./queryClient",{queryClient(e){n=e}},2);let s=(e,t)=>{let{up:l,down:s}=t,i=new r(n,{queryKey:["licenses"],queryFn:u,staleTime:1/0}),c=!1;return i.subscribe(t=>{if(!t.isSuccess)return;let r=t.data.includes(e);!c&&r&&(null==l||l(),c=!0),c&&!r&&(null==s||s(),c=!1)})}}
+//# sourceMappingURL=/dynamic/client/lib/9ac09a7afe7ee13a40a5766ba88ce37c693d9b56.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let l,a,i,r;n.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),n.link("@rocket.chat/fuselage",{IconButton(e){a=e}},0),n.link("react-i18next",{useTranslation(e){i=e}},1),n.link("react/jsx-runtime",{jsx(e){r=e}},2),n.exportDefault(function(e){let{t}=i();return r(a,l({icon:"undo",danger:!0,small:!0,title:t("Reset")},e))})}
+//# sourceMappingURL=/dynamic/client/views/admin/settings/Setting/ResetSettingButton/89754e0eb6d6f46d0e17eb1c483cab66f738ecb0.map

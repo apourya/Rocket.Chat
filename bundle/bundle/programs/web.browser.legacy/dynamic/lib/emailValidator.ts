@@ -1,0 +1,2 @@
+function module(t,a,e){e.export({validateEmail:function(){return n}});var n=function(t){var a=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{style:"basic"};return"rfc"===a.style?/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(t):/^[^@]+@[^@]+$/.test(t)}}
+//# sourceMappingURL=/dynamic/lib/834fb90957de155625ed150f8b43ff57646c2ca2.map

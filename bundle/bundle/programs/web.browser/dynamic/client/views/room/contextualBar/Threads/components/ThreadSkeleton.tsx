@@ -1,0 +1,2 @@
+function module(e,t,l){let i,n,a,r;l.link("@rocket.chat/fuselage",{Box(e){i=e},Skeleton(e){n=e}},0),l.link("react/jsx-runtime",{jsx(e){a=e},jsxs(e){r=e}},1),l.exportDefault(()=>r(i,{p:24,children:[a(n,{width:"32px",height:"32px",variant:"rect"})," ",a(n,{}),[,,,,,].fill(5).map((e,t)=>a(n,{},t))]}))}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Threads/components/065246b7fd6b557ced781d3e48a4b4d6ed9918cd.map

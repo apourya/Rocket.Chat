@@ -1,0 +1,2 @@
+function module(n,e,i){i.export({useVideoConfRoomName:function(){return c}}),i.link("@rocket.chat/core-typings",{isDirectMessageRoom:function(n){o=n}},0),i.link("@rocket.chat/ui-client",{useUserDisplayName:function(n){t=n}},1),i.link("@rocket.chat/ui-contexts",{useUserSubscription:function(n){u=n}},2);var o,t,u,c=function(n){var e=u(n._id),i=t({name:null==e?void 0:e.fname,username:null==e?void 0:e.name});return o(n)?i:n.fname||n.name}}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/VideoConference/hooks/01bde1fdc68f8335d43eaccd9e4abc1fd7df5a44.map

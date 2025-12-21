@@ -1,0 +1,2 @@
+function module(e,o,t){let r,c;t.export({useMessageBoxPlaceholder:()=>a}),t.link("@rocket.chat/core-typings",{isDirectMessageRoom(e){r=e}},0),t.link("../../../../../hooks/useRoomName",{useRoomName(e){c=e}},1);let a=(e,o)=>{if(!o)throw Error("In order to get the placeholder a `room` must be provided");let t=c(o);return r(o)?"".concat(e," @").concat(t):"".concat(e," #").concat(t)}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/messageBox/hooks/1e329b4b2f50f79aeaf4a652a49a24a6d60df458.map

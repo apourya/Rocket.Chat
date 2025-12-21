@@ -1,0 +1,2 @@
+function module(e,t,i){let o,r,n;i.export({useClearRemovedRoomsHistory:()=>c}),i.link("@rocket.chat/ui-contexts",{useStream(e){o=e}},0),i.link("react",{useEffect(e){r=e}},1),i.link("../../../../app/ui-utils/client",{RoomHistoryManager(e){n=e}},2);let c=e=>{let t=o("notify-user");r(()=>{if(e)return t("".concat(e,"/subscriptions-changed"),(e,t)=>{"l"!==t.t&&"removed"===e&&t.rid&&n.clear(t.rid)})},[e,t])}}
+//# sourceMappingURL=/dynamic/client/providers/UserProvider/hooks/0538e2d6a554a12baf62d06708337f2337d065ec.map

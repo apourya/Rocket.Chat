@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({useFeaturedApps:function(){return a}}),t.link("@rocket.chat/ui-contexts",{useEndpoint:function(e){u=e}},0),t.link("@tanstack/react-query",{useQuery:function(e){r=e}},1);var u,r,a=function(){var e=u("GET","/apps/featured-apps");return r({queryKey:["featured-apps"],queryFn:function(){return e()}})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/bcb745b300974134e56f5b7c546a399d14d85301.map

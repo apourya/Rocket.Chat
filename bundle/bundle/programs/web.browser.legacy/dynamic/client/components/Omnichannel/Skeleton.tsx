@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/objectSpread2",{default:function(n){o=n}},0),t.export({FormSkeleton:function(){return l}}),t.link("@rocket.chat/fuselage",{Box:function(n){u=n},Skeleton:function(n){i=n}},0),t.link("react/jsx-runtime",{jsx:function(n){r=n},jsxs:function(n){c=n}},1);var o,u,i,r,c,l=function(n){return c(u,o(o({w:"full",pb:24},n),{},{children:[r(i,{mbe:8}),r(i,{mbe:4})]}))}}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/33048d2a3e7f3fe61e20d3926814f38c14cf6b90.map

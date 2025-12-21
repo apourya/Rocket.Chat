@@ -1,0 +1,2 @@
+function module(e,t,a){let n,i,l;a.link("./ParentDiscussion",{default(e){n=e}},0),a.link("./ParentTeam",{default(e){i=e}},1),a.link("react/jsx-runtime",{jsx(e){l=e}},2),a.exportDefault(e=>{let{room:t}=e;return t.prid||t.teamId&&!t.teamMain?t.prid?l(n,{room:t}):t.teamId&&!t.teamMain?l(i,{room:t}):void 0:null})}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/ParentRoom/08e32d364c39c6873ac92ce3b9aa890a577e5206.map

@@ -1,0 +1,2 @@
+function module(e,t,i){let l,o,u,n;i.link("@rocket.chat/ui-contexts",{usePermission(e){l=e}},0),i.link("./CustomFieldsPage",{default(e){o=e}},1),i.link("../../notAuthorized/NotAuthorizedPage",{default(e){u=e}},2),i.link("react/jsx-runtime",{jsx(e){n=e}},3),i.exportDefault(()=>l("view-livechat-customfields")?n(o,{}):n(u,{}))}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/customFields/cf22d77d2ad2b032129f13287e18449710311eac.map

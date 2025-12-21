@@ -1,0 +1,2 @@
+function module(t,o,e){let n;e.export({useBodyPosition:()=>i}),e.link("react",{useEffect(t){n=t}},0);let i=function(t){let o=!(arguments.length>1)||void 0===arguments[1]||arguments[1];n(()=>{if(!o)return;let e=document.body.style.position;return document.body.style.position=t,()=>{document.body.style.position=e}},[t,o])}}
+//# sourceMappingURL=/dynamic/client/views/setupWizard/hooks/85c07483bacebf6ee6174af0ef84cae2068fda01.map

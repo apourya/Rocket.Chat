@@ -1,0 +1,2 @@
+function module(n,r,t){t.link("@babel/runtime/helpers/inheritsLoose",{default:function(n){i=n}},0),t.export({InvalidUrlError:function(){return e}}),t.link("./RocketChatError",{RocketChatError:function(n){o=n}},0);var i,o,e=function(n){function r(){var r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Invalid url",t=arguments.length>1?arguments[1]:void 0;return n.call(this,"invalid-url",r,t)||this}return i(r,n),r}(o)}
+//# sourceMappingURL=/dynamic/client/lib/errors/bd7669ca10096de499087575ccd93d8fb1f65783.map

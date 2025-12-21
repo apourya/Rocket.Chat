@@ -1,0 +1,2 @@
+function module(e,n,t){let l,a,s,i,o,r,c;t.link("react-i18next",{useTranslation(e){l=e}},0),t.link("./AccountTokensTable",{default(e){a=e}},1),t.link("../../../components/Page",{Page(e){s=e},PageHeader(e){i=e},PageContent(e){o=e}},2),t.link("react/jsx-runtime",{jsx(e){r=e},jsxs(e){c=e}},3),t.exportDefault(()=>{let{t:e}=l();return c(s,{children:[r(i,{title:e("Personal_Access_Tokens")}),r(o,{children:r(a,{})})]})})}
+//# sourceMappingURL=/dynamic/client/views/account/tokens/fd310ba74fbb6174c50778fece0223f376e4e792.map

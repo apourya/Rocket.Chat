@@ -1,0 +1,2 @@
+function module(e,t,i){let n,s,u,l,o;i.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),i.link("./UnitsPage",{default(e){s=e}},1),i.link("../../hooks/useHasLicenseModule",{useHasLicenseModule(e){u=e}},2),i.link("../../views/notAuthorized/NotAuthorizedPage",{default(e){l=e}},3),i.link("react/jsx-runtime",{jsx(e){o=e}},4),i.exportDefault(()=>{let e=n("manage-livechat-units");return u("livechat-enterprise")&&e?o(s,{}):o(l,{})})}
+//# sourceMappingURL=/dynamic/client/omnichannel/units/b2d0506e19790d3a99a0ea4669f98e0f5dd81999.map

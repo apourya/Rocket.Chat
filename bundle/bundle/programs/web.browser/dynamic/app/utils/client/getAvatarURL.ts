@@ -1,0 +1,2 @@
+function module(t,o,e){let a;e.export({getAvatarURL:()=>n}),e.link("./getURL",{getURL(t){a=t}},0);let n=t=>{let{username:o,roomId:e,cache:n}=t;return o?a("/avatar/".concat(encodeURIComponent(o)).concat(n?"?etag=".concat(n):"")):e?a("/avatar/room/".concat(encodeURIComponent(e)).concat(n?"?etag=".concat(n):"")):void 0}}
+//# sourceMappingURL=/dynamic/app/utils/client/055a5e37386663b6da4c81ec9eebd9f37788b90c.map

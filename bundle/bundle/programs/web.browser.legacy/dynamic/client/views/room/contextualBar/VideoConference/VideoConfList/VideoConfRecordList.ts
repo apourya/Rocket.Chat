@@ -1,0 +1,2 @@
+function module(t,e,n){n.link("@babel/runtime/helpers/inheritsLoose",{default:function(t){i=t}},0),n.export({VideoConfRecordList:function(){return o}}),n.link("../../../../../lib/lists/RecordList",{RecordList:function(t){r=t}},0);var i,r,o=function(t){function e(){return t.apply(this,arguments)||this}return i(e,t),e.prototype.compare=function(t,e){return e.createdAt.getTime()-t.createdAt.getTime()},e}(r)}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/VideoConference/VideoConfList/f1f2956313ffe9218d761dc4d90833a0d7d4dda9.map

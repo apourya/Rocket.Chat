@@ -1,0 +1,2 @@
+function module(n,e,t){let l,r,i,o,c;t.link("@rocket.chat/fuselage",{OptionColumn(n){l=n},OptionContent(n){r=n}},0),t.link("react/jsx-runtime",{jsx(n){i=n},Fragment(n){o=n},jsxs(n){c=n}},1),t.exportDefault(function(n){let{shortcut:e,text:t}=n;return c(o,{children:[i(l,{children:i("strong",{children:e})}),i(r,{children:t})]})})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/59c93b384b498303aca61bd562cd156754dd2f9d.map

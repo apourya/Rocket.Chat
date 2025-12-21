@@ -1,0 +1,2 @@
+function module(n,t,e){var i,o,c,u,r;e.link("react",{memo:function(n){i=n}},0),e.link("react-i18next",{useTranslation:function(n){o=n}},1),e.link("../hooks/useUTCClock",{useUTCClock:function(n){c=n}},2),e.link("react/jsx-runtime",{Fragment:function(n){u=n},jsx:function(n){r=n}},3),e.exportDefault(i(function(n){var t=n.utcOffset,e=c(t),i=o().t;return r(u,{children:i("Local_Time_time",{time:e})})}))}
+//# sourceMappingURL=/dynamic/client/components/9f4132a936eed0e5461a34552ec7e2a8f9210bb4.map

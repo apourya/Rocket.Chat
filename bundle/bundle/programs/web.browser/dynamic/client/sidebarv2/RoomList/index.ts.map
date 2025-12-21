@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/sidebarv2/RoomList/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './RoomList';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,aAAe,CAAAC,QAAA,SAAY,EAAA"}

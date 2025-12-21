@@ -1,0 +1,2 @@
+function module(e,r,t){let n,u,c;t.export({useReconnectCountdown:()=>a}),t.link("react",{useEffect(e){n=e},useRef(e){u=e},useState(e){c=e}},0);let l=e=>{let r=e-Date.now();return r>0&&Math.round(r/1e3)||0},a=(e,r)=>{let t=u(),[a,o]=c(()=>e?l(e):0);return n(()=>{if("waiting"===r){if(t.current)return;t.current=setInterval(()=>{e&&o(l(e))},500);return}t.current&&clearInterval(t.current),t.current=void 0},[e,r]),n(()=>()=>{t.current&&clearInterval(t.current)},[]),a}}
+//# sourceMappingURL=/dynamic/client/components/connectionStatus/a6b6bf9298533985107d63ff77cc05bfc855f8b8.map

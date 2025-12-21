@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_rocket_chat_livechat=self.webpackChunk_rocket_chat_livechat||[]).push([[6801],{66801:function(e,t,r){r.r(t);var a=r(28450),o=r(9263),n=r(86801);r(92807),t.default=function(e){var t=e.code,r=(0,n.useMemo)(function(){return o.Ay.renderToString(t,{displayMode:!0,macros:{"\\href":"\\@secondoftwo"},maxSize:100})},[t]);return(0,a.Y)("div",{role:"math",style:{overflowX:"auto"},"aria-label":t,dangerouslySetInnerHTML:{__html:r}})}}}]);
+//# sourceMappingURL=6801.chunk.152ff.js.map

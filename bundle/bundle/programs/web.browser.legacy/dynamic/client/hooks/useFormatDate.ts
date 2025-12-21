@@ -1,0 +1,2 @@
+function module(t,n,e){e.export({useFormatDate:function(){return a}}),e.link("@rocket.chat/ui-contexts",{useSetting:function(t){u=t}},0),e.link("moment",{default:function(t){o=t}},1),e.link("react",{useCallback:function(t){r=t}},2);var u,o,r,a=function(){var t=u("Message_DateFormat");return r(function(n){return o(n).format(String(t))},[t])}}
+//# sourceMappingURL=/dynamic/client/hooks/cd9984f3e5b95a2c74579aa563d9def488ee1142.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/hooks/omnichannel/useOmnichannelEnabled.ts","meteor://💻app/<anon>"],"sourcesContent":["import { useOmnichannel } from './useOmnichannel';\n\nexport const useOmnichannelEnabled = (): boolean => useOmnichannel().enabled;\n",null],"names":["useOmnichannel","module","export","useOmnichannelEnabled","link","v","enabled"],"mappings":"2BAAiDA,EAAjDC,EAAAC,MAAS,CAAA,CAAAC,sBAAsBH,IAAAG,CAAkB,GAAAF,EAAAG,IAAA,CAAA,mBAAA,CAAAJ,eAAAK,CAAA,EAAAL,EAAAK,CAAA,CAAA,EAAA,GAE1C,IAAMF,EAAwBA,IAAeH,IAAiBM,OAAO"}

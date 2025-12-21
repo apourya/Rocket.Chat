@@ -1,0 +1,2 @@
+function module(n,e,t){var u,i,c,l;t.link("@babel/runtime/helpers/objectSpread2",{default:function(n){u=n}},0),t.link("@rocket.chat/fuselage",{ButtonGroup:function(n){i=n}},0),t.link("./InfoPanelSection",{default:function(n){c=n}},1),t.link("react/jsx-runtime",{jsx:function(n){l=n}},2),t.exportDefault(function(n){return l(c,{children:l(i,u({align:"center",stretch:!0},n))})})}
+//# sourceMappingURL=/dynamic/client/components/InfoPanel/7eaa247889a3cb49ab94a04b549358b56c8fd1cc.map

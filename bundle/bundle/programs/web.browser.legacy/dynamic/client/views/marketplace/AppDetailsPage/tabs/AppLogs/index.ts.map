@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/marketplace/AppDetailsPage/tabs/AppLogs/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './AppLogs';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,YAAe,CAAA,QAAA,SAAW,EAAA"}

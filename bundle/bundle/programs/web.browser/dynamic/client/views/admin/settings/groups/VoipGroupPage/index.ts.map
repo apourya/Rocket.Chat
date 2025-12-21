@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/admin/settings/groups/VoipGroupPage/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './VoipGroupPage';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,kBAAe,CAAAC,QAAA,SAAiB,EAAA"}

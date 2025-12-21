@@ -1,0 +1,2 @@
+function module(e,t,l){let r,n,a,i,o;let u=["loading"];l.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){n=e}},1),l.link("@rocket.chat/fuselage",{IconButton(e){a=e},Skeleton(e){i=e}},0),l.link("react/jsx-runtime",{jsx(e){o=e}},1),l.exportDefault(e=>{let{loading:t}=e,l=n(e,u);return t?o(i,{variant:"rect",size:28}):o(a,r({small:!0,icon:"arrow-back-up"},l))})}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/ParentRoom/a2723415698330808a57ec2312b3e29d595e32fb.map

@@ -1,0 +1,2 @@
+function module(e,s,u){let i,t,l;u.export({useIsSingleBusinessHours:()=>n}),u.link("@rocket.chat/fuselage-hooks",{useEffectEvent(e){i=e}},0),u.link("../../../../app/livechat/client/views/app/business-hours/BusinessHours",{businessHourManager(e){t=e}},1),u.link("../../../hooks/useReactiveValue",{useReactiveValue(e){l=e}},2);let n=()=>"livechatBusinessHoursForm"===l(i(()=>t.getTemplate()))}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/businessHours/50565557a349473b358fcf84d1ff1d8b3d2b41e1.map

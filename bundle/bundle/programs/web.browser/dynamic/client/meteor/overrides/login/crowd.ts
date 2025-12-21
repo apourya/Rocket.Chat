@@ -1,0 +1,2 @@
+function module(o,e,r){let d,n,t;r.link("meteor/meteor",{Meteor(o){d=o}},0),r.link("../../../lib/2fa/overrideLoginMethod",{callLoginMethod(o){n=o},handleLogin(o){t=o}},1),d.loginWithCrowd=t((o,e)=>n({methodArguments:[{crowd:!0,username:o,crowdPassword:e}]}),(o,e,r)=>n({methodArguments:[{totp:{login:{crowd:!0,username:o,crowdPassword:e},code:r}}]}))}
+//# sourceMappingURL=/dynamic/client/meteor/overrides/login/aaf2cd1c1303851a1088c8c4e0c201a6b5a18a04.map

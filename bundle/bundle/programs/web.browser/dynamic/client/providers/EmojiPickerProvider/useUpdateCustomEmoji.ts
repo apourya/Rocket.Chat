@@ -1,0 +1,2 @@
+function module(e,t,o){let u,i,m,l,s;o.export({useUpdateCustomEmoji:()=>a}),o.link("@rocket.chat/ui-contexts",{useStream(e){u=e},useUserId(e){i=e}},0),o.link("react",{useEffect(e){m=e}},1),o.link("../../lib/customEmoji",{updateEmojiCustom(e){l=e},deleteEmojiCustom(e){s=e}},2);let a=()=>{let e=u("notify-logged"),t=i();m(()=>{if(!t)return;let o=e("updateEmojiCustom",e=>l(e.emojiData)),u=e("deleteEmojiCustom",e=>s(e.emojiData));return()=>{o(),u()}},[e,t])}}
+//# sourceMappingURL=/dynamic/client/providers/EmojiPickerProvider/1f711797de0a43d2db87aaf99777b9ea47553141.map

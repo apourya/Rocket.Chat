@@ -1,0 +1,2 @@
+function module(n,l,i){var t,e,o;i.link("@babel/runtime/helpers/slicedToArray",{default:function(n){t=n}},0),i.link("./location/MapView",{default:function(n){e=n}},0),i.link("react/jsx-runtime",{jsx:function(n){o=n}},1),i.exportDefault(function(n){var l,i=n.location,u=null!==(l=null==i?void 0:i.coordinates)&&void 0!==l?l:[],a=t(u,2),r=a[0],c=a[1];return c&&r?o(e,{latitude:c,longitude:r}):null})}
+//# sourceMappingURL=/dynamic/client/components/message/content/2243ebda7b9c6524c5d3fdb3a61da690f65dc6e4.map

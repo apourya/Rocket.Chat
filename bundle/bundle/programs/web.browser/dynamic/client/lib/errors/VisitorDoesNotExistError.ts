@@ -1,0 +1,2 @@
+function module(t,o,e){let r;e.export({VisitorDoesNotExistError:()=>s}),e.link("./RocketChatError",{RocketChatError(t){r=t}},0);class s extends r{constructor(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Visitor does not exist",o=arguments.length>1?arguments[1]:void 0;super("visitor-does-not-exist",t,o)}}}
+//# sourceMappingURL=/dynamic/client/lib/errors/428a2d221d61487a4ec4077c685d6ef32da0b1f9.map

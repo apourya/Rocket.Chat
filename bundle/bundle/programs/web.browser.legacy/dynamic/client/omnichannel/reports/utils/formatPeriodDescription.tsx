@@ -1,0 +1,2 @@
+function module(o,e,n){n.link("@babel/runtime/helpers/toConsumableArray",{default:function(o){r=o}},0),n.export({formatPeriodDescription:function(){return i}}),n.link("../../../components/dashboards/periods",{getPeriod:function(o){t=o}},0);var r,t,i=function(o,e){var n=t(o).label;return e.apply(void 0,r(n)).toLocaleLowerCase()}}
+//# sourceMappingURL=/dynamic/client/omnichannel/reports/utils/bca9352aab22c62b04bc217e693b56c972cf7cf2.map

@@ -1,0 +1,2 @@
+function module(e,n,t){let i,l,r,o;t.link("@rocket.chat/ui-client",{GenericModal(e){i=e}},0),t.link("react-i18next",{useTranslation(e){l=e}},1),t.link("./Reactions",{default(e){r=e}},2),t.link("react/jsx-runtime",{jsx(e){o=e}},3),t.exportDefault(e=>{let{reactions:n,onClose:t}=e,{t:a}=l();return o(i,{variant:"info",title:a("Users_reacted"),onClose:t,onConfirm:t,confirmText:a("Close"),children:o(r,{reactions:n})})})}
+//# sourceMappingURL=/dynamic/client/views/room/modals/ReactionListModal/4205aa0ce1cf23521009ac9955e767aa19a654ac.map

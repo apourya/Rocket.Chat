@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useRoomInfoRoomAction:function(){return c}}),t.link("react",{lazy:function(n){i=n},useMemo:function(n){r=n}},0);var i,r,e=i(function(){return t.dynamicImport("../../views/omnichannel/directory/chats/ChatInfo/ChatsContextualBar")}),c=function(){return r(function(){return{id:"room-info",groups:["live"],title:"Room_Info",icon:"info-circled",tabComponent:e,order:0}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/c8b0d5c347fb27de69b01a578460ce0a69ab2f69.map

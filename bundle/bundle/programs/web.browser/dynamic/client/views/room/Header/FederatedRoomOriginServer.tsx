@@ -1,0 +1,2 @@
+function module(e,n,a){let r,i,l,t,o;a.link("react",{useMemo(e){r=e}},0),a.link("../../../components/Header",{HeaderTag(e){i=e},HeaderTagIcon(e){l=e}},1),a.link("react/jsx-runtime",{jsx(e){t=e},jsxs(e){o=e}},2),a.exportDefault(e=>{let{room:n}=e,a=r(()=>{var e;return null===(e=n.federationOriginalName)||void 0===e?void 0:e.split(":")[1]},[n.federationOriginalName]);return a?o(i,{"data-qa":"federated-origin-server-name",children:[t(l,{icon:{name:"globe"}}),a]}):null})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/28089c82b7d1f99d26d121c4d6283472fed2bebb.map

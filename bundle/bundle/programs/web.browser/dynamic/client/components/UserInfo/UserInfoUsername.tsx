@@ -1,0 +1,2 @@
+function module(e,t,r){let l,a,n,s;let u=["username","status"];r.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),r.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){a=e}},1),r.link("../UserCard",{UserCardUsername(e){n=e}},0),r.link("react/jsx-runtime",{jsx(e){s=e}},1),r.exportDefault(e=>{let{username:t,status:r}=e,i=a(e,u);return s(n,l({name:t,status:r},i))})}
+//# sourceMappingURL=/dynamic/client/components/UserInfo/96e21907774e65f2d5f5e0eba364d14dddccad3f.map

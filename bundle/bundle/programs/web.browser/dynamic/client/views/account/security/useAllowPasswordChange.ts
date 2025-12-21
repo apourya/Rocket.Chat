@@ -1,0 +1,2 @@
+function module(s,e,o){let l,t;o.export({useAllowPasswordChange:()=>n}),o.link("@rocket.chat/ui-contexts",{useSetting(s){l=s},useUser(s){t=s}},0);let n=()=>{var s,e;let o=t(),n=l("Accounts_AllowPasswordChange"),r=l("Accounts_AllowPasswordChangeForOAuthUsers"),u=!!(null==o?void 0:null===(s=o.services)||void 0===s?void 0:null===(e=s.password)||void 0===e?void 0:e.exists);return n&&!r&&(n=u),{allowPasswordChange:n,hasLocalPassword:u}}}
+//# sourceMappingURL=/dynamic/client/views/account/security/e454f45a65a61fe17c2a66c661e3680f73eb11ac.map

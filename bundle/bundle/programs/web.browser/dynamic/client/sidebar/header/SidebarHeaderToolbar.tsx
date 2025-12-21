@@ -1,0 +1,2 @@
+function module(e,l,t){let r,a,n,o,u;t.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),t.link("@react-aria/toolbar",{useToolbar(e){a=e}},0),t.link("@rocket.chat/fuselage",{TopBarActions(e){n=e}},1),t.link("react",{useRef(e){o=e}},2),t.link("react/jsx-runtime",{jsx(e){u=e}},3),t.exportDefault(e=>{let l=o(null),{toolbarProps:t}=a(e,l);return u(n,r(r({small:!0,ref:l},t),e))})}
+//# sourceMappingURL=/dynamic/client/sidebar/header/463720a1c89f9f723de6cf6756dfa2b778dbc7e2.map

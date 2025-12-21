@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/providers/DeviceProvider/lib/isSetSinkIdAvailable.tsx","meteor://💻app/<anon>"],"sourcesContent":["export const isSetSinkIdAvailable = (): boolean => {\n\tconst audio = new Audio();\n\treturn !!audio.setSinkId;\n};\n",null],"names":["module","export","isSetSinkIdAvailable","audio","Audio","setSinkId"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,qBAAuBA,IAAAA,CAAc,GAA3C,IAAMA,EAAuBA,IAE5B,CAAC,CAACC,AADK,IAAIC,QACHC,SAAS"}

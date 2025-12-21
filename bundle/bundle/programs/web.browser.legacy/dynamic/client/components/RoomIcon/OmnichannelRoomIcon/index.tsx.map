@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/components/RoomIcon/OmnichannelRoomIcon/index.tsx","meteor://💻app/<anon>"],"sourcesContent":["export * from './OmnichannelRoomIcon';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAA,CAAA,wBAAc,CAAuB,IAAA,GAAA,EAAA"}

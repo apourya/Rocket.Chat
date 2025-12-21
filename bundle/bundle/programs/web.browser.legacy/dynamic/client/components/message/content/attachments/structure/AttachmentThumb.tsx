@@ -1,0 +1,2 @@
+function module(n,t,e){var i,r,u,c;e.link("@rocket.chat/fuselage",{Box:function(n){i=n},Avatar:function(n){r=n}},0),e.link("react",{memo:function(n){u=n}},1),e.link("react/jsx-runtime",{jsx:function(n){c=n}},2),e.exportDefault(u(function(n){var t=n.url;return c(i,{mis:8,children:c(r,{url:t,size:"x48"})})}))}
+//# sourceMappingURL=/dynamic/client/components/message/content/attachments/structure/ce23533578df7fe0399230327610d669f7d77194.map

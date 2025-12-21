@@ -1,0 +1,2 @@
+function module(r,t,e){let o;e.export({UiKitTriggerTimeoutError:()=>i}),e.link("../../../client/lib/errors/RocketChatError",{RocketChatError(r){o=r}},0);class i extends o{constructor(){let r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Timeout",t=arguments.length>1?arguments[1]:void 0;super("trigger-timeout",r,t)}}}
+//# sourceMappingURL=/dynamic/app/ui-message/client/f98bce599735155f076d87df6803da4c67fcadf5.map

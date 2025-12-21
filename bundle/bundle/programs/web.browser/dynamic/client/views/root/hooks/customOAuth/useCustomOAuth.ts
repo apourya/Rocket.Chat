@@ -1,0 +1,2 @@
+function module(e,t,o){let u,i,s;o.export({useCustomOAuth:()=>r}),o.link("react",{useEffect(e){u=e}},0),o.link("../../../../lib/customOAuth/CustomOAuth",{CustomOAuth(e){i=e}},1),o.link("../../../../lib/loginServices",{loginServices(e){s=e}},2);let r=()=>{u(()=>s.onLoad(e=>{for(let t of e)"custom"in t&&t.custom&&i.configureCustomOAuthService(t.service,{serverURL:t.serverURL,authorizePath:t.authorizePath,scope:t.scope})}),[])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/customOAuth/41063e9c3d3f84068f9cfbb6fe5aeb4b82230aaa.map

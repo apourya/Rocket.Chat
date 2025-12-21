@@ -1,0 +1,2 @@
+function module(n,t,e){(function(n){n.export({useAirGappedRestriction:function(){return e}}),n.link("@rocket.chat/ui-contexts",{useSetting:function(n){t=n}},0);var t,e=function(){var n=t("Cloud_Workspace_AirGapped_Restrictions_Remaining_Days");if("number"!=typeof n)return[!1,!1,-1];if(n<0)return[!1,!1,n];var e=0===n;return[e,!e&&n<=7,n]}}).call(this,e)}
+//# sourceMappingURL=/dynamic/client/hooks/caa824c02a91938f9e55b9dfe88edeb8a31a5bb6.map

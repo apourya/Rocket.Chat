@@ -1,0 +1,2 @@
+function module(e,s,t){let i,n,r;t.link("@babel/runtime/helpers/objectSpread2",{default(e){i=e}},0),t.export({updatePinMessage:()=>a}),t.link("../../stores",{Messages(e){n=e}},0),t.link("../errors/PinMessagesNotAllowed",{PinMessagesNotAllowed(e){r=e}},1);let a=(e,s)=>{if(!n.state.get(e._id))throw new r("Error pinning message",{method:"pinMessage"});n.state.update(s=>s._id===e._id&&s.rid===e.rid,e=>i(i({},e),s))}}
+//# sourceMappingURL=/dynamic/client/lib/mutationEffects/9de4426cc5b2348e97fed8723d3a7542aa90f403.map

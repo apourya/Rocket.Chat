@@ -1,0 +1,2 @@
+function module(o,n,t){let e,i;t.export({useMentionsRoomAction:()=>r}),t.link("react",{lazy(o){e=o},useMemo(o){i=o}},0);let a=e(()=>t.dynamicImport("../../views/room/contextualBar/MentionsTab")),r=()=>i(()=>({id:"mentions",groups:["channel","group","team"],title:"Mentions",icon:"at",tabComponent:a,order:6,type:"organization"}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/c6dcffacfafe76f91b819d0bbe308d3221009cb1.map

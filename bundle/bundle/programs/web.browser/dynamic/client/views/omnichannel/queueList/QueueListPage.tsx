@@ -1,0 +1,2 @@
+function module(e,t,n){let l,a,i,u,r,s,c;n.link("react-i18next",{useTranslation(e){l=e}},0),n.link("./QueueListTable",{default(e){a=e}},1),n.link("../../../components/Page",{Page(e){i=e},PageHeader(e){u=e},PageContent(e){r=e}},2),n.link("react/jsx-runtime",{jsx(e){s=e},jsxs(e){c=e}},3),n.exportDefault(()=>{let{t:e}=l();return c(i,{children:[s(u,{title:e("Livechat_Queue")}),s(r,{children:s(a,{})})]})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/queueList/ddf3d5492e5ad917b520c9a8cf8f75a49478653c.map

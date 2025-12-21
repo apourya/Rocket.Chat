@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/contextualBar/RoomFiles/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './RoomFilesWithData';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,sBAAe,CAAA,QAAA,SAAqB,EAAA"}

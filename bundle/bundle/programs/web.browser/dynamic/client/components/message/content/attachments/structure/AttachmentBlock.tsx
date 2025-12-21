@@ -1,0 +1,2 @@
+function module(e,t,r){let l,n,i,o;r.link("@rocket.chat/fuselage",{Box(e){l=e}},0),r.link("./Attachment",{default(e){n=e}},1),r.link("react/jsx-runtime",{jsx(e){i=e},jsxs(e){o=e}},2),r.exportDefault(e=>{let{pre:t,color:r="annotation",children:a}=e;return o(n,{children:[t,i(l,{display:"flex",flexDirection:"row",pis:16,borderRadius:2,borderInlineStartStyle:"solid",borderInlineStartWidth:"default",borderInlineStartColor:r,children:a})]})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/attachments/structure/ed44c5a55a2195785f70fe92b13791beab3469f6.map

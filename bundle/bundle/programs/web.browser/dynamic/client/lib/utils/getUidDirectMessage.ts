@@ -1,0 +1,2 @@
+function module(e,t,i){let l,s;i.export({getUidDirectMessage:()=>d}),i.link("../../stores",{Rooms(e){l=e}},0),i.link("../user",{getUserId(e){s=e}},1);let d=function(e){var t;let i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null!==(t=s())&&void 0!==t?t:void 0,d=l.state.get(e);if(d&&"d"===d.t&&d.uids&&!(d.uids.length>2))return d.uids.filter(e=>e!==i)[0]}}
+//# sourceMappingURL=/dynamic/client/lib/utils/b17bf616352cafd54ff5e87773dadb66163e3f16.map

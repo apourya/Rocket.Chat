@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/lib/settings/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import { settings } from './settings';\n\nexport { settings };\n",null],"names":["settings","module","export","link","v"],"mappings":"2BAAqCA,EAArCC,EAAAC,MAAS,CAAA,CAAAF,SAAQ,WAAQ,OAAYA,CAAA,CAAA,GAAAC,EAAAE,IAAA,CAAA,aAAA,CAAAH,SAAA,SAAAI,CAAA,EAAAJ,EAAAI,CAAA,CAAA,EAAA"}

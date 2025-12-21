@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/objectSpread2",{default:function(n){r=n}},0),t.link("react",{forwardRef:function(n){o=n}},0),t.link("./PageContent",{default:function(n){u=n}},1),t.link("react/jsx-runtime",{jsx:function(n){a=n}},2);var r,o,u,a,i=o(function(n,e){return a(u,r(r({borderBlockEndColor:"transparent"},n),{},{pb:16,ref:e,borderBlockEndWidth:"default",height:"auto"}))});t.exportDefault(i)}
+//# sourceMappingURL=/dynamic/client/components/Page/a9c969a379bcaa0867aeb3d97fa2da777e394b77.map

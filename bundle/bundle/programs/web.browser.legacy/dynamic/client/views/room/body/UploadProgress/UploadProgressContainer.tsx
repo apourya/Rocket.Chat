@@ -1,0 +1,2 @@
+function module(e,n,i){var t,o,l;i.link("@babel/runtime/helpers/objectSpread2",{default:function(e){t=e}},0),i.link("@rocket.chat/fuselage",{Box:function(e){o=e}},0),i.link("react/jsx-runtime",{jsx:function(e){l=e}},1),i.exportDefault(function(e){return l(o,t({position:"relative",display:"flex",flexDirection:"column",overflow:"hidden",mi:24,mbs:8,zIndex:2},e))})}
+//# sourceMappingURL=/dynamic/client/views/room/body/UploadProgress/62d1134f9d7996fbc1c54098b3a202aeddd2461f.map

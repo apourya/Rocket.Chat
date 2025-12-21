@@ -1,0 +1,2 @@
+function module(t,e,l){let n;l.export({useFormatMemorySize:()=>r}),l.link("../../lib/utils/stringUtils",{numberFormat(t){n=t}},0);let o=t=>{let e;if("number"!=typeof t)return null;let l=["bytes","kB","MB","GB"];for(e=0;e<l.length-1&&!(t<Math.pow(1024,e+1));++e);let o=Math.pow(1024,e),r=0===e?0:2;return"".concat(n(t/o,r)," ").concat(l[e])},r=()=>o}
+//# sourceMappingURL=/dynamic/client/hooks/d0b3aa9de099aa1208d34cd7e5959c19f905f01d.map

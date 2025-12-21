@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({fireGlobalEvent:function(){return r}}),t.link("./fireGlobalEventBase",{fireGlobalEventBase:function(n){i=n}},0),t.link("../settings",{settings:function(n){o=n}},1);var i,o,r=function(n,e){var t,r=i(n,e),a=o.peek("Iframe_Integration_send_enable");void 0!==a&&r(a,null!==(t=o.peek("Iframe_Integration_send_target_origin"))&&void 0!==t?t:"*")}}
+//# sourceMappingURL=/dynamic/client/lib/utils/b33701a2fd70ddc8499fcc46b70802ca8ae6f1e7.map

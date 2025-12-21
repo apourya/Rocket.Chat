@@ -1,0 +1,2 @@
+function module(e,t,o){let l;o.link("meteor/oauth",{OAuth(e){l=e}},0);let{_redirectUri:c}=l;l._redirectUri=(e,t,o,l)=>{let i=c(e,t,o,l);return null!=t&&t.loginStyle||i.includes("close")?i:(console.warn("Automatically added ?close to 'redirect_uri' for ".concat(e,", this behavior will be removed in v5.0.0.\n")+"Please update your OAuth config to accept both with and without ?close as the 'redirect_uri'."),"".concat(i+(i.includes("?")?"&":"?"),"close"))}}
+//# sourceMappingURL=/dynamic/client/meteor/overrides/36b14bac8c2a657d53b7cc3c23b02a90cbe61e62.map

@@ -1,0 +1,2 @@
+function module(n,t,e){var i,r,a,c,o;e.link("@rocket.chat/fuselage",{Banner:function(n){i=n},Box:function(n){r=n},Icon:function(n){a=n}},0),e.link("react-i18next",{useTranslation:function(n){c=n}},1),e.link("react/jsx-runtime",{jsx:function(n){o=n}},2),e.exportDefault(function(){var n=c().t;return o(i,{variant:"warning",icon:o(a,{name:"warning",size:"x24"}),children:o(r,{textAlign:"left",children:n("Logged_Out_Banner_Text")})})})}
+//# sourceMappingURL=/dynamic/client/components/deviceManagement/f286194d7ae25b9a1b1c2d7c90bd0b88698ae5ed.map

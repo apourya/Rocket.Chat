@@ -1,0 +1,2 @@
+function module(e,n,t){var i,l,u;t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){i=e}},0),t.link("./Field",{default:function(e){l=e}},0),t.link("react/jsx-runtime",{jsx:function(e){u=e}},1),t.exportDefault(function(e){return u(l,i(i({},e),{},{flexGrow:1,width:"50%",flexBasis:1}))})}
+//# sourceMappingURL=/dynamic/client/components/message/content/attachments/default/61bfba260779402072ad50ea32ddbfff5e75a319.map

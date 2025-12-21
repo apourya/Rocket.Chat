@@ -1,0 +1,2 @@
+function module(e,t,l){let o,r;l.export({useAppLogsFilterForm:()=>a,useAppLogsFilterFormContext:()=>s}),l.link("react-hook-form",{useForm(e){o=e},useFormContext(e){r=e}},0);let a=()=>o({defaultValues:{severity:"all",instance:"all",timeFilter:"all",event:"all",startDate:"",endDate:"",startTime:"",endTime:""}}),s=()=>r()}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppDetailsPage/tabs/AppLogs/355e022fb944139d6cd5538264aee1d520c10245.map

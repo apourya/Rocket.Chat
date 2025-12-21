@@ -1,0 +1,2 @@
+function module(n,t,e){var i,u,c,o;e.link("@rocket.chat/fuselage",{Box:function(n){i=n},Skeleton:function(n){u=n}},0),e.link("react/jsx-runtime",{jsx:function(n){c=n},jsxs:function(n){o=n}},1),e.exportDefault(function(){return o(i,{p:24,children:[c(u,{width:"32px",height:"32px",variant:"rect"})," ",c(u,{}),[,,,,,].fill(5).map(function(n,t){return c(u,{},t)})]})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Threads/components/04cfcf7c9a74a6259f743315cde80d7e4f97d59b.map

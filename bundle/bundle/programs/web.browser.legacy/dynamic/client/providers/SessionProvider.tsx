@@ -1,0 +1,2 @@
+function module(n,t,e){e.link("@rocket.chat/ui-contexts",{SessionContext:function(n){i=n}},0),e.link("meteor/session",{Session:function(n){c=n}},1),e.link("../lib/createReactiveSubscriptionFactory",{createReactiveSubscriptionFactory:function(n){o=n}},2),e.link("react/jsx-runtime",{jsx:function(n){r=n}},3);var i,c,o,r,u={query:o(function(n){return c.get(n)}),dispatch:function(n,t){c.set(n,t)}};e.exportDefault(function(n){var t=n.children;return r(i.Provider,{children:t,value:u})})}
+//# sourceMappingURL=/dynamic/client/providers/b27881044dc8abb7f7ffc7c314b54ead2d291b7f.map

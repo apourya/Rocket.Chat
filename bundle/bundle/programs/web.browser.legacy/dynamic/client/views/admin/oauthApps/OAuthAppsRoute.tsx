@@ -1,0 +1,2 @@
+function module(t,n,u){var e,i,o,a;u.link("@rocket.chat/ui-contexts",{usePermission:function(t){e=t}},0),u.link("./OAuthAppsPage",{default:function(t){i=t}},1),u.link("../../notAuthorized/NotAuthorizedPage",{default:function(t){o=t}},2),u.link("react/jsx-runtime",{jsx:function(t){a=t}},3),u.exportDefault(function(){return e("manage-oauth-apps")?a(i,{}):a(o,{})})}
+//# sourceMappingURL=/dynamic/client/views/admin/oauthApps/abc0dc594cedc8a659f93dc9c501283d2d085e1a.map

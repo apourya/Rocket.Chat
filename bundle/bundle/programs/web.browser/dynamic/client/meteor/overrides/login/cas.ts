@@ -1,0 +1,2 @@
+function module(e,o,t){let n,i,l;t.link("@rocket.chat/random",{Random(e){n=e}},0),t.link("meteor/meteor",{Meteor(e){i=e}},1),t.link("../../../lib/2fa/overrideLoginMethod",{callLoginMethod(e){l=e}},2),i.loginWithCas=(e,o)=>{let i=n.id();t.dynamicImport("../../../lib/openCASLoginPopup").then(e=>{let{openCASLoginPopup:o}=e;return o(i)}).then(()=>l({methodArguments:[{cas:{credentialToken:i}}]})).then(()=>null==o?void 0:o()).catch(o)}}
+//# sourceMappingURL=/dynamic/client/meteor/overrides/login/70e1ffb4916ccfea22f5087c627ab54947a9ff18.map

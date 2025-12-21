@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({apiCurlGetter:function(){return u}}),e.link("../../../../ee/lib/misc/Utilities",{Utilities:function(n){i=n}},0);var i,u=function(n){return function(t,e){var u,l=null===(u=e.examples)||void 0===u?void 0:u[t];return i.curl({url:n(e.computedPath),method:t,params:null==l?void 0:l.params,query:null==l?void 0:l.query,content:null==l?void 0:l.content,headers:null==l?void 0:l.headers,auth:""}).split("\n")}}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/2b2a5495d7b6eb3d578ec77ec53a169e87406c8f.map

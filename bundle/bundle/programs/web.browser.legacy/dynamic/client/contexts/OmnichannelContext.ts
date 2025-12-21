@@ -1,0 +1,2 @@
+function module(e,n,i){i.export({OmnichannelContext:function(){return a}}),i.link("react",{createContext:function(e){t=e}},0);var t,a=t({inquiries:{enabled:!1},enabled:!1,isEnterprise:!1,agentAvailable:!1,showOmnichannelQueueLink:!1,isOverMacLimit:!1,livechatPriorities:{data:[],isLoading:!1,isError:!1,enabled:!1}})}
+//# sourceMappingURL=/dynamic/client/contexts/e37953cba8d03eced4e065c1f6bf57a03e4f3af8.map

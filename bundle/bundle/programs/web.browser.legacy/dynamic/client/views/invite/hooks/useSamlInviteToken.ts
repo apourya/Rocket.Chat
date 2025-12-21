@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({useSamlInviteToken:function(){return i}}),t.link("@rocket.chat/fuselage-hooks",{useSessionStorage:function(e){o=e}},0),t.link("@rocket.chat/ui-contexts",{useRouteParameter:function(e){u=e}},1);var o,u,i=function(){var e=u("hash");return o("saml_invite_token",e||null)}}
+//# sourceMappingURL=/dynamic/client/views/invite/hooks/2b67704bc9efc9d0a65dfdad34aca29fbc15bb7a.map

@@ -1,0 +1,2 @@
+function module(n,t,e){e.link("@babel/runtime/helpers/objectSpread2",{default:function(n){r=n}},0),e.export({Backdrop:function(){return a}}),e.link("@rocket.chat/fuselage",{ModalBackdrop:function(n){o=n}},0),e.link("react/jsx-runtime",{jsx:function(n){u=n}},1);var r,o,u,a=function(n){return u(o,r({bg:"transparent"},n))}}
+//# sourceMappingURL=/dynamic/client/components/bc7fb2805ff995590dbe1bf5a63d2e001c058467.map

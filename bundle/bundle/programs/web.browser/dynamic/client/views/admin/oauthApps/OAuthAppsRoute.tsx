@@ -1,0 +1,2 @@
+function module(t,e,u){let a,i,n,o;u.link("@rocket.chat/ui-contexts",{usePermission(t){a=t}},0),u.link("./OAuthAppsPage",{default(t){i=t}},1),u.link("../../notAuthorized/NotAuthorizedPage",{default(t){n=t}},2),u.link("react/jsx-runtime",{jsx(t){o=t}},3),u.exportDefault(()=>a("manage-oauth-apps")?o(i,{}):o(n,{}))}
+//# sourceMappingURL=/dynamic/client/views/admin/oauthApps/73d8898999c0595952e1da7bde1a71fc4e85b3ad.map

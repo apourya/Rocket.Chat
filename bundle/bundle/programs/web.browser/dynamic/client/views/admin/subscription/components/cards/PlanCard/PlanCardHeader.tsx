@@ -1,0 +1,2 @@
+function module(e,t,r){let a,l,n,c,i,o;r.link("@rocket.chat/fuselage",{CardTitle(e){a=e},Icon(e){l=e},Palette(e){n=e},CardHeader(e){c=e}},0),r.link("react/jsx-runtime",{jsx(e){i=e},jsxs(e){o=e}},1),r.exportDefault(e=>{let{name:t}=e;return o(c,{children:[i(l,{name:"rocketchat",color:n.badge["badge-background-level-4"].toString(),size:"x28",mie:4}),i(a,{variant:"h3",children:t})]})})}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/components/cards/PlanCard/c3816e8d20459eade935a33644550c71c9c04fbb.map

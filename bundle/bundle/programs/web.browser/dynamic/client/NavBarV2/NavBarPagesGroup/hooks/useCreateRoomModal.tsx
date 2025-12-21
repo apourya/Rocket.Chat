@@ -1,0 +1,2 @@
+function module(e,t,o){let l,n,u;o.export({useCreateRoomModal:()=>s}),o.link("@rocket.chat/fuselage-hooks",{useEffectEvent(e){l=e}},0),o.link("@rocket.chat/ui-contexts",{useSetModal(e){n=e}},1),o.link("react/jsx-runtime",{jsx(e){u=e}},2);let s=e=>{let t=n();return l(()=>{t(u(e,{onClose:()=>{t(null)}}))})}}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarPagesGroup/hooks/d931f6b968da00ca44067be5dda18b7b849f146d.map

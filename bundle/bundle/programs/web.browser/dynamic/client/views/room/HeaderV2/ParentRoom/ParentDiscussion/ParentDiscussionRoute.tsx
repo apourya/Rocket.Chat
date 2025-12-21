@@ -1,0 +1,2 @@
+function module(t,i,e){let r,n,s,o;e.link("@rocket.chat/ui-contexts",{useUserSubscription(t){r=t}},0),e.link("./ParentDiscussion",{default(t){n=t}},1),e.link("./ParentDiscussionWithData",{default(t){s=t}},2),e.link("react/jsx-runtime",{jsx(t){o=t}},3),e.exportDefault(t=>{let{room:i}=t,{prid:e}=i;if(!e)throw Error("Parent room ID is missing");let u=r(e);return u?o(n,{room:u}):o(s,{rid:e})})}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/ParentRoom/ParentDiscussion/8a16a17365730054adb07ecc5b350cf6effd5f9b.map

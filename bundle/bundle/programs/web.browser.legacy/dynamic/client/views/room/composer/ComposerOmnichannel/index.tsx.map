@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/composer/ComposerOmnichannel/index.tsx","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './ComposerOmnichannel';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,wBAAe,CAAA,QAAA,SAAuB,EAAA"}

@@ -1,0 +1,2 @@
+function module(r,t,e){e.link("@babel/runtime/helpers/inheritsLoose",{default:function(r){n=r}},0),e.export({CustomOAuthError:function(){return u}}),e.link("../errors/RocketChatError",{RocketChatError:function(r){o=r}},0);var n,o,u=function(r){function t(t,e){return r.call(this,"custom-oauth-error",null!=e&&e.service?e.service+": "+t:t,e)||this}return n(t,r),t}(o)}
+//# sourceMappingURL=/dynamic/client/lib/customOAuth/97e03d6a13689a232be822fef741eb918b99536f.map

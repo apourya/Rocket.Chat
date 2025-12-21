@@ -1,0 +1,2 @@
+function module(t,i,s){let o;s.export({FilesList:()=>r}),s.link("./RecordList",{RecordList(t){o=t}},0);let e=(t,i)=>t.rid===i&&"rid"in t;class r extends o{constructor(t){super(),this._options=void 0,this._options=t}get options(){return this._options}updateFilters(t){this._options=t,this.clear()}filter(t){let{rid:i}=this._options;return!!e(t,i)}}}
+//# sourceMappingURL=/dynamic/client/lib/lists/043ccc51e5df1eba95f41f80503c6c237734d3c6.map

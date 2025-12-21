@@ -1,0 +1,2 @@
+function module(e,n,t){let l,o,u;t.link("../../components/AutoCompleteAgent",{default(e){l=e}},0),t.link("../../hooks/useHasLicenseModule",{useHasLicenseModule(e){o=e}},1),t.link("react/jsx-runtime",{jsx(e){u=e}},2),t.exportDefault(e=>{let{value:n,onChange:t}=e;return o("livechat-enterprise")?u(l,{haveNoAgentsSelectedOption:!0,value:n,onChange:e=>{if("no-agent-selected"===e)return t("");t(e)}}):null})}
+//# sourceMappingURL=/dynamic/client/omnichannel/additionalForms/bb1d5ad18ecd461bb5c61c271a37fedf003b409f.map

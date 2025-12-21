@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/admin/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { registerAdminRoute } from './routes';\nexport { registerAdminSidebarItem, unregisterSidebarItem as unregisterAdminSidebarItem } from './sidebarItems';\n",null],"names":["module","link","registerAdminRoute","registerAdminSidebarItem","unregisterSidebarItem"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,WAAA,CAAAC,mBAA0B,oBAAU,EAAA,GAAAF,EAAAC,IAAA,CAAA,iBAAA,CAAAE,yBAAA,2BAAAC,sBAAA,4BAAA,EAAA"}

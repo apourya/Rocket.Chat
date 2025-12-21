@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/root/hooks/closeAllRooms.ts","meteor://💻app/<anon>"],"sourcesContent":["import { LegacyRoomManager } from '../../../../app/ui-utils/client';\n\nexport const closeAllRooms = () => {\n\tLegacyRoomManager.closeAllRooms();\n};\n",null],"names":["module","export","closeAllRooms","link","LegacyRoomManager","v"],"mappings":"uBAAAA,EAAAC,MAAS,CAAA,CAAAC,cAAiB,WAAQ,OAAAA,CAAA,CAAA,GAAiCF,EAAAG,IAAA,CAAA,kCAAA,CAAAC,kBAAA,SAAAC,CAAA,EAAAD,EAAAC,CAAA,CAAA,EAAA,GAE5D,IAF4DD,EAEtDF,EAAgB,WAC5BE,EAAkBF,aAAa,EAChC"}

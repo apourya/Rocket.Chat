@@ -1,0 +1,2 @@
+function module(e,t,r){let n,l;r.export({useAllowedAgents:()=>u}),r.link("react",{useMemo(e){n=e}},0),r.link("../utils/getAgentDerivedFromUser",{getAgentDerivedFromUser(e){l=e}},1);let u=e=>{let{user:t,departmentId:r,queryAgents:u,canAssignSelfOnlyAgent:i,canAssignAnyAgent:o}=e;return n(()=>{if(!r||!i&&!o)return[];if(o&&null!=u&&u.length)return u;try{return[l(t,r)]}catch(e){return[]}},[o,i,t,r,u])}}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/components/OutboundMessageWizard/forms/RepliesForm/hooks/92427fd5180c6578af39fafd7f762f3c9cafc21b.map

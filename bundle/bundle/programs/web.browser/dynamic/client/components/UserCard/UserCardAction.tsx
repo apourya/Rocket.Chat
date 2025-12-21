@@ -1,0 +1,2 @@
+function module(e,t,l){let n,i,r,o;let u=["label","icon"];l.link("@babel/runtime/helpers/objectSpread2",{default(e){n=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){i=e}},1),l.link("@rocket.chat/fuselage",{IconButton(e){r=e}},0),l.link("react/jsx-runtime",{jsx(e){o=e}},1),l.exportDefault(e=>{let{label:t,icon:l}=e,a=i(e,u);return o(r,n({icon:l,small:!0,title:t},a))})}
+//# sourceMappingURL=/dynamic/client/components/UserCard/6c9f91f437cd96643cd65376f2e95b8ea77f9f70.map

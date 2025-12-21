@@ -1,0 +1,2 @@
+function module(e,n,t){t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){r=e}},0),t.export({GenericTableRow:function(){return o}}),t.link("@rocket.chat/fuselage",{TableRow:function(e){u=e}},0),t.link("react/jsx-runtime",{jsx:function(e){i=e}},1);var r,u,i,o=function(e){return i(u,r({},e))}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/6e2dc20606f0b944d5f1e7e46400ca0fcb173f73.map

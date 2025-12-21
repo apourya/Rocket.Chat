@@ -1,0 +1,2 @@
+function module(t,e,o){o.export({formatQueuedAt:function(){return r}}),o.link("moment",{default:function(t){n=t}},0);var n,r=function(t){var e=t||{},o=e.servedBy,r=e.closedAt,u=e.open,f=e.queuedAt,m=e.ts,d=f||m;return o?n(o.ts).from(n(d),!0):u?n(d).fromNow(!0):r&&d?n(r).from(n(d),!0):""}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/utils/2769e38bfb110a0ba2977677d777bcd4d5bb0fd8.map

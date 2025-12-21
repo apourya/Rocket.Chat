@@ -1,0 +1,2 @@
+function module(n,t,e){var i,a,o,r;e.link("@rocket.chat/fuselage",{Box:function(n){i=n}},0),e.link("dompurify",{default:function(n){a=n}},1),e.link("react-i18next",{useTranslation:function(n){o=n}},2),e.link("react/jsx-runtime",{jsx:function(n){r=n}},3),e.exportDefault(function(){var n=o().t;return r(i,{pb:20,fontScale:"h4",dangerouslySetInnerHTML:{__html:a.sanitize(n("additional_integrations_Bots"),{ALLOWED_TAGS:["a"],ALLOWED_ATTR:["href","target"]})}},"bots")})}
+//# sourceMappingURL=/dynamic/client/views/admin/integrations/b054b7d3049ba33a21e45040af251778870379a9.map

@@ -1,0 +1,2 @@
+function module(e,t,i){i.export({isSidebarItem:()=>r,isGoRocketChatLink:()=>d,createSidebarItems:()=>s});let r=e=>!("divider"in e),d=e=>e.startsWith("https://go.rocket.chat/i/"),s=function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:[],t=()=>void 0;return{registerSidebarItem:i=>{e.push(i),t()},unregisterSidebarItem:i=>{let r=e.findIndex(e=>e.i18nLabel===i);delete e[r],t()},getSidebarItems:()=>e,subscribeToSidebarItems:e=>(t=e,()=>{t=()=>void 0})}}}
+//# sourceMappingURL=/dynamic/client/lib/fa4f6244041d926f674194061e9ef3ef71fe6d96.map

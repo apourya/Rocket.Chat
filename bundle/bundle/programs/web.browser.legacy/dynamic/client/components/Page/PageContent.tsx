@@ -1,0 +1,2 @@
+function module(e,n,i){i.link("@babel/runtime/helpers/objectSpread2",{default:function(e){t=e}},0),i.link("@rocket.chat/fuselage",{Box:function(e){l=e}},0),i.link("react",{forwardRef:function(e){f=e}},1),i.link("react/jsx-runtime",{jsx:function(e){o=e}},2);var t,l,f,o,r=f(function(e,n){return o(l,t({ref:n,paddingInline:24,display:"flex",flexDirection:"column",overflowY:"hidden",height:"full"},e))});i.exportDefault(r)}
+//# sourceMappingURL=/dynamic/client/components/Page/131728cb05eeb78713e2d6055f306b2a372af140.map

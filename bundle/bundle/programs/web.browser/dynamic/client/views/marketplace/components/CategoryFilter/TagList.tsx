@@ -1,0 +1,2 @@
+function module(l,e,t){let n,r,i;t.link("@rocket.chat/fuselage",{Chip(l){n=l},ButtonGroup(l){r=l}},0),t.link("react/jsx-runtime",{jsx(l){i=l}},1),t.exportDefault(l=>{let{categories:e,onClick:t}=l;return e.length?i(r,{wrap:!0,small:!0,children:e.map(l=>i(n,{onClick:()=>t(l),children:l.label},l.id))}):null})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/components/CategoryFilter/2581a7941cb440a5b54032cedb00a08d43cac527.map

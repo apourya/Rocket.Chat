@@ -1,0 +1,2 @@
+function module(t,e,n){var a,o,u,c,i;n.link("@rocket.chat/fuselage",{PaletteStyleTag:function(t){a=t}},0),n.link("@rocket.chat/fuselage-hooks",{useDarkMode:function(t){o=t}},1),n.link("react/jsx-runtime",{jsx:function(t){u=t},Fragment:function(t){c=t},jsxs:function(t){i=t}},2),n.exportDefault(function(t){var e=t.children,n=o();return i(c,{children:[u(a,{theme:n?"dark":"light",tagId:"app-layout-palette"}),e]})})}
+//# sourceMappingURL=/dynamic/client/components/647228559e6bc90192ec01340c95716d62f0ea0a.map

@@ -1,0 +1,2 @@
+function module(e,t,s){let i,o,u,l;s.export({useSortMenu:()=>n}),s.link("react-i18next",{useTranslation(e){i=e}},0),s.link("./useGroupingListItems",{useGroupingListItems(e){o=e}},1),s.link("./useSortModeItems",{useSortModeItems(e){u=e}},2),s.link("./useViewModeItems",{useViewModeItems(e){l=e}},3);let n=()=>{let{t:e}=i(),t=l(),s=u(),n=o();return[{title:e("Display"),items:t},{title:e("Sort_By"),items:s},{title:e("Group_by"),items:n}]}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/actions/hooks/fe1cc2d135c9b767d98432facb12ac0aa459e413.map

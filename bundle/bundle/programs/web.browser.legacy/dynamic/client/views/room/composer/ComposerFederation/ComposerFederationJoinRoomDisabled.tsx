@@ -1,0 +1,2 @@
+function module(n,t,i){var e,o,r;i.link("@rocket.chat/ui-composer",{MessageFooterCallout:function(n){e=n}},0),i.link("react-i18next",{useTranslation:function(n){o=n}},1),i.link("react/jsx-runtime",{jsx:function(n){r=n}},2),i.exportDefault(function(){var n=o().t;return r(e,{children:n("Federation_Matrix_join_public_rooms_is_premium")})})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/ComposerFederation/9c5d9a9a21581a25eb62b3c95e1b05be65067af0.map

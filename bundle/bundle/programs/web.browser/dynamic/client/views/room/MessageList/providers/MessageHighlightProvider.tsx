@@ -1,0 +1,2 @@
+function module(e,t,i){let n,l,r,s,u;i.link("react",{useMemo(e){n=e},useSyncExternalStore(e){l=e}},0),i.link("./messageHighlightSubscription",{"*"(e){r=e}},1),i.link("../contexts/MessageHighlightContext",{default(e){s=e}},2),i.link("react/jsx-runtime",{jsx(e){u=e}},3),i.exportDefault(e=>{let{children:t}=e,i=l(r.subscribe,r.getSnapshot),o=n(()=>({highlightMessageId:i}),[i]);return u(s.Provider,{value:o,children:t})})}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/providers/96626175eb97fde28ca0d139ad619af3e0544305.map

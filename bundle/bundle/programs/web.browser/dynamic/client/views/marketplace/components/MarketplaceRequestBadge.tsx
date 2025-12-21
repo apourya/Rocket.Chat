@@ -1,0 +1,2 @@
+function module(e,t,a){let n,l,i,r;a.link("@rocket.chat/fuselage",{Badge(e){n=e},Skeleton(e){l=e}},0),a.link("../hooks/useAppRequestStats",{useAppRequestStats(e){i=e}},1),a.link("react/jsx-runtime",{jsx(e){r=e}},2),a.exportDefault(()=>{let e=i();return e.isPending?"idle"!==e.fetchStatus?r(l,{variant:"circle",height:"x16",width:"x16"}):null:e.isError||!e.data.totalUnseen?null:r(n,{variant:"primary",children:e.data.totalUnseen})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/components/dd7fe82a3256bbb88f88ec40da0c33cb96d5fdc5.map

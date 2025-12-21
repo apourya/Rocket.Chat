@@ -1,0 +1,2 @@
+function module(e,r,t){let o;t.export({InvalidPreview:()=>i}),t.link("./RocketChatError",{RocketChatError(e){o=e}},0);class i extends o{constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Preview Item must have an id, type, and value.",r=arguments.length>1?arguments[1]:void 0;super("error-invalid-preview",e,r)}}}
+//# sourceMappingURL=/dynamic/client/lib/errors/7bba6c9729bff3515453c4922f8a626967f427b0.map

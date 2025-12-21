@@ -1,0 +1,2 @@
+function module(r,t,i){i.link("@babel/runtime/helpers/inheritsLoose",{default:function(r){e=r}},0),i.export({UiKitTriggerTimeoutError:function(){return o}}),i.link("../../../client/lib/errors/RocketChatError",{RocketChatError:function(r){n=r}},0);var e,n,o=function(r){function t(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Timeout",i=arguments.length>1?arguments[1]:void 0;return r.call(this,"trigger-timeout",t,i)||this}return e(t,r),t}(n)}
+//# sourceMappingURL=/dynamic/app/ui-message/client/0c6f8fb57e02786de84fb8d04a949fe2c14dd6a5.map

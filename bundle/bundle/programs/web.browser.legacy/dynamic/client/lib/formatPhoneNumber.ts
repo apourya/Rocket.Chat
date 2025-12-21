@@ -1,0 +1,2 @@
+function module(n,e,r){r.export({formatPhoneNumber:function(){return i}}),r.link("google-libphonenumber",{PhoneNumberUtil:function(n){t=n},PhoneNumberFormat:function(n){o=n}},0);var t,o,u=t.getInstance();function i(n){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"US";try{var r=u.parseAndKeepRawInput(n,e);if(u.isValidNumber(r))return u.format(r,o.INTERNATIONAL);return n}catch(e){return n}}}
+//# sourceMappingURL=/dynamic/client/lib/c888ad7929a0b201883fa7749637d7157f786614.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,r,u;n.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),n.link("@rocket.chat/fuselage",{Box(e){o=e}},0),n.link("@rocket.chat/ui-contexts",{useSetting(e){r=e}},1),n.link("react/jsx-runtime",{jsx(e){u=e}},2),n.exportDefault(e=>{let t=r("Layout_Home_Body","");return u(o,l({withRichContent:!0,dangerouslySetInnerHTML:{__html:t}},e))})}
+//# sourceMappingURL=/dynamic/client/views/home/3afa1bd9dcaa09495fabadb5c4fe0f88fd65a6e8.map

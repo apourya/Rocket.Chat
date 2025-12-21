@@ -1,0 +1,2 @@
+function module(o,r,t){let e;t.export({NotSubscribedToRoomError:()=>s}),t.link("./RocketChatError",{RocketChatError(o){e=o}},0);class s extends e{constructor(){let o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Not subscribed to this room",r=arguments.length>1?arguments[1]:void 0;super("not-subscribed-room",o,r)}}}
+//# sourceMappingURL=/dynamic/client/lib/errors/c8da5cc9cd4100a23916b17decb20f031563fcc5.map

@@ -1,0 +1,2 @@
+function module(n,u,r){r.export({DAYS_OF_WEEK:function(){return t},defaultWorkHours:function(){return d}});var t=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],a=["Saturday","Sunday"],d=function(){var n=arguments.length>0&&void 0!==arguments[0]&&arguments[0];return t.map(function(u){return{day:u,start:{time:"08:00"},finish:{time:"18:00"},open:!!n||!a.includes(u)}})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/businessHours/f094c11e6a4e9b5467d73eb8acc82e3196ee99d1.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let i,a,c,l,o;n.link("@rocket.chat/fuselage",{Button(e){i=e}},0),n.link("@rocket.chat/fuselage-hooks",{useEffectEvent(e){a=e}},1),n.link("@rocket.chat/ui-contexts",{useRouter(e){c=e}},2),n.link("react",{memo(e){l=e}},3),n.link("react/jsx-runtime",{jsx(e){o=e}},4),n.exportDefault(l(e=>{let t=c(),n=a(()=>{if("action"in e)return e.action();t.navigate(e.path)});return o(i,{primary:!0,onClick:()=>n(),children:e.label})}))}
+//# sourceMappingURL=/dynamic/client/views/admin/workspace/VersionCard/components/b53efa6636ae6f5660234ccdb4bc0644cadea735.map

@@ -1,0 +1,2 @@
+function module(n,e,i){var r,t,a;i.link("@rocket.chat/fuselage",{Box:function(n){r=n},Tag:function(n){t=n}},0),i.link("react/jsx-runtime",{jsx:function(n){a=n}},1),i.exportDefault(function(n){var e=n.displayName;return a(r,{mie:4,mbe:4,children:a(t,{variant:"primary",children:e})})})}
+//# sourceMappingURL=/dynamic/client/views/room/modals/ReactionListModal/5ef81a0b8588a55a24187ae0be84ce0881cff05e.map

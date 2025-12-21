@@ -1,0 +1,2 @@
+function module(e,t,a){let l,n,o;a.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),a.link("@rocket.chat/fuselage",{Box(e){n=e}},0),a.link("react/jsx-runtime",{jsx(e){o=e}},1),a.exportDefault(e=>o(n,l({"data-qa-type":"message-attachment",mbe:4,mi:2,fontScale:"p2",color:"default"},e)))}
+//# sourceMappingURL=/dynamic/client/components/message/content/attachments/structure/dfa4bc8a98a6366883a5d863daee4a125baadbb5.map

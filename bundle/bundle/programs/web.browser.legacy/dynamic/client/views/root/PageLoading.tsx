@@ -1,0 +1,2 @@
+function module(a,n,i){var e,l;i.link("../../components/LoadingIndicator",{default:function(a){e=a}},0),i.link("react/jsx-runtime",{jsx:function(a){l=a}},1),i.exportDefault(function(){return l("div",{className:"page-loading",role:"alert","aria-busy":"true","aria-live":"polite","aria-label":"loading",children:l(e,{})})})}
+//# sourceMappingURL=/dynamic/client/views/root/e27e15e3beb05d9d1992e5f7f3596ce99e44326d.map

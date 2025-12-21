@@ -1,0 +1,2 @@
+function module(n,t,e){var i,o,c,u;e.link("@rocket.chat/ui-contexts",{usePermission:function(n){i=n}},0),e.link("./OmnichannelDirectoryPage",{default:function(n){o=n}},1),e.link("../../notAuthorized/NotAuthorizedPage",{default:function(n){c=n}},2),e.link("react/jsx-runtime",{jsx:function(n){u=n}},3),e.exportDefault(function(){return i("view-omnichannel-contact-center")?u(o,{}):u(c,{})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/7aac347c5d58c77a6db6cdbc8c8cf7a101fee4f0.map

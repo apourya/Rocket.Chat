@@ -1,0 +1,2 @@
+function module(r,e,n){n.export({readFileAsDataURL:function(){return o}});var o=function(r){return new Promise(function(e,n){var o=new FileReader;o.onloadend=function(r){var o,t=null===(o=r.target)||void 0===o?void 0:o.result;if("string"==typeof t){e(t);return}n(Error("Failed to read file"))},o.onerror=function(r){n(Error("Failed to read file: "+r))},o.readAsDataURL(r)})}}
+//# sourceMappingURL=/dynamic/client/components/avatar/UserAvatarEditor/9233a91988c468ae1b1addb3de272a0763a2180f.map

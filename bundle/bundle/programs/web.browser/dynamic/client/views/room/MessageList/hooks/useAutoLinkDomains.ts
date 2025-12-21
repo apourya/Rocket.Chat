@@ -1,0 +1,2 @@
+function module(e,t,s){let i,n;s.export({useAutoLinkDomains:()=>o}),s.link("react",{useMemo(e){i=e}},0),s.link("../../../../components/message/list/MessageListContext",{useMessageListAutoLinkDomains(e){n=e}},1);let o=()=>{let e=n(),t=i(()=>e?e.split(",").map(e=>e.trim()):[],[e]);return i(()=>t,[t])}}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/hooks/503b994313ba45c30d462f4086ba73a9864c7a4a.map

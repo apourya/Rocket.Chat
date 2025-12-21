@@ -1,0 +1,2 @@
+function module(t,o,a){a.export({secondsToHHMMSS:()=>r});let r=t=>{"number"!=typeof t&&(t=parseFloat(t));let o=Math.floor(t/3600),a=Math.floor((t-3600*o)/60),r=Math.round(t-3600*o-60*a);return"".concat(o.toString().padStart(2,"0"),":").concat(a.toString().padStart(2,"0"),":").concat(r.toString().padStart(2,"0"))}}
+//# sourceMappingURL=/dynamic/lib/utils/aa6f5bbb459bcac0b60553d98b220a38aa8a27d9.map

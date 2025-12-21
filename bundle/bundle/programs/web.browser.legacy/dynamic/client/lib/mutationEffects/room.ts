@@ -1,0 +1,2 @@
+function module(n,t,e){e.link("@babel/runtime/helpers/objectSpread2",{default:function(n){o=n}},0),e.export({toggleFavoriteRoom:function(){return i}}),e.link("../../stores",{Subscriptions:function(n){u=n}},0);var o,u,i=function(n,t,e){e&&u.state.update(function(t){return t.rid===n&&t.u._id===e},function(n){return o(o({},n),{},{f:t})})}}
+//# sourceMappingURL=/dynamic/client/lib/mutationEffects/ff7c8229ffc23c55fc3b755a11049534178ea6d5.map

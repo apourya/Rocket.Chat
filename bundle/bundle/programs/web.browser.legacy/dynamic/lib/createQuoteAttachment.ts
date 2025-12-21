@@ -1,0 +1,2 @@
+function module(t,e,n){var a,s,r;function i(t,e,n,i){return a(a({text:t.msg,md:t.md},s(t)&&{translations:null==t?void 0:t.translations}),{},{message_link:e,author_name:t.alias||r(t.u.name,t.u.username,n),author_icon:i,attachments:t.attachments||[],ts:t.ts})}n.link("@babel/runtime/helpers/objectSpread2",{default:function(t){a=t}},0),n.export({createQuoteAttachment:function(){return i}}),n.link("@rocket.chat/core-typings",{isTranslatedMessage:function(t){s=t},getUserDisplayName:function(t){r=t}},0)}
+//# sourceMappingURL=/dynamic/lib/055546a013d05a10f0275c5a0d36bab8f6545c50.map

@@ -1,0 +1,2 @@
+function module(n,t,u){u.export({colors:function(){return i},UserStatus:function(){return o},Busy:function(){return c},Away:function(){return a},Online:function(){return f},Offline:function(){return s},Loading:function(){return l}}),u.link("@rocket.chat/ui-client",{UserStatus:function(n){e=n}},0),u.link("./ReactiveUserStatus",{default:"ReactiveUserStatus"},1);var e,r=e,i=r.colors,o=r.UserStatus,c=r.Busy,a=r.Away,f=r.Online,s=r.Offline,l=r.Loading}
+//# sourceMappingURL=/dynamic/client/components/UserStatus/577c0039575e04d2427e51768ad954fda01b0b42.map

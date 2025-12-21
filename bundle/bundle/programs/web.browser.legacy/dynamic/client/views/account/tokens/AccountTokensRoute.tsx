@@ -1,0 +1,2 @@
+function module(n,t,e){var o,u,i,c;e.link("@rocket.chat/ui-contexts",{usePermission:function(n){o=n}},0),e.link("./AccountTokensPage",{default:function(n){u=n}},1),e.link("../../notAuthorized/NotAuthorizedPage",{default:function(n){i=n}},2),e.link("react/jsx-runtime",{jsx:function(n){c=n}},3),e.exportDefault(function(){return o("create-personal-access-tokens")?c(u,{}):c(i,{})})}
+//# sourceMappingURL=/dynamic/client/views/account/tokens/cdbb9906233df0e7a10b8813920ba08b807a06b2.map

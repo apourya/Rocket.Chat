@@ -1,0 +1,2 @@
+function module(n,i,t){t.export({useNotificationAllowed:function(){return c}}),t.link("react",{useCallback:function(n){o=n},useSyncExternalStore:function(n){e=n}},0),t.link("../../lib/notificationManager",{notificationManager:function(n){a=n}},1);var o,e,a,c=function(){return e(o(function(n){return a.on("change",function(){a.allowed="granted"===Notification.permission,n()})},[]),function(){return a.allowed})}}
+//# sourceMappingURL=/dynamic/client/hooks/notification/27dd185abb8a47b7ab9e4e0eb068e7ec6eb9e7ef.map

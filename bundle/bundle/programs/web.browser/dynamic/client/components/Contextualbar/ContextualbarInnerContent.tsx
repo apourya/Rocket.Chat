@@ -1,0 +1,2 @@
+function module(e,t,l){let n,i,a,r;l.link("@babel/runtime/helpers/objectSpread2",{default(e){n=e}},0),l.link("@rocket.chat/fuselage",{Box(e){i=e}},0),l.link("react",{memo(e){a=e}},1),l.link("react/jsx-runtime",{jsx(e){r=e}},2),l.exportDefault(a(e=>r(i,n({"rcx-vertical-bar--inner-content":!0,position:"absolute",height:"full",display:"flex",insetInline:0},e))))}
+//# sourceMappingURL=/dynamic/client/components/Contextualbar/9bc3db86998200a5cace9b8712b885262844aa71.map

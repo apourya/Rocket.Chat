@@ -1,0 +1,2 @@
+function module(e,n,i){let l,t,r;i.link("./EditInviteLink",{default(e){l=e}},0),i.link("./InviteUsersWrapper",{default(e){t=e}},1),i.link("react/jsx-runtime",{jsx(e){r=e}},2),i.exportDefault(e=>{let{onClickBackLink:n,onClickNewLink:i,onClose:a,daysAndMaxUses:k}=e;return r(t,{onClickBack:n,onClose:a,children:r(l,{onClickNewLink:i,daysAndMaxUses:k})})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomMembers/InviteUsers/5c0c40b096622369eeffbe329de213d7cf14bb41.map

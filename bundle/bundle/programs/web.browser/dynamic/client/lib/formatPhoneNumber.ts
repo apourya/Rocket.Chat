@@ -1,0 +1,2 @@
+function module(e,t,n){let r,o;n.export({formatPhoneNumber:()=>l}),n.link("google-libphonenumber",{PhoneNumberUtil(e){r=e},PhoneNumberFormat(e){o=e}},0);let u=r.getInstance();function l(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"US";try{let n=u.parseAndKeepRawInput(e,t);if(u.isValidNumber(n))return u.format(n,o.INTERNATIONAL);return e}catch(t){return e}}}
+//# sourceMappingURL=/dynamic/client/lib/ab0dc9042bdc534a14fc8acae04bd33755b13cd4.map

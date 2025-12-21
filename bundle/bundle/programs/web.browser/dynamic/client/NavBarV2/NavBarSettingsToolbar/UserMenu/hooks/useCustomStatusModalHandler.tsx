@@ -1,0 +1,2 @@
+function module(t,e,u){let l,s,a,n;u.export({useCustomStatusModalHandler:()=>o}),u.link("@rocket.chat/ui-contexts",{useSetModal(t){l=t},useUser(t){s=t}},0),u.link("../EditStatusModal",{default(t){a=t}},1),u.link("react/jsx-runtime",{jsx(t){n=t}},2);let o=()=>{let t=s(),e=l();return()=>{e(n(a,{userStatus:null==t?void 0:t.status,userStatusText:null==t?void 0:t.statusText,onClose:()=>e(null)}))}}}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarSettingsToolbar/UserMenu/hooks/65de5e21036c5025b54ceaa81558d6fe8d0f7e8c.map

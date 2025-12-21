@@ -1,0 +1,2 @@
+function module(n,t,e){var o,u,c;e.link("@rocket.chat/ui-contexts",{useLoginWithTokenRoute:function(n){o=n},useRouter:function(n){u=n}},0),e.link("react",{useEffect:function(n){c=n}},1),e.exportDefault(function(){var n=u(),t=o();return c(function(){t(n.getRouteParameters().token,function(t){console.error(t),n.navigate("/")})},[t,n]),null})}
+//# sourceMappingURL=/dynamic/client/views/root/8d399e508086058841762138e311e555a59d19b5.map

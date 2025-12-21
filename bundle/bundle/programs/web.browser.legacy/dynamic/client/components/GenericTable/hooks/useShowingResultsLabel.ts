@@ -1,0 +1,2 @@
+function module(n,t,r){r.export({useShowingResultsLabel:function(){return i}}),r.link("react",{useCallback:function(n){e=n}},0),r.link("react-i18next",{useTranslation:function(n){u=n}},1);var e,u,i=function(){var n=u().t;return e(function(t){var r=t.count,e=t.current;return n("Showing_results_of",{postProcess:"sprintf",sprintf:[e+1,Math.min(e+t.itemsPerPage,r),r]})},[n])}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/hooks/91284c8a1f01cc1d8ef1008d699b3b5ecfeec7f6.map

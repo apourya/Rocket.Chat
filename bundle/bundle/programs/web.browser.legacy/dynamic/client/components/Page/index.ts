@@ -1,0 +1,2 @@
+function module(e,a,l){l.link("./Page",{default:"Page"},0),l.link("./PageContent",{default:"PageContent"},1),l.link("./PageFooter",{default:"PageFooter"},2),l.link("./PageHeader",{default:"PageHeader"},3),l.link("./PageScrollableContent",{default:"PageScrollableContent"},4),l.link("./PageScrollableContentWithShadow",{default:"PageScrollableContentWithShadow"},5)}
+//# sourceMappingURL=/dynamic/client/components/Page/f105e4f4f645e612c79ff9ca578fff2d69c740e2.map

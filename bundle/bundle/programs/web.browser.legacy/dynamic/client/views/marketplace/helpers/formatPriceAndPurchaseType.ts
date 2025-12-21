@@ -1,0 +1,2 @@
+function module(r,i,n){n.export({formatPriceAndPurchaseType:function(){return c}}),n.link("./formatPrice",{formatPrice:function(r){e=r}},0),n.link("./formatPricingPlan",{formatPricingPlan:function(r){t=r}},1);var e,t,c=function(r,i,n){if("subscription"===r){var c="Subscription";return i&&Array.isArray(i)&&0!==i.length?{type:c,price:t(i[0])}:{type:c,price:"-"}}return n>0?{type:"Paid",price:e(n)}:{type:"Free",price:"-"}}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/c847550db2092e73663ed9161efa2fde6adad5a5.map

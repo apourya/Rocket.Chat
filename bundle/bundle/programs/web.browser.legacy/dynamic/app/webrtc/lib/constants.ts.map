@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/webrtc/lib/constants.ts","meteor://💻app/<anon>"],"sourcesContent":["export const WEB_RTC_EVENTS = {\n\tWEB_RTC: 'webrtc',\n\tSTATUS: 'status',\n\tCALL: 'call',\n\tJOIN: 'join',\n\tCANDIDATE: 'candidate',\n\tDESCRIPTION: 'description',\n} as const;\n",null],"names":["module","export","WEB_RTC_EVENTS","WEB_RTC","STATUS","CALL","JOIN","CANDIDATE","DESCRIPTION"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,eAAiB,WAAA,OAAAA,CAAA,CAAA,GAAvB,IAAMA,EAAiB,CAC7BC,QAAS,SACTC,OAAQ,SACRC,KAAM,OACNC,KAAM,OACNC,UAAW,YACXC,YAAa"}

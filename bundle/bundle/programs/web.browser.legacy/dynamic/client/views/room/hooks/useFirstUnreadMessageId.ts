@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({useFirstUnreadMessageId:function(){return o}}),n.link("react",{useSyncExternalStore:function(e){r=e}},0),n.link("../contexts/ChatContext",{useChat:function(e){a=e}},1);var r,a,o=function(){var e=a();if(!e)throw Error("useFirstUnreadMessageId must be used within a ChatContextProvider");return r(e.readStateManager.onUnreadStateChange,e.readStateManager.getFirstUnreadRecordId)}}
+//# sourceMappingURL=/dynamic/client/views/room/hooks/ec799b821058802cd4b4396e4d8a3efb8c666c9c.map

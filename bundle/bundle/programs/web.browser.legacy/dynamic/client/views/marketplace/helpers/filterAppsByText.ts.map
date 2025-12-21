@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/marketplace/helpers/filterAppsByText.ts","meteor://💻app/<anon>"],"sourcesContent":["export const filterAppsByText = (name: string, text: string): boolean => name.toLowerCase().indexOf(text.toLowerCase()) > -1;\n",null],"names":["module","export","filterAppsByText","name","text","toLowerCase","indexOf"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,iBAAmB,WAA2B,OAAcA,CAAkB,CAAC,GAArF,IAAMA,EAAmB,SAACC,CAAY,CAAEC,CAAY,EAAA,OAAcD,EAAKE,WAAW,GAAGC,OAAO,CAACF,EAAKC,WAAW,IAAM,EAAE"}

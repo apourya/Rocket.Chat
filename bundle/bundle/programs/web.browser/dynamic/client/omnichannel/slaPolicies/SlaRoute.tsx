@@ -1,0 +1,2 @@
+function module(e,t,i){let a,l,n,o;i.link("@rocket.chat/ui-contexts",{usePermission(e){a=e}},0),i.link("./SlaPage",{default(e){l=e}},1),i.link("../../views/notAuthorized/NotAuthorizedPage",{default(e){n=e}},2),i.link("react/jsx-runtime",{jsx(e){o=e}},3),i.exportDefault(()=>a("manage-livechat-sla")?o(l,{}):o(n,{}))}
+//# sourceMappingURL=/dynamic/client/omnichannel/slaPolicies/d28cd203af14258ccd775ef70f2496c93f891a3c.map

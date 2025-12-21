@@ -1,0 +1,2 @@
+function module(e,t,r){r.export({useStarredMessagesRoomAction:function(){return i}}),r.link("react",{lazy:function(e){n=e},useMemo:function(e){o=e}},0);var n,o,a=n(function(){return r.dynamicImport("../../views/room/contextualBar/StarredMessagesTab")}),i=function(){return o(function(){return{id:"starred-messages",groups:["channel","group","direct","direct_multiple","team"],title:"Starred_Messages",icon:"star",tabComponent:a,order:10,type:"organization"}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/28a5aab88d1e6621ec779fb1dde9e89adc18550a.map

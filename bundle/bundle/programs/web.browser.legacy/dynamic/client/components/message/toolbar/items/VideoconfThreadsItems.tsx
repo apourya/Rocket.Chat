@@ -1,0 +1,2 @@
+function module(n,e,t){var i,o,s,u,a;t.link("./actions/JumpToMessageAction",{default:function(n){i=n}},0),t.link("./actions/ReactionMessageAction",{default:function(n){o=n}},1),t.link("react/jsx-runtime",{jsx:function(n){s=n},Fragment:function(n){u=n},jsxs:function(n){a=n}},2),t.exportDefault(function(n){var e=n.message,t=n.room,c=n.subscription;return a(u,{children:[s(o,{message:e,room:t,subscription:c}),s(i,{id:"jump-to-message",message:e})]})})}
+//# sourceMappingURL=/dynamic/client/components/message/toolbar/items/56d478fbaf6bf1134d245da732d9b067ec6a39fa.map

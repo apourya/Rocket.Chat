@@ -1,0 +1,2 @@
+function module(e,t,r){let n,s,l;r.export({STATUS_MAP:()=>o}),r.link("@rocket.chat/core-typings",{UserStatus(e){n=e}},0),r.link("meteor/meteor",{Meteor(e){s=e}},1),r.link("../../../../client/lib/presence",{Presence(e){l=e}},2),new s.Streamer("user-presence");let o=[n.OFFLINE,n.ONLINE,n.AWAY,n.BUSY,n.DISABLED];s.StreamerCentral.on("stream-user-presence",(e,t)=>{let[r,n,s]=t;l.notify({_id:e,username:r,status:o[n],statusText:s})})}
+//# sourceMappingURL=/dynamic/app/notifications/client/lib/904f824d945df699148f5a098708b7dca337b644.map

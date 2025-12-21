@@ -1,0 +1,2 @@
+function module(e,i,t){let g,h;t.export({getSnapshot:()=>s,subscribe:()=>l,setHighlightMessage:()=>o,clearHighlightMessage:()=>a});let{getSnapshot:s,subscribe:l,setHighlight:o,clearHighlight:a}=(h=()=>void 0,{subscribe:e=>(h=e,()=>{h=()=>void 0}),getSnapshot:()=>g,setHighlight:e=>{g=e,h()},clearHighlight:()=>{g=void 0,h()}})}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/providers/68d7b804937d8a7b9903c0b11168704bb50c8225.map

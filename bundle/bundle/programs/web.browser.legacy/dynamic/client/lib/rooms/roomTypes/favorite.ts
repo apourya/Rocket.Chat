@@ -1,0 +1,2 @@
+function module(o,r,e){e.link("@babel/runtime/helpers/objectSpread2",{default:function(o){n=o}},0),e.export({FavoriteRoomType:function(){return a}}),e.link("../../../../lib/rooms/roomTypes/favorite",{getFavoriteRoomType:function(o){t=o}},0),e.link("../roomCoordinator",{roomCoordinator:function(o){i=o}},1);var n,t,i,a=t(i);i.add(n(n({},a),{},{label:"Favorites"}),{getIcon:function(){return"star"}})}
+//# sourceMappingURL=/dynamic/client/lib/rooms/roomTypes/32d69f97e03da26a6a424fc768ddfe66a914ce1f.map

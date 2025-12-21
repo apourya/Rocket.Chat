@@ -1,0 +1,2 @@
+function module(t,n,u){var e,o,i,a;u.link("@rocket.chat/ui-contexts",{useSetting:function(t){e=t}},0),u.link("./CustomHomePage",{default:function(t){o=t}},1),u.link("./DefaultHomePage",{default:function(t){i=t}},2),u.link("react/jsx-runtime",{jsx:function(t){a=t}},3),u.exportDefault(function(){return e("Layout_Custom_Body_Only")?a(o,{}):a(i,{})})}
+//# sourceMappingURL=/dynamic/client/views/home/5998ce2df37225d1619dce4da58e0a2561db5eb1.map

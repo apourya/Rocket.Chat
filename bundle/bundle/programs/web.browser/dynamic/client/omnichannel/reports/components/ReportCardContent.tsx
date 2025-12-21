@@ -1,0 +1,2 @@
+function module(t,r,e){let a,o,n,d;e.export({ReportCardContent:()=>p}),e.link("./ReportCardEmptyState",{ReportCardEmptyState(t){a=t}},0),e.link("./ReportCardErrorState",{ReportCardErrorState(t){o=t}},1),e.link("./ReportCardLoadingState",{ReportCardLoadingState(t){n=t}},2),e.link("react/jsx-runtime",{jsx(t){d=t}},3);let p=t=>{let{isPending:r,isError:e,isDataFound:p,subtitle:i,onRetry:l,children:C}=t;return r?d(n,{}):e?d(o,{onRetry:l}):p?C:d(a,{subtitle:i})}}
+//# sourceMappingURL=/dynamic/client/omnichannel/reports/components/1fbfdd932e6b37b70f8007c8042375fd5b60c749.map

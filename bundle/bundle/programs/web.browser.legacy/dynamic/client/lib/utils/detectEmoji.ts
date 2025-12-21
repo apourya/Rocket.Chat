@@ -1,0 +1,2 @@
+function module(e,n,r){r.export({detectEmoji:function(){return a}}),r.link("../../../app/emoji/client",{emoji:function(e){t=e}},0);var t,a=function(e){var n=Object.values(t.packages).reverse().reduce(function(e,n){return(0,n.render)(e)},e),r=document.createElement("div");return r.innerHTML=n,Array.from(r.querySelectorAll("span")).map(function(e){return{name:e.title,className:e.className,image:e.style.backgroundImage||void 0,content:e.innerText}})}}
+//# sourceMappingURL=/dynamic/client/lib/utils/cfaef2582df1f99fe4808d91cf4ddf3045971c9d.map

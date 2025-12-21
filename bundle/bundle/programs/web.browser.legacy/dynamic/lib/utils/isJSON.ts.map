@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/lib/utils/isJSON.ts","meteor://💻app/<anon>"],"sourcesContent":["export const isJSON = (value: string): boolean => {\n\ttry {\n\t\treturn !!JSON.parse(value);\n\t} catch {\n\t\treturn false;\n\t}\n};\n",null],"names":["module","export","isJSON","value","JSON","parse","_unused"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,OAAU,WAA0B,OAAAA,CAAA,CAAA,GAA1C,IAAMA,EAAU,SAAAC,CAAa,EACnC,GAAI,CACH,MAAO,CAAC,CAACC,KAAKC,KAAK,CAACF,EACrB,CAAE,MAAAG,EAAM,CACP,MAAO,CAAA,CACR,CACD"}

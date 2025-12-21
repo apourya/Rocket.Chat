@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useAutoLinkDomains:function(){return o}}),e.link("react",{useMemo:function(n){i=n}},0),e.link("../../../../components/message/list/MessageListContext",{useMessageListAutoLinkDomains:function(n){u=n}},1);var i,u,o=function(){var n=u(),t=i(function(){return n?n.split(",").map(function(n){return n.trim()}):[]},[n]);return i(function(){return t},[t])}}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/hooks/b7a48f231653c90688c03899bb03abe9e5df3855.map

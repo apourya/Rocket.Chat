@@ -1,0 +1,2 @@
+function module(n,e,t){let l,i,o,r,c,u;t.link("@rocket.chat/fuselage",{OptionColumn(n){l=n},OptionContent(n){i=n}},0),t.link("../../../components/Emoji",{default(n){o=n}},1),t.link("react/jsx-runtime",{jsx(n){r=n},Fragment(n){c=n},jsxs(n){u=n}},2),t.exportDefault(function(n){let{_id:e}=n;return u(c,{children:[r(l,{children:r(o,{emojiHandle:e})}),r(i,{children:e})]})})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/94b1a3d173b8a6820625341e659f962f3f70a217.map

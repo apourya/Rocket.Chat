@@ -1,0 +1,2 @@
+function module(e,o,n){let t;n.export({PinMessagesNotAllowed:()=>s}),n.link("./RocketChatError",{RocketChatError(e){t=e}},0);class s extends t{constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Pinning messages is not allowed",o=arguments.length>1?arguments[1]:void 0;super("error-pinning-message",e,o)}}}
+//# sourceMappingURL=/dynamic/client/lib/errors/cb0fb36884dfa75e0e7e4c4bbedddfc37e115226.map

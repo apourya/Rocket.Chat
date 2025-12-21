@@ -1,0 +1,2 @@
+function module(e,l,t){let o,n,c,s;t.export({useCollapse:()=>a}),t.link("@rocket.chat/fuselage-hooks",{useToggle(e){o=e}},0),t.link("@rocket.chat/ui-contexts",{useAttachmentIsCollapsedByDefault(e){n=e}},1),t.link("../content/collapsible/CollapsibleContent",{default(e){c=e}},2),t.link("react/jsx-runtime",{jsx(e){s=e}},3);let a=e=>{let l=n(),[t,a]=o(l||e);return[t,s(c,{collapsed:t,onClick:a},"collapsible-content-action")]}}
+//# sourceMappingURL=/dynamic/client/components/message/hooks/c70cf4ec5eac0864dcbf3ab4a609805082e47487.map

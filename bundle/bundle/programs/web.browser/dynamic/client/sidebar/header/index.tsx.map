@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/sidebar/header/index.tsx","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './Header';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,WAAO,CAAQC,QAAA,SAAU,EAAA"}

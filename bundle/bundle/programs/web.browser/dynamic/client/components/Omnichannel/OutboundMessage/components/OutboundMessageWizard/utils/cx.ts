@@ -1,0 +1,2 @@
+function module(e,t,r){r.export({cx:()=>n,cxp:()=>c});let n=e=>Object.entries(e).filter(e=>{let[t,r]=e;return!!r}).map(e=>{let[t]=e;return t}).join(" "),c=(e,t)=>Object.entries(t).filter(e=>{let[t,r]=e;return!!r}).map(t=>{let[r]=t;return"".concat(e,"-").concat(r)}).join(" ")}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/components/OutboundMessageWizard/utils/9ac06a8e28f8356dcdc3aa7af320a56298d11001.map

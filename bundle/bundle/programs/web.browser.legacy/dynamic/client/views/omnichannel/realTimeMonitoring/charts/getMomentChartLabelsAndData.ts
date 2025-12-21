@@ -1,0 +1,2 @@
+function module(t,n,o){o.export({getMomentChartLabelsAndData:function(){return a}}),o.link("moment-timezone",{default:function(t){r=t}},0);var r,a=function(){for(var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:Date.now(),n=[],o=[],a=r(t).startOf("day");0>a.diff(r(t),"hours");a.add(1,"hours")){var e=r(a).add(1,"hours");n.push(a.format("hA")+"-"+e.format("hA")),o.push(0)}return[n,o]}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/realTimeMonitoring/charts/c724d743bf990d4f18f842b63741e35dff9a0742.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let i,l,o,r,a;n.link("@babel/runtime/helpers/objectSpread2",{default(e){i=e}},0),n.link("@rocket.chat/fuselage",{Button(e){l=e}},0),n.link("@rocket.chat/ui-contexts",{useSessionDispatch(e){o=e}},1),n.link("react-i18next",{useTranslation(e){r=e}},2),n.link("react/jsx-runtime",{jsx(e){a=e}},3),n.exportDefault(e=>{let t=o("forceLogin"),{t:n}=r();return a(l,i(i({primary:!0,small:!0,icon:"login",onClick:()=>t(!0)},e),{},{children:n("Login")}))})}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarSettingsToolbar/9650d6072461680e31071b19a3c8dcd7a47e22b2.map

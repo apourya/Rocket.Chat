@@ -1,0 +1,2 @@
+function module(e,t,l){let n,r,o,a;l.link("react",{useMemo(e){n=e}},0),l.link("../../../../../components/Contextualbar",{ContextualbarTitle(e){r=e}},1),l.link("../hooks/useNormalizedThreadTitleHtml",{useNormalizedThreadTitleHtml(e){o=e}},2),l.link("react/jsx-runtime",{jsx(e){a=e}},3),l.exportDefault(e=>{let{mainMessage:t}=e,l=o(t),i=n(()=>({__html:l}),[l]);return a(r,{dangerouslySetInnerHTML:i})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Threads/components/eaaa528f326d70927d7eb1e83eb9f1875e2940fa.map

@@ -1,0 +1,2 @@
+function module(e,t,n){var r,i,o,l=["children"];n.link("@babel/runtime/helpers/objectSpread2",{default:function(e){r=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){i=e}},1),n.link("react/jsx-runtime",{jsx:function(e){o=e}},0),n.exportDefault(function(e){var t=e.children,n=i(e,l);return o("footer",r(r({className:"rc-message-box footer"},n),{},{children:t}))})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/RoomComposer/e46e2556d1a3afe4d2e0c92b490f720d3fa38d5e.map

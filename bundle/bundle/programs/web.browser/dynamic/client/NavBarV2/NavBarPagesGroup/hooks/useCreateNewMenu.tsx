@@ -1,0 +1,2 @@
+function module(e,t,s){let r,i,n;s.export({useCreateNewMenu:()=>u}),s.link("@rocket.chat/ui-contexts",{useAtLeastOnePermission(e){r=e}},0),s.link("react-i18next",{useTranslation(e){i=e}},1),s.link("./useCreateNewItems",{useCreateNewItems(e){n=e}},2);let a=["create-c","create-p","create-d","start-discussion","start-discussion-other-user"],u=()=>{let{t:e}=i(),t=r(a),s=n();return[{title:e("Create_new"),items:s,permission:t}].filter(e=>e.permission)}}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarPagesGroup/hooks/4a714cf80443b1ef994a352ca3b45de7b740a93a.map

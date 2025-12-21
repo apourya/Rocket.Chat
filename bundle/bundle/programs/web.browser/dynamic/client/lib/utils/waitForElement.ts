@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({waitForElement:()=>r});let r=async function(e){let{parent:t=document.documentElement,signal:n}=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},r=t.querySelector(e);return new Promise((o,i)=>{if(r)return o(r);let c=new MutationObserver((n,r)=>{let i=t.querySelector(e);if(i)return r.disconnect(),o(i)});c.observe(t,{childList:!0,subtree:!0}),null==n||n.addEventListener("abort",()=>{c.disconnect(),i(new DOMException("Aborted","AbortError"))})})}}
+//# sourceMappingURL=/dynamic/client/lib/utils/718246efc5b6386846f28ddf41f843ea2e8fe565.map

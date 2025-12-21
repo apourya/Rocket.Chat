@@ -1,0 +1,2 @@
+function module(e,t,a){let l,i,n,r,u;a.link("@rocket.chat/fuselage",{Box(e){l=e}},0),a.link("./PrivateEmptyStateDefault",{default(e){i=e}},1),a.link("./PrivateEmptyStateUpgrade",{default(e){n=e}},2),a.link("../hooks/usePrivateAppsEnabled",{usePrivateAppsEnabled(e){r=e}},3),a.link("react/jsx-runtime",{jsx(e){u=e}},4),a.exportDefault(()=>{let e=r();return u(l,{mbs:"24px",children:e?u(i,{}):u(n,{})})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppsPage/6be58da28c8415db5247d8a709210a31897d9267.map

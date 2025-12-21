@@ -1,0 +1,2 @@
+function module(e,n,l){let t,o,a;l.link("../../../../../components/InfoPanel",{InfoPanelAction(e){t=e}},0),l.link("react/jsx-runtime",{jsx(e){o=e},Fragment(e){a=e}},1),l.exportDefault(e=>{let{actions:n,className:l}=e;return o(a,{children:n.items.map(e=>{let{id:n,content:a,icon:i,onClick:r}=e;return o(t,{className:l,label:a,onClick:r,icon:i},n)})})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Info/RoomInfo/d9f9a952cc4e3b24fb1cd2c06c0220142765948b.map

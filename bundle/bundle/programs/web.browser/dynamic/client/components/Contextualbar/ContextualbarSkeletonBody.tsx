@@ -1,0 +1,2 @@
+function module(e,t,l){let i,n,a,r,c,d;l.link("@rocket.chat/fuselage",{Box(e){i=e},Skeleton(e){n=e}},0),l.link("./ContextualbarHeader",{default(e){a=e}},1),l.link("react/jsx-runtime",{jsx(e){r=e},jsxs(e){c=e},Fragment(e){d=e}},2),l.exportDefault(()=>c(d,{children:[r(a,{children:r(n,{width:"100%"})}),c(i,{p:24,children:[r(n,{mbe:4,width:"x32",height:"x32",variant:"rect"}),[,,,,,].fill(5).map((e,t)=>r(n,{},t))]})]}))}
+//# sourceMappingURL=/dynamic/client/components/Contextualbar/71b838301ef295f3f2d00534d878508879566b05.map

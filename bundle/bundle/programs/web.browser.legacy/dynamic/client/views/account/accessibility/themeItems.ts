@@ -1,0 +1,2 @@
+function module(e,t,i){i.export({themeItems:function(){return h}});var h=[{id:"light",title:"Theme_light",description:"Theme_light_description"},{id:"dark",title:"Theme_dark",description:"Theme_dark_description"},{id:"high-contrast",title:"Theme_high_contrast",description:"Theme_high_contrast_description"},{id:"auto",title:"Theme_match_system",description:"Theme_match_system_description"}]}
+//# sourceMappingURL=/dynamic/client/views/account/accessibility/c1f865c2143db9c6e02be37ef4b377752415bf16.map

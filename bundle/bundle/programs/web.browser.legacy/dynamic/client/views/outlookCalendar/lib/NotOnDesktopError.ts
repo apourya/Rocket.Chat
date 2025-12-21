@@ -1,0 +1,2 @@
+function module(n,t,e){e.link("@babel/runtime/helpers/inheritsLoose",{default:function(n){r=n}},0),e.link("@babel/runtime/helpers/wrapNativeSuper",{default:function(n){o=n}},1),e.export({NotOnDesktopError:function(){return i}});var r,o,i=function(n){function t(){return n.call(this,"Not on desktop")||this}return r(t,n),t}(o(Error))}
+//# sourceMappingURL=/dynamic/client/views/outlookCalendar/lib/c5002523fff7c2c6fd084ff6707d78e044ba9400.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/omnichannel/agents/AgentsTable/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './AgentsTable';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,gBAAe,CAAAC,QAAA,SAAe,EAAA"}

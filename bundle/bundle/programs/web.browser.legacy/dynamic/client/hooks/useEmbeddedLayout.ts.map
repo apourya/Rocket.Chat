@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/hooks/useEmbeddedLayout.ts","meteor://💻app/<anon>"],"sourcesContent":["import { useLayout } from '@rocket.chat/ui-contexts';\n\nexport const useEmbeddedLayout = (): boolean => useLayout().isEmbedded;\n",null],"names":["module","export","useEmbeddedLayout","link","useLayout","v","isEmbedded"],"mappings":"uBAAAA,EAAAC,MAAS,CAAA,CAAAC,kBAAiB,WAAA,OAAAA,CAA0B,CAAA,GAAAF,EAAAG,IAAA,CAAA,2BAAA,CAAAC,UAAA,SAAAC,CAAA,EAAAD,EAAAC,CAAA,CAAA,EAAA,GAE7C,IAF6CD,EAEvCF,EAAoB,WAAA,OAAeE,IAAYE,UAAU"}

@@ -1,0 +1,2 @@
+function module(e,r,t){let i,n,a,l,c,u,o,d,f;t.link("@babel/runtime/helpers/objectSpread2",{default(e){i=e}},0),t.link("@rocket.chat/ui-client",{FeaturePreview(e){n=e},FeaturePreviewOff(e){a=e},FeaturePreviewOn(e){l=e},HeaderV2Icon(e){c=e},HeaderIcon(e){u=e}},0),t.link("react",{memo(e){o=e}},1),t.link("react/jsx-runtime",{jsx(e){d=e},jsxs(e){f=e}},2),t.exportDefault(o(e=>f(n,{feature:"newNavigation",children:[d(a,{children:d(u,i({},e))}),d(l,{children:d(c,i({},e))})]})))}
+//# sourceMappingURL=/dynamic/client/components/Header/42f0b3e479edd38f5b8149df87007b2832e1be4c.map

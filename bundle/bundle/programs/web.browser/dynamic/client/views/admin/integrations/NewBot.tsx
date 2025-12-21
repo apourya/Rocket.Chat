@@ -1,0 +1,2 @@
+function module(t,e,n){let a,i,l,r;n.link("@rocket.chat/fuselage",{Box(t){a=t}},0),n.link("dompurify",{default(t){i=t}},1),n.link("react-i18next",{useTranslation(t){l=t}},2),n.link("react/jsx-runtime",{jsx(t){r=t}},3),n.exportDefault(()=>{let{t}=l();return r(a,{pb:20,fontScale:"h4",dangerouslySetInnerHTML:{__html:i.sanitize(t("additional_integrations_Bots"),{ALLOWED_TAGS:["a"],ALLOWED_ATTR:["href","target"]})}},"bots")})}
+//# sourceMappingURL=/dynamic/client/views/admin/integrations/c093c31405d6c21ec479f5e8917acc4318902d9f.map

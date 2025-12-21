@@ -1,0 +1,2 @@
+function module(t,e,n){n.export({useAppRequestStats:function(){return a}}),n.link("@rocket.chat/ui-contexts",{useEndpoint:function(t){u=t},usePermission:function(t){r=t}},0),n.link("@tanstack/react-query",{useQuery:function(t){s=t}},1);var u,r,s,a=function(){var t=r("manage-apps"),e=u("GET","/apps/app-request/stats");return s({queryKey:["app-requests-stats"],queryFn:function(){return e()},select:function(t){return t.data},refetchOnWindowFocus:!1,retry:!1,enabled:t})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/91045b595d3cddb024fb45ab51b48b044708360b.map

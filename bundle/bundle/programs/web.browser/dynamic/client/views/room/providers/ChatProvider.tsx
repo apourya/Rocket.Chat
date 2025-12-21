@@ -1,0 +1,2 @@
+function module(e,t,n){let s,o,a,l;n.link("../contexts/ChatContext",{ChatContext(e){s=e}},0),n.link("../contexts/RoomContext",{useRoom(e){o=e}},1),n.link("./hooks/useChatMessagesInstance",{useChatMessagesInstance(e){a=e}},2),n.link("react/jsx-runtime",{jsx(e){l=e}},3),n.exportDefault(e=>{let{children:t,tmid:n}=e,{_id:i,encrypted:u}=o(),r=a({rid:i,tmid:n,encrypted:u});return l(s.Provider,{value:r,children:t})})}
+//# sourceMappingURL=/dynamic/client/views/room/providers/c1d576168c7e5de5396290e0111f2bd06b1ae7ca.map

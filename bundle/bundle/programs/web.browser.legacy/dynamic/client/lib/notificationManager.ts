@@ -1,0 +1,2 @@
+function module(n,t,e){e.link("@babel/runtime/helpers/inheritsLoose",{default:function(n){i=n}},0),e.export({notificationManager:function(){return o}}),e.link("@rocket.chat/emitter",{Emitter:function(n){r=n}},0);var i,r,o=new(function(n){function t(){for(var t,e=arguments.length,i=Array(e),r=0;r<e;r++)i[r]=arguments[r];return(t=n.call.apply(n,[this].concat(i))||this).allowed=void 0,t}return i(t,n),t}(r))}
+//# sourceMappingURL=/dynamic/client/lib/8fd9c73867bee843d78015d15bda0b1699dd7bc1.map

@@ -1,0 +1,2 @@
+function module(o,n,e){let t,l;e.export({useChannelSettingsRoomAction:()=>a}),e.link("react",{lazy(o){t=o},useMemo(o){l=o}},0);let i=t(()=>e.dynamicImport("../../views/room/contextualBar/Info")),a=()=>l(()=>({id:"channel-settings",groups:["channel","group"],anonymous:!0,full:!0,title:"Room_Info",icon:"info-circled",tabComponent:i,order:1}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/fbbd58a1abd4e2f2816554f2c71be726cc2130ef.map

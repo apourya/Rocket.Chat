@@ -1,0 +1,2 @@
+function module(e,l,t){let o,u,n,r;t.link("@rocket.chat/ui-contexts",{useRouteParameter(e){o=e}},0),t.link("./UsersInRolePage",{default(e){u=e}},1),t.link("../hooks/useRole",{useRole(e){n=e}},2),t.link("react/jsx-runtime",{jsx(e){r=e}},3),t.exportDefault(()=>{let e=o("_id"),l=n(e);return l?r(u,{role:l}):null})}
+//# sourceMappingURL=/dynamic/client/views/admin/permissions/UsersInRole/4506752d259ff85f693207b14735d00ab0d44303.map

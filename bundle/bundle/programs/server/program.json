@@ -1,0 +1,649 @@
+{
+  "format": "javascript-image-pre1",
+  "arch": "os",
+  "load": [
+    {
+      "path": "packages/core-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/meteor/node_modules",
+      "path": "packages/meteor.js",
+      "assets": {
+        "meteor.d.ts": "assets/packages/meteor/meteor.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules-runtime/node_modules",
+      "path": "packages/modules-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/modules/node_modules",
+      "sourceMap": "packages/modules.js.map",
+      "path": "packages/modules.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/react-fast-refresh/node_modules",
+      "path": "packages/react-fast-refresh.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript/node_modules",
+      "sourceMap": "packages/ecmascript.js.map",
+      "path": "packages/ecmascript.js"
+    },
+    {
+      "path": "packages/modern-browsers.js",
+      "assets": {
+        "modern.d.ts": "assets/packages/modern-browsers/modern.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript-runtime/node_modules",
+      "path": "packages/ecmascript-runtime.js"
+    },
+    {
+      "path": "packages/babel-runtime.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/promise/node_modules",
+      "path": "packages/promise.js",
+      "assets": {
+        "promise.d.ts": "assets/packages/promise/promise.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/fetch/node_modules",
+      "path": "packages/fetch.js",
+      "assets": {
+        "fetch.d.ts": "assets/packages/fetch/fetch.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/inter-process-messaging/node_modules",
+      "path": "packages/inter-process-messaging.js"
+    },
+    {
+      "path": "packages/dynamic-import.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/es5-shim/node_modules",
+      "path": "packages/es5-shim.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript-runtime-client/node_modules",
+      "path": "packages/ecmascript-runtime-client.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ecmascript-runtime-server/node_modules",
+      "path": "packages/ecmascript-runtime-server.js"
+    },
+    {
+      "sourceMap": "packages/random.js.map",
+      "path": "packages/random.js",
+      "assets": {
+        "random.d.ts": "assets/packages/random/random.d.ts"
+      }
+    },
+    {
+      "sourceMap": "packages/retry.js.map",
+      "path": "packages/retry.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/socket-stream-client/node_modules",
+      "sourceMap": "packages/socket-stream-client.js.map",
+      "path": "packages/socket-stream-client.js"
+    },
+    {
+      "path": "packages/rocketchat_ddp.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/npm-mongo/node_modules",
+      "path": "packages/npm-mongo.js",
+      "assets": {
+        "index.d.ts": "assets/packages/npm-mongo/index.d.ts"
+      }
+    },
+    {
+      "sourceMap": "packages/base64.js.map",
+      "path": "packages/base64.js"
+    },
+    {
+      "sourceMap": "packages/ejson.js.map",
+      "path": "packages/ejson.js",
+      "assets": {
+        "ejson.d.ts": "assets/packages/ejson/ejson.d.ts"
+      }
+    },
+    {
+      "sourceMap": "packages/diff-sequence.js.map",
+      "path": "packages/diff-sequence.js"
+    },
+    {
+      "path": "packages/geojson-utils.js"
+    },
+    {
+      "sourceMap": "packages/id-map.js.map",
+      "path": "packages/id-map.js"
+    },
+    {
+      "sourceMap": "packages/mongo-id.js.map",
+      "path": "packages/mongo-id.js"
+    },
+    {
+      "sourceMap": "packages/ordered-dict.js.map",
+      "path": "packages/ordered-dict.js"
+    },
+    {
+      "sourceMap": "packages/tracker.js.map",
+      "path": "packages/tracker.js",
+      "assets": {
+        "tracker.d.ts": "assets/packages/tracker/tracker.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/mongo-decimal/node_modules",
+      "sourceMap": "packages/mongo-decimal.js.map",
+      "path": "packages/mongo-decimal.js"
+    },
+    {
+      "sourceMap": "packages/minimongo.js.map",
+      "path": "packages/minimongo.js"
+    },
+    {
+      "sourceMap": "packages/check.js.map",
+      "path": "packages/check.js",
+      "assets": {
+        "check.d.ts": "assets/packages/check/check.d.ts"
+      }
+    },
+    {
+      "sourceMap": "packages/callback-hook.js.map",
+      "path": "packages/callback-hook.js"
+    },
+    {
+      "sourceMap": "packages/ddp-common.js.map",
+      "path": "packages/ddp-common.js"
+    },
+    {
+      "path": "packages/reload.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-client/node_modules",
+      "sourceMap": "packages/ddp-client.js.map",
+      "path": "packages/ddp-client.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/babel-compiler/node_modules",
+      "path": "packages/babel-compiler.js"
+    },
+    {
+      "path": "packages/typescript.js"
+    },
+    {
+      "sourceMap": "packages/rate-limit.js.map",
+      "path": "packages/rate-limit.js"
+    },
+    {
+      "sourceMap": "packages/ddp-rate-limiter.js.map",
+      "path": "packages/ddp-rate-limiter.js",
+      "assets": {
+        "ddp-rate-limiter.d.ts": "assets/packages/ddp-rate-limiter/ddp-rate-limiter.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/logging/node_modules",
+      "sourceMap": "packages/logging.js.map",
+      "path": "packages/logging.js",
+      "assets": {
+        "logging.d.ts": "assets/packages/logging/logging.d.ts"
+      }
+    },
+    {
+      "sourceMap": "packages/routepolicy.js.map",
+      "path": "packages/routepolicy.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/boilerplate-generator/node_modules",
+      "sourceMap": "packages/boilerplate-generator.js.map",
+      "path": "packages/boilerplate-generator.js"
+    },
+    {
+      "sourceMap": "packages/webapp-hashing.js.map",
+      "path": "packages/webapp-hashing.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/webapp/node_modules",
+      "sourceMap": "packages/webapp.js.map",
+      "path": "packages/webapp.js",
+      "assets": {
+        "webapp.d.ts": "assets/packages/webapp/webapp.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/ddp-server/node_modules",
+      "sourceMap": "packages/ddp-server.js.map",
+      "path": "packages/ddp-server.js"
+    },
+    {
+      "path": "packages/ddp.js",
+      "assets": {
+        "ddp.d.ts": "assets/packages/ddp/ddp.d.ts"
+      }
+    },
+    {
+      "sourceMap": "packages/allow-deny.js.map",
+      "path": "packages/allow-deny.js"
+    },
+    {
+      "sourceMap": "packages/binary-heap.js.map",
+      "path": "packages/binary-heap.js"
+    },
+    {
+      "sourceMap": "packages/facts-base.js.map",
+      "path": "packages/facts-base.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/mongo/node_modules",
+      "sourceMap": "packages/mongo.js.map",
+      "path": "packages/mongo.js",
+      "assets": {
+        "mongo.d.ts": "assets/packages/mongo/mongo.d.ts",
+        "package-types.json": "assets/packages/mongo/package-types.json"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/email/node_modules",
+      "sourceMap": "packages/email.js.map",
+      "path": "packages/email.js",
+      "assets": {
+        "email.d.ts": "assets/packages/email/email.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/url/node_modules",
+      "path": "packages/url.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/http/node_modules",
+      "sourceMap": "packages/http.js.map",
+      "path": "packages/http.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_mongo-config.js.map",
+      "path": "packages/rocketchat_mongo-config.js"
+    },
+    {
+      "path": "packages/rocketchat_livechat.js"
+    },
+    {
+      "sourceMap": "packages/rocketchat_streamer.js.map",
+      "path": "packages/rocketchat_streamer.js"
+    },
+    {
+      "path": "packages/rocketchat_version.js"
+    },
+    {
+      "sourceMap": "packages/accounts-base.js.map",
+      "path": "packages/accounts-base.js",
+      "assets": {
+        "accounts-base.d.ts": "assets/packages/accounts-base/accounts-base.d.ts"
+      }
+    },
+    {
+      "path": "packages/localstorage.js"
+    },
+    {
+      "sourceMap": "packages/service-configuration.js.map",
+      "path": "packages/service-configuration.js",
+      "assets": {
+        "service-configuration.d.ts": "assets/packages/service-configuration/service-configuration.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/oauth/node_modules",
+      "sourceMap": "packages/oauth.js.map",
+      "path": "packages/oauth.js",
+      "assets": {
+        "end_of_popup_response.html": "assets/packages/oauth/end_of_popup_response.html",
+        "end_of_redirect_response.html": "assets/packages/oauth/end_of_redirect_response.html"
+      }
+    },
+    {
+      "sourceMap": "packages/accounts-oauth.js.map",
+      "path": "packages/accounts-oauth.js"
+    },
+    {
+      "sourceMap": "packages/oauth2.js.map",
+      "path": "packages/oauth2.js"
+    },
+    {
+      "sourceMap": "packages/facebook-oauth.js.map",
+      "path": "packages/facebook-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-facebook.js.map",
+      "path": "packages/accounts-facebook.js"
+    },
+    {
+      "sourceMap": "packages/github-oauth.js.map",
+      "path": "packages/github-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-github.js.map",
+      "path": "packages/accounts-github.js"
+    },
+    {
+      "sourceMap": "packages/google-oauth.js.map",
+      "path": "packages/google-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-google.js.map",
+      "path": "packages/accounts-google.js"
+    },
+    {
+      "sourceMap": "packages/meteor-developer-oauth.js.map",
+      "path": "packages/meteor-developer-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-meteor-developer.js.map",
+      "path": "packages/accounts-meteor-developer.js"
+    },
+    {
+      "path": "packages/sha.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/accounts-password/node_modules",
+      "sourceMap": "packages/accounts-password.js.map",
+      "path": "packages/accounts-password.js"
+    },
+    {
+      "sourceMap": "packages/oauth1.js.map",
+      "path": "packages/oauth1.js"
+    },
+    {
+      "path": "packages/twitter-oauth.js"
+    },
+    {
+      "sourceMap": "packages/accounts-twitter.js.map",
+      "path": "packages/accounts-twitter.js"
+    },
+    {
+      "path": "packages/meteor-base.js"
+    },
+    {
+      "path": "packages/session.js",
+      "assets": {
+        "session.d.ts": "assets/packages/session/session.d.ts"
+      }
+    },
+    {
+      "sourceMap": "packages/shell-server.js.map",
+      "path": "packages/shell-server.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/underscore/node_modules",
+      "path": "packages/underscore.js",
+      "assets": {
+        "underscore.d.ts": "assets/packages/underscore/underscore.d.ts"
+      }
+    },
+    {
+      "path": "packages/dispatch_run-as-user.js"
+    },
+    {
+      "sourceMap": "packages/ostrio_cookies.js.map",
+      "path": "packages/ostrio_cookies.js"
+    },
+    {
+      "path": "packages/meteorhacks_inject-initial.js"
+    },
+    {
+      "sourceMap": "packages/reactive-dict.js.map",
+      "path": "packages/reactive-dict.js",
+      "assets": {
+        "reactive-dict.d.ts": "assets/packages/reactive-dict/reactive-dict.d.ts"
+      }
+    },
+    {
+      "path": "packages/reactive-var.js",
+      "assets": {
+        "reactive-var.d.ts": "assets/packages/reactive-var/reactive-var.d.ts"
+      }
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/minifier-css/node_modules",
+      "sourceMap": "packages/minifier-css.js.map",
+      "path": "packages/minifier-css.js"
+    },
+    {
+      "path": "packages/standard-minifier-css.js"
+    },
+    {
+      "sourceMap": "packages/autoupdate.js.map",
+      "path": "packages/autoupdate.js"
+    },
+    {
+      "path": "packages/zodern_types.js"
+    },
+    {
+      "path": "packages/zodern_standard-minifier-js.js"
+    },
+    {
+      "path": "packages/hot-code-push.js"
+    },
+    {
+      "node_modules": "npm/node_modules",
+      "sourceMap": "app/app.js.map",
+      "path": "app/app.js",
+      "assets": {
+        "avatars/rocketcat.png": "assets/app/avatars/rocketcat.png",
+        "i18n/af.i18n.json": "assets/app/i18n/af.i18n.json",
+        "i18n/ar.i18n.json": "assets/app/i18n/ar.i18n.json",
+        "i18n/az.i18n.json": "assets/app/i18n/az.i18n.json",
+        "i18n/be-BY.i18n.json": "assets/app/i18n/be-BY.i18n.json",
+        "i18n/bg.i18n.json": "assets/app/i18n/bg.i18n.json",
+        "i18n/bn-BD.i18n.json": "assets/app/i18n/bn-BD.i18n.json",
+        "i18n/bn-IN.i18n.json": "assets/app/i18n/bn-IN.i18n.json",
+        "i18n/bs.i18n.json": "assets/app/i18n/bs.i18n.json",
+        "i18n/ca.i18n.json": "assets/app/i18n/ca.i18n.json",
+        "i18n/cs.i18n.json": "assets/app/i18n/cs.i18n.json",
+        "i18n/cy.i18n.json": "assets/app/i18n/cy.i18n.json",
+        "i18n/da.i18n.json": "assets/app/i18n/da.i18n.json",
+        "i18n/de-AT.i18n.json": "assets/app/i18n/de-AT.i18n.json",
+        "i18n/de-IN.i18n.json": "assets/app/i18n/de-IN.i18n.json",
+        "i18n/de.i18n.json": "assets/app/i18n/de.i18n.json",
+        "i18n/el.i18n.json": "assets/app/i18n/el.i18n.json",
+        "i18n/en.i18n.json": "assets/app/i18n/en.i18n.json",
+        "i18n/eo.i18n.json": "assets/app/i18n/eo.i18n.json",
+        "i18n/es.i18n.json": "assets/app/i18n/es.i18n.json",
+        "i18n/et.i18n.json": "assets/app/i18n/et.i18n.json",
+        "i18n/eu.i18n.json": "assets/app/i18n/eu.i18n.json",
+        "i18n/fa.i18n.json": "assets/app/i18n/fa.i18n.json",
+        "i18n/fi.i18n.json": "assets/app/i18n/fi.i18n.json",
+        "i18n/fr.i18n.json": "assets/app/i18n/fr.i18n.json",
+        "i18n/gl.i18n.json": "assets/app/i18n/gl.i18n.json",
+        "i18n/he.i18n.json": "assets/app/i18n/he.i18n.json",
+        "i18n/hi-IN.i18n.json": "assets/app/i18n/hi-IN.i18n.json",
+        "i18n/hi.i18n.json": "assets/app/i18n/hi.i18n.json",
+        "i18n/hr.i18n.json": "assets/app/i18n/hr.i18n.json",
+        "i18n/hu.i18n.json": "assets/app/i18n/hu.i18n.json",
+        "i18n/id.i18n.json": "assets/app/i18n/id.i18n.json",
+        "i18n/it.i18n.json": "assets/app/i18n/it.i18n.json",
+        "i18n/ja.i18n.json": "assets/app/i18n/ja.i18n.json",
+        "i18n/ka-GE.i18n.json": "assets/app/i18n/ka-GE.i18n.json",
+        "i18n/km.i18n.json": "assets/app/i18n/km.i18n.json",
+        "i18n/ko.i18n.json": "assets/app/i18n/ko.i18n.json",
+        "i18n/ku.i18n.json": "assets/app/i18n/ku.i18n.json",
+        "i18n/lo.i18n.json": "assets/app/i18n/lo.i18n.json",
+        "i18n/lt.i18n.json": "assets/app/i18n/lt.i18n.json",
+        "i18n/lv.i18n.json": "assets/app/i18n/lv.i18n.json",
+        "i18n/mn.i18n.json": "assets/app/i18n/mn.i18n.json",
+        "i18n/ms-MY.i18n.json": "assets/app/i18n/ms-MY.i18n.json",
+        "i18n/nb.i18n.json": "assets/app/i18n/nb.i18n.json",
+        "i18n/nl.i18n.json": "assets/app/i18n/nl.i18n.json",
+        "i18n/nn.i18n.json": "assets/app/i18n/nn.i18n.json",
+        "i18n/pa-IN.i18n.json": "assets/app/i18n/pa-IN.i18n.json",
+        "i18n/pl.i18n.json": "assets/app/i18n/pl.i18n.json",
+        "i18n/pt-BR.i18n.json": "assets/app/i18n/pt-BR.i18n.json",
+        "i18n/pt.i18n.json": "assets/app/i18n/pt.i18n.json",
+        "i18n/ro.i18n.json": "assets/app/i18n/ro.i18n.json",
+        "i18n/ru.i18n.json": "assets/app/i18n/ru.i18n.json",
+        "i18n/se.i18n.json": "assets/app/i18n/se.i18n.json",
+        "i18n/si.i18n.json": "assets/app/i18n/si.i18n.json",
+        "i18n/sk-SK.i18n.json": "assets/app/i18n/sk-SK.i18n.json",
+        "i18n/sl-SI.i18n.json": "assets/app/i18n/sl-SI.i18n.json",
+        "i18n/sq.i18n.json": "assets/app/i18n/sq.i18n.json",
+        "i18n/sr.i18n.json": "assets/app/i18n/sr.i18n.json",
+        "i18n/sv.i18n.json": "assets/app/i18n/sv.i18n.json",
+        "i18n/ta-IN.i18n.json": "assets/app/i18n/ta-IN.i18n.json",
+        "i18n/th-TH.i18n.json": "assets/app/i18n/th-TH.i18n.json",
+        "i18n/tr.i18n.json": "assets/app/i18n/tr.i18n.json",
+        "i18n/ug.i18n.json": "assets/app/i18n/ug.i18n.json",
+        "i18n/uk.i18n.json": "assets/app/i18n/uk.i18n.json",
+        "i18n/vi-VN.i18n.json": "assets/app/i18n/vi-VN.i18n.json",
+        "i18n/zh-HK.i18n.json": "assets/app/i18n/zh-HK.i18n.json",
+        "i18n/zh-TW.i18n.json": "assets/app/i18n/zh-TW.i18n.json",
+        "i18n/zh.i18n.json": "assets/app/i18n/zh.i18n.json",
+        "livechat/index.html": "assets/app/livechat/index.html",
+        "moment-locales/af.js": "assets/app/moment-locales/af.js",
+        "moment-locales/ar-dz.js": "assets/app/moment-locales/ar-dz.js",
+        "moment-locales/ar-kw.js": "assets/app/moment-locales/ar-kw.js",
+        "moment-locales/ar-ly.js": "assets/app/moment-locales/ar-ly.js",
+        "moment-locales/ar-ma.js": "assets/app/moment-locales/ar-ma.js",
+        "moment-locales/ar-ps.js": "assets/app/moment-locales/ar-ps.js",
+        "moment-locales/ar-sa.js": "assets/app/moment-locales/ar-sa.js",
+        "moment-locales/ar-tn.js": "assets/app/moment-locales/ar-tn.js",
+        "moment-locales/ar.js": "assets/app/moment-locales/ar.js",
+        "moment-locales/az.js": "assets/app/moment-locales/az.js",
+        "moment-locales/be.js": "assets/app/moment-locales/be.js",
+        "moment-locales/bg.js": "assets/app/moment-locales/bg.js",
+        "moment-locales/bm.js": "assets/app/moment-locales/bm.js",
+        "moment-locales/bn-bd.js": "assets/app/moment-locales/bn-bd.js",
+        "moment-locales/bn.js": "assets/app/moment-locales/bn.js",
+        "moment-locales/bo.js": "assets/app/moment-locales/bo.js",
+        "moment-locales/br.js": "assets/app/moment-locales/br.js",
+        "moment-locales/bs.js": "assets/app/moment-locales/bs.js",
+        "moment-locales/ca.js": "assets/app/moment-locales/ca.js",
+        "moment-locales/cs.js": "assets/app/moment-locales/cs.js",
+        "moment-locales/cv.js": "assets/app/moment-locales/cv.js",
+        "moment-locales/cy.js": "assets/app/moment-locales/cy.js",
+        "moment-locales/da.js": "assets/app/moment-locales/da.js",
+        "moment-locales/de-at.js": "assets/app/moment-locales/de-at.js",
+        "moment-locales/de-ch.js": "assets/app/moment-locales/de-ch.js",
+        "moment-locales/de.js": "assets/app/moment-locales/de.js",
+        "moment-locales/dv.js": "assets/app/moment-locales/dv.js",
+        "moment-locales/el.js": "assets/app/moment-locales/el.js",
+        "moment-locales/en-au.js": "assets/app/moment-locales/en-au.js",
+        "moment-locales/en-ca.js": "assets/app/moment-locales/en-ca.js",
+        "moment-locales/en-gb.js": "assets/app/moment-locales/en-gb.js",
+        "moment-locales/en-ie.js": "assets/app/moment-locales/en-ie.js",
+        "moment-locales/en-il.js": "assets/app/moment-locales/en-il.js",
+        "moment-locales/en-in.js": "assets/app/moment-locales/en-in.js",
+        "moment-locales/en-nz.js": "assets/app/moment-locales/en-nz.js",
+        "moment-locales/en-sg.js": "assets/app/moment-locales/en-sg.js",
+        "moment-locales/eo.js": "assets/app/moment-locales/eo.js",
+        "moment-locales/es-do.js": "assets/app/moment-locales/es-do.js",
+        "moment-locales/es-mx.js": "assets/app/moment-locales/es-mx.js",
+        "moment-locales/es-us.js": "assets/app/moment-locales/es-us.js",
+        "moment-locales/es.js": "assets/app/moment-locales/es.js",
+        "moment-locales/et.js": "assets/app/moment-locales/et.js",
+        "moment-locales/eu.js": "assets/app/moment-locales/eu.js",
+        "moment-locales/fa.js": "assets/app/moment-locales/fa.js",
+        "moment-locales/fi.js": "assets/app/moment-locales/fi.js",
+        "moment-locales/fil.js": "assets/app/moment-locales/fil.js",
+        "moment-locales/fo.js": "assets/app/moment-locales/fo.js",
+        "moment-locales/fr-ca.js": "assets/app/moment-locales/fr-ca.js",
+        "moment-locales/fr-ch.js": "assets/app/moment-locales/fr-ch.js",
+        "moment-locales/fr.js": "assets/app/moment-locales/fr.js",
+        "moment-locales/fy.js": "assets/app/moment-locales/fy.js",
+        "moment-locales/ga.js": "assets/app/moment-locales/ga.js",
+        "moment-locales/gd.js": "assets/app/moment-locales/gd.js",
+        "moment-locales/gl.js": "assets/app/moment-locales/gl.js",
+        "moment-locales/gom-deva.js": "assets/app/moment-locales/gom-deva.js",
+        "moment-locales/gom-latn.js": "assets/app/moment-locales/gom-latn.js",
+        "moment-locales/gu.js": "assets/app/moment-locales/gu.js",
+        "moment-locales/he.js": "assets/app/moment-locales/he.js",
+        "moment-locales/hi.js": "assets/app/moment-locales/hi.js",
+        "moment-locales/hr.js": "assets/app/moment-locales/hr.js",
+        "moment-locales/hu.js": "assets/app/moment-locales/hu.js",
+        "moment-locales/hy-am.js": "assets/app/moment-locales/hy-am.js",
+        "moment-locales/id.js": "assets/app/moment-locales/id.js",
+        "moment-locales/is.js": "assets/app/moment-locales/is.js",
+        "moment-locales/it-ch.js": "assets/app/moment-locales/it-ch.js",
+        "moment-locales/it.js": "assets/app/moment-locales/it.js",
+        "moment-locales/ja.js": "assets/app/moment-locales/ja.js",
+        "moment-locales/jv.js": "assets/app/moment-locales/jv.js",
+        "moment-locales/ka.js": "assets/app/moment-locales/ka.js",
+        "moment-locales/kk.js": "assets/app/moment-locales/kk.js",
+        "moment-locales/km.js": "assets/app/moment-locales/km.js",
+        "moment-locales/kn.js": "assets/app/moment-locales/kn.js",
+        "moment-locales/ko.js": "assets/app/moment-locales/ko.js",
+        "moment-locales/ku-kmr.js": "assets/app/moment-locales/ku-kmr.js",
+        "moment-locales/ku.js": "assets/app/moment-locales/ku.js",
+        "moment-locales/ky.js": "assets/app/moment-locales/ky.js",
+        "moment-locales/lb.js": "assets/app/moment-locales/lb.js",
+        "moment-locales/lo.js": "assets/app/moment-locales/lo.js",
+        "moment-locales/lt.js": "assets/app/moment-locales/lt.js",
+        "moment-locales/lv.js": "assets/app/moment-locales/lv.js",
+        "moment-locales/me.js": "assets/app/moment-locales/me.js",
+        "moment-locales/mi.js": "assets/app/moment-locales/mi.js",
+        "moment-locales/mk.js": "assets/app/moment-locales/mk.js",
+        "moment-locales/ml.js": "assets/app/moment-locales/ml.js",
+        "moment-locales/mn.js": "assets/app/moment-locales/mn.js",
+        "moment-locales/mr.js": "assets/app/moment-locales/mr.js",
+        "moment-locales/ms-my.js": "assets/app/moment-locales/ms-my.js",
+        "moment-locales/ms.js": "assets/app/moment-locales/ms.js",
+        "moment-locales/mt.js": "assets/app/moment-locales/mt.js",
+        "moment-locales/my.js": "assets/app/moment-locales/my.js",
+        "moment-locales/nb.js": "assets/app/moment-locales/nb.js",
+        "moment-locales/ne.js": "assets/app/moment-locales/ne.js",
+        "moment-locales/nl-be.js": "assets/app/moment-locales/nl-be.js",
+        "moment-locales/nl.js": "assets/app/moment-locales/nl.js",
+        "moment-locales/nn.js": "assets/app/moment-locales/nn.js",
+        "moment-locales/oc-lnc.js": "assets/app/moment-locales/oc-lnc.js",
+        "moment-locales/pa-in.js": "assets/app/moment-locales/pa-in.js",
+        "moment-locales/pl.js": "assets/app/moment-locales/pl.js",
+        "moment-locales/pt-br.js": "assets/app/moment-locales/pt-br.js",
+        "moment-locales/pt.js": "assets/app/moment-locales/pt.js",
+        "moment-locales/ro.js": "assets/app/moment-locales/ro.js",
+        "moment-locales/ru.js": "assets/app/moment-locales/ru.js",
+        "moment-locales/sd.js": "assets/app/moment-locales/sd.js",
+        "moment-locales/se.js": "assets/app/moment-locales/se.js",
+        "moment-locales/si.js": "assets/app/moment-locales/si.js",
+        "moment-locales/sk.js": "assets/app/moment-locales/sk.js",
+        "moment-locales/sl.js": "assets/app/moment-locales/sl.js",
+        "moment-locales/sq.js": "assets/app/moment-locales/sq.js",
+        "moment-locales/sr-cyrl.js": "assets/app/moment-locales/sr-cyrl.js",
+        "moment-locales/sr.js": "assets/app/moment-locales/sr.js",
+        "moment-locales/ss.js": "assets/app/moment-locales/ss.js",
+        "moment-locales/sv.js": "assets/app/moment-locales/sv.js",
+        "moment-locales/sw.js": "assets/app/moment-locales/sw.js",
+        "moment-locales/ta.js": "assets/app/moment-locales/ta.js",
+        "moment-locales/te.js": "assets/app/moment-locales/te.js",
+        "moment-locales/tet.js": "assets/app/moment-locales/tet.js",
+        "moment-locales/tg.js": "assets/app/moment-locales/tg.js",
+        "moment-locales/th.js": "assets/app/moment-locales/th.js",
+        "moment-locales/tk.js": "assets/app/moment-locales/tk.js",
+        "moment-locales/tl-ph.js": "assets/app/moment-locales/tl-ph.js",
+        "moment-locales/tlh.js": "assets/app/moment-locales/tlh.js",
+        "moment-locales/tr.js": "assets/app/moment-locales/tr.js",
+        "moment-locales/tzl.js": "assets/app/moment-locales/tzl.js",
+        "moment-locales/tzm-latn.js": "assets/app/moment-locales/tzm-latn.js",
+        "moment-locales/tzm.js": "assets/app/moment-locales/tzm.js",
+        "moment-locales/ug-cn.js": "assets/app/moment-locales/ug-cn.js",
+        "moment-locales/uk.js": "assets/app/moment-locales/uk.js",
+        "moment-locales/ur.js": "assets/app/moment-locales/ur.js",
+        "moment-locales/uz-latn.js": "assets/app/moment-locales/uz-latn.js",
+        "moment-locales/uz.js": "assets/app/moment-locales/uz.js",
+        "moment-locales/vi.js": "assets/app/moment-locales/vi.js",
+        "moment-locales/x-pseudo.js": "assets/app/moment-locales/x-pseudo.js",
+        "moment-locales/yo.js": "assets/app/moment-locales/yo.js",
+        "moment-locales/zh-cn.js": "assets/app/moment-locales/zh-cn.js",
+        "moment-locales/zh-hk.js": "assets/app/moment-locales/zh-hk.js",
+        "moment-locales/zh-mo.js": "assets/app/moment-locales/zh-mo.js",
+        "moment-locales/zh-tw.js": "assets/app/moment-locales/zh-tw.js",
+        "public/icons.svg": "assets/app/public/icons.svg",
+        "client/imports/general/variables.css": "assets/app/client/imports/general/variables.css"
+      }
+    }
+  ]
+}

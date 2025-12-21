@@ -1,0 +1,2 @@
+function module(e,t,a){let s,n,r;a.link("react-i18next",{useTranslation(e){s=e}},0),a.link("../../../../components/GenericResourceUsage",{GenericResourceUsage(e){n=e}},1),a.link("react/jsx-runtime",{jsx(e){r=e}},2),a.exportDefault(e=>{let{limit:t,members:a}=e,{t:i}=s();return r(n,{title:i("Seats_Available",{seatsLeft:Math.max(0,t-a)}),value:a,max:t,percentage:Math.max(0,Math.min(100/t*a,100)),"data-testid":"seats-cap-progress-bar"})})}
+//# sourceMappingURL=/dynamic/client/views/admin/users/SeatsCapUsage/3085af11261403231b079a54fbba7ac0cd827d35.map

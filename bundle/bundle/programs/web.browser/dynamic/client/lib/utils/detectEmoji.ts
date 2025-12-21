@@ -1,0 +1,2 @@
+function module(e,t,n){let r;n.export({detectEmoji:()=>a}),n.link("../../../app/emoji/client",{emoji(e){r=e}},0);let a=e=>{let t=Object.values(r.packages).reverse().reduce((e,t)=>{let{render:n}=t;return n(e)},e),n=document.createElement("div");return n.innerHTML=t,Array.from(n.querySelectorAll("span")).map(e=>({name:e.title,className:e.className,image:e.style.backgroundImage||void 0,content:e.innerText}))}}
+//# sourceMappingURL=/dynamic/client/lib/utils/d660d2850a8418c7e37b3fa87110506733df6766.map

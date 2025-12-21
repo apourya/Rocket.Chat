@@ -1,0 +1,2 @@
+function module(t,n,e){var o,i,u;e.link("react-i18next",{useTranslation:function(t){o=t}},0),e.link("../../components/NotFoundState",{default:function(t){i=t}},1),e.link("react/jsx-runtime",{jsx:function(t){u=t}},2),e.exportDefault(function(){var t=o().t;return u(i,{title:t("Page_not_found"),subtitle:t("Page_not_exist_or_not_permission")})})}
+//# sourceMappingURL=/dynamic/client/views/notFound/e4390bc4f2ac7cfead389dc1355489434660d4b5.map

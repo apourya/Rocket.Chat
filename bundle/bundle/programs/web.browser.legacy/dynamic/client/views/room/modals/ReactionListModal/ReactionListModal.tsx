@@ -1,0 +1,2 @@
+function module(n,t,e){var i,o,r,c;e.link("@rocket.chat/ui-client",{GenericModal:function(n){i=n}},0),e.link("react-i18next",{useTranslation:function(n){o=n}},1),e.link("./Reactions",{default:function(n){r=n}},2),e.link("react/jsx-runtime",{jsx:function(n){c=n}},3),e.exportDefault(function(n){var t=n.reactions,e=n.onClose,a=o().t;return c(i,{variant:"info",title:a("Users_reacted"),onClose:e,onConfirm:e,confirmText:a("Close"),children:c(r,{reactions:t})})})}
+//# sourceMappingURL=/dynamic/client/views/room/modals/ReactionListModal/c19dbe724b4563ed519425aa0005fb2c00ef5bda.map

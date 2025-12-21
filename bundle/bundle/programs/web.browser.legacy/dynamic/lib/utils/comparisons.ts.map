@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/lib/utils/comparisons.ts","meteor://💻app/<anon>"],"sourcesContent":["export const compareByRanking =\n\t<T>(rank: (x: T) => number) =>\n\t(a: T, b: T) => {\n\t\treturn rank(a) - rank(b);\n\t};\n",null],"names":["module","export","compareByRanking","rank","a","b"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,iBACR,WACC,OAAUA,CAAA,CAAA,GAFT,IAAMA,EACR,SAAAC,CAAsB,EAAA,OAC1B,SAACC,CAAI,CAAEC,CAAI,EACV,OAAOF,EAAKC,GAAKD,EAAKE,EACvB,CAAC"}

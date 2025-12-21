@@ -1,0 +1,2 @@
+function module(e,n,s){let o,u,i;s.export({useOutboundMessageAccess:()=>l}),s.link("@rocket.chat/ui-contexts",{usePermission(e){o=e}},0),s.link("../../../../hooks/omnichannel/useOmnichannelEnabled",{useOmnichannelEnabled(e){u=e}},1),s.link("../../../../hooks/useHasLicenseModule",{useHasLicenseModule(e){i=e}},2);let l=()=>{let e=u(),n=!0===i("livechat-enterprise"),s=!0===i("outbound-messaging"),l=o("outbound.send-messages");return!!e&&(!n||!s||l)}}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/hooks/b9ac8d061da2bdfe8ad364bebb432f59c3ad8200.map

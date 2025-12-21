@@ -1,0 +1,2 @@
+function module(e,t,a){let s,u,c,i;a.export({useMainReady:()=>n}),a.link("@rocket.chat/ui-contexts",{useUserId(e){s=e}},0),a.link("../../../cachedStores",{PublicSettingsCachedStore(e){u=e},SubscriptionsCachedStore(e){c=e}},1),a.link("../../../lib/userData",{useUserDataSyncReady(e){i=e}},2);let n=()=>{let e=s(),t=c.useReady(),a=u.useReady(),n=i();return!e||n&&t&&a}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/3ae33278f8245d933ff0785c58bb31c54acfc5c0.map

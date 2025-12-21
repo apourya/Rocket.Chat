@@ -1,0 +1,2 @@
+function module(t,e,n){let a,o,u;n.link("@babel/runtime/helpers/objectSpread2",{default(t){a=t}},0),n.export({useRemoveWebDAVAccountIntegrationMutation:()=>c}),n.link("@rocket.chat/ui-contexts",{useEndpoint(t){o=t}},0),n.link("@tanstack/react-query",{useMutation(t){u=t}},1);let c=t=>{let e=o("POST","/v1/webdav.removeWebdavAccount");return u(a({mutationFn:async t=>{let{accountSelected:n}=t;await e({accountId:n})}},t))}}
+//# sourceMappingURL=/dynamic/client/views/account/integrations/hooks/76471962741e5b7bf913c83c93d84fb45de6deab.map

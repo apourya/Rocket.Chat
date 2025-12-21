@@ -1,0 +1,2 @@
+function module(r,e,n){n.link("@babel/runtime/helpers/inheritsLoose",{default:function(r){t=r}},0),n.link("@babel/runtime/helpers/wrapNativeSuper",{default:function(r){i=r}},1),n.export({RocketChatError:function(){return o}});var t,i,o=function(r){function e(e,n,t){var i;return(i=r.call(this,n?n+" ["+e+"]":"["+e+"]")||this).error=void 0,i.reason=void 0,i.details=void 0,i.error=e,i.reason=n,i.details=t,i}return t(e,r),e}(i(Error))}
+//# sourceMappingURL=/dynamic/client/lib/errors/7d8e752391956b168f82fe3a752186bfa36bb8c6.map

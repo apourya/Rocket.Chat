@@ -1,0 +1,2 @@
+function module(e,t,r){let s,u;r.export({useMemberExists:()=>n}),r.link("@rocket.chat/ui-contexts",{useEndpoint(e){s=e}},0),r.link("@tanstack/react-query",{useQuery(e){u=e}},1);let n=e=>{let{roomId:t,username:r}=e,n=s("GET","/v1/rooms.isMember");return u({queryKey:["rooms/isMember",t,r],queryFn:()=>n({roomId:t,username:r})})}}
+//# sourceMappingURL=/dynamic/client/views/hooks/9ec3ec296773ce4d2b6d5c746e71153ef027167b.map

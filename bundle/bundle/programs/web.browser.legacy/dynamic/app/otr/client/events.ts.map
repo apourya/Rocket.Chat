@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/otr/client/events.ts","meteor://💻app/<anon>"],"sourcesContent":["import { Accounts } from 'meteor/accounts-base';\n\nimport OTR from './OTR';\n\nAccounts.onLogout(() => {\n\tOTR.closeAllInstances();\n});\n",null],"names":["Accounts","OTR","module","link","v","onLogout","closeAllInstances"],"mappings":"2BAAAA,EAA+CC,EAAtCC,EAAQC,IAAA,CAAQ,uBAAsB,CAAAH,SAAA,SAAAI,CAAA,EAAAJ,EAAAI,CAAA,CAAA,EAAA,GAAAF,EAAAC,IAAA,CAAA,QAAA,CAAA,QAAA,SAAAC,CAAA,EAAAH,EAAAG,CAAA,CAAA,EAAA,GAI/CJ,EAASK,QAAQ,CAAC,WACjBJ,EAAIK,iBAAiB,EACtB"}

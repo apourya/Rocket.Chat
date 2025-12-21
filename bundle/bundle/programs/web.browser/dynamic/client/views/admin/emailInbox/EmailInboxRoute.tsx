@@ -1,0 +1,2 @@
+function module(e,t,i){let n,o,a,l;i.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),i.link("./EmailInboxPage",{default(e){o=e}},1),i.link("../../notAuthorized/NotAuthorizedPage",{default(e){a=e}},2),i.link("react/jsx-runtime",{jsx(e){l=e}},3),i.exportDefault(()=>n("manage-email-inbox")?l(o,{}):l(a,{}))}
+//# sourceMappingURL=/dynamic/client/views/admin/emailInbox/fa5717d091f81ef0deab60012417daf4919fe067.map

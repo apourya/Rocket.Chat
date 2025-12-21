@@ -1,0 +1,2 @@
+function module(t,e,i){let l,o,u;i.export({useCustomScript:()=>r}),i.link("@rocket.chat/ui-contexts",{useUserId(t){l=t}},0),i.link("react",{useEffect(t){o=t}},1),i.link("../../../lib/utils/fireGlobalEvent",{fireGlobalEvent(t){u=t}},2);let r=()=>{let t=l();o(()=>{if(t){u("Custom_Script_Logged_In");return}u("Custom_Script_Logged_Out")},[t])}}
+//# sourceMappingURL=/dynamic/client/views/root/MainLayout/5ad876390404c9a065968066b77e92df4e084db4.map

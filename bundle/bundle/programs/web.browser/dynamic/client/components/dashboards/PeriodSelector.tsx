@@ -1,0 +1,2 @@
+function module(e,l,t){let a,n,i,r,o;t.link("@rocket.chat/fuselage",{Select(e){a=e}},0),t.link("react",{useMemo(e){n=e}},1),t.link("react-i18next",{useTranslation(e){i=e}},2),t.link("./periods",{getPeriod(e){r=e}},3),t.link("react/jsx-runtime",{jsx(e){o=e}},4),t.exportDefault(e=>{let{periods:l,value:t,name:u,onChange:c}=e,{t:s}=i(),k=n(()=>l.map(e=>[e,s(...r(e).label)]),[l,s]);return o(a,{name:u,options:k,value:t,onChange:e=>c(e),"aria-label":s("Select_period")})})}
+//# sourceMappingURL=/dynamic/client/components/dashboards/e38513a99b276b70d7441887b79414862718ecac.map

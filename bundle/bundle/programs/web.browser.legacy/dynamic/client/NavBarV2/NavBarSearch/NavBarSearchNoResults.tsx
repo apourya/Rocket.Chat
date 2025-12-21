@@ -1,0 +1,2 @@
+function module(n,e,t){var i,r,o;t.link("react-i18next",{useTranslation:function(n){i=n}},0),t.link("../../components/GenericNoResults",{default:function(n){r=n}},1),t.link("react/jsx-runtime",{jsx:function(n){o=n}},2),t.exportDefault(function(){var n=i().t;return o(r,{description:n("Try_entering_a_different_search_term")})})}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarSearch/cf71b0085057f487043b5d7261e5905c45b118b1.map

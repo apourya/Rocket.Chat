@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useChannelSettingsRoomAction:function(){return i}}),t.link("react",{lazy:function(n){e=n},useMemo:function(n){r=n}},0);var e,r,u=e(function(){return t.dynamicImport("../../views/room/contextualBar/Info")}),i=function(){return r(function(){return{id:"channel-settings",groups:["channel","group"],anonymous:!0,full:!0,title:"Room_Info",icon:"info-circled",tabComponent:u,order:1}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/7d4fb0501ad9ea34b99dc2c98dc54798a2ec78e4.map

@@ -1,0 +1,2 @@
+function module(t,e,n){n.link("@babel/runtime/helpers/inheritsLoose",{default:function(t){i=t}},0),n.export({MessageList:function(){return o}}),n.link("./RecordList",{RecordList:function(t){r=t}},0);var i,r,o=function(t){function e(){return t.apply(this,arguments)||this}i(e,t);var n=e.prototype;return n.filter=function(t){return!0!==t._hidden},n.compare=function(t,e){return t.ts.getTime()-e.ts.getTime()},e}(r)}
+//# sourceMappingURL=/dynamic/client/lib/lists/e679ef97815446ff94696735b36c1463f934f76b.map

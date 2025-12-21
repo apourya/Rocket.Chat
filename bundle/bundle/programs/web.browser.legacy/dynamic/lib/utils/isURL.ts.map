@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/lib/utils/isURL.ts","meteor://💻app/<anon>"],"sourcesContent":["/**\n * @todo rename it as isAbsoluteURL\n */\nexport const isURL = (str: string): boolean => /^(https?:\\/\\/|data:)/.test(str);\n",null],"names":["module","export","isURL","str","test"],"mappings":"uBAAAA,EAAAC,MAAA,CAAA,CAAAC,MAAA,WAAA,OAAAA,CAAA,CAAA,GAGO,IAAMA,EAAS,SAAAC,CAAW,EAAA,MAAc,uBAAuBC,IAAI,CAACD,EAAI"}

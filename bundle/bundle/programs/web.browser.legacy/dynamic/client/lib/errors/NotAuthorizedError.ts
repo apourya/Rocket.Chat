@@ -1,0 +1,2 @@
+function module(t,r,o){o.link("@babel/runtime/helpers/inheritsLoose",{default:function(t){n=t}},0),o.export({NotAuthorizedError:function(){return i}}),o.link("./RocketChatError",{RocketChatError:function(t){e=t}},0);var n,e,i=function(t){function r(){var r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Not authorized",o=arguments.length>1?arguments[1]:void 0;return t.call(this,"not-authorized",r,o)||this}return n(r,t),r}(e)}
+//# sourceMappingURL=/dynamic/client/lib/errors/1dfb2fb1b009a95975eab0f117494bc7fe5b2551.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let u,l,r,i;n.export({useTimezoneTime:()=>f}),n.link("moment",{default(e){u=e}},0),n.link("react",{useState(e){l=e},useEffect(e){r=e}},1),n.link("./useFormatTime",{useFormatTime(e){i=e}},2);let f=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:1e3,[n,f]=l(()=>u().utcOffset(e)),o=i();return r(()=>{if(void 0===e)return;let n=()=>{f(u().utcOffset(e))},l=setInterval(n,t);return n(),()=>{clearInterval(l)}},[e,t]),o(n)}}
+//# sourceMappingURL=/dynamic/client/hooks/41d632ca89c148e238f719a6914e2f91669e04a1.map

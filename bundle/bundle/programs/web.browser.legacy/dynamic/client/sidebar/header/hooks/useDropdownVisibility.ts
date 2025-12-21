@@ -1,0 +1,2 @@
+function module(e,n,i){i.link("@babel/runtime/helpers/slicedToArray",{default:function(e){t=e}},0),i.export({useDropdownVisibility:function(){return l}}),i.link("@rocket.chat/fuselage-hooks",{useToggle:function(e){u=e},useOutsideClick:function(e){r=e}},0),i.link("react",{useCallback:function(e){o=e}},1);var t,u,r,o,l=function(e){var n=e.reference,i=e.target,l=u(!1),c=t(l,2),s=c[0],a=c[1];return r([i,n],o(function(){return a(!1)},[a])),{isVisible:s,toggle:a}}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/hooks/f9a6f2c9ec90dcef72f227971ae547967f5b482f.map

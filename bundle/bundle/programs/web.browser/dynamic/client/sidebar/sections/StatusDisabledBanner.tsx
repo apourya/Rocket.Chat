@@ -1,0 +1,2 @@
+function module(e,t,s){let a,i,l,n;s.link("@rocket.chat/fuselage",{SidebarBanner(e){a=e}},0),s.link("react-i18next",{useTranslation(e){i=e}},1),s.link("../../views/admin/customUserStatus/hooks/useStatusDisabledModal",{useStatusDisabledModal(e){l=e}},2),s.link("react/jsx-runtime",{jsx(e){n=e}},3),s.exportDefault(e=>{let{onDismiss:t}=e,{t:s}=i(),r=l();return n(a,{text:s("User_status_temporarily_disabled"),description:s("Learn_more"),onClose:t,onClick:r})})}
+//# sourceMappingURL=/dynamic/client/sidebar/sections/ae2ca5186e022554bf43e8ac7d2f754de14c481e.map

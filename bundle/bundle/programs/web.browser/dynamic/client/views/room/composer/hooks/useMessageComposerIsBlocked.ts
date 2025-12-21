@@ -1,0 +1,2 @@
+function module(e,o,t){let s,l;t.export({useMessageComposerIsBlocked:()=>r}),t.link("@rocket.chat/core-typings",{isDirectMessageRoom(e){s=e}},0),t.link("../../contexts/RoomContext",{useRoom(e){l=e}},1);let r=e=>{let{subscription:o}=e,t=l();if(!s(t)||!o)return!1;let r=!!o.blocked,c=!!o.blocker;return r||c}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/ae19027b5b655819dda2b29f6fae6ebedba2b91c.map

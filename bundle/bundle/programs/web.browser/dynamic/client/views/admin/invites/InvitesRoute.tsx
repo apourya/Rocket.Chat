@@ -1,0 +1,2 @@
+function module(e,t,i){let n,l,o,u;i.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),i.link("./InvitesPage",{default(e){l=e}},1),i.link("../../notAuthorized/NotAuthorizedPage",{default(e){o=e}},2),i.link("react/jsx-runtime",{jsx(e){u=e}},3),i.exportDefault(()=>n("create-invite-links")?u(l,{}):u(o,{}))}
+//# sourceMappingURL=/dynamic/client/views/admin/invites/182703638ce9133517203ee25245d1755c4abac9.map

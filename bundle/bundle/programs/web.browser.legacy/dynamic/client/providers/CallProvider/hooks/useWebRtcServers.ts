@@ -1,0 +1,2 @@
+function module(e,n,r){r.export({useWebRtcServers:function(){return u}}),r.link("@rocket.chat/ui-contexts",{useSetting:function(e){t=e}},0),r.link("react",{useMemo:function(e){i=e}},1),r.link("../lib/parseStringToIceServers",{parseStringToIceServers:function(e){o=e}},2);var t,i,o,u=function(){var e=t("WebRTC_Servers");return i(function(){return"string"==typeof e&&e.trim()?o(e):[]},[e])}}
+//# sourceMappingURL=/dynamic/client/providers/CallProvider/hooks/4e0a92e1ba516c1032f68f87776c8101a38b890a.map

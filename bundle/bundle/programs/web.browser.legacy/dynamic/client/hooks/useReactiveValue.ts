@@ -1,0 +1,2 @@
+function module(e,n,t){t.link("@babel/runtime/helpers/slicedToArray",{default:function(e){r=e}},0),t.export({useReactiveValue:function(){return o}}),t.link("react",{useMemo:function(e){i=e},useSyncExternalStore:function(e){c=e}},0),t.link("../lib/createReactiveSubscriptionFactory",{createReactiveSubscriptionFactory:function(e){u=e}},1);var r,i,c,u,o=function(e){var n=i(function(){return u(e)()},[e]),t=r(n,2),o=t[0],a=t[1];return c(o,a)}}
+//# sourceMappingURL=/dynamic/client/hooks/692fdb2aa8ad82d8f4d3d90c246e76a62135d201.map

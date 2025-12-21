@@ -1,0 +1,2 @@
+function module(e,t,a){let n,i,l,r;a.link("react",{memo(e){n=e}},0),a.link("./SidePanelParentRoom",{default(e){i=e}},1),a.link("./SidePanelParentTeam",{default(e){l=e}},2),a.link("react/jsx-runtime",{jsx(e){r=e}},3),a.exportDefault(n(e=>{let{room:t}=e;return t.prid?r(i,{prid:t.prid}):t.teamId&&!t.teamMain&&r(l,{room:t})}))}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidepanel/SidepanelItem/0dfa073febcfa072400c45bbd475623465e2a5ff.map

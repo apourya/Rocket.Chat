@@ -1,0 +1,2 @@
+function module(n,e,l){var o,t,c;l.link("@rocket.chat/fuselage",{Skeleton:function(n){o=n}},0),l.link("./InviteUsersWrapper",{default:function(n){t=n}},1),l.link("react/jsx-runtime",{jsx:function(n){c=n}},2),l.exportDefault(function(n){var e=n.onClose,l=n.onClickBack;return c(t,{onClose:e,onClickBack:l,children:c(o,{w:"full"})})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomMembers/InviteUsers/c61d42e318267a2fc63e4f510478755a95d14209.map

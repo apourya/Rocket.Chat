@@ -1,0 +1,2 @@
+function module(t,i,s){let o;s.export({ImagesList:()=>r}),s.link("./RecordList",{RecordList(t){o=t}},0);let e=(t,i)=>t.rid===i&&"rid"in t;class r extends o{constructor(t){super(),this._options=void 0,this._options=t}get options(){return this._options}updateFilters(t){this._options=t,this.clear()}filter(t){let{roomId:i}=this._options;return!!e(t,i)}}}
+//# sourceMappingURL=/dynamic/client/lib/lists/899ccd1e26f915bed5a10f9cad748560417e0b09.map

@@ -1,0 +1,2 @@
+function module(e,a,n){let t,l,i,u,m;n.link("./SidePanelTag",{default(e){t=e}},0),n.link("./SidePanelTagIcon",{default(e){l=e}},1),n.link("./useParentTeamData",{useParentTeamData(e){i=e}},2),n.link("react/jsx-runtime",{jsx(e){u=e},jsxs(e){m=e}},3),n.exportDefault(e=>{let{room:a}=e,{teamName:n,shouldDisplayTeam:r,teamInfoError:d,isTeamPublic:c}=i(a.teamId);return d||!r?null:m(t,{children:[u(l,{icon:{name:c?"team":"team-lock"}}),n]})})}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidepanel/SidepanelItem/66ec2c7888e72664530763efdf8ce3cf7dca6026.map

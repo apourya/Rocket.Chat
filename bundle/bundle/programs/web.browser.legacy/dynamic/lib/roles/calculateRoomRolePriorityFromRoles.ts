@@ -1,0 +1,2 @@
+function module(o,n,t){t.export({getRoomRolePriorityForRole:function(){return e},calculateRoomRolePriorityFromRoles:function(){return u}}),t.link("@rocket.chat/core-typings",{ROOM_ROLE_PRIORITY_MAP:function(o){r=o}},0);var r,e=function(o){var n;return null!==(n=r[o])&&void 0!==n?n:r.default},u=function(o){return o.reduce(function(o,n){return Math.min(o,e(n))},r.default)}}
+//# sourceMappingURL=/dynamic/lib/roles/4bdfbdba09060c46df5823e8df3da9e7c6fef5b8.map

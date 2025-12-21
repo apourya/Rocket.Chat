@@ -1,0 +1,2 @@
+function module(e,o,t){let r,a;t.export({useRocketSearchRoomAction:()=>i}),t.link("react",{lazy(e){r=e},useMemo(e){a=e}},0);let c=r(()=>t.dynamicImport("../../views/room/contextualBar/MessageSearchTab")),i=()=>a(()=>({id:"rocket-search",groups:["channel","group","direct","direct_multiple","live","team"],title:"Search_Messages",icon:"magnifier",tabComponent:c,order:5}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/023b407d8f02da87d8eaa11b9a7479f0aa3e710b.map

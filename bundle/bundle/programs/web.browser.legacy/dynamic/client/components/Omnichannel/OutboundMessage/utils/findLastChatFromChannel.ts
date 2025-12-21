@@ -1,0 +1,2 @@
+function module(n,t,o){o.export({findLastChatFromChannel:function(){return i}});var i=function(){var n,t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:[],o=arguments.length>1?arguments[1]:void 0,i=t.find(function(n){return n.name===o});return null==i?void 0:null===(n=i.lastChat)||void 0===n?void 0:n.ts}}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/utils/4ad408e2c4266945329c318093044878cb69854f.map

@@ -1,0 +1,2 @@
+function module(e,n,t){let l,a,i,o,r,s,u;t.link("react-i18next",{useTranslation(e){l=e}},0),t.link("./components/AuditLogTable",{default(e){a=e}},1),t.link("../../components/Page",{Page(e){i=e},PageHeader(e){o=e},PageContent(e){r=e}},2),t.link("react/jsx-runtime",{jsx(e){s=e},jsxs(e){u=e}},3),t.exportDefault(()=>{let{t:e}=l();return u(i,{children:[s(o,{title:e("Message_auditing_log")}),s(r,{children:s(a,{})})]})})}
+//# sourceMappingURL=/dynamic/client/views/audit/267d343d69d002f2d06c9b76ed66a12b1d93d673.map

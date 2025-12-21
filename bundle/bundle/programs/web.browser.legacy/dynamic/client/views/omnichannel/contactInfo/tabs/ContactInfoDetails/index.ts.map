@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/omnichannel/contactInfo/tabs/ContactInfoDetails/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './ContactInfoDetails';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,uBAAe,CAAA,QAAA,SAAsB,EAAA"}

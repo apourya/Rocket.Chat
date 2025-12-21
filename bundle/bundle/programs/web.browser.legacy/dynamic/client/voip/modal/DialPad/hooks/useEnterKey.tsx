@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({useEnterKey:function(){return r}}),t.link("react",{useEffect:function(n){o=n}},0);var o,r=function(n,e){o(function(){var t=function(t){"Enter"!==t.key||e||(t.stopPropagation(),n())};return window.addEventListener("keydown",t),function(){window.removeEventListener("keydown",t)}},[e,n])}}
+//# sourceMappingURL=/dynamic/client/voip/modal/DialPad/hooks/fe2046fddba9ff6bf5902a9e9bccfd8ae911df20.map

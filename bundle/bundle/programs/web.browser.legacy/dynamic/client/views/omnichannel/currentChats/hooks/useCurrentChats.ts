@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({useCurrentChats:function(){return o}}),t.link("@rocket.chat/fuselage-hooks",{useDebouncedValue:function(n){u=n}},0),t.link("@rocket.chat/ui-contexts",{useEndpoint:function(n){r=n}},1),t.link("@tanstack/react-query",{useQuery:function(n){c=n}},2);var u,r,c,o=function(n){var e=r("GET","/v1/livechat/rooms"),t=u(n,500);return c({queryKey:["current-chats",t],queryFn:function(){return e(t)},refetchOnWindowFocus:!1,gcTime:0})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/currentChats/hooks/0b29b2dea402e707c333e4fe594cdf9d812d0beb.map

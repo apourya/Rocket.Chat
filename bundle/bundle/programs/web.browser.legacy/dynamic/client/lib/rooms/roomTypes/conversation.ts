@@ -1,0 +1,2 @@
+function module(o,n,e){e.link("@babel/runtime/helpers/objectSpread2",{default:function(o){r=o}},0),e.export({ConversationRoomType:function(){return a}}),e.link("../../../../lib/rooms/roomTypes/conversation",{getConversationRoomType:function(o){t=o}},0),e.link("../roomCoordinator",{roomCoordinator:function(o){i=o}},1);var r,t,i,a=t(i);i.add(r(r({},a),{},{label:"Conversations"}),{})}
+//# sourceMappingURL=/dynamic/client/lib/rooms/roomTypes/0df5fc809ebfd09e369f9c8d30dc6d850a4a9671.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/marketplace/helpers/filterAppsByEnterprise.ts","meteor://💻app/<anon>"],"sourcesContent":["import type { App } from '../types';\n\nexport const filterAppsByEnterprise = ({ isEnterpriseOnly }: Partial<App>): boolean => Boolean(isEnterpriseOnly);\n",null],"names":["module","export","filterAppsByEnterprise","_ref","Boolean","isEnterpriseOnly"],"mappings":"uBAEAA,EAAOC,MAAM,CAAA,CAAAC,uBAAyB,WAAC,OAAAA,CAAA,CAAA,GAAhC,IAAMA,EAAyB,SAAAC,CAAA,EAAG,MAA8CC,CAAAA,CAA9CD,EAAAE,gBAAA,AAAuE"}

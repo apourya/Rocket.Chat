@@ -1,0 +1,2 @@
+function module(t,n,e){e.export({getUidDirectMessage:function(){return o}}),e.link("../../stores",{Rooms:function(t){i=t}},0),e.link("../user",{getUserId:function(t){u=t}},1);var i,u,o=function(t){var n,e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null!==(n=u())&&void 0!==n?n:void 0,o=i.state.get(t);if(o&&"d"===o.t&&o.uids&&!(o.uids.length>2))return o.uids.filter(function(t){return t!==e})[0]}}
+//# sourceMappingURL=/dynamic/client/lib/utils/0d2f42c94e8d39a4987fb025fd591574a5e7a74a.map

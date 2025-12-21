@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/hooks/useUserInfoActions/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { useUserInfoActions } from './useUserInfoActions';\n",null],"names":["module","link","useUserInfoActions"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,uBAA0B,CAAAC,mBAAA,oBAAsB,EAAA"}

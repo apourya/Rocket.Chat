@@ -1,0 +1,2 @@
+function module(o,n,t){t.export({useNewMessageNotification:function(){return u}}),t.link("@rocket.chat/fuselage-hooks",{useEffectEvent:function(o){i=o}},0),t.link("@rocket.chat/ui-contexts",{useCustomSound:function(o){e=o}},1);var i,e,u=function(){var o=e().notificationSounds;return i(function(n){if(n&&"none"!==n.audioNotificationValue){if(null!=n&&n.audioNotificationValue)return o.playNewMessageCustom(n.audioNotificationValue);o.playNewMessage()}})}}
+//# sourceMappingURL=/dynamic/client/hooks/notification/89885b4f7bda732ad03e4b8fe0e7cc84d0d88489.map

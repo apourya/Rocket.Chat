@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/sidebarv2/footer/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './SidebarFooter';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,kBAAe,CAAA,QAAA,SAAiB,EAAA"}

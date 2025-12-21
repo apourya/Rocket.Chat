@@ -1,0 +1,2 @@
+function module(e,n,o){o.export({useAccessiblityPreferencesValues:function(){return i}}),o.link("@rocket.chat/ui-contexts",{useUserPreference:function(e){t=e}},0);var t,i=function(){var e;return{themeAppearence:t("themeAppearence")||"auto",fontSize:t("fontSize")||"100%",mentionsWithSymbol:t("mentionsWithSymbol")||!1,clockMode:null!==(e=t("clockMode"))&&void 0!==e?e:0,hideUsernames:t("hideUsernames"),hideRoles:t("hideRoles")}}}
+//# sourceMappingURL=/dynamic/client/views/account/accessibility/hooks/3352a8bae6eed6e3102540364f668937a0bb8db4.map

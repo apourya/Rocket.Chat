@@ -1,0 +1,2 @@
+function module(e,t,i){let a;i.export({useBannerContextValue:()=>n}),i.link("./useUiKitActionManager",{useUiKitActionManager(e){a=e}},0);let n=e=>{let{view:t,values:i}=e,n=a();return{action:async e=>{let{appId:i,viewId:a,actionId:o,blockId:d,value:p}=e;i&&a&&(await n.emitInteraction(i,{type:"blockAction",actionId:o,container:{type:"view",id:a},payload:{blockId:d,value:p}}),n.disposeView(t.viewId))},updateState:()=>void 0,appId:t.appId,viewId:t.viewId,values:i}}}
+//# sourceMappingURL=/dynamic/client/uikit/hooks/36c136cc2bb5cfcf0c4270c307af0d27c3282e03.map

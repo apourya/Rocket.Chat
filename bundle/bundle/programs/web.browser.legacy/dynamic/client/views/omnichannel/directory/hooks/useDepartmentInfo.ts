@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useDepartmentInfo:function(){return i}}),e.link("@rocket.chat/ui-contexts",{useEndpoint:function(n){r=n}},0),e.link("@tanstack/react-query",{useQuery:function(n){u=n}},1);var r,u,i=function(n){var t=r("GET","/v1/livechat/department/:_id",{_id:n});return u({queryKey:["livechat/department",n],queryFn:function(){return t({})}})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/hooks/e9adfa876f1cc7a039a081729c1bef60cc118093.map

@@ -1,0 +1,2 @@
+function module(o,e,t){let n,a;t.export({useTeamInfoRoomAction:()=>m}),t.link("react",{lazy(o){n=o},useMemo(o){a=o}},0);let i=n(()=>t.dynamicImport("../../views/teams/contextualBar/info/TeamsInfoWithData")),m=()=>a(()=>({id:"team-info",groups:["team"],anonymous:!0,full:!0,title:"Teams_Info",icon:"info-circled",tabComponent:i,order:1}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/4729860d23081a8268a11263b490eb28e64b52c2.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let d,u,r,l,i;n.export({useTemplateByViewMode:()=>a}),n.link("@rocket.chat/ui-contexts",{useUserPreference(e){d=e}},0),n.link("react",{useMemo(e){u=e}},1),n.link("../Item/Condensed",{default(e){r=e}},2),n.link("../Item/Extended",{default(e){l=e}},3),n.link("../Item/Medium",{default(e){i=e}},4);let a=()=>{let e=d("sidebarViewMode");return u(()=>{switch(e){case"extended":return l;case"medium":return i;default:return r}},[e])}}
+//# sourceMappingURL=/dynamic/client/sidebar/hooks/b77f4866292988c6844cc1dbcc4ea18cc923fa96.map

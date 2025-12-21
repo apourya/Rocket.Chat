@@ -1,0 +1,2 @@
+function module(t,e,r){let n,u;r.export({useChartContext:()=>l}),r.link("react",{useEffect(t){n=t},useState(t){u=t}},0);let l=t=>{let{canvas:e,init:r,t:l}=t,[o,i]=u();return n(()=>{let t;let n=!1;return(async()=>{if(e.current){if(t=await r(e.current,void 0,l),n){var u;null===(u=t)||void 0===u||u.destroy();return}i(t)}})(),()=>{var e;n=!0,null===(e=t)||void 0===e||e.destroy(),i(void 0)}},[e,r,l]),o}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/realTimeMonitoring/charts/3c0328f3f3a756d0334e3ee25b603bd787e9508e.map

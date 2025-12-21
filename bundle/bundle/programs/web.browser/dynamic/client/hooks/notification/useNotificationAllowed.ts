@@ -1,0 +1,2 @@
+function module(e,i,n){let o,a,t;n.export({useNotificationAllowed:()=>l}),n.link("react",{useCallback(e){o=e},useSyncExternalStore(e){a=e}},0),n.link("../../lib/notificationManager",{notificationManager(e){t=e}},1);let l=()=>a(o(e=>t.on("change",()=>{t.allowed="granted"===Notification.permission,e()}),[]),()=>t.allowed)}
+//# sourceMappingURL=/dynamic/client/hooks/notification/ee00ea40c130d248dfeeb3993f3a32990cd3588d.map

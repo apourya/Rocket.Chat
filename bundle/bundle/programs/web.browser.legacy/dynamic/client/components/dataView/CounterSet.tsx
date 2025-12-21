@@ -1,0 +1,2 @@
+function module(n,t,i){var r,o,e,u;i.link("@rocket.chat/fuselage",{Grid:function(n){r=n},GridItem:function(n){o=n}},0),i.link("./Counter",{default:function(n){e=n}},1),i.link("react/jsx-runtime",{jsx:function(n){u=n}},2),i.exportDefault(function(n){var t=n.counters;return u(r,{children:(void 0===t?[]:t).map(function(n,t){var i=n.count,r=n.variation,c=n.description;return u(o,{children:u(e,{count:i,variation:r,description:c})},t)})})})}
+//# sourceMappingURL=/dynamic/client/components/dataView/b76aac7919f4c37ef9160cf69aaa519b32b1d26f.map

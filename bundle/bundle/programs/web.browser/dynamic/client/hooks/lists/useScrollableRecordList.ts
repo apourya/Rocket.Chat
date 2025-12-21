@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,c;l.export({useScrollableRecordList:()=>i}),l.link("react",{useCallback(e){n=e},useEffect(e){a=e}},0),l.link("../../lib/asyncState",{AsyncStatePhase(e){c=e}},1);let i=function(e,t){let l=arguments.length>2&&void 0!==arguments[2]?arguments[2]:25,i=n(n=>{(e.phase===c.LOADING||n+1<e.itemCount)&&e.batchHandle(()=>t(n,l))},[e,t,l]);return a(()=>{i(0)},[i]),{loadMoreItems:i,initialItemCount:l}}}
+//# sourceMappingURL=/dynamic/client/hooks/lists/66c4b6d210f235f21b72cb0d4f0ee7eaea5cda34.map

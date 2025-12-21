@@ -1,0 +1,2 @@
+function module(n,t,i){var o,e,u,r;i.link("@rocket.chat/ui-contexts",{usePermission:function(n){o=n}},0),i.link("./RoomsPage",{default:function(n){e=n}},1),i.link("../../notAuthorized/NotAuthorizedPage",{default:function(n){u=n}},2),i.link("react/jsx-runtime",{jsx:function(n){r=n}},3),i.exportDefault(function(){return o("view-room-administration")?r(e,{}):r(u,{})})}
+//# sourceMappingURL=/dynamic/client/views/admin/rooms/a53f1e5e1f3cfdf6640b7e9e8b7a5c76155f8f47.map

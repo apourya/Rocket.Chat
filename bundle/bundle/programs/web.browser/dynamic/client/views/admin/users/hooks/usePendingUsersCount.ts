@@ -1,0 +1,2 @@
+function module(e,t,n){let u,s;n.link("@rocket.chat/ui-contexts",{useEndpoint(e){u=e}},0),n.link("@tanstack/react-query",{useQuery(e){s=e}},1),n.exportDefault(e=>{let t=u("GET","/v1/users.listByStatus");return s({queryKey:["pendingUsersCount",e],queryFn:async()=>t({hasLoggedIn:!1,status:"deactivated",type:"user",count:1}),enabled:!!e,select:e=>null==e?void 0:e.total})})}
+//# sourceMappingURL=/dynamic/client/views/admin/users/hooks/e8ec62ba2c2813ef550034a657ec7f1aea45f971.map

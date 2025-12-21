@@ -1,0 +1,2 @@
+function module(e,t,r){let l,a;r.export({handleAPIError:()=>s}),r.link("../../../../app/utils/lib/i18n",{t(e){l=e}},0),r.link("../../../lib/toast",{dispatchToastMessage(e){a=e}},1);let o=e=>["Could not reach the Marketplace"].includes(e),s=e=>{let{error:t="",message:r=t}=e;if(o(r))return a({type:"error",message:l(r)});a({type:"error",message:l("Apps_Error_".concat(t))})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/428172b0d29003a31faa2534b7f11525e8bceef9.map

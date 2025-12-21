@@ -1,0 +1,2 @@
+function module(n,e,t){var i,u,c;t.link("@babel/runtime/helpers/objectSpread2",{default:function(n){i=n}},0),t.link("@rocket.chat/fuselage",{Icon:function(n){u=n}},0),t.link("react/jsx-runtime",{jsx:function(n){c=n}},1),t.exportDefault(function(n){var e=n.icon;return e?c(u,i({size:"x12",mie:4},e)):null})}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidepanel/SidepanelItem/70a260620e8c29c27f922c334ac294bff2cf4825.map

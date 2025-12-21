@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/components/Omnichannel/OutboundMessage/hooks/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export * from './useOutboundMessageAccess';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAA,CAAA,6BAAc,CAA4B,IAAA,GAAA,EAAA"}

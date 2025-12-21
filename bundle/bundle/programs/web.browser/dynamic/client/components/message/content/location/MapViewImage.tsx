@@ -1,0 +1,2 @@
+function module(t,e,n){let i,l,r;n.link("@rocket.chat/ui-client",{ExternalLink(t){i=t}},0),n.link("react-i18next",{useTranslation(t){l=t}},1),n.link("react/jsx-runtime",{jsx(t){r=t}},2),n.exportDefault(t=>{let{linkUrl:e,imageUrl:n}=t,{t:a}=l();return r(i,{to:e,children:r("img",{src:n,alt:a("Shared_Location")})})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/location/c621ecf393009a3c5cc4363e28c34ee0b42332a4.map

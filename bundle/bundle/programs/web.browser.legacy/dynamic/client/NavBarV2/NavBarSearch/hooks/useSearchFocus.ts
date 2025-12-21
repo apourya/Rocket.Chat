@@ -1,0 +1,2 @@
+function module(n,c,e){e.export({useSearchFocus:function(){return o}}),e.link("@rocket.chat/ui-contexts",{useLayout:function(n){u=n}},0),e.link("react",{useCallback:function(n){t=n},useEffect:function(n){a=n}},1);var u,t,a,o=function(n){var c=u().navbar;return a(function(){if(!n.isOpen){var e;null===(e=c.collapseSearch)||void 0===e||e.call(c)}},[c,n.isOpen]),t(function(){var e;null===(e=c.expandSearch)||void 0===e||e.call(c),n.setOpen(!0)},[c,n])}}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarSearch/hooks/fbe4e736b538f8774d8d2552d9605a4975162ec5.map

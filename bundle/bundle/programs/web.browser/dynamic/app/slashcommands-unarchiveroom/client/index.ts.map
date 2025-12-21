@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/slashcommands-unarchiveroom/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './client';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAA,CAAA"}

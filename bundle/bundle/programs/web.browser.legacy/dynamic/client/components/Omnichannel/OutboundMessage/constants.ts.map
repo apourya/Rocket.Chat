@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/components/Omnichannel/OutboundMessage/constants.ts","meteor://💻app/<anon>"],"sourcesContent":["export const OUTBOUND_DOCS_LINK = 'https://docs.rocket.chat/docs/p2p-outbound-messaging';\nexport const CONTACT_SALES_LINK = 'https://go.rocket.chat/i/contact-sales';\n",null],"names":["module","export","OUTBOUND_DOCS_LINK","CONTACT_SALES_LINK"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,mBAAqB,WAAA,OAAAA,CAAA,EAAAC,mBAAsD,WAAA,OAAAA,CAAA,CAAA,GAAjF,IAAMD,EAAqB,uDACrBC,EAAqB"}

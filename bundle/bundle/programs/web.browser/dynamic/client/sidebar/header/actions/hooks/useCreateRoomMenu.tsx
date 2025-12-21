@@ -1,0 +1,2 @@
+function module(e,t,s){let r,i,o;s.export({useCreateRoom:()=>a}),s.link("@rocket.chat/ui-contexts",{useAtLeastOnePermission(e){r=e}},0),s.link("react-i18next",{useTranslation(e){i=e}},1),s.link("./useCreateRoomItems",{useCreateRoomItems(e){o=e}},2);let n=["create-c","create-p","create-d","start-discussion","start-discussion-other-user"],a=()=>{let{t:e}=i(),t=r(n),s=o();return[{title:e("Create_new"),items:s,permission:t}].filter(e=>e.permission)}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/actions/hooks/85bb284c54781f59ca70492a513bce914dd50b48.map

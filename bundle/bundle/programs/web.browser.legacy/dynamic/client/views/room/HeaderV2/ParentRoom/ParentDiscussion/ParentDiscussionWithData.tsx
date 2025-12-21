@@ -1,0 +1,2 @@
+function module(n,o,i){var r,t,u;i.link("./ParentDiscussion",{default:function(n){r=n}},0),i.link("../../../../../hooks/useRoomInfoEndpoint",{useRoomInfoEndpoint:function(n){t=n}},1),i.link("react/jsx-runtime",{jsx:function(n){u=n}},2),i.exportDefault(function(n){var o=n.rid,i=t(o),e=i.data,l=i.isPending;return i.isError||!(null!=e&&e.room)?null:u(r,{loading:l,room:e.room})})}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/ParentRoom/ParentDiscussion/6f157f0fff6c80350e04d8bb8494b62b767cd8a9.map

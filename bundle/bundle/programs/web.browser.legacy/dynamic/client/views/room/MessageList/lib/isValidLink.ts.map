@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/MessageList/lib/isValidLink.ts","meteor://💻app/<anon>"],"sourcesContent":["export const isValidLink = (link: string): boolean => {\n\ttry {\n\t\treturn Boolean(new URL(link));\n\t} catch (error) {\n\t\treturn false;\n\t}\n};\n",null],"names":["module","export","isValidLink","link","Boolean","URL","error"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,YAAe,WAAyB,OAAAA,CAAA,CAAA,GAA9C,IAAMA,EAAe,SAAAC,CAAY,EACvC,GAAI,CACH,OAAOC,AAAQ,IAAIC,IAAIF,GAAhBC,CAAAA,CACR,CAAE,MAAOE,EAAO,CACf,MAAO,CAAA,CACR,CACD"}

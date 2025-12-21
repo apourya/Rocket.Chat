@@ -1,0 +1,2 @@
+function module(t,e,n){let o,u,c,l;n.link("@rocket.chat/ui-contexts",{useSetting(t){o=t}},0),n.link("./AccountSecurityPage",{default(t){u=t}},1),n.link("../../notAuthorized/NotAuthorizedPage",{default(t){c=t}},2),n.link("react/jsx-runtime",{jsx(t){l=t}},3),n.exportDefault(()=>{let t=o("Accounts_TwoFactorAuthentication_Enabled"),e=o("E2E_Enable"),n=o("Accounts_AllowPasswordChange");return t||e||n?l(u,{}):l(c,{})})}
+//# sourceMappingURL=/dynamic/client/views/account/security/5405afdb72e1d106cedd87d727fe6dc36887e473.map

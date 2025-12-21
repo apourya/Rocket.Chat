@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/contextualBar/VideoConference/VideoConfPopups/VideoConfPopup/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './TimedVideoConfPopup';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,wBAAe,CAAAC,QAAA,SAAuB,EAAA"}

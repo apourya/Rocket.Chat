@@ -1,0 +1,2 @@
+function module(t,e,n){var a,i,u,l,r;n.link("@rocket.chat/fuselage",{Box:function(t){a=t}},0),n.link("./PrivateEmptyStateDefault",{default:function(t){i=t}},1),n.link("./PrivateEmptyStateUpgrade",{default:function(t){u=t}},2),n.link("../hooks/usePrivateAppsEnabled",{usePrivateAppsEnabled:function(t){l=t}},3),n.link("react/jsx-runtime",{jsx:function(t){r=t}},4),n.exportDefault(function(){var t=l();return r(a,{mbs:"24px",children:t?r(i,{}):r(u,{})})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppsPage/2110b69cdd591c38eb7518d0f2f8774e965e096c.map

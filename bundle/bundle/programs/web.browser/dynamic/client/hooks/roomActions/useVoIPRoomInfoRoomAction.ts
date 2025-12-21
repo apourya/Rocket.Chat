@@ -1,0 +1,2 @@
+function module(o,n,e){let t,i;e.export({useVoIPRoomInfoRoomAction:()=>a}),e.link("react",{lazy(o){t=o},useMemo(o){i=o}},0);let l=t(()=>e.dynamicImport("../../views/omnichannel/directory/calls/contextualBar/CallsContextualBarRoom")),a=()=>i(()=>({id:"voip-room-info",groups:["voip"],title:"Call_Information",icon:"info-circled",tabComponent:l,order:0}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/231ebc77e4cb7e3d7ba91c69a08286473c7f5e3d.map

@@ -1,0 +1,2 @@
+function module(e,n,l){let r,t,c,o;l.link("@rocket.chat/fuselage",{Box(e){r=e},FramedIcon(e){t=e}},0),l.link("react/jsx-runtime",{jsx(e){c=e},jsxs(e){o=e}},1),l.exportDefault(e=>{let{icon:n,label:l,danger:a}=e;return o(r,{display:"flex",alignItems:"center",color:a?"danger":"secondary-info",fontScale:"p2m",children:[c(t,{danger:a,icon:n}),c(r,{mis:12,children:l})]})})}
+//# sourceMappingURL=/dynamic/client/views/admin/workspace/VersionCard/components/03604ede0c22f485cf58aab0b23b54044e5a9ef1.map
