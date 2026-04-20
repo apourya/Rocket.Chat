@@ -120,7 +120,14 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 					],
 				},
 				{
-					test: /\.(woff2?|ttf|eot|jpe?g|png|webp|gif|mp4|mov|ogg|webm)(\?.*)?$/i,
+					test: /\.(woff2?|ttf|eot)(\?.*)?$/i,
+					type: 'asset/resource',
+					generator: {
+						filename: '[name].[hash:8][ext]'
+					}
+				},
+				{
+					test: /\.(jpe?g|png|webp|gif|mp4|mov|ogg|webm)(\?.*)?$/i,
 					loader: args.mode === 'production' ? 'file-loader' : 'url-loader',
 				},
 			],
