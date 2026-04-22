@@ -113,8 +113,7 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 					test: /\.(woff2?|ttf|eot)(\?.*)?$/i,
 					type: 'asset/resource',
 					generator: {
-						filename: '[name].[hash:8][ext]',
-						publicPath: '/livechat/',
+						filename: '[name].[hash:8][ext]'
 					},
 				},
 				{
