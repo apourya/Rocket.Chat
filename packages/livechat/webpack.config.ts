@@ -41,7 +41,7 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 		} as webpack.Entry,
 		output: {
 			path: _('./dist'),
-			publicPath: args.mode === 'production' ? 'livechat/' : '/',
+			publicPath: args.mode === 'production' ? '/livechat/' : '/',  // اسلش اول رو اضافه کن
 			filename: args.mode === 'production' ? '[name].[chunkhash:5].js' : '[name].js',
 			chunkFilename: '[name].chunk.[chunkhash:5].js',
 		},
@@ -120,11 +120,12 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 					],
 				},
 				{
-					test: /\.(woff2?|ttf|eot)(\?.*)?$/i,
-					type: 'asset/resource',
-					generator: {
-						filename: '[name].[hash:8][ext]'
-					}
+				    test: /\.(woff2?|ttf|eot)(\?.*)?$/i,
+				    type: 'asset/resource',
+				    generator: {
+				        filename: '[name].[hash:8][ext]',
+				        publicPath: '/livechat/'
+				    }
 				},
 				{
 					test: /\.(jpe?g|png|webp|gif|mp4|mov|ogg|webm)(\?.*)?$/i,
