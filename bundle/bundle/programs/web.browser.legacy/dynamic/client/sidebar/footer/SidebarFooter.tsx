@@ -1,0 +1,2 @@
+function module(n,t,e){var o,i,l,u,a;e.link("./SidebarFooterDefault",{default:function(n){o=n}},0),e.link("./voip",{VoipFooter:function(n){i=n}},1),e.link("../../contexts/CallContext",{useIsCallEnabled:function(n){l=n},useIsCallReady:function(n){u=n}},2),e.link("react/jsx-runtime",{jsx:function(n){a=n}},3),e.exportDefault(function(){var n=l(),t=u();return n&&t?a(i,{}):a(o,{})})}
+//# sourceMappingURL=/dynamic/client/sidebar/footer/94ec4e03d72cf80ed903c5f5fba8cf0c9e13e977.map

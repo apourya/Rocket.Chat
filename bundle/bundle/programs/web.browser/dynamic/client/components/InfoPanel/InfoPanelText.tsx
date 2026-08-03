@@ -1,0 +1,2 @@
+function module(e,l,t){var a;let r,n,c,i,o;t.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),t.link("@babel/runtime/helpers/taggedTemplateLiteral",{default(e){n=e}},1),t.link("@rocket.chat/css-in-js",{css(e){c=e}},0),t.link("@rocket.chat/fuselage",{Box(e){i=e}},1),t.link("react/jsx-runtime",{jsx(e){o=e}},2);let s=c(a||(a=n(["\n	word-break: break-word;\n"])));t.exportDefault(e=>o(i,r({mb:8,fontScale:"p2",color:"hint",className:s},e)))}
+//# sourceMappingURL=/dynamic/client/components/InfoPanel/0ca86d9a76dbcb84804cdb09558aaf9f6e34e70a.map

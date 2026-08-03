@@ -1,0 +1,2 @@
+function module(t,n,e){var i,o,u,r;e.link("@rocket.chat/ui-contexts",{usePermission:function(t){i=t}},0),e.link("./ChatsTable",{default:function(t){o=t}},1),e.link("../../../notAuthorized/NotAuthorizedPage",{default:function(t){u=t}},2),e.link("react/jsx-runtime",{jsx:function(t){r=t}},3),e.exportDefault(function(){return i("view-l-room")?r(o,{}):r(u,{})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/chats/ec1d84f12bdaf1348b82cdac2be39d196398fdfc.map

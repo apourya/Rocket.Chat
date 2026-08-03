@@ -1,0 +1,2 @@
+function module(o,e,r){let t,a,i;r.link("@babel/runtime/helpers/objectSpread2",{default(o){t=o}},0),r.export({FavoriteRoomType:()=>l}),r.link("../../../../lib/rooms/roomTypes/favorite",{getFavoriteRoomType(o){a=o}},0),r.link("../roomCoordinator",{roomCoordinator(o){i=o}},1);let l=a(i);i.add(t(t({},l),{},{label:"Favorites"}),{getIcon:()=>"star"})}
+//# sourceMappingURL=/dynamic/client/lib/rooms/roomTypes/776fe5dcab24c74264a54760301a9046880b4d5e.map

@@ -1,0 +1,2 @@
+function module(e,t,i){let o,l,r,u,n;i.link("@babel/runtime/helpers/objectSpread2",{default(e){o=e}},0),i.link("@rocket.chat/ui-contexts",{usePermission(e){l=e}},0),i.link("./UsersTable",{default(e){r=e}},1),i.link("../../../notAuthorized/NotAuthorizedPage",{default(e){u=e}},2),i.link("react/jsx-runtime",{jsx(e){n=e}},3),i.exportDefault(e=>{let t=l("view-outside-room"),i=l("view-d-room");return t&&i?n(r,o({},e)):n(u,{})})}
+//# sourceMappingURL=/dynamic/client/views/directory/tabs/users/7cd0e17cf5796b941f40a45a269d5fe6ee6acf7e.map

@@ -1,0 +1,2 @@
+function module(t,n,e){e.export({useShortcutOpenMenu:function(){return c}}),e.link("react",{useEffect:function(t){u=t}},0),e.link("tinykeys",{default:function(t){r=t}},1);var u,r,c=function(t){u(function(){var n=r(t.current,{Alt:function(t){var n;t.target.className.includes("rcx-sidebar-item")&&(t.preventDefault(),null===(n=t.target.querySelector("button"))||void 0===n||n.click())}});return function(){n()}},[t])}}
+//# sourceMappingURL=/dynamic/client/sidebar/hooks/7f45d351709346cf3c9fd1c5e00da377200b6d47.map

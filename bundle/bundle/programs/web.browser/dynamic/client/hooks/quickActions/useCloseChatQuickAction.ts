@@ -1,0 +1,2 @@
+function module(o,e,i){let t,l;i.export({useCloseChatQuickAction:()=>n}),i.link("react",{useMemo(o){t=o}},0),i.link("../../views/room/lib/quickActions",{QuickActionsEnum(o){l=o}},1);let n=()=>t(()=>({groups:["live"],id:l.CloseChat,title:"End_conversation",icon:"balloon-close-top-right",order:5,color:"danger"}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/quickActions/dded4c1d302bc67804b939e8a6de139e67905b99.map

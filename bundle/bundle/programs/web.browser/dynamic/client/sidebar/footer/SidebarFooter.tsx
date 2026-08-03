@@ -1,0 +1,2 @@
+function module(e,l,t){let n,o,a,i,u;t.link("./SidebarFooterDefault",{default(e){n=e}},0),t.link("./voip",{VoipFooter(e){o=e}},1),t.link("../../contexts/CallContext",{useIsCallEnabled(e){a=e},useIsCallReady(e){i=e}},2),t.link("react/jsx-runtime",{jsx(e){u=e}},3),t.exportDefault(()=>{let e=a(),l=i();return e&&l?u(o,{}):u(n,{})})}
+//# sourceMappingURL=/dynamic/client/sidebar/footer/3736034d2b5f5f0d332e7a68c20dbe484c443dce.map

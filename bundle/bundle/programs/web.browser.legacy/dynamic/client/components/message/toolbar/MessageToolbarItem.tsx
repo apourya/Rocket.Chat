@@ -1,0 +1,2 @@
+function module(e,t,n){var i,a,o;n.link("@rocket.chat/fuselage",{MessageToolbarItem:function(e){i=e}},0),n.link("@rocket.chat/ui-contexts",{useLayoutHiddenActions:function(e){a=e}},1),n.link("react/jsx-runtime",{jsx:function(e){o=e}},2),n.exportDefault(function(e){var t=e.id,n=e.icon,c=e.title,l=e.disabled,u=e.qa,s=e.onClick;return a().messageToolbox.includes(t)?null:o(i,{icon:n,title:c,disabled:l,"data-qa-id":u,"data-qa-type":"message-action-menu",onClick:s})})}
+//# sourceMappingURL=/dynamic/client/components/message/toolbar/2ee801764218d300dd44f4cb5729413da891babd.map

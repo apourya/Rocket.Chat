@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({UserCardContext:function(){return u},useUserCard:function(){return c}}),e.link("react",{createContext:function(n){r=n},useContext:function(n){o=n}},0);var r,o,u=r({openUserCard:function(){},closeUserCard:function(){},triggerProps:{},triggerRef:{current:null},state:{isOpen:!1,setOpen:function(){},open:function(){},close:function(){},toggle:function(){}}}),c=function(){return o(u)}}
+//# sourceMappingURL=/dynamic/client/views/room/contexts/f65bf561f5aa34aea48291aeb5283d3f88e752fa.map

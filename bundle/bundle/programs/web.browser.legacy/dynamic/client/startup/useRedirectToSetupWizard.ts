@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({useRedirectToSetupWizard:function(){return f}}),t.link("@rocket.chat/ui-contexts",{useRole:function(n){u=n},useRouter:function(n){i=n},useSetting:function(n){o=n},useUserId:function(n){c=n}},0),t.link("react",{useEffect:function(n){r=n}},1);var u,i,o,c,r,f=function(){var n=c(),e=o("Show_Setup_Wizard"),t=i(),f=u("admin"),s=!n&&"pending"===e||n&&f&&"in_progress"===e;r(function(){s&&t.navigate("/setup-wizard")},[s,t])}}
+//# sourceMappingURL=/dynamic/client/startup/e33828c4524f59168329e524d4be56e26f4d86c8.map

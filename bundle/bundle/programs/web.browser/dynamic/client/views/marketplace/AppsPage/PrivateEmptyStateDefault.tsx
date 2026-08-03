@@ -1,0 +1,2 @@
+function module(e,t,a){let i,l,n,s,r,c,o;a.link("@rocket.chat/fuselage",{States(e){i=e},StatesIcon(e){l=e},StatesTitle(e){n=e},StatesSubtitle(e){s=e}},0),a.link("react-i18next",{useTranslation(e){r=e}},1),a.link("react/jsx-runtime",{jsx(e){c=e},jsxs(e){o=e}},2),a.exportDefault(()=>{let{t:e}=r();return o(i,{children:[c(l,{name:"lock"}),c(n,{children:e("No_private_apps_installed")}),c(s,{children:e("Private_apps_upgrade_empty_state_description")})]})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppsPage/3b4efb9b4310213398bfbdbb3d7947cf57593856.map

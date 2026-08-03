@@ -1,0 +1,2 @@
+function module(r,o,t){t.export({FormValidationError:()=>s,FormFetchError:()=>e,ContactNotFoundError:()=>n,ProviderNotFoundError:()=>c});class s extends Error{constructor(r){super(r)}}class e extends Error{constructor(r){super(r)}}class n extends e{constructor(){super("error-contact-not-found")}}class c extends e{constructor(){super("error-provider-not-found")}}}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/components/OutboundMessageWizard/utils/d569e650ca943641ee23a55b919698a68be43341.map

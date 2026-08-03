@@ -1,0 +1,2 @@
+function module(t,r,a){a.link("./AgentsTable",{"*":"*"},0),a.link("./BarChart",{"*":"*"},1),a.link("./PieChart",{"*":"*"},2),a.link("./ReportCard",{"*":"*"},3),a.link("./ReportCardErrorState",{"*":"*"},4),a.link("./ReportCardLoadingState",{"*":"*"},5),a.link("./ReportCardEmptyState",{"*":"*"},6)}
+//# sourceMappingURL=/dynamic/client/omnichannel/reports/components/9fe60ba9c44313195e56bf75babc59746867abf7.map

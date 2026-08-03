@@ -1,0 +1,2 @@
+function module(e,n,r){r.export({useMemberExists:function(){return t}}),r.link("@rocket.chat/ui-contexts",{useEndpoint:function(e){u=e}},0),r.link("@tanstack/react-query",{useQuery:function(e){o=e}},1);var u,o,t=function(e){var n=e.roomId,r=e.username,t=u("GET","/v1/rooms.isMember");return o({queryKey:["rooms/isMember",n,r],queryFn:function(){return t({roomId:n,username:r})}})}}
+//# sourceMappingURL=/dynamic/client/views/hooks/1e94e379dc95f3e64b91ee98cad0cd79a39b7fd2.map

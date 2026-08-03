@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/autotranslate/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './lib/actionButton';\n\nexport { AutoTranslate, createAutoTranslateMessageStreamHandler } from './lib/autotranslate';\n",null],"names":["module","link","AutoTranslate","createAutoTranslateMessageStreamHandler"],"mappings":"uBAAAA,EAAOC,IAAA,CAAA,sBAAoBD,EAAAC,IAAA,CAAA,sBAAA,CAAAC,cAAA,gBAAAC,wCAAA,yCAAA,EAAA"}

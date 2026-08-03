@@ -1,0 +1,2 @@
+function module(e,t,u){let o,l,n;u.link("@babel/runtime/helpers/objectSpread2",{default(e){o=e}},0),u.export({useQuery:()=>s}),u.link("@rocket.chat/fuselage-hooks",{useDebouncedValue(e){l=e}},0),u.link("react",{useMemo(e){n=e}},1);let r=e=>"asc"===e?1:-1,s=(e,t)=>{let{text:u,itemsPerPage:s,current:a}=e,[c,i]=t;return l(n(()=>o(o({text:u,sort:JSON.stringify({[c]:r(i),usernames:"name"===c?r(i):void 0})},s&&{count:s}),a&&{offset:a}),[u,s,a,c,i]),500)}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/agents/hooks/691d50a8600d3325fcf3845dd226a7755c9e3a42.map

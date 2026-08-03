@@ -1,0 +1,2 @@
+function module(e,t,u){let o,a,i,l,c;u.export({useTwoFactorAuthSetupCheck:()=>n}),u.link("@rocket.chat/ui-contexts",{useSetModal(e){o=e}},0),u.link("react",{useEffect(e){a=e}},1),u.link("../../../hooks/useRequire2faSetup",{useRequire2faSetup(e){i=e}},2),u.link("../../MainLayout/TwoFactorRequiredModal",{default(e){l=e}},3),u.link("react/jsx-runtime",{jsx(e){c=e}},4);let n=()=>{let e=o(),t=i();a(()=>{t&&e(c(l,{}))},[e,t])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/loggedIn/7ffabe1f0848973a3b307dc80d48ce10cdbeb7fe.map

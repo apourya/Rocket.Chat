@@ -1,0 +1,2 @@
+function module(e,t,r){let n;r.export({setRef:()=>u,useMergedRefsV2:()=>c}),r.link("react",{useCallback(e){n=e}},0);let f=e=>"function"==typeof e,o=e=>"object"==typeof e,u=(e,t)=>{if(f(e)){e(t);return}o(e)&&(e.current=t)},c=function(){for(var e=arguments.length,t=Array(e),r=0;r<e;r++)t[r]=arguments[r];return n(e=>{t.forEach(t=>u(t,e))},t)}}
+//# sourceMappingURL=/dynamic/client/hooks/81c970ea366cf8d4ad2c772257564b093e219517.map

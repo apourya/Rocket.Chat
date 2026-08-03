@@ -1,0 +1,2 @@
+function module(t,e,i){i.export({formatCustomFieldsMetadata:()=>l});let l=(t,e)=>t?t.filter(t=>"visible"===t.visibility&&t.scope===e).map(t=>{let{_id:e,label:i,options:l,defaultValue:o,required:m}=t;return{name:e,label:i,type:l?"select":"text",required:m,defaultValue:o,options:null==l?void 0:l.split(",").map(t=>[t.trim(),t.trim()])}}):[]}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/utils/b2ac0cef4a4879e68861533e9d9a371ec0cc6d6d.map

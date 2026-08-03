@@ -1,0 +1,2 @@
+function module(e,n,t){var i,l,u;t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){i=e}},0),t.link("@rocket.chat/fuselage",{Sidebar:function(e){l=e}},0),t.link("react/jsx-runtime",{jsx:function(e){u=e}},1),t.exportDefault(function(e){return u(l,i(i({},e),{},{role:"navigation",display:"flex",flexDirection:"column",h:"full"}))})}
+//# sourceMappingURL=/dynamic/client/components/Sidebar/299a20782df18ffbdc5e6b37e8578a5c59d3ffd5.map

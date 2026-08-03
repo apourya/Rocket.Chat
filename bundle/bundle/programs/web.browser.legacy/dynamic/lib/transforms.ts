@@ -1,0 +1,2 @@
+function module(n,r,e){e.export({createAsyncTransformChain:function(){return t}});var t=function(){for(var n=arguments.length,r=Array(n),e=0;e<n;e++)r[e]=arguments[e];var t=r;return Object.assign(function(n){return t.reduce(function(n,r){return n.then(r)},Promise.resolve(n))},{use:function(n){return t.push(n),function(){t=t.filter(function(r){return r!==n})}}})}}
+//# sourceMappingURL=/dynamic/lib/6ab24a341b985fe49ae927a4bc9285436e90060b.map

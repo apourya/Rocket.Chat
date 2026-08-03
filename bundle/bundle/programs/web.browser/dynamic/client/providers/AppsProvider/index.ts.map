@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/providers/AppsProvider/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import AppsProvider from './AppsProvider';\n\nexport default AppsProvider;\n",null],"names":["AppsProvider","module","link","default","v","exportDefault"],"mappings":"uBAAA,IAAAA,EAAOC,EAAYC,IAAM,CAAA,iBAAgB,CAAAC,QAAAC,CAAA,EAAAJ,EAAAI,CAAA,CAAA,EAAA,GAAzCH,EAAOI,aAAY,CAEJL"}

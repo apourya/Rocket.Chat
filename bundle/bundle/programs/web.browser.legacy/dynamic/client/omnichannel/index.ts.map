@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/omnichannel/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './routes';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAA,CAAA"}

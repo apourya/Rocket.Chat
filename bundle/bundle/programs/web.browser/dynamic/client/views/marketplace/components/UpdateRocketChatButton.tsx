@@ -1,0 +1,2 @@
+function module(t,e,n){let r,a,c;n.link("@rocket.chat/fuselage",{Button(t){r=t}},0),n.link("react-i18next",{useTranslation(t){a=t}},1),n.link("react/jsx-runtime",{jsx(t){c=t}},2),n.exportDefault(()=>{let{t}=a();return c(r,{icon:"new-window",primary:!0,is:"a",href:"https://docs.rocket.chat/v1/docs/en/updating-rocketchat",external:!0,children:t("Update")})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/components/94516cfb26491d8d950ace6d505690bebfc75da0.map

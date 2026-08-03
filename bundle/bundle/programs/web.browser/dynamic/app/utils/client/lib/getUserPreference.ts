@@ -1,0 +1,2 @@
+function module(e,t,n){let l,i;function s(e,t,n){var s,o,r,c;let u="string"==typeof e?i.state.get(e):e;return null!==(s=null!==(o=null==u?void 0:null===(r=u.settings)||void 0===r?void 0:null===(c=r.preferences)||void 0===c?void 0:c[t])&&void 0!==o?o:n)&&void 0!==s?s:l.watch("Accounts_Default_User_Preferences_".concat(t))}n.export({getUserPreference:()=>s}),n.link("../../../../client/lib/settings",{settings(e){l=e}},0),n.link("../../../../client/stores",{Users(e){i=e}},1)}
+//# sourceMappingURL=/dynamic/app/utils/client/lib/25900d3fa0caf3c88b99f94399f3f2381be705fe.map

@@ -1,0 +1,2 @@
+function module(e,l,t){let o,r,n;t.link("@rocket.chat/fuselage",{Box(e){o=e}},0),t.link("../../../room/RoomOpener",{default(e){r=e}},1),t.link("react/jsx-runtime",{jsx(e){n=e}},2),t.exportDefault(e=>{let{rid:l}=e;return n(o,{position:"absolute",backgroundColor:"surface",width:"full",height:"full",children:n(r,{type:"l",reference:l})})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/chats/72992917acf71311ff7c57f4e710b09f7531c9b7.map

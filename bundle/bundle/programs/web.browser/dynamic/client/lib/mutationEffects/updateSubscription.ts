@@ -1,0 +1,2 @@
+function module(e,t,i){let r,u;i.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),i.export({updateSubscription:()=>d}),i.link("../../stores",{Subscriptions(e){u=e}},0);let d=(e,t,i)=>{let d=u.state.find(i=>i.rid===e&&i.u._id===t);return u.state.update(i=>i.rid===e&&i.u._id===t,e=>r(r({},e),i)),d}}
+//# sourceMappingURL=/dynamic/client/lib/mutationEffects/746fcd7f839b2a612252d0d9f47b2a8d757382e4.map

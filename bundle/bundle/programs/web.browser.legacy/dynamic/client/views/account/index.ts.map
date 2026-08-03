@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/account/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { registerAccountRoute } from './routes';\nexport { registerAccountSidebarItem, unregisterSidebarItem } from './sidebarItems';\n",null],"names":["module","link","registerAccountRoute","registerAccountSidebarItem","unregisterSidebarItem"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,WAAA,CAAAC,qBAA4B,sBAAU,EAAA,GAAAF,EAAAC,IAAA,CAAA,iBAAA,CAAAE,2BAAA,6BAAAC,sBAAA,uBAAA,EAAA"}

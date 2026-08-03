@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useForceLogout:function(){return i}}),t.link("@rocket.chat/ui-contexts",{useStream:function(n){u=n},useSessionDispatch:function(n){e=n}},0),t.link("react",{useEffect:function(n){c=n}},1);var u,e,c,i=function(n){var o=u("notify-user"),t=e("forceLogout");c(function(){return t(!1),o(n+"/force_logout",function(){t(!0)})},[o,t,n])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/loggedIn/90f7e3caaaf3b18d96c745947d79150c968f95e7.map

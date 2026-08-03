@@ -18,7 +18,7 @@ const common = (args: webpack.WebpackOptionsNormalized): Partial<webpack.Configu
 		extensions: ['.js', '.jsx', '.ts', '.tsx'],
 		symlinks: false,
 		alias: {
-			'react': 'preact/compat',
+			react: 'preact/compat',
 			'react-dom': 'preact/compat',
 			'date-fns': path.dirname(require.resolve('date-fns/package.json')),
 		},
@@ -33,6 +33,9 @@ const common = (args: webpack.WebpackOptionsNormalized): Partial<webpack.Configu
 });
 
 const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Configuration[] => [
+	// =========================
+	// MAIN APP BUILD
+	// =========================
 	{
 		...common(args),
 		entry: {
@@ -41,7 +44,7 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 		} as webpack.Entry,
 		output: {
 			path: _('./dist'),
-			publicPath: args.mode === 'production' ? 'livechat/' : '/',
+			publicPath: args.mode === 'production' ? '/livechat/' : '/',
 			filename: args.mode === 'production' ? '[name].[chunkhash:5].js' : '[name].js',
 			chunkFilename: '[name].chunk.[chunkhash:5].js',
 		},
@@ -69,16 +72,11 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 						args.mode === 'production' ? MiniCssExtractPlugin.loader : 'style-loader',
 						{
 							loader: 'css-loader',
-							options: {
-								importLoaders: 1,
-								sourceMap: true,
-							},
+							options: { importLoaders: 1, sourceMap: true },
 						},
 						{
 							loader: 'postcss-loader',
-							options: {
-								sourceMap: true,
-							},
+							options: { sourceMap: true },
 						},
 					],
 				},
@@ -90,18 +88,14 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 						{
 							loader: 'css-loader',
 							options: {
-								modules: {
-									localIdentName: '[local]__[hash:base64:5]',
-								},
+								modules: { localIdentName: '[local]__[hash:base64:5]' },
 								importLoaders: 1,
 								sourceMap: true,
 							},
 						},
 						{
 							loader: 'postcss-loader',
-							options: {
-								sourceMap: true,
-							},
+							options: { sourceMap: true },
 						},
 					],
 				},
@@ -111,16 +105,19 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 					use: [
 						{
 							loader: 'sass-loader',
-							options: {
-								sassOptions: {
-									fiber: false,
-								},
-							},
+							options: { sassOptions: { fiber: false } },
 						},
 					],
 				},
 				{
-					test: /\.(woff2?|ttf|eot|jpe?g|png|webp|gif|mp4|mov|ogg|webm)(\?.*)?$/i,
+					test: /\.(woff2?|ttf|eot)(\?.*)?$/i,
+					type: 'asset/resource',
+					generator: {
+						filename: '[name].[hash:8][ext]'
+					},
+				},
+				{
+					test: /\.(jpe?g|png|webp|gif|mp4|mov|ogg|webm)(\?.*)?$/i,
 					loader: args.mode === 'production' ? 'file-loader' : 'url-loader',
 				},
 			],
@@ -128,17 +125,25 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 		plugins: [
 			new MiniCssExtractPlugin({
 				filename: args.mode === 'production' ? '[name].[contenthash:5].css' : '[name].css',
-				chunkFilename: args.mode === 'production' ? '[name].chunk.[contenthash:5].css' : '[name].chunk.css',
+				chunkFilename:
+					args.mode === 'production'
+						? '[name].chunk.[contenthash:5].css'
+						: '[name].chunk.css',
 			}) as unknown as webpack.WebpackPluginInstance,
 			new webpack.DefinePlugin({
-				'process.env.NODE_ENV': JSON.stringify(args.mode === 'production' ? 'production' : 'development'),
+				'process.env.NODE_ENV': JSON.stringify(
+					args.mode === 'production' ? 'production' : 'development',
+				),
 			}),
 			new HtmlWebpackPlugin({
 				title: 'Livechat - Rocket.Chat',
 				chunks: ['polyfills', 'vendor', 'bundle'],
 				chunksSortMode: 'manual',
 			}),
-			new webpack.ContextReplacementPlugin(/date-fns[/\\]locale/, new RegExp(`(${supportedLocales.join('|')})\\.js$`)),
+			new webpack.ContextReplacementPlugin(
+				/date-fns[/\\]locale/,
+				new RegExp(`(${supportedLocales.join('|')})\\.js$`),
+			),
 		],
 		devServer: {
 			hot: true,
@@ -147,21 +152,23 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 			allowedHosts: 'all',
 			open: true,
 			devMiddleware: {
-				publicPath: args.mode === 'production' ? 'livechat/' : '/',
+				publicPath: args.mode === 'production' ? '/livechat/' : '/',
 				stats: 'normal',
 			},
-			client: {
-				logging: 'verbose',
-			},
+			client: { logging: 'verbose' },
 			static: {
 				directory: _('./src'),
-				publicPath: args.mode === 'production' ? 'livechat/' : '/',
+				publicPath: args.mode === 'production' ? '/livechat/' : '/',
 				watch: {
 					ignored: [_('./dist'), _('./node_modules')],
 				},
 			},
 		},
 	},
+
+	// =========================
+	// WIDGET BUILD
+	// =========================
 	{
 		...common(args),
 		entry: {
@@ -169,7 +176,7 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 		} as webpack.Entry,
 		output: {
 			path: _('./dist'),
-			publicPath: args.mode === 'production' ? 'livechat/' : '/',
+			publicPath: args.mode === 'production' ? '/livechat/' : '/',
 			filename: '[name].js',
 		},
 		module: {

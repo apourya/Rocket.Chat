@@ -1,0 +1,2 @@
+function module(e,l,n){let t,r,c;n.link("@rocket.chat/fuselage",{Skeleton(e){t=e}},0),n.link("./InviteUsersWrapper",{default(e){r=e}},1),n.link("react/jsx-runtime",{jsx(e){c=e}},2),n.exportDefault(e=>{let{onClose:l,onClickBack:n}=e;return c(r,{onClose:l,onClickBack:n,children:c(t,{w:"full"})})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomMembers/InviteUsers/f4d0e931cc53de9bea4475416333f473a3af0dc8.map

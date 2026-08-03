@@ -1,0 +1,2 @@
+function module(e,t,n){let l;n.export({useCreateFontStyleElement:()=>c}),n.link("react",{useCallback(e){l=e}},0);let r=e=>{let t=document.getElementById(e);if(t)return t;let n=document.createElement("style");return n.setAttribute("id",e),n},c=()=>l(e=>{let t=r("rcx-font-size");t.innerHTML="html { font-size: ".concat(e,"; }"),document.head.appendChild(t)},[])}
+//# sourceMappingURL=/dynamic/client/views/account/accessibility/hooks/15e8bacda1bf50a225f3a176862b6befe8fbe578.map

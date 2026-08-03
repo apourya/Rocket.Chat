@@ -1,0 +1,2 @@
+function module(e,t,r){let l,n,a,i;r.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),r.link("@rocket.chat/fuselage",{SidebarV2ListItem(e){n=e}},0),r.link("react",{forwardRef(e){a=e}},1),r.link("react/jsx-runtime",{jsx(e){i=e}},2);let u=a(function(e,t){return i(n,l({ref:t},e))});r.exportDefault(u)}
+//# sourceMappingURL=/dynamic/client/sidebarv2/RoomList/46b564d27c03c1ae8a1133cecf63967a49489712.map

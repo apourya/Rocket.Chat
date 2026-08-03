@@ -1,0 +1,2 @@
+function module(e,i,l){let t,r;l.export({useFormattedRelativeTime:()=>h}),l.link("moment",{default(e){t=e}},0),l.link("react",{useMemo(e){r=e}},1);let h=e=>r(()=>(t.relativeTimeThreshold("s",60),t.relativeTimeThreshold("ss",0),t.relativeTimeThreshold("m",60),t.relativeTimeThreshold("h",24),t.relativeTimeThreshold("d",31),t.relativeTimeThreshold("M",12),t.duration(e).humanize()),[e])}
+//# sourceMappingURL=/dynamic/client/hooks/803de78da02dd332cfc5b859bc34257a8bb8e86e.map

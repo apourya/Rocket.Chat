@@ -1,0 +1,2 @@
+function module(e,t,a){let r,l,m;a.link("react-hook-form",{useWatch(e){r=e}},0),a.link("../../../../TemplatePreview",{default(e){l=e}},1),a.link("react/jsx-runtime",{jsx(e){m=e}},2),a.exportDefault(e=>{let{control:t,template:a}=e,n=r({control:t,name:"templateParameters"});return m(l,{template:a,parameters:n})})}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/components/OutboundMessageWizard/forms/MessageForm/components/6218d714364187787497524ac0f171dbbb28250c.map

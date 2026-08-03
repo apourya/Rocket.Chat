@@ -1,0 +1,2 @@
+function module(n,t,e){var r,i,u;e.link("@rocket.chat/fuselage",{Skeleton:function(n){r=n}},0),e.link("react/jsx-runtime",{jsx:function(n){i=n},Fragment:function(n){u=n}},1),e.exportDefault(function(){return i(u,{children:Array.from({length:3},function(n,t){return i(r,{variant:"rect",height:"80px",m:"2px"},t)})})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/components/ad8020e55eda1d92a4df97986fb45c07ee7ad3fd.map

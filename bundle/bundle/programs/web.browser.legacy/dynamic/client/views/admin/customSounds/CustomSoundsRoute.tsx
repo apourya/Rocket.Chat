@@ -1,0 +1,2 @@
+function module(n,t,u){var o,e,i,a;u.link("@rocket.chat/ui-contexts",{usePermission:function(n){o=n}},0),u.link("./CustomSoundsPage",{default:function(n){e=n}},1),u.link("../../notAuthorized/NotAuthorizedPage",{default:function(n){i=n}},2),u.link("react/jsx-runtime",{jsx:function(n){a=n}},3),u.exportDefault(function(){return o("manage-sounds")?a(e,{}):a(i,{})})}
+//# sourceMappingURL=/dynamic/client/views/admin/customSounds/9a00fece59960304b12758721d490a665c550e71.map

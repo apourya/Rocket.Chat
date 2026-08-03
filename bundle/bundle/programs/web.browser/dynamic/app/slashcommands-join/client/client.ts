@@ -1,0 +1,2 @@
+function module(e,n,r){let s;r.link("../../utils/client/slashCommand",{slashCommands(e){s=e}},0),s.add({command:"join",options:{description:"Join_the_given_channel",params:"#channel",permission:"view-c-room"},result(e,n,r){if("error-user-already-in-room"===e.error)return r.cmd="open",r.msg.msg=r.msg.msg.replace("join","open"),void s.run({command:"open",params:r.params,message:r.msg,triggerId:"",userId:r.userId})}})}
+//# sourceMappingURL=/dynamic/app/slashcommands-join/client/2a3113c23a05b84623d23ef785a579c1cc624812.map

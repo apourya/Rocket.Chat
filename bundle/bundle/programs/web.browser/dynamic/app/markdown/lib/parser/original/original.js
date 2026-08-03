@@ -1,0 +1,2 @@
+function module(e,t,n){let o,l;n.export({original:()=>r}),n.link("./code.js",{code(e){o=e}},0),n.link("./markdown.js",{markdown(e){l=e}},1);let r=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{supportSchemesForLink:"http,https",headers:!0};return e=o(e),(e=l(e,t)).html=e.html.replace(/\n/gm,"<br>"),e}}
+//# sourceMappingURL=/dynamic/app/markdown/lib/parser/original/9d306bdb8bff55f3a2587f020d20523597fa924b.map

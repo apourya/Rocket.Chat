@@ -1,0 +1,2 @@
+function module(t,a,l){let r,e;l.export({callWithErrorHandling:()=>n}),l.link("../../../app/utils/client/lib/SDKClient",{sdk(t){r=t}},0),l.link("../toast",{dispatchToastMessage(t){e=t}},1);let n=async function(t){try{for(var a=arguments.length,l=Array(a>1?a-1:0),n=1;n<a;n++)l[n-1]=arguments[n];return await r.call(t,...l)}catch(t){throw e({type:"error",message:t}),t}}}
+//# sourceMappingURL=/dynamic/client/lib/utils/4f25097fed8c34d6f5b056b93ed04473a518fb80.map

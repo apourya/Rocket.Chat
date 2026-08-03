@@ -1,0 +1,2 @@
+function module(e,l,t){let c;t.export({useCategoryToggle:()=>r}),t.link("react",{useCallback(e){c=e}},0);let r=e=>c(l=>e(e=>{let t=e.flatMap(e=>e.items),c=t.filter(e=>{let{id:l}=e;return"all"!==l}),r=t.find(e=>{let{id:l}=e;return"all"===l}),d=t.find(e=>{let{id:t}=e;return t===l.id});return"all"===l.id&&c.forEach(e=>{e.checked=!l.checked}),d&&(d.checked=!d.checked),r&&c.some(e=>!1===e.checked)&&(r.checked=!1),[...e]}),[e])}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/2feb9b314be96d26de38fa927b5fdd49ec5be0bc.map

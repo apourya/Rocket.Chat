@@ -1,0 +1,2 @@
+function module(i,n,t){var e,r,u,l;t.link("./SecurityPrivacyPage",{default:function(i){e=i}},0),t.link("../../providers/SettingsProvider",{default:function(i){r=i}},1),t.link("../../views/admin/settings/EditableSettingsProvider",{default:function(i){u=i}},2),t.link("react/jsx-runtime",{jsx:function(i){l=i}},3),t.exportDefault(function(){return l(r,{children:l(u,{children:l(e,{})})})})}
+//# sourceMappingURL=/dynamic/client/omnichannel/securityPrivacy/6277d91f319765d52dff5d0287522e81731c19a8.map

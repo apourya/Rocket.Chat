@@ -1,0 +1,2 @@
+function module(e,i,r){let t,n,a,l,c,u,d,o;r.link("@rocket.chat/ui-client",{FeaturePreview(e){t=e},FeaturePreviewOff(e){n=e},FeaturePreviewOn(e){a=e},HeaderV2Divider(e){l=e},HeaderDivider(e){c=e}},0),r.link("react",{memo(e){u=e}},1),r.link("react/jsx-runtime",{jsx(e){d=e},jsxs(e){o=e}},2),r.exportDefault(u(()=>o(t,{feature:"newNavigation",children:[d(n,{children:d(c,{})}),d(a,{children:d(l,{})})]})))}
+//# sourceMappingURL=/dynamic/client/components/Header/6d9a8f49a40e08d6346b84bccdc1020995cbc5cb.map

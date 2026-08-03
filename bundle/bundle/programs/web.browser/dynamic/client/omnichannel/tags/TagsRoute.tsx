@@ -1,0 +1,2 @@
+function module(e,t,i){let a,n,l,o;i.link("@rocket.chat/ui-contexts",{usePermission(e){a=e}},0),i.link("./TagsPage",{default(e){n=e}},1),i.link("../../views/notAuthorized/NotAuthorizedPage",{default(e){l=e}},2),i.link("react/jsx-runtime",{jsx(e){o=e}},3),i.exportDefault(()=>a("manage-livechat-tags")?o(n,{}):o(l,{}))}
+//# sourceMappingURL=/dynamic/client/omnichannel/tags/3fa170432b5bb57f25df6d61058968b7ccc03047.map

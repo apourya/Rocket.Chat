@@ -1,0 +1,2 @@
+function module(e,l,r){let n,t,a;r.link("@rocket.chat/fuselage",{Box(e){n=e}},0),r.link("./UserCardInfo",{default(e){t=e}},1),r.link("react/jsx-runtime",{jsx(e){a=e}},2),r.exportDefault(e=>{let{children:l}=e;return a(n,{m:"neg-x2",children:a(t,{flexWrap:"wrap",display:"flex",flexShrink:0,children:l})})})}
+//# sourceMappingURL=/dynamic/client/components/UserCard/ed3df1f1659735a340a2969c0381e49759650638.map

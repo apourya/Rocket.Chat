@@ -1,0 +1,2 @@
+function module(e,n,o){let s,t;o.export({getActionFormFields:()=>r}),o.link("../actions/ExternalServiceActionForm",{ExternalServiceActionForm(e){s=e}},0),o.link("../actions/SendMessageActionForm",{SendMessageActionForm(e){t=e}},1);let i={"send-message":t,"use-external-service":s},r=e=>i[e]||i["send-message"]}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/triggers/utils/11739926c0e2dfb9ed4b838bd7dadf5cce1bec12.map

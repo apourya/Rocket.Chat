@@ -1,0 +1,2 @@
+function module(n,i,t){t.export({useOutboundDialer:function(){return l}}),t.link("../contexts/CallContext",{useCallClient:function(n){e=n},useIsVoipEnterprise:function(n){o=n}},0),t.link("../lib/voip/EEVoipClient",{EEVoipClient:function(n){u=n}},1);var e,o,u,l=function(){var n=e(),i=o(),t=n instanceof u;return i&&t?n:null}}
+//# sourceMappingURL=/dynamic/client/hooks/cd9699a08fc92ae9dd3150288fec71341777a2af.map

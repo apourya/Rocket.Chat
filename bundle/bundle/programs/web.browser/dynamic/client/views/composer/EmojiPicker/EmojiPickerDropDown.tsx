@@ -1,0 +1,2 @@
+function module(e,t,r){let n,o,l,c,i;r.link("@rocket.chat/fuselage",{Dropdown(e){n=e}},0),r.link("@rocket.chat/ui-contexts",{useLayout(e){o=e}},1),r.link("react",{forwardRef(e){l=e}},2),r.link("./EmojiPickerDesktopDropdown",{default(e){c=e}},3),r.link("react/jsx-runtime",{jsx(e){i=e}},4);let u=l(function(e,t){let{children:r,reference:l}=e,{isMobile:u}=o();return i(u?n:c,{ref:t,reference:l,children:r})});r.exportDefault(u)}
+//# sourceMappingURL=/dynamic/client/views/composer/EmojiPicker/ac859698f7f85725cbe70d3eb3786f413c81c197.map

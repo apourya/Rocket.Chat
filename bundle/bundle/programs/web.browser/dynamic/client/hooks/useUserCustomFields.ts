@@ -1,0 +1,2 @@
+function module(e,t,o){let r;o.export({useUserCustomFields:()=>l}),o.link("@rocket.chat/ui-contexts",{useSetting(e){r=e}},0);let l=e=>{let t;let o=r("Accounts_CustomFieldsToShowInUserInfo");try{t=JSON.parse(o)}catch(e){t=void 0}if(t){if(!Array.isArray(t)){console.warn("Invalid customFieldsToShowInUserInfo value");return}return t.map(t=>{if(!t)return;let[o]=Object.keys(t),[r]=Object.values(t),l=null==e?void 0:e[r];return{label:o,value:""!==l?l:void 0}})}}}
+//# sourceMappingURL=/dynamic/client/hooks/fc695e66eb5b8ef46e91268aae4aae60478c0b15.map

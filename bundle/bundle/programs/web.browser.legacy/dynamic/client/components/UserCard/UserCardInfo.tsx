@@ -1,0 +1,2 @@
+function module(n,t,e){var i,o,u;e.link("@babel/runtime/helpers/objectSpread2",{default:function(n){i=n}},0),e.link("@rocket.chat/fuselage",{Box:function(n){o=n}},0),e.link("react/jsx-runtime",{jsx:function(n){u=n}},1),e.exportDefault(function(n){return u(o,i({mb:8,is:"span",fontScale:"p2",color:"hint",withTruncatedText:!0},n))})}
+//# sourceMappingURL=/dynamic/client/components/UserCard/0d59c38d4c60cea0b77787f24099c9a585ebfbca.map

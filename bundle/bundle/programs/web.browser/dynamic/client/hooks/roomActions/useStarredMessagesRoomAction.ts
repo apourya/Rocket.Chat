@@ -1,0 +1,2 @@
+function module(e,t,r){let a,o;r.export({useStarredMessagesRoomAction:()=>i}),r.link("react",{lazy(e){a=e},useMemo(e){o=e}},0);let s=a(()=>r.dynamicImport("../../views/room/contextualBar/StarredMessagesTab")),i=()=>o(()=>({id:"starred-messages",groups:["channel","group","direct","direct_multiple","team"],title:"Starred_Messages",icon:"star",tabComponent:s,order:10,type:"organization"}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/be27dd350f91fe96b126116d65cd75f148c58498.map

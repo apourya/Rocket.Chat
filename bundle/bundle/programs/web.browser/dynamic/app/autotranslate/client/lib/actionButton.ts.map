@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/autotranslate/client/lib/actionButton.ts","meteor://💻app/<anon>"],"sourcesContent":["import { Meteor } from 'meteor/meteor';\n\nimport { AutoTranslate } from './autotranslate';\n\nMeteor.startup(() => {\n\tAutoTranslate.init();\n});\n",null],"names":["Meteor","AutoTranslate","module","link","v","startup","init"],"mappings":"2BAAAA,EAAsCC,EAA7BC,EAAMC,IAAA,CAAQ,gBAAe,CAAAH,OAAAI,CAAA,EAAAJ,EAAAI,CAAA,CAAA,EAAA,GAAAF,EAAAC,IAAA,CAAA,kBAAA,CAAAF,cAAAG,CAAA,EAAAH,EAAAG,CAAA,CAAA,EAAA,GAItCJ,EAAOK,OAAO,CAAC,KACdJ,EAAcK,IAAI,EACnB"}

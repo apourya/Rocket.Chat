@@ -1,0 +1,2 @@
+function module(e,t,u){let s,c;u.export({useCustomFieldsQuery:()=>l}),u.link("@rocket.chat/ui-contexts",{useEndpoint(e){s=e}},0),u.link("@tanstack/react-query",{useQuery(e){c=e}},1);let l=()=>{let e=s("GET","/v1/livechat/custom-fields");return c({queryKey:["/v1/livechat/custom-fields"],queryFn:async()=>e()})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/contactInfo/hooks/78db4098d47b1a28a9b1ac08a87646e1e3103bd9.map

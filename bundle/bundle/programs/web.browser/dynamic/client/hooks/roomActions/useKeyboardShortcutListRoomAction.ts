@@ -1,0 +1,2 @@
+function module(t,o,e){let r,i;e.export({useKeyboardShortcutListRoomAction:()=>c}),e.link("react",{lazy(t){r=t},useMemo(t){i=t}},0);let a=r(()=>e.dynamicImport("../../views/room/contextualBar/KeyboardShortcuts")),c=()=>i(()=>({id:"keyboard-shortcut-list",groups:["channel","group","direct","direct_multiple","team"],title:"Keyboard_Shortcuts_Title",icon:"keyboard",tabComponent:a,order:99,type:"customization"}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/e066f6ef70d0371c9c4ceba68bda26470caaaf8f.map

@@ -1,0 +1,2 @@
+function module(e,l,t){let i,o,u;t.export({useDropdownVisibility:()=>s}),t.link("@rocket.chat/fuselage-hooks",{useToggle(e){i=e},useOutsideClick(e){o=e}},0),t.link("react",{useCallback(e){u=e}},1);let s=e=>{let{reference:l,target:t}=e,[s,c]=i(!1);return o([t,l],u(()=>c(!1),[c])),{isVisible:s,toggle:c}}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/hooks/e97fa6ccb7066e9455344639d97a1b9721729132.map

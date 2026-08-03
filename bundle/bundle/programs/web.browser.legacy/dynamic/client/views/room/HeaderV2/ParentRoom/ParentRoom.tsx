@@ -1,0 +1,2 @@
+function module(n,t,i){var a,e,o;i.link("./ParentDiscussion",{default:function(n){a=n}},0),i.link("./ParentTeam",{default:function(n){e=n}},1),i.link("react/jsx-runtime",{jsx:function(n){o=n}},2),i.exportDefault(function(n){var t=n.room;return t.prid||t.teamId&&!t.teamMain?t.prid?o(a,{room:t}):t.teamId&&!t.teamMain?o(e,{room:t}):void 0:null})}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/ParentRoom/13997c0f647f242a1f44aedcf2f3968713b8e2f4.map

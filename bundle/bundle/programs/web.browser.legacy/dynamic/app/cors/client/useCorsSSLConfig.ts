@@ -1,0 +1,2 @@
+function module(t,e,n){n.export({useCorsSSLConfig:function(){return i}}),n.link("@rocket.chat/ui-contexts",{useSetting:function(t){o=t}},0),n.link("meteor/meteor",{Meteor:function(t){u=t}},1),n.link("react",{useEffect:function(t){c=t}},2);var o,u,c,i=function(){var t=o("Force_SSL");c(function(){u.absoluteUrl.defaultOptions.secure=!!t},[t])}}
+//# sourceMappingURL=/dynamic/app/cors/client/a3549f69466972507b7a64d104debfc1933fa717.map

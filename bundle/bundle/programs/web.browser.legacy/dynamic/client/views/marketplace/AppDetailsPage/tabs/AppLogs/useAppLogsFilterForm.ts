@@ -1,0 +1,2 @@
+function module(t,e,n){n.export({useAppLogsFilterForm:function(){return u},useAppLogsFilterFormContext:function(){return i}}),n.link("react-hook-form",{useForm:function(t){r=t},useFormContext:function(t){o=t}},0);var r,o,u=function(){return r({defaultValues:{severity:"all",instance:"all",timeFilter:"all",event:"all",startDate:"",endDate:"",startTime:"",endTime:""}})},i=function(){return o()}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppDetailsPage/tabs/AppLogs/cdf7719b941f2a17b1c2cbccce2ae8a67737fe55.map

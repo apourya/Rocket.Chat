@@ -1,0 +1,2 @@
+function module(e,t,a){let l,n,o;a.link("@rocket.chat/fuselage",{MessageToolbarItem(e){l=e}},0),a.link("@rocket.chat/ui-contexts",{useLayoutHiddenActions(e){n=e}},1),a.link("react/jsx-runtime",{jsx(e){o=e}},2),a.exportDefault(e=>{let{id:t,icon:a,title:i,disabled:s,qa:c,onClick:u}=e;return n().messageToolbox.includes(t)?null:o(l,{icon:a,title:i,disabled:s,"data-qa-id":c,"data-qa-type":"message-action-menu",onClick:u})})}
+//# sourceMappingURL=/dynamic/client/components/message/toolbar/30a6f33b02ffb7215db67cc72f2e1d3dccde06fa.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let l,r,c,s;n.export({useIsVisible:()=>i}),n.link("@rocket.chat/fuselage-hooks",{useDebouncedState(e){l=e},useSafely(e){r=e}},0),n.link("@rocket.chat/ui-client",{useSafeRefCallback(e){c=e}},1),n.link("react",{useCallback(e){s=e}},2);let i=()=>{let[e,t]=r(l(!!window.DISABLE_ANIMATION,100));return[c(s(e=>{if(!e)return;let n=new IntersectionObserver(e=>{e.forEach(e=>{t(e.isIntersecting)})});return n.observe(e),()=>{n.disconnect()}},[t])),e]}}
+//# sourceMappingURL=/dynamic/client/views/room/hooks/f772c71ebd37d9293d91b8a9aca322f0b9eebbfa.map

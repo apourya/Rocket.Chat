@@ -1,0 +1,2 @@
+function module(r,t,o){o.link("@babel/runtime/helpers/inheritsLoose",{default:function(r){n=r}},0),o.export({OldUrlRoomError:function(){return l}}),o.link("./RocketChatError",{RocketChatError:function(r){e=r}},0);var n,e,l=function(r){function t(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Old Url Format",o=arguments.length>1?arguments[1]:void 0;return r.call(this,"old-url-format",t,o)||this}return n(t,r),t}(e)}
+//# sourceMappingURL=/dynamic/client/lib/errors/d05a2303f2233e736b714fd857661e584d8eeb34.map

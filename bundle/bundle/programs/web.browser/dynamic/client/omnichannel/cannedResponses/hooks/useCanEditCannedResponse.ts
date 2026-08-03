@@ -1,0 +1,2 @@
+function module(e,s,n){let o;n.export({useCanEditCannedResponse:()=>t}),n.link("@rocket.chat/ui-contexts",{usePermission(e){o=e}},0);let t=e=>{let s=o("view-all-canned-responses"),n=o("save-canned-responses"),t=o("save-department-canned-responses");return n||t||s&&"global"!==e.scope||"user"===e.scope}}
+//# sourceMappingURL=/dynamic/client/omnichannel/cannedResponses/hooks/654367239755b48a7fce17196f5363ae9c75168e.map

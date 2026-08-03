@@ -1,0 +1,2 @@
+function module(e,l,o){let t,n;o.export({useSelectAllAndScrollToTop:()=>s}),o.link("react",{useRef(e){t=e}},0),o.link("../../MessageList/contexts/SelectedMessagesContext",{useToggleSelectAll(e){n=e}},1);let s=()=>{let e=t(null),l=n();return{innerRef:e,selectAllAndScrollToTop:()=>{var o;null===(o=e.current)||void 0===o||o.scrollTo({top:0,behavior:"smooth"}),l()}}}}
+//# sourceMappingURL=/dynamic/client/views/room/body/hooks/5b6902c0c6d487261f890523977ea05d9053cf4a.map

@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useCoreRoomActions:function(){return e}}),t.link("@rocket.chat/fuselage-hooks",{useStableArray:function(n){r=n}},0),t.link("../../../../ui",{roomActionHooks:function(n){u=n}},1);var r,u,e=function(){return r(u.map(function(n){return n()}).filter(function(n){return!!n}))}}
+//# sourceMappingURL=/dynamic/client/views/room/providers/hooks/371272d9c89faa63c85103b0bdfa9e94e01493d2.map

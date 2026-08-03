@@ -1,0 +1,2 @@
+function module(e,l,t){let o,r;t.export({useCollapsedGroups:()=>u}),t.link("@rocket.chat/fuselage-hooks",{useLocalStorage(e){o=e}},0),t.link("react",{useCallback(e){r=e}},1);let u=()=>{let[e,l]=o("sidebarGroups",[]),t=r(t=>{e.includes(t)?l(e.filter(e=>e!==t)):l([...e,t])},[e,l]),u=r((e,l)=>{["Enter","Space"].includes(e.code)&&(e.preventDefault(),t(l))},[t]);return{collapsedGroups:e,handleClick:t,handleKeyDown:u}}}
+//# sourceMappingURL=/dynamic/client/sidebarv2/hooks/a0e8c5f540c322c18dbbfec5229d67195df6694e.map

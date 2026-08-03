@@ -1,0 +1,2 @@
+function module(e,t,a){let r,o;a.export({registerMarketplaceRoute:()=>c}),a.link("react",{lazy(e){r=e}},0),a.link("../../lib/createRouteGroup",{createRouteGroup(e){o=e}},1);let c=o("marketplace","/marketplace",r(()=>a.dynamicImport("./MarketplaceRouter")));c("/:context?/:page?/:id?/:version?/:tab?/:contextualBar?",{name:"marketplace",component:r(()=>a.dynamicImport("./AppsRoute"))})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/14da4f5f413a3d0394c2c084e68e9bab5fa01bc1.map

@@ -1,0 +1,2 @@
+function module(i,e,o){let s,a,t,m,r,l,n;o.export({getRoomTypeTranslation:()=>c}),o.link("@rocket.chat/core-typings",{isPublicRoom(i){s=i},isDirectMessageRoom(i){a=i},isPrivateTeamRoom(i){t=i},isPublicTeamRoom(i){m=i},isPrivateDiscussion(i){r=i},isPrivateRoom(i){l=i}},0),o.link("../../app/utils/lib/i18n",{t(i){n=i}},1);let c=i=>s(i)?n("Channel"):r(i)?n("Private_Discussion"):l(i)?n("Private_Group"):a(i)?n("Direct_Message"):t(i)?n("Teams_Private_Team"):m(i)?n("Teams_Public_Team"):n("Room")}
+//# sourceMappingURL=/dynamic/client/lib/0487efab307fa3ecca7f4c5d2682e962e707a0d9.map

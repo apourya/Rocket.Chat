@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/startup/absoluteUrl.ts","meteor://💻app/<anon>"],"sourcesContent":["import { Meteor } from 'meteor/meteor';\n\nimport { baseURI } from '../lib/baseURI';\n\nMeteor.absoluteUrl.defaultOptions.rootUrl = baseURI;\n",null],"names":["Meteor","baseURI","module","link","v","absoluteUrl","defaultOptions","rootUrl"],"mappings":"2BAAAA,EAAsCC,EAA7BC,EAAMC,IAAA,CAAQ,gBAAe,CAAAH,OAAAI,CAAA,EAAAJ,EAAAI,CAAA,CAAA,EAAA,GAAAF,EAAAC,IAAA,CAAA,iBAAA,CAAAF,QAAAG,CAAA,EAAAH,EAAAG,CAAA,CAAA,EAAA,GAItCJ,EAAOK,WAAW,CAACC,cAAc,CAACC,OAAO,CAAGN"}

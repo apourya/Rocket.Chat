@@ -1,0 +1,2 @@
+function module(e,t,i){i.export({useSplitRoomActions:()=>s});let s=(e,t)=>{let i=(null==t?void 0:t.size)||2;if(e.items.length<=i)return{buttons:e};let s={items:e.items.slice(0,i)},n=e.items.slice(i),l=n.findIndex(e=>e.variant),m=n.splice(l);return{buttons:s,menu:[{items:n},{items:m}]}}}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Info/hooks/2b3f257a5a90ed64ec45aa692487c6383ce63436.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/composer/ComposerFederation/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './ComposerFederation';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,uBAAe,CAAA,QAAA,SAAsB,EAAA"}

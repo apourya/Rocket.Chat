@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,a,i,r;n.link("@rocket.chat/fuselage",{Box(e){l=e}},0),n.link("react-i18next",{useTranslation(e){o=e}},1),n.link("../../components/Page",{Page(e){a=e},PageContent(e){i=e}},2),n.link("react/jsx-runtime",{jsx(e){r=e}},3),n.exportDefault(()=>{let{t:e}=o();return r(a,{children:r(i,{pb:24,children:r(l,{is:"p",fontScale:"p2",color:"default",children:e("You_are_not_authorized_to_view_this_page")})})})})}
+//# sourceMappingURL=/dynamic/client/views/notAuthorized/6013e7b3ae5513f072b42cd5a44bf67c951d05d8.map

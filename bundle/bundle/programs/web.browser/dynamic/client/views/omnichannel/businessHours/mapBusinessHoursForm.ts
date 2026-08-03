@@ -1,0 +1,2 @@
+function module(a,d,e){e.export({DAYS_OF_WEEK:()=>t,defaultWorkHours:()=>u});let t=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],n=["Saturday","Sunday"],u=function(){let a=arguments.length>0&&void 0!==arguments[0]&&arguments[0];return t.map(d=>({day:d,start:{time:"08:00"},finish:{time:"18:00"},open:!!a||!n.includes(d)}))}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/businessHours/22225b66ba7b10e1421c8fdf72cc1a7679b54124.map

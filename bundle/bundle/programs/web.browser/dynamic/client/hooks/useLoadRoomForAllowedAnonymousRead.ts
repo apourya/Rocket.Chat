@@ -1,0 +1,2 @@
+function module(e,t,o){let s,n,c,d,u;o.export({useLoadRoomForAllowedAnonymousRead:()=>a}),o.link("@rocket.chat/ui-contexts",{useSetting(e){s=e},useUserId(e){n=e}},0),o.link("react",{useEffect(e){c=e}},1),o.link("../cachedStores",{RoomsCachedStore(e){d=e},SubscriptionsCachedStore(e){u=e}},2);let a=()=>{let e=n(),t=s("Accounts_AllowAnonymousRead");c(()=>{if(!e&&!0===t)return d.init(),u.setReady(!0),()=>{d.setReady(!1),u.setReady(!1)}},[t,e])}}
+//# sourceMappingURL=/dynamic/client/hooks/3d14ff19f76bf0ccb97fefdfbc6705830c363218.map

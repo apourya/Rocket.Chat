@@ -1,0 +1,2 @@
+function module(e,t,o){let l,n,i,u;o.link("@rocket.chat/ui-contexts",{useSetting(e){l=e}},0),o.link("./AccountProfilePage",{default(e){n=e}},1),o.link("../../notAuthorized/NotAuthorizedPage",{default(e){i=e}},2),o.link("react/jsx-runtime",{jsx(e){u=e}},3),o.exportDefault(()=>l("Accounts_AllowUserProfileChange")?u(n,{}):u(i,{}))}
+//# sourceMappingURL=/dynamic/client/views/account/profile/1a715d442e03e20e76edfad2fa85e132bedb9e75.map

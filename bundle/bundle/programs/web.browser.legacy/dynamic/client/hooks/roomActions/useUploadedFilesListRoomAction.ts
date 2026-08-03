@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useUploadedFilesListRoomAction:function(){return u}}),t.link("react",{lazy:function(n){e=n},useMemo:function(n){i=n}},0);var e,i,r=e(function(){return t.dynamicImport("../../views/room/contextualBar/RoomFiles")}),u=function(){return i(function(){return{id:"uploaded-files-list",groups:["channel","group","direct","direct_multiple","live","team"],title:"Files",icon:"clip",tabComponent:r,order:8,type:"organization"}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/b3d1bb3bea4573f3c6c0659f4c444c5e88384249.map

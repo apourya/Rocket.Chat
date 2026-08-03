@@ -1,0 +1,2 @@
+function module(e,t,s){let u,n;s.export({useUserAvatarSuggestions:()=>r}),s.link("@rocket.chat/ui-contexts",{useEndpoint(e){u=e}},0),s.link("@tanstack/react-query",{useQuery(e){n=e}},1);let r=()=>{let e=u("GET","/v1/users.getAvatarSuggestion");return n({queryKey:["account","profile","avatar-suggestions"],queryFn:async()=>e(),select:e=>Object.values(e.suggestions)})}}
+//# sourceMappingURL=/dynamic/client/components/avatar/UserAvatarEditor/798b685ada186685a7be29697665c9d095fdc547.map

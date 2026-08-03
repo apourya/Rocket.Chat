@@ -1,0 +1,2 @@
+function module(e,t,n){let c,i,o,u;n.export({useAppUiKitInteraction:()=>r}),n.link("@rocket.chat/fuselage-hooks",{useEffectEvent(e){c=e}},0),n.link("@rocket.chat/ui-contexts",{useStream(e){i=e},useUserId(e){o=e}},1),n.link("react",{useEffect(e){u=e}},2);let r=e=>{let t=i("notify-user"),n=o(),r=c(e);u(()=>{if(n)return t("".concat(n,"/uiInteraction"),r)},[t,n,r])}}
+//# sourceMappingURL=/dynamic/client/hooks/5fd8c56152d98f2fe808266934053746b068f484.map

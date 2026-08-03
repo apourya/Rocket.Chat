@@ -1,0 +1,2 @@
+function module(o,t,e){let n,l,i,x;e.link("./EditRoomInfo",{default(o){n=o}},0),e.link("../../../contexts/RoomContext",{useRoom(o){l=o}},1),e.link("../../../contexts/RoomToolboxContext",{useRoomToolbox(o){i=o}},2),e.link("react/jsx-runtime",{jsx(o){x=o}},3),e.exportDefault(o=>{let{onClickBack:t}=o,e=l(),{closeTab:m}=i();return x(n,{onClickClose:m,onClickBack:t,room:e})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Info/EditRoomInfo/7dec1d806002ec33a27da8beea2688d8fd99ed62.map

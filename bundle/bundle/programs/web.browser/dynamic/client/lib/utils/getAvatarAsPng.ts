@@ -1,0 +1,2 @@
+function module(t,e,r){let a;r.export({getAvatarAsPng:()=>n}),r.link("../../../app/utils/client/getUserAvatarURL",{getUserAvatarURL(t){a=t}},0);let n=(t,e)=>{let r=new Image,n=()=>e("");return r.onload=()=>{let t=document.createElement("canvas");t.width=r.width,t.height=r.height;let a=t.getContext("2d");if(!a)throw Error("failed to get canvas context");a.drawImage(r,0,0);try{return e(t.toDataURL("image/png"))}catch(t){return e("")}},r.onerror=n,r.src=a(t||""),n}}
+//# sourceMappingURL=/dynamic/client/lib/utils/2c38bac55267f0fa8a43941ce318ebb3ad3112e6.map

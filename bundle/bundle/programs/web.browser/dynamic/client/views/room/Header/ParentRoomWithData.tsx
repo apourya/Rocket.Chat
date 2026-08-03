@@ -1,0 +1,2 @@
+function module(t,e,r){let o,i,n,l;r.link("@rocket.chat/ui-contexts",{useUserSubscription(t){o=t}},0),r.link("./ParentRoom",{default(t){i=t}},1),r.link("./ParentRoomWithEndpointData",{default(t){n=t}},2),r.link("react/jsx-runtime",{jsx(t){l=t}},3),r.exportDefault(t=>{let{room:e}=t,{prid:r}=e;if(!r)throw Error("Parent room ID is missing");let a=o(r);return a?l(i,{room:a}):l(n,{rid:r})})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/ccd1a7a628e4113f4ca124a83f8e78e97aa1c147.map

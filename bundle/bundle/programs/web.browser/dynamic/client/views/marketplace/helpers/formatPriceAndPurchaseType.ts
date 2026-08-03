@@ -1,0 +1,2 @@
+function module(r,e,i){let t,n;i.export({formatPriceAndPurchaseType:()=>c}),i.link("./formatPrice",{formatPrice(r){t=r}},0),i.link("./formatPricingPlan",{formatPricingPlan(r){n=r}},1);let c=(r,e,i)=>{if("subscription"===r){let r="Subscription";return e&&Array.isArray(e)&&0!==e.length?{type:r,price:n(e[0])}:{type:r,price:"-"}}return i>0?{type:"Paid",price:t(i)}:{type:"Free",price:"-"}}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/79543d9f08ec0c283675ad29ed42a400cb6328e8.map

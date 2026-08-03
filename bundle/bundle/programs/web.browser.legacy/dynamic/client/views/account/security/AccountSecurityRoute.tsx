@@ -1,0 +1,2 @@
+function module(t,n,o){var e,u,c,i;o.link("@rocket.chat/ui-contexts",{useSetting:function(t){e=t}},0),o.link("./AccountSecurityPage",{default:function(t){u=t}},1),o.link("../../notAuthorized/NotAuthorizedPage",{default:function(t){c=t}},2),o.link("react/jsx-runtime",{jsx:function(t){i=t}},3),o.exportDefault(function(){var t=e("Accounts_TwoFactorAuthentication_Enabled"),n=e("E2E_Enable"),o=e("Accounts_AllowPasswordChange");return t||n||o?i(u,{}):i(c,{})})}
+//# sourceMappingURL=/dynamic/client/views/account/security/73ea6969ec3ca4b88627e543aa3c94b82115d0fe.map

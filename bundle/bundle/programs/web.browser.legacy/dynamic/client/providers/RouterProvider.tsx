@@ -1,0 +1,2 @@
+function module(n,t,r){r.export({router:function(){return i}}),r.link("@rocket.chat/ui-contexts",{RouterContext:function(n){e=n}},0),r.link("../router",{Router:function(n){o=n}},1),r.link("react/jsx-runtime",{jsx:function(n){u=n}},2);var e,o,u,i=new o;r.exportDefault(function(n){var t=n.children;return u(e.Provider,{children:t,value:i})})}
+//# sourceMappingURL=/dynamic/client/providers/2014af292a749551a029f5d09a1b6f921ffca34b.map

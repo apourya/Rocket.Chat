@@ -1,0 +1,2 @@
+function module(i,n,e){e.export({buildImageURL:function(){return t}}),e.link("../../../../views/room/MessageList/lib/isValidLink",{isValidLink:function(i){r=i}},0);var r,t=function(i,n){return r(n)?JSON.stringify(n):JSON.stringify((new URL(i).origin+"/"+n).replace(/([^:]\/)\/+/gm,"$1"))}}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/ec4925e7617bdc93b84afd9112febc523a0b82b2.map

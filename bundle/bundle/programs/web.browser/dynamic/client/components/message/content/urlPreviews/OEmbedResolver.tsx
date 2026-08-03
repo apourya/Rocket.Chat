@@ -1,0 +1,2 @@
+function module(e,t,l){let r,i,a,n,u;l.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),l.link("./OEmbedHtmlPreview",{default(e){i=e}},0),l.link("./OEmbedImagePreview",{default(e){a=e}},1),l.link("./OEmbedLinkPreview",{default(e){n=e}},2),l.link("react/jsx-runtime",{jsx(e){u=e}},3),l.exportDefault(e=>{let{meta:t}=e;switch(t.type){case"rich":case"video":return u(i,r({},t));case"photo":return u(a,r({},t));default:return u(n,r({},t))}})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/ce51ea8b2aa681885c75183faae5517ccf1b4481.map

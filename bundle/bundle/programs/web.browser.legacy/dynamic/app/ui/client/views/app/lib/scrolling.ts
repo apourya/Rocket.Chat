@@ -1,0 +1,2 @@
+function module(t,o,e){function n(t){var o=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0;return t.scrollTop+o>=t.scrollHeight-t.clientHeight}e.export({isAtBottom:function(){return n},getBoundingClientRect:function(){return i}});var i=function(t){var o=t.getBoundingClientRect();return{top:o.top,bottom:o.bottom,left:o.left,right:o.right,scrollTop:t.scrollTop,scrollHeight:t.scrollHeight,clientHeight:t.clientHeight}}}
+//# sourceMappingURL=/dynamic/app/ui/client/views/app/lib/c3a0005f8084f7d307c7e1829b87120c4f91aedb.map

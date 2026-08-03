@@ -1,0 +1,2 @@
+function module(t,e,n){let o;n.export({getMomentCurrentLabel:()=>a}),n.link("moment-timezone",{default(t){o=t}},0);let a=function(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:Date.now(),e=o(t),n=o(e).add(1,"hours");return"".concat(e.format("hA"),"-").concat(n.format("hA"))}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/realTimeMonitoring/charts/e152386b360f2955d08577ff472d113fe69f2a57.map

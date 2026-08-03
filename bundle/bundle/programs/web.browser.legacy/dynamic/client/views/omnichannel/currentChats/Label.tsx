@@ -1,0 +1,2 @@
+function module(e,n,t){var o,u,l;t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){o=e}},0),t.link("@rocket.chat/fuselage",{Box:function(e){u=e}},0),t.link("react/jsx-runtime",{jsx:function(e){l=e}},1),t.exportDefault(function(e){return l(u,o({fontScale:"p2m",color:"default"},e))})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/currentChats/5d2218b6e666ee3326c5ac8b9e5b0f1963bb7d7e.map

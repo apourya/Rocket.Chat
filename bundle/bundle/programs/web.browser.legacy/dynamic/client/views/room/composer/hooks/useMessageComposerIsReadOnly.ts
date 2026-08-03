@@ -1,0 +1,2 @@
+function module(n,o,e){e.export({useMessageComposerIsReadOnly:function(){return a}}),e.link("@rocket.chat/ui-contexts",{useUser:function(n){r=n}},0),e.link("react",{useCallback:function(n){t=n}},1),e.link("../../../../hooks/useReactiveValue",{useReactiveValue:function(n){u=n}},2),e.link("../../../../lib/rooms/roomCoordinator",{roomCoordinator:function(n){i=n}},3);var r,t,u,i,a=function(n){var o=r();return u(t(function(){return i.readOnly(n,o)},[n,o]))}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/6ac872278998ac2a29e3f5b79ff2eb13433b93d8.map

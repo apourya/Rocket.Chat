@@ -1,0 +1,2 @@
+function module(n,t,e){e.link("@babel/runtime/helpers/objectSpread2",{default:function(n){u=n}},0),e.export({GenericCardButton:function(){return o}}),e.link("@rocket.chat/fuselage",{Button:function(n){r=n}},0),e.link("react/jsx-runtime",{jsx:function(n){i=n}},1);var u,r,i,o=function(n){return i(r,u(u({},n),{},{medium:!0}))}}
+//# sourceMappingURL=/dynamic/client/components/GenericCard/f623ff6f8cbd2547c69f7bdef6070dd647b9a1e2.map

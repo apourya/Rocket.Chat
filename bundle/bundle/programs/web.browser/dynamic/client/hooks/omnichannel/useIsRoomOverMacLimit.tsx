@@ -1,0 +1,2 @@
+function module(e,t,i){let n,o,c;i.export({useIsRoomOverMacLimit:()=>l}),i.link("@rocket.chat/core-typings",{isOmnichannelRoom(e){n=e},isVoipRoom(e){o=e}},0),i.link("./useIsOverMacLimit",{useIsOverMacLimit(e){c=e}},1);let r=e=>"".concat(e.getFullYear(),"-").concat(String(e.getMonth()+1).padStart(2,"0")),l=e=>{let t=c();if(!n(e)&&!o(e)||e.closedAt)return!1;let{v:{activity:i=[]}={}}=e,l=r(new Date);return t&&!i.includes(l)}}
+//# sourceMappingURL=/dynamic/client/hooks/omnichannel/9308a86906e792cdcd3483baa1130b78053f622c.map

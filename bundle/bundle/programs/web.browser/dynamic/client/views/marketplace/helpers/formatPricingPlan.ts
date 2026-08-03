@@ -1,0 +1,2 @@
+function module(r,i,e){let a,l;e.export({formatPricingPlan:()=>t}),e.link("./formatPrice",{formatPrice(r){a=r}},0),e.link("../../../../app/utils/lib/i18n",{t(r){l=r}},1);let t=r=>{let{strategy:i,price:e,tiers:t=[],trialDays:n}=r,{perUnit:p=!1}=Array.isArray(t)&&t.find(r=>r.price===e)||{},o=["Apps_Marketplace_pricingPlan",Array.isArray(t)&&t.length>0&&"+*",i,n&&"trialDays",p&&"perUser"].filter(Boolean).join("_");return l(o,{price:a(e),trialDays:n})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/51d83c466d7037c0d0a902fff8d5a389a7baa0f5.map

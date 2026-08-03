@@ -1,0 +1,2 @@
+function module(e,n,t){t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){o=e}},0),t.export({FormSkeleton:function(){return l}}),t.link("@rocket.chat/fuselage",{Box:function(e){u=e},Skeleton:function(e){i=e}},0),t.link("react/jsx-runtime",{jsx:function(e){r=e},jsxs:function(e){c=e}},1);var o,u,i,r,c,l=function(e){return c(u,o(o({w:"full",pb:24},e),{},{children:[r(i,{mbe:8}),r(i,{mbe:4}),r(i,{mbe:4}),r(i,{mbe:8}),r(i,{mbe:4}),r(i,{mbe:8})]}))}}
+//# sourceMappingURL=/dynamic/client/components/ca15d840b9c10f5f556895a75a91ed110eaa8cf8.map

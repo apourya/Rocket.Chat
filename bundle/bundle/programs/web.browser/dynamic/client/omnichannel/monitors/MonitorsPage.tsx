@@ -1,0 +1,2 @@
+function module(e,n,t){let i,l,r,a,o,c,s;t.link("react-i18next",{useTranslation(e){i=e}},0),t.link("./MonitorsTable",{default(e){l=e}},1),t.link("../../components/Page",{Page(e){r=e},PageHeader(e){a=e},PageContent(e){o=e}},2),t.link("react/jsx-runtime",{jsx(e){c=e},jsxs(e){s=e}},3),t.exportDefault(()=>{let{t:e}=i();return c(r,{flexDirection:"row",children:s(r,{children:[c(a,{title:e("Livechat_Monitors")}),c(o,{children:c(l,{})})]})})})}
+//# sourceMappingURL=/dynamic/client/omnichannel/monitors/95aadc4246ec9b9bc8afdb60e313b29b1e6db22b.map

@@ -1,0 +1,2 @@
+function module(e,t,i){let n,o,u,l,a;i.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),i.link("react",{memo(e){o=e}},1),i.link("./SubscriptionPage",{default(e){u=e}},2),i.link("../../notAuthorized/NotAuthorizedPage",{default(e){l=e}},3),i.link("react/jsx-runtime",{jsx(e){a=e}},4),i.exportDefault(o(()=>n("manage-cloud")?a(u,{}):a(l,{})))}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/f0ea9849d2d9a5c8063f79d9c802ce2edb625f65.map

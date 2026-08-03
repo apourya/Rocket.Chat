@@ -1,0 +1,2 @@
+function module(e,t,a){let i,s,r,l;a.link("react-i18next",{useTranslation(e){i=e}},0),a.link("../../../../../lib/utils/setMessageJumpQueryStringParameter",{setMessageJumpQueryStringParameter(e){s=e}},1),a.link("../../MessageToolbarItem",{default(e){r=e}},2),a.link("react/jsx-runtime",{jsx(e){l=e}},3),a.exportDefault(e=>{let{id:t,message:a}=e,{t:n}=i();return l(r,{id:t,icon:"jump",title:n("Jump_to_message"),qa:"Jump_to_message",onClick:()=>{s(a._id)}})})}
+//# sourceMappingURL=/dynamic/client/components/message/toolbar/items/actions/480991264f5d8b9cf9c103ca9b18eb7db1bc2852.map

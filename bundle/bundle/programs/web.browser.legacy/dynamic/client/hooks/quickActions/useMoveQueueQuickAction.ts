@@ -1,0 +1,2 @@
+function module(e,u,n){n.export({useMoveQueueQuickAction:function(){return r}}),n.link("react",{useMemo:function(e){o=e}},0),n.link("../../views/room/lib/quickActions",{QuickActionsEnum:function(e){i=e}},1);var o,i,r=function(){return o(function(){return{groups:["live"],id:i.MoveQueue,title:"Move_queue",icon:"burger-arrow-left",order:1}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/quickActions/04c98e2283c56072729c522c0a7ecac0d860dc45.map

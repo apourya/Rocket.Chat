@@ -1,0 +1,2 @@
+function module(t,e,a){let i;a.export({colors:()=>l,UserStatus:()=>s,Busy:()=>n,Away:()=>u,Online:()=>c,Offline:()=>o,Loading:()=>r}),a.link("@rocket.chat/ui-client",{UserStatus(t){i=t}},0),a.link("./ReactiveUserStatus",{default:"ReactiveUserStatus"},1);let{colors:l,UserStatus:s,Busy:n,Away:u,Online:c,Offline:o,Loading:r}=i}
+//# sourceMappingURL=/dynamic/client/components/UserStatus/b308b24d5564deae5029784ed3a190210b904473.map

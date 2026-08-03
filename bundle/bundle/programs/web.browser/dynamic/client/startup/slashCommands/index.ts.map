@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/startup/slashCommands/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './federation';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAA,CAAA"}

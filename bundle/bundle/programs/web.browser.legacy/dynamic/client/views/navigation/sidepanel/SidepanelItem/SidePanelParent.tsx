@@ -1,0 +1,2 @@
+function module(n,e,t){var i,a,o,r;t.link("react",{memo:function(n){i=n}},0),t.link("./SidePanelParentRoom",{default:function(n){a=n}},1),t.link("./SidePanelParentTeam",{default:function(n){o=n}},2),t.link("react/jsx-runtime",{jsx:function(n){r=n}},3),t.exportDefault(i(function(n){var e=n.room;return e.prid?r(a,{prid:e.prid}):e.teamId&&!e.teamMain&&r(o,{room:e})}))}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidepanel/SidepanelItem/b397da4fdc0d44f1ad6a7aac6636d573f1108eb2.map

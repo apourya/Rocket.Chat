@@ -1,0 +1,2 @@
+function module(n,t,e){var o,r,u,l,a;e.link("@babel/runtime/helpers/objectSpread2",{default:function(n){o=n}},0),e.link("@react-aria/toolbar",{useToolbar:function(n){r=n}},0),e.link("@rocket.chat/fuselage",{ButtonGroup:function(n){u=n}},1),e.link("react",{useRef:function(n){l=n}},2),e.link("react/jsx-runtime",{jsx:function(n){a=n}},3),e.exportDefault(function(n){var t=l(null),e=r(n,t).toolbarProps;return a(u,o(o({ref:t,small:!0},e),n))})}
+//# sourceMappingURL=/dynamic/client/components/UserCard/86fb191d78c3c754c0eab70a1d48fccd9b1de367.map

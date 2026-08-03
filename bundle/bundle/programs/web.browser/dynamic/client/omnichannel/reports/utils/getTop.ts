@@ -1,0 +1,2 @@
+function module(e,t,l){l.export({getTop:()=>n});let n=function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:5,t=arguments.length>1?arguments[1]:void 0,l=arguments.length>2?arguments[2]:void 0;if(t.length<e)return t;let n=t.slice(0,e),i=t.slice(e).reduce((e,t)=>e+t.value,0);return i>0?[...n,l(i)]:n}}
+//# sourceMappingURL=/dynamic/client/omnichannel/reports/utils/789633bed2ecae70840ac2c180b0054a37876de8.map

@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({useAsyncImage:function(){return o}}),t.link("react",{useEffect:function(e){r=e}},0),t.link("../../../../../hooks/useAsyncState",{useAsyncState:function(e){c=e}},1);var r,c,o=function(e){var n=c(),t=n.value,o=n.resolve,u=n.reject,s=n.reset;return r(function(){if(s(),e){var n=new Image;n.addEventListener("load",function(){o(n.src)}),n.addEventListener("error",function(e){u(e.error)}),n.src=e}},[e,o,u,s]),t}}
+//# sourceMappingURL=/dynamic/client/components/message/content/location/hooks/6a2f413e1eb9ef013b6b011d43e561153da47e61.map

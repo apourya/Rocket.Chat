@@ -1,0 +1,2 @@
+function module(t,e,n){let r;n.export({formatPeriodRange:()=>o}),n.link("../../../components/dashboards/periods",{getPeriodRange(t){r=t}},0);let a=t=>{let e=String(t.getDate()).padStart(2,"0"),n=String(t.getMonth()+1).padStart(2,"0"),r=t.getFullYear();return"".concat(r,"-").concat(n,"-").concat(e)},o=t=>{let{start:e,end:n}=r(t);return{start:a(e),end:a(n)}}}
+//# sourceMappingURL=/dynamic/client/omnichannel/reports/utils/263e5cae3db22dec9ad37ca9e6a78d18665e0de6.map

@@ -1,0 +1,2 @@
+function module(e,n,l){let t,u,i,a;l.link("@babel/runtime/helpers/objectSpread2",{default(e){t=e}},0),l.link("@rocket.chat/fuselage",{NavBarItem(e){u=e}},0),l.link("./hooks/useOmnichannelQueueAction",{useOmnichannelQueueAction(e){i=e}},1),l.link("react/jsx-runtime",{jsx(e){a=e}},2),l.exportDefault(e=>{let{isEnabled:n,title:l,icon:c,isPressed:o,handleGoToQueue:r}=i();return n?a(u,t(t({},e),{},{icon:c,title:l,onClick:r,pressed:o})):null})}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarOmnichannelGroup/b616eb8d2e9f43c902f4fa572af7688b422a7c14.map

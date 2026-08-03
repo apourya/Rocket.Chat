@@ -1,0 +1,2 @@
+function module(t,n,s){s.export({warnAppInstall:function(){return r}}),s.link("./appErroredStatuses",{appErroredStatuses:function(t){e=t}},0),s.link("../../../../app/utils/lib/i18n",{t:function(t){i=t}},1),s.link("../../../lib/toast",{dispatchToastMessage:function(t){a=t}},2);var e,i,a,r=function(t,n){if(e.includes(n)){a({type:"error",message:(i("App_status_"+n),t)});return}a({type:"success",message:t+" installed"})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/e886473fe6a2b798d976d5f3ca195f7b5ecaf8b0.map

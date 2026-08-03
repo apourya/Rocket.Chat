@@ -1,0 +1,2 @@
+function module(n,o,e){var t,i,u,l;e.link("react",{memo:function(n){t=n}},0),e.link("../ComposerSkeleton",{default:function(n){i=n}},1),e.link("./RoomComposer",{default:function(n){u=n}},2),e.link("react/jsx-runtime",{jsx:function(n){l=n}},3),e.exportDefault(t(function(){return l(u,{children:l(i,{})})}))}
+//# sourceMappingURL=/dynamic/client/views/room/composer/RoomComposer/dabccdbcdf60abf7f7100772c081439aa51f79c1.map

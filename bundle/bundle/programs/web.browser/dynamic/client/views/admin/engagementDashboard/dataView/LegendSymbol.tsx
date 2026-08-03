@@ -1,0 +1,2 @@
+function module(e,i,n){let l,r,t;n.link("@rocket.chat/fuselage",{Box(e){l=e},Margins(e){r=e}},0),n.link("react/jsx-runtime",{jsx(e){t=e}},1),n.exportDefault(e=>{let{color:i="currentColor"}=e;return t(r,{inlineEnd:8,children:t(l,{is:"span","aria-hidden":"true",style:{display:"inline-block",width:12,height:12,borderRadius:2,backgroundColor:i,verticalAlign:"baseline"}})})})}
+//# sourceMappingURL=/dynamic/client/views/admin/engagementDashboard/dataView/25ca3f5e33093f0351db29c63b84bafcb44b24b6.map

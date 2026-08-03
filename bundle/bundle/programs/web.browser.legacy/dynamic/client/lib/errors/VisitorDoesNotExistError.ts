@@ -1,0 +1,2 @@
+function module(t,o,i){i.link("@babel/runtime/helpers/inheritsLoose",{default:function(t){r=t}},0),i.export({VisitorDoesNotExistError:function(){return e}}),i.link("./RocketChatError",{RocketChatError:function(t){n=t}},0);var r,n,e=function(t){function o(){var o=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Visitor does not exist",i=arguments.length>1?arguments[1]:void 0;return t.call(this,"visitor-does-not-exist",o,i)||this}return r(o,t),o}(n)}
+//# sourceMappingURL=/dynamic/client/lib/errors/ae975718668a2f9f67b6c6793d7e5eb884eaadfd.map

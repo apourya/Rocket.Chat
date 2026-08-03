@@ -1,0 +1,2 @@
+function module(n,t,i){var u,e,o;i.link("@rocket.chat/ui-contexts",{useUserSubscription:function(n){u=n}},0),i.link("./SidePanelParentRoom",{default:function(n){e=n}},1),i.link("react/jsx-runtime",{jsx:function(n){o=n}},2),i.exportDefault(function(n){var t=n.prid,i=u(t);return i?o(e,{subscription:i}):null})}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidepanel/SidepanelItem/SidePanelParentRoom/25a1f9bbbaf69a5be382c7be5a74b353341fb6ad.map

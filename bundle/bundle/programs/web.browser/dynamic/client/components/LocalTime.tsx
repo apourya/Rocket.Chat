@@ -1,0 +1,2 @@
+function module(e,t,l){let n,i,o,r,a;l.link("react",{memo(e){n=e}},0),l.link("react-i18next",{useTranslation(e){i=e}},1),l.link("../hooks/useUTCClock",{useUTCClock(e){o=e}},2),l.link("react/jsx-runtime",{Fragment(e){r=e},jsx(e){a=e}},3),l.exportDefault(n(e=>{let{utcOffset:t}=e,l=o(t),{t:n}=i();return a(r,{children:n("Local_Time_time",{time:l})})}))}
+//# sourceMappingURL=/dynamic/client/components/d3296697c68306a74964d2922e058a51098f6210.map

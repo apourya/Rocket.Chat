@@ -1,0 +1,2 @@
+function module(e,t,n){let o,i,r;n.export({useOmnichannelContactAction:()=>c}),n.link("@rocket.chat/ui-contexts",{useCurrentRoutePath(e){o=e},useRouter(e){i=e}},0),n.link("react-i18next",{useTranslation(e){r=e}},1);let c=()=>{let{t:e}=r(),t=i(),n=o();return{icon:"address-book",title:e("Contact_Center"),handleGoToContactCenter:()=>t.navigate("/omnichannel-directory"),isPressed:(null==n?void 0:n.includes("/omnichannel-directory"))||!1}}}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarOmnichannelGroup/hooks/d1fc050f50441d7224db262a5f081ea6e1416239.map

@@ -1,0 +1,2 @@
+function module(e,l,t){let r,a,i,n,u;t.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),t.link("@rocket.chat/fuselage",{Box(e){a=e}},0),t.link("./Field",{default(e){i=e}},1),t.link("./ShortField",{default(e){n=e}},2),t.link("react/jsx-runtime",{jsx(e){u=e}},3),t.exportDefault(e=>{let{fields:l}=e;return u(a,{flexWrap:"wrap",display:"flex",mb:4,mi:-4,children:l.map((e,l)=>e.short?u(n,r({},e),l):u(i,r({},e),l))})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/attachments/default/7a1c43d737fa91738f3841593b5d5e1a8146c3a7.map

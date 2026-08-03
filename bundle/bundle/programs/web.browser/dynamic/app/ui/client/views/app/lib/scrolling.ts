@@ -1,0 +1,2 @@
+function module(t,e,n){function l(t){let e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0;return t.scrollTop+e>=t.scrollHeight-t.clientHeight}n.export({isAtBottom:()=>l,getBoundingClientRect:()=>o});let o=t=>{let{top:e,bottom:n,left:l,right:o}=t.getBoundingClientRect(),{scrollTop:i,scrollHeight:c,clientHeight:g}=t;return{top:e,bottom:n,left:l,right:o,scrollTop:i,scrollHeight:c,clientHeight:g}}}
+//# sourceMappingURL=/dynamic/app/ui/client/views/app/lib/bbae273f6b7c9dab7004fa4fdfaff932b356f1ea.map

@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({useMainReady:function(){return o}}),t.link("@rocket.chat/ui-contexts",{useUserId:function(e){u=e}},0),t.link("../../../cachedStores",{PublicSettingsCachedStore:function(e){c=e},SubscriptionsCachedStore:function(e){i=e}},1),t.link("../../../lib/userData",{useUserDataSyncReady:function(e){a=e}},2);var u,c,i,a,o=function(){var e=u(),n=i.useReady(),t=c.useReady(),o=a();return!e||o&&n&&t}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/9be039c83f50e3dbb231a669fa039addf958f933.map

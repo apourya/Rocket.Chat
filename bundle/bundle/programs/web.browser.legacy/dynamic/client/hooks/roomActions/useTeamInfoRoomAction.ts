@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useTeamInfoRoomAction:function(){return r}}),t.link("react",{lazy:function(n){e=n},useMemo:function(n){i=n}},0);var e,i,u=e(function(){return t.dynamicImport("../../views/teams/contextualBar/info/TeamsInfoWithData")}),r=function(){return i(function(){return{id:"team-info",groups:["team"],anonymous:!0,full:!0,title:"Teams_Info",icon:"info-circled",tabComponent:u,order:1}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/b8083a0eec7a40cc3d093d6d9ff54d9d47d45037.map

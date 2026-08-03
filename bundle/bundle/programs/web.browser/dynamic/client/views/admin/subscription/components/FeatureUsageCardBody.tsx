@@ -1,0 +1,2 @@
+function module(e,l,t){let n,r,i;t.link("@rocket.chat/fuselage",{Box(e){n=e},CardBody(e){r=e}},0),t.link("react/jsx-runtime",{jsx(e){i=e}},1),t.exportDefault(e=>{let{justifyContent:l="center",children:t}=e;return i(r,{children:i(n,{h:"full",w:"full",display:"flex",alignItems:"center",justifyContent:l,flexDirection:"column",children:t})})})}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/components/9b709d57f039614dfa10d8a5dc79d22ae8bf3462.map

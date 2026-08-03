@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/slicedToArray",{default:function(n){r=n}},0),t.export({useCurrent:function(){return i}}),t.link("react",{useState:function(n){u=n}},0);var r,u,i=function(){var n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:0,e=u(n),t=r(e,2);return[t[0],t[1]]}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/hooks/cfbf159458cdb9150dc58c53110b8a74a30ab0e1.map

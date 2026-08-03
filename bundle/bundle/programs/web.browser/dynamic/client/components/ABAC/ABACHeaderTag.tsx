@@ -1,0 +1,2 @@
+function module(t,e,a){let n,l,r,i,o;a.link("@rocket.chat/fuselage",{Box(t){n=t},Palette(t){l=t}},0),a.link("react-i18next",{useTranslation(t){r=t}},1),a.link("../Header",{HeaderTag(t){i=t}},2),a.link("react/jsx-runtime",{jsx(t){o=t}},3),a.exportDefault(t=>{let{room:e}=t,{t:a}=r();return e.abacAttributes?o(i,{title:a("ABAC_header_tag_title"),children:o(n,{color:l.statusColor["status-font-on-warning"].toString(),fontWeight:"700",children:a("ABAC_header_tag")})}):null})}
+//# sourceMappingURL=/dynamic/client/components/ABAC/0ad070202ad993c9be0fa8bb67496e7d5bcda8d2.map

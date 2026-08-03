@@ -1,0 +1,2 @@
+function module(e,o,n){n.export({useUserInfoGroupRoomAction:function(){return u}}),n.link("react",{useMemo:function(e){r=e}},0),n.link("../../views/room",{MemberListRouter:function(e){t=e}},1);var r,t,u=function(){return r(function(){return{id:"user-info-group",groups:["direct_multiple"],title:"Members",icon:"members",tabComponent:t,order:1}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/3ab5e2f818fd22aa73768a19e1c1f8a27a651a45.map

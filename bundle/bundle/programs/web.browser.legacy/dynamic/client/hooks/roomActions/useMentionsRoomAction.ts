@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useMentionsRoomAction:function(){return u}}),t.link("react",{lazy:function(n){e=n},useMemo:function(n){i=n}},0);var e,i,r=e(function(){return t.dynamicImport("../../views/room/contextualBar/MentionsTab")}),u=function(){return i(function(){return{id:"mentions",groups:["channel","group","team"],title:"Mentions",icon:"at",tabComponent:r,order:6,type:"organization"}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/56ef7223a74138a5dfa85263b70fe3b03fa48997.map

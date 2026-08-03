@@ -1,0 +1,2 @@
+function module(e,r,o){let t,a,n;o.link("@babel/runtime/helpers/objectSpread2",{default(e){t=e}},0),o.export({replyBroadcast:()=>i}),o.link("../../../providers/RouterProvider",{router(e){a=e}},0),o.link("../../rooms/roomCoordinator",{roomCoordinator(e){n=e}},1);let i=async(e,r)=>{n.openRouteLink("d",{name:r.u.username},t(t({},a.getSearchParameters()),{},{reply:r._id}))}}
+//# sourceMappingURL=/dynamic/client/lib/chats/flows/44acb7c6c96238fa756204cbb89a766f14996f9d.map

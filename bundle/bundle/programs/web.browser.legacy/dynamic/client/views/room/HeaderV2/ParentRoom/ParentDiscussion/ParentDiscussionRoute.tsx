@@ -1,0 +1,2 @@
+function module(n,i,t){var r,o,u,e;t.link("@rocket.chat/ui-contexts",{useUserSubscription:function(n){r=n}},0),t.link("./ParentDiscussion",{default:function(n){o=n}},1),t.link("./ParentDiscussionWithData",{default:function(n){u=n}},2),t.link("react/jsx-runtime",{jsx:function(n){e=n}},3),t.exportDefault(function(n){var i=n.room.prid;if(!i)throw Error("Parent room ID is missing");var t=r(i);return t?e(o,{room:t}):e(u,{rid:i})})}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/ParentRoom/ParentDiscussion/d71bfb7c3652b679974fd066b11bb3c072a5c175.map

@@ -1,0 +1,2 @@
+function module(e,n,o){var t,r,u;o.link("@rocket.chat/fuselage",{Box:function(e){t=e}},0),o.link("../../../room/RoomOpener",{default:function(e){r=e}},1),o.link("react/jsx-runtime",{jsx:function(e){u=e}},2),o.exportDefault(function(e){var n=e.rid;return u(t,{position:"absolute",backgroundColor:"surface",width:"full",height:"full",children:u(r,{type:"v",reference:n})})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/calls/5637e87648bdabc7f41e72ec49600b14d789c1de.map

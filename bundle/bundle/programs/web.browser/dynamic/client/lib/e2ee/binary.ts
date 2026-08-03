@@ -1,0 +1,2 @@
+function module(e,r,t){t.export({Binary:()=>n});let n={encode(e){let r=new Uint8Array(e),t="";for(let e=0;e<r.length;e+=8192)t+=String.fromCharCode(...r.subarray(e,e+8192));return t},decode(e){let r=new ArrayBuffer(e.length),t=new Uint8Array(r);for(let r=0;r<e.length;r++){let n=e.charCodeAt(r);if(n>255)throw RangeError("illegal char code: ".concat(n));t[r]=n}return r}}}
+//# sourceMappingURL=/dynamic/client/lib/e2ee/62d75be9cc00096b300d249a1b8368a06d37fe59.map

@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({useOembedLayout:function(){return o}}),n.link("@rocket.chat/ui-contexts",{useLayout:function(e){i=e}},0),n.link("../list/MessageListContext",{useMessageListOembedEnabled:function(e){u=e}},1);var i,u,o=function(){return{enabled:u(),maxWidth:i().isMobile?"100%":368,maxHeight:368}}}
+//# sourceMappingURL=/dynamic/client/components/message/hooks/9875e6a0abad4bef308df862b7d4fda1d963b624.map

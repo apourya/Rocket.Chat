@@ -1,0 +1,2 @@
+function module(o,n,e){let l,t,r,u;e.link("./ParentRoom",{default(o){l=o}},0),e.link("../../../components/Header",{HeaderTagSkeleton(o){t=o}},1),e.link("../../../hooks/useRoomInfoEndpoint",{useRoomInfoEndpoint(o){r=o}},2),e.link("react/jsx-runtime",{jsx(o){u=o}},3),e.exportDefault(o=>{let{rid:n}=o,{data:e,isPending:m,isError:i}=r(n);return m?u(t,{}):i||!(null!=e&&e.room)?null:u(l,{room:e.room})})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/6b0b0113af9bc9fdc6aefb52824ed7fa04f5d17c.map

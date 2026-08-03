@@ -1,0 +1,2 @@
+function module(e,n,t){let a,l,i,c,r,o,s;t.link("react-i18next",{useTranslation(e){a=e}},0),t.link("./DeviceManagementAccountTable",{default(e){l=e}},1),t.link("../../../components/Page",{Page(e){i=e},PageHeader(e){c=e},PageContent(e){r=e}},2),t.link("react/jsx-runtime",{jsx(e){o=e},jsxs(e){s=e}},3),t.exportDefault(()=>{let{t:e}=a();return s(i,{children:[o(c,{title:e("Manage_Devices")}),o(r,{children:o(l,{})})]})})}
+//# sourceMappingURL=/dynamic/client/views/account/deviceManagement/f6d9138bab8a2f118b57ddde1fa42198cad00147.map

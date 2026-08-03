@@ -1,0 +1,2 @@
+function module(e,t,s){let i,n;s.export({useLogsDistinctValues:()=>u}),s.link("@rocket.chat/ui-contexts",{useEndpoint(e){i=e}},0),s.link("@tanstack/react-query",{useQuery(e){n=e}},1);let u=e=>{let t=i("GET","/apps/:id/logs/distinctValues",{id:e});return n({queryKey:["app-logs-filter-distinct-values",e],queryFn:async()=>t()})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/71b4e6985521dc5091e0461eae814a94b23298b5.map

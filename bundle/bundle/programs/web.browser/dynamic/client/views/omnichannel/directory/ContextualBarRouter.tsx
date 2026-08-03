@@ -1,0 +1,2 @@
+function module(t,e,a){let l,n,r,u,c;a.link("@rocket.chat/ui-contexts",{useRouteParameter(t){l=t}},0),a.link("./CallsContextualBarDirectory",{default(t){n=t}},1),a.link("./ChatsContextualBar",{default(t){r=t}},2),a.link("./ContactContextualBar",{default(t){u=t}},3),a.link("react/jsx-runtime",{jsx(t){c=t}},4),a.exportDefault(()=>{switch(l("tab")){case"contacts":return c(u,{});case"chats":return c(r,{});case"calls":return c(n,{});default:return null}})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/e5242061aac938c99e2d90f3940240a6d9737ef9.map

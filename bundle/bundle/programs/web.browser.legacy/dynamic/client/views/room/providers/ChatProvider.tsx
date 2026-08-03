@@ -1,0 +1,2 @@
+function module(n,t,e){var o,i,s,c;e.link("../contexts/ChatContext",{ChatContext:function(n){o=n}},0),e.link("../contexts/RoomContext",{useRoom:function(n){i=n}},1),e.link("./hooks/useChatMessagesInstance",{useChatMessagesInstance:function(n){s=n}},2),e.link("react/jsx-runtime",{jsx:function(n){c=n}},3),e.exportDefault(function(n){var t=n.children,e=n.tmid,r=i(),u=r._id,a=r.encrypted,d=s({rid:u,tmid:e,encrypted:a});return c(o.Provider,{value:d,children:t})})}
+//# sourceMappingURL=/dynamic/client/views/room/providers/43b04d78dd6d97e2be428054ebe106135c7b203c.map

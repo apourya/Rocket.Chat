@@ -1,0 +1,2 @@
+function module(e,t,i){let n,r,o;i.export({PrioritiesResetModal:()=>l}),i.link("@rocket.chat/ui-client",{GenericModal(e){n=e}},0),i.link("react-i18next",{useTranslation(e){r=e}},1),i.link("react/jsx-runtime",{jsx(e){o=e}},2);let l=e=>{let{onCancel:t,onReset:i}=e,{t:l}=r();return o(n,{variant:"danger",title:l("Reset_priorities"),onConfirm:i,onCancel:t,onClose:t,confirmText:l("Reset"),children:l("Are_you_sure_you_want_to_reset_the_name_of_all_priorities")})}}
+//# sourceMappingURL=/dynamic/client/omnichannel/priorities/2b9166f9f1edad181ce858570efbcf9a9f54440b.map

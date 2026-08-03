@@ -1,0 +1,2 @@
+function module(e,n,o){let a,t;o.link("meteor/accounts-base",{Accounts(e){a=e}},0),o.link("../../lib/cachedStores/CachedStoresManager",{CachedStoresManager(e){t=e}},1);let{_unstoreLoginToken:c}=a;a._unstoreLoginToken=function(){for(var e=arguments.length,n=Array(e),o=0;o<e;o++)n[o]=arguments[o];c.apply(a,n),t.clearAllCachesOnLogout()}}
+//# sourceMappingURL=/dynamic/client/meteor/overrides/8bdc6d7f777521acebcc7efe9cc780649e3b2753.map

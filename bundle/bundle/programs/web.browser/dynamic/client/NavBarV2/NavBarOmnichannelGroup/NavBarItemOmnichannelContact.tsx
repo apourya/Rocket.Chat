@@ -1,0 +1,2 @@
+function module(e,t,n){let l,i,a,c;n.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),n.link("@rocket.chat/fuselage",{NavBarItem(e){i=e}},0),n.link("./hooks/useOmnichannelContactAction",{useOmnichannelContactAction(e){a=e}},1),n.link("react/jsx-runtime",{jsx(e){c=e}},2),n.exportDefault(e=>{let{icon:t,isPressed:n,title:o,handleGoToContactCenter:r}=a();return c(i,l(l({},e),{},{icon:t,title:o,onClick:r,pressed:n}))})}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarOmnichannelGroup/f020facb33738025003af88295ef675d4158fffb.map

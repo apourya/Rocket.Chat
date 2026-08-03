@@ -1,0 +1,2 @@
+function module(e,i,t){let l,n,r,d;t.link("./SecurityPrivacyPage",{default(e){l=e}},0),t.link("../../providers/SettingsProvider",{default(e){n=e}},1),t.link("../../views/admin/settings/EditableSettingsProvider",{default(e){r=e}},2),t.link("react/jsx-runtime",{jsx(e){d=e}},3),t.exportDefault(()=>d(n,{children:d(r,{children:d(l,{})})}))}
+//# sourceMappingURL=/dynamic/client/omnichannel/securityPrivacy/ab564e66402690326486bcf495c33c902cabdf16.map

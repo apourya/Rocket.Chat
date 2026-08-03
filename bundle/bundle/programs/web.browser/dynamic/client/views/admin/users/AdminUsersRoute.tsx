@@ -1,0 +1,2 @@
+function module(e,t,i){let n,o,u,r;i.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),i.link("./AdminUsersPage",{default(e){o=e}},1),i.link("../../notAuthorized/NotAuthorizedPage",{default(e){u=e}},2),i.link("react/jsx-runtime",{jsx(e){r=e}},3),i.exportDefault(()=>n("view-user-administration")?r(o,{}):r(u,{}))}
+//# sourceMappingURL=/dynamic/client/views/admin/users/01e4b6240dc085d4a57b7aac52f5876d948e3b0e.map

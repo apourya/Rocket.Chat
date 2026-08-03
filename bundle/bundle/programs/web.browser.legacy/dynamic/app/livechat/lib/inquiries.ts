@@ -1,0 +1,2 @@
+function module(t,e,i){i.export({getOmniChatSortQuery:function(){return r}}),i.link("@rocket.chat/core-typings",{OmnichannelSortingMechanismSettingType:function(t){n=t}},0);var n,r=function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:n.Timestamp;switch(t){case n.Priority:return{priorityWeight:1,ts:1,_updatedAt:-1};case n.SLAs:return{estimatedWaitingTimeQueue:1,ts:1,_updatedAt:-1};case n.Timestamp:default:return{ts:1,_updatedAt:-1}}}}
+//# sourceMappingURL=/dynamic/app/livechat/lib/b6e1b865790760c17106212901dca7da35d4d44e.map

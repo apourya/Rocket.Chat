@@ -1,0 +1,2 @@
+function module(n,e,t){var a,i,s;t.link("./actions/JumpToMessageAction",{default:function(n){a=n}},0),t.link("react/jsx-runtime",{jsx:function(n){i=n},Fragment:function(n){s=n}},1),t.exportDefault(function(n){var e=n.message;return i(s,{children:i(a,{id:"jump-to-star-message",message:e})})})}
+//# sourceMappingURL=/dynamic/client/components/message/toolbar/items/69b0b6ca5f55c46eb826b240e557c1b99cf0228b.map

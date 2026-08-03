@@ -1,0 +1,2 @@
+function module(e,l,n){n.link("./GenericTable",{"*":"*"},0),n.link("./GenericTableBody",{"*":"*"},1),n.link("./GenericTableCell",{"*":"*"},2),n.link("./GenericTableHeader",{"*":"*"},3),n.link("./GenericTableHeaderCell",{"*":"*"},4),n.link("./GenericTableLoadingRow",{"*":"*"},5),n.link("./GenericTableLoadingTable",{"*":"*"},6),n.link("./GenericTableRow",{"*":"*"},7)}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/2d0307c2c376ced3e9520b807cafb98d8b632423.map

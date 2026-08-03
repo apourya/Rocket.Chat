@@ -1,0 +1,2 @@
+function module(e,t,a){let o;a.export({InvalidCommandUsage:()=>n}),a.link("./RocketChatError",{RocketChatError(e){o=e}},0);class n extends o{constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Executing a command requires at least a message with a room id.",t=arguments.length>1?arguments[1]:void 0;super("invalid-command-usage",e,t)}}}
+//# sourceMappingURL=/dynamic/client/lib/errors/d115b9e6b6b90cb197c914303747079fc2a450d0.map

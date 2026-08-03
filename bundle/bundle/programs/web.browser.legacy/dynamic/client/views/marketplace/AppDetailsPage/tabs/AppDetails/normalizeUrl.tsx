@@ -1,0 +1,2 @@
+function module(t,e,r){r.export({normalizeUrl:function(){return u}}),r.link("@rocket.chat/message-parser",{parse:function(t){a=t}},0);var a,u=function(t){if(t.startsWith("http"))return t;if(t.startsWith("//"))return"https:"+t;var e=a(t);if("PARAGRAPH"===e[0].type&&"LINK"===e[0].value[0].type)return e[0].value[0].value.src.value.startsWith("//")?"https:"+e[0].value[0].value.src.value:e[0].value[0].value.src.value}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppDetailsPage/tabs/AppDetails/518c9d549ac0e5d9a2e145690c510532b639cb0e.map

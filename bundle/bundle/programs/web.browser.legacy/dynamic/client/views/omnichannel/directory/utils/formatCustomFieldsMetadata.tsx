@@ -1,0 +1,2 @@
+function module(t,e,i){i.export({formatCustomFieldsMetadata:function(){return n}});var n=function(t,e){return t?t.filter(function(t){return"visible"===t.visibility&&t.scope===e}).map(function(t){var e=t._id,i=t.label,n=t.options,r=t.defaultValue;return{name:e,label:i,type:n?"select":"text",required:t.required,defaultValue:r,options:null==n?void 0:n.split(",").map(function(t){return[t.trim(),t.trim()]})}}):[]}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/utils/65799808e09bb73f866bc70bc718b6f8558a8234.map

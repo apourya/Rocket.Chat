@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/navigation/sidepanel/SidepanelItem/SidePanelParentRoom/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './SidePanelParentRoomWithData';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,gCAAe,CAAAC,QAAA,SAA+B,EAAA"}

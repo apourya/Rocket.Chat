@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/components/GenericUpsellModal/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './GenericUpsellModal';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,uBAAe,CAAA,QAAA,SAAsB,EAAA"}

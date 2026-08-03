@@ -1,0 +1,2 @@
+function module(t,i,e){let a,l;e.export({processSetReaction:()=>n}),e.link("../../../../app/emoji/client",{emoji(t){a=t}},0),e.link("../../utils/callWithErrorHandling",{callWithErrorHandling(t){l=t}},1);let n=async(t,i)=>{let{msg:e}=i,n=e.trim().match(/^\+(:.*?:)$/m);if(!n)return!1;let[,r]=n;if(!a.list[r])return!1;let o=await t.data.findLastMessage();return!!o&&(await l("setReaction",r,o._id),!0)}}
+//# sourceMappingURL=/dynamic/client/lib/chats/flows/9056454ecbda039693cd027adc40b983b4e3f19d.map

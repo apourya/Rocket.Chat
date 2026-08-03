@@ -1,0 +1,2 @@
+function module(e,n,t){let i,o,a;t.export({useRoomName:()=>l}),t.link("@rocket.chat/core-typings",{isDirectMessageRoom(e){i=e}},0),t.link("@rocket.chat/ui-client",{useUserDisplayName(e){o=e}},1),t.link("@rocket.chat/ui-contexts",{useUserSubscription(e){a=e}},2);let l=e=>{let n=a(e._id),t=o({name:null==n?void 0:n.fname,username:null==n?void 0:n.name});return i(e)?t:e.fname||e.name}}
+//# sourceMappingURL=/dynamic/client/hooks/5b301fc9cf6873f3ee0d05945b2d0f3baff10633.map

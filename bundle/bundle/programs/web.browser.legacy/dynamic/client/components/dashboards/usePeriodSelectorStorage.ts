@@ -1,0 +1,2 @@
+function module(e,n,o){o.link("@babel/runtime/helpers/slicedToArray",{default:function(e){r=e}},0),o.export({usePeriodSelectorStorage:function(){return u}}),o.link("@rocket.chat/fuselage-hooks",{useLocalStorage:function(e){t=e}},0);var r,t,u=function(e,n){var o=t(e,n[0]),u=r(o,2),a=u[0],i=u[1];return[a,{periods:n,value:a,onChange:function(e){return i(e)}}]}}
+//# sourceMappingURL=/dynamic/client/components/dashboards/eadf274becbce36ab0c13b2c8405c38b62d9ba80.map

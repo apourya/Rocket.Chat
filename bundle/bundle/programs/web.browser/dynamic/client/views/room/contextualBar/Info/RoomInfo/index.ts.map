@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/contextualBar/Info/RoomInfo/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './RoomInfo';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,aAAe,CAAAC,QAAA,SAAY,EAAA"}

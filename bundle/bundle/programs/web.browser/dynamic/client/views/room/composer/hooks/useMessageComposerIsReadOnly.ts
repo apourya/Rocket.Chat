@@ -1,0 +1,2 @@
+function module(e,o,l){let r,t,a,s;l.export({useMessageComposerIsReadOnly:()=>n}),l.link("@rocket.chat/ui-contexts",{useUser(e){r=e}},0),l.link("react",{useCallback(e){t=e}},1),l.link("../../../../hooks/useReactiveValue",{useReactiveValue(e){a=e}},2),l.link("../../../../lib/rooms/roomCoordinator",{roomCoordinator(e){s=e}},3);let n=e=>{let o=r();return a(t(()=>s.readOnly(e,o),[e,o]))}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/be66b1e6d016f1cb65309a481c105963cda2ec92.map

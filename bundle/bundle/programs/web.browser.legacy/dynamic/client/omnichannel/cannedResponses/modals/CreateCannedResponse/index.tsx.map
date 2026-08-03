@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/omnichannel/cannedResponses/modals/CreateCannedResponse/index.tsx","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './CreateCannedResponseModal';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,8BAAe,CAAA,QAAA,SAA6B,EAAA"}

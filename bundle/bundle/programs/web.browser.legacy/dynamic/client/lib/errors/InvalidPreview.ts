@@ -1,0 +1,2 @@
+function module(e,n,r){r.link("@babel/runtime/helpers/inheritsLoose",{default:function(e){t=e}},0),r.export({InvalidPreview:function(){return o}}),r.link("./RocketChatError",{RocketChatError:function(e){i=e}},0);var t,i,o=function(e){function n(){var n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Preview Item must have an id, type, and value.",r=arguments.length>1?arguments[1]:void 0;return e.call(this,"error-invalid-preview",n,r)||this}return t(n,e),n}(i)}
+//# sourceMappingURL=/dynamic/client/lib/errors/154b8c2c321583e9a00436a0fba168278cfb2857.map

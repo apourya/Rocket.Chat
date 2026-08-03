@@ -1,0 +1,2 @@
+function module(e,n,t){let o,c,s,i;t.export({useIdleConnection:()=>l}),t.link("@rocket.chat/fuselage-hooks",{useEffectEvent(e){o=e}},0),t.link("@rocket.chat/ui-contexts",{useConnectionStatus(e){c=e},useSetting(e){s=e}},1),t.link("./useIdleActiveEvents",{useIdleActiveEvents(e){i=e}},2);let l=e=>{let{status:n}=c(),t=s("Accounts_AllowAnonymousRead"),{disconnect:l,reconnect:u}=c(),f=o(()=>{"offline"===n||e||!0===t||l()}),d=o(()=>{"offline"===n&&u()});i({id:"useLoginPresence",time:6e4},f,d)}}
+//# sourceMappingURL=/dynamic/client/hooks/e9b1803cab97c2849edbce89761e5685245a13e5.map

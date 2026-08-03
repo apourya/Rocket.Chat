@@ -1,0 +1,2 @@
+function module(i,e,n){let t;n.export({buildImageURL:()=>l}),n.link("../../../../views/room/MessageList/lib/isValidLink",{isValidLink(i){t=i}},0);let l=(i,e)=>{if(t(e))return JSON.stringify(e);let{origin:n}=new URL(i);return JSON.stringify("".concat(n,"/").concat(e).replace(/([^:]\/)\/+/gm,"$1"))}}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/2f704e7ccc7fa4160e4859a1afb0d8cf9db04ff2.map

@@ -1,0 +1,2 @@
+function module(e,t,l){let a,n,r;l.link("@babel/runtime/helpers/objectSpread2",{default(e){a=e}},0),l.link("@rocket.chat/fuselage",{Tag(e){n=e}},0),l.link("react/jsx-runtime",{jsx(e){r=e}},1),l.exportDefault(e=>r(n,a(a({role:"button",tabIndex:0},e),{},{maxWidth:"50%",flexShrink:1,flexGrow:0})))}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidepanel/SidepanelItem/c50ac3a45622d9a3e29f530c533aa889d0a70e79.map

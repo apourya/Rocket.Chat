@@ -1,0 +1,2 @@
+function module(e,t,i){let n,r,a,l;i.link("@rocket.chat/fuselage",{Tag(e){n=e}},0),i.link("react-i18next",{useTranslation(e){r=e}},1),i.link("react/jsx-runtime",{jsx(e){a=e},Fragment(e){l=e}},2),i.exportDefault(e=>{let{bundledIn:t}=e,{t:i}=r(),u=e=>"Enterprise"===e?"Premium":e;return a(l,{children:t.map(e=>{let{bundleId:t,bundleName:r}=e,l=u(r);return a(n,{variant:"featured",title:i("this_app_is_included_with_subscription",{bundleName:l}),children:l},t)})})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/c1cb833e904c8eb05fef26cf91b107ca00b0a90c.map

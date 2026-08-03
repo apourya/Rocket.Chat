@@ -1,0 +1,2 @@
+function module(n,t,e){var i,o,c,u,a,r,l;e.link("react-i18next",{useTranslation:function(n){i=n}},0),e.link("./components/SecurityLogsTable",{default:function(n){o=n}},1),e.link("../../components/Page",{Page:function(n){c=n},PageHeader:function(n){u=n},PageContent:function(n){a=n}},2),e.link("react/jsx-runtime",{jsx:function(n){r=n},jsxs:function(n){l=n}},3),e.exportDefault(function(){var n=i().t;return l(c,{children:[r(u,{title:n("Security_logs")}),r(a,{children:r(o,{})})]})})}
+//# sourceMappingURL=/dynamic/client/views/audit/def7e621758c55f8c5eef8270ccb668e25b97d39.map

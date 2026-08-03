@@ -1,0 +1,2 @@
+function module(o,i,r){let t,e;r.export({useChatForwardQuickAction:()=>c}),r.link("react",{useMemo(o){t=o}},0),r.link("../../views/room/lib/quickActions",{QuickActionsEnum(o){e=o}},1);let c=()=>t(()=>({groups:["live"],id:e.ChatForward,title:"Forward_chat",icon:"balloon-arrow-top-right",order:2}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/quickActions/e1289fe05b85cae903c7c1828fa97f7f8fd92beb.map

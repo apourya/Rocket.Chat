@@ -1,0 +1,2 @@
+function module(n,o,t){var c,i,e;t.link("../../../../../components/InfoPanel",{InfoPanelAction:function(n){c=n}},0),t.link("react/jsx-runtime",{jsx:function(n){i=n},Fragment:function(n){e=n}},1),t.exportDefault(function(n){var o=n.actions,t=n.className;return i(e,{children:o.items.map(function(n){var o=n.id,e=n.content,a=n.icon,l=n.onClick;return i(c,{className:t,label:e,onClick:l,icon:a},o)})})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Info/RoomInfo/96d5a946ab72d384157805bd5331cf1799716295.map

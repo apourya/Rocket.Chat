@@ -1,0 +1,2 @@
+function module(e,t,i){let r,o,n,a,u;i.link("@rocket.chat/ui-contexts",{usePermission(e){r=e},useRouteParameter(e){o=e}},0),i.link("./PrioritiesPage",{PrioritiesPage(e){n=e}},1),i.link("../../views/notAuthorized/NotAuthorizedPage",{default(e){a=e}},2),i.link("react/jsx-runtime",{jsx(e){u=e}},3),i.exportDefault(()=>{let e=r("manage-livechat-priorities"),t=o("context"),i=o("id")||"";return e?u(n,{priorityId:i,context:t}):u(a,{})})}
+//# sourceMappingURL=/dynamic/client/omnichannel/priorities/891d1b6e0941dbb236a3e3c63e9acf933066e9fb.map

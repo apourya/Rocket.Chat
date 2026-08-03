@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/objectSpread2",{default:function(n){i=n}},0),t.export({CollapsiblePanel:function(){return u}}),t.link("@rocket.chat/fuselage",{Box:function(n){l=n}},0),t.link("react/jsx-runtime",{jsx:function(n){r=n}},1);var i,l,r,u=function(n){return r(l,i(i({},n),{},{is:"dl",children:n.children}))}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppDetailsPage/tabs/AppLogs/Components/15d52647b605e88934dc5252e7c9852f5c40141d.map

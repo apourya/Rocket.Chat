@@ -1,0 +1,2 @@
+function module(o,n,e){e.link("@babel/runtime/helpers/objectSpread2",{default:function(o){r=o}},0),e.export({UnreadRoomType:function(){return i}}),e.link("../../../../lib/rooms/roomTypes/unread",{getUnreadRoomType:function(o){t=o}},0),e.link("../roomCoordinator",{roomCoordinator:function(o){a=o}},1);var r,t,a,i=t(a);a.add(r(r({},i),{},{label:"Unread"}),{})}
+//# sourceMappingURL=/dynamic/client/lib/rooms/roomTypes/b27b44f2331a898adf4dd70e22a7e17322f50808.map

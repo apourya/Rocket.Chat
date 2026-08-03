@@ -1,0 +1,2 @@
+function module(n,t,e){e.link("@babel/runtime/helpers/slicedToArray",{default:function(n){u=n}},0),e.export({useLoadImage:function(){return i}}),e.link("@rocket.chat/ui-contexts",{useAttachmentAutoLoadEmbedMedia:function(n){o=n}},0),e.link("react",{useCallback:function(n){a=n},useState:function(n){c=n}},1);var u,o,a,c,i=function(){var n=c(o()),t=u(n,2),e=t[0],i=t[1];return[e,a(function(){return i(!0)},[])]}}
+//# sourceMappingURL=/dynamic/client/components/message/content/attachments/file/hooks/b2877340f2ca1454a15b7eb8bfb93a7f0a9d2a05.map

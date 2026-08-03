@@ -1,0 +1,2 @@
+function module(e,n,t){let a;t.export({prependReplies:()=>i}),t.link("../getPermaLink",{getPermaLink(e){a=e}},0);let i=async function(e){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:[],t=await Promise.all(n.map(async e=>{let{_id:n}=e,t=await a(n);return"[ ](".concat(t,")")}));return t.push(e),t.join("\n")}}
+//# sourceMappingURL=/dynamic/client/lib/utils/a78726e0fe33dc64639e45f3615cc03aae2955df.map

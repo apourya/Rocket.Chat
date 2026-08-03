@@ -1,0 +1,2 @@
+function module(e,n,t){let r,l,c,i,o;t.link("@rocket.chat/fuselage",{Button(e){r=e},ButtonGroup(e){l=e}},0),t.link("react-i18next",{useTranslation(e){c=e}},1),t.link("react/jsx-runtime",{jsx(e){i=e},jsxs(e){o=e}},2),t.exportDefault(e=>{let{onClickRefresh:n,onClickEnd:t}=e,{t:s}=c();return o(l,{stretch:!0,children:[i(r,{onClick:n,children:s("Refresh_keys")}),i(r,{secondary:!0,danger:!0,onClick:t,children:s("End_OTR")})]})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/OTR/components/416a5bfeeb643f1bc63d7fdcb742b69224ed99fc.map

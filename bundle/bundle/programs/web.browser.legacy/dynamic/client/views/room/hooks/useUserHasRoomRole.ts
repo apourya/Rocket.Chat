@@ -1,0 +1,2 @@
+function module(o,e,n){n.export({useUserHasRoomRole:function(){return t}}),n.link("react",{useCallback:function(o){u=o}},0),n.link("../../../hooks/useRoomRolesQuery",{useRoomRolesQuery:function(o){r=o}},1);var u,r,t=function(o,e,n){var t;return null!==(t=r(e,{select:u(function(e){return e.some(function(e){return e.u._id===o&&e.roles.includes(n)})},[n,o])}).data)&&void 0!==t&&t}}
+//# sourceMappingURL=/dynamic/client/views/room/hooks/f94010bfc7665e1944e444447e602d617995af34.map

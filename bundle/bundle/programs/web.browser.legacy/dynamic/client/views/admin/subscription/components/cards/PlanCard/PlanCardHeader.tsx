@@ -1,0 +1,2 @@
+function module(n,e,t){var a,c,i,r,o,u;t.link("@rocket.chat/fuselage",{CardTitle:function(n){a=n},Icon:function(n){c=n},Palette:function(n){i=n},CardHeader:function(n){r=n}},0),t.link("react/jsx-runtime",{jsx:function(n){o=n},jsxs:function(n){u=n}},1),t.exportDefault(function(n){var e=n.name;return u(r,{children:[o(c,{name:"rocketchat",color:i.badge["badge-background-level-4"].toString(),size:"x28",mie:4}),o(a,{variant:"h3",children:e})]})})}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/components/cards/PlanCard/7a68ff837ee865169bedd6612e471e0953bbf4c0.map

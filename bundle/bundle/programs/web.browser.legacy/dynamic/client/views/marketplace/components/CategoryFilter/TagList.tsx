@@ -1,0 +1,2 @@
+function module(n,t,e){var i,r,u;e.link("@rocket.chat/fuselage",{Chip:function(n){i=n},ButtonGroup:function(n){r=n}},0),e.link("react/jsx-runtime",{jsx:function(n){u=n}},1),e.exportDefault(function(n){var t=n.categories,e=n.onClick;return t.length?u(r,{wrap:!0,small:!0,children:t.map(function(n){return u(i,{onClick:function(){return e(n)},children:n.label},n.id)})}):null})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/components/CategoryFilter/0323d1b957b6da7c28b69b3c284bd4d2d42ace9a.map

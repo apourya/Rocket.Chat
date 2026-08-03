@@ -1,0 +1,2 @@
+function module(e,t,n){let r,o;n.export({useExternalComponentsQuery:()=>a}),n.link("@rocket.chat/ui-contexts",{useEndpoint(e){r=e}},0),n.link("@tanstack/react-query",{useQuery(e){o=e}},1);let a=()=>{let e=r("GET","/apps/externalComponents");return o({queryKey:["apps/external-components"],queryFn:async t=>{let{signal:n}=t;return(await e(void 0,{signal:n})).externalComponents},staleTime:1e4})}}
+//# sourceMappingURL=/dynamic/client/apps/gameCenter/hooks/61f331891255a970431d60fb4a3bf066685a4a87.map

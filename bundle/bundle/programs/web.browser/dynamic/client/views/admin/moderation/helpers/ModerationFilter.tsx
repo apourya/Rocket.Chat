@@ -1,0 +1,2 @@
+function module(e,t,n){let l,u,a;n.link("./DateRangePicker",{default(e){l=e}},0),n.link("../../../../components/FilterByText",{default(e){u=e}},1),n.link("react/jsx-runtime",{jsx(e){a=e}},2),n.exportDefault(e=>{let{text:t,setText:n,setDateRange:o}=e;return a(u,{shouldAutoFocus:!0,value:t,onChange:e=>n(e.target.value),children:a(l,{onChange:o})})})}
+//# sourceMappingURL=/dynamic/client/views/admin/moderation/helpers/b4b9c963037f94e503ddf80c64118a47a6dcad97.map

@@ -1,0 +1,2 @@
+function module(e,n,t){var u,a,o;t.link("./DateRangePicker",{default:function(e){u=e}},0),t.link("../../../../components/FilterByText",{default:function(e){a=e}},1),t.link("react/jsx-runtime",{jsx:function(e){o=e}},2),t.exportDefault(function(e){var n=e.text,t=e.setText,i=e.setDateRange;return o(a,{shouldAutoFocus:!0,value:n,onChange:function(e){return t(e.target.value)},children:o(u,{onChange:i})})})}
+//# sourceMappingURL=/dynamic/client/views/admin/moderation/helpers/8428615c8465146a971808fa7a6cd7bfbe91cce4.map

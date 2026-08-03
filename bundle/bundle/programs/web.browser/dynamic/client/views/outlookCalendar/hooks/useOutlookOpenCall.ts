@@ -1,0 +1,2 @@
+function module(e,n,o){let l,t,a;o.export({useOutlookOpenCall:()=>u}),o.link("@rocket.chat/ui-client",{useUserDisplayName(e){l=e}},0),o.link("@rocket.chat/ui-contexts",{useUser(e){t=e}},1),o.link("../../room/contextualBar/VideoConference/hooks/useVideoConfOpenCall",{useVideoConfOpenCall(e){a=e}},2);let u=e=>{let n=t(),o=a(),u=l({name:null==n?void 0:n.name,username:null==n?void 0:n.username}),i="".concat(e,"&name=").concat(u);if(e)return()=>o(i)}}
+//# sourceMappingURL=/dynamic/client/views/outlookCalendar/hooks/6c60294cdabbd4988ab27cf6305b9195bab70b20.map

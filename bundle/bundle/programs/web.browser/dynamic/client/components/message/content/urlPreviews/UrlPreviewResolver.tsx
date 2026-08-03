@@ -1,0 +1,2 @@
+function module(e,l,r){let u,i,t,a;r.link("./UrlAudioPreview",{default(e){u=e}},0),r.link("./UrlImagePreview",{default(e){i=e}},1),r.link("./UrlVideoPreview",{default(e){t=e}},2),r.link("react/jsx-runtime",{jsx(e){a=e}},3),r.exportDefault(e=>{let{url:l,type:r,originalType:n}=e;switch(r){case"audio":return a(u,{url:l});case"video":return a(t,{url:l,originalType:n});case"image":return a(i,{url:l});default:return null}})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/9480a2f7773cce74fe9c0dd2c00be9c4b867de3c.map

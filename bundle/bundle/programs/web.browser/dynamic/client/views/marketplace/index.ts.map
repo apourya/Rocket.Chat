@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/marketplace/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { registerMarketplaceRoute } from './routes';\nexport { registerMarketplaceSidebarItem, unregisterMarketplaceSidebarItem } from './sidebarItems';\n",null],"names":["module","link","registerMarketplaceRoute","registerMarketplaceSidebarItem","unregisterMarketplaceSidebarItem"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,WAAA,CAAAC,yBAAgC,0BAAU,EAAA,GAAAF,EAAAC,IAAA,CAAA,iBAAA,CAAAE,+BAAA,iCAAAC,iCAAA,kCAAA,EAAA"}

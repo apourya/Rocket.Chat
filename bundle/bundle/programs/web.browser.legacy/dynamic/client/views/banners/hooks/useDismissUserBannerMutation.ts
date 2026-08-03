@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useDismissUserBannerMutation:function(){return u}}),e.link("@rocket.chat/ui-contexts",{useMethod:function(n){o=n},useToastMessageDispatch:function(n){r=n}},0),e.link("@tanstack/react-query",{useMutation:function(n){s=n}},1);var o,r,s,u=function(){var n=o("banner/dismiss"),t=r();return s({mutationFn:n,onError:function(n){t({type:"error",message:n})}})}}
+//# sourceMappingURL=/dynamic/client/views/banners/hooks/55d310e61f6833938dcce72eee0d2a7dcdbafc53.map

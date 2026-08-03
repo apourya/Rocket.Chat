@@ -1,0 +1,2 @@
+function module(o,n,t){t.link("@babel/runtime/helpers/inheritsLoose",{default:function(o){r=o}},0),t.export({RoomNotFoundError:function(){return i}}),t.link("./RocketChatError",{RocketChatError:function(o){e=o}},0);var r,e,i=function(o){function n(){var n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"Room not found",t=arguments.length>1?arguments[1]:void 0;return o.call(this,"room-not-found",n,t)||this}return r(n,o),n}(e)}
+//# sourceMappingURL=/dynamic/client/lib/errors/e9ed8f7f8aead97def06626d3d0494f4a10afcee.map

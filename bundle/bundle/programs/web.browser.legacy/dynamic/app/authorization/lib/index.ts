@@ -1,0 +1,2 @@
+function module(i,n,t){t.export({getSettingPermissionId:function(){return o},CONSTANTS:function(){return r},confirmationRequiredPermissions:function(){return e}}),t.link("./AuthorizationUtils",{AuthorizationUtils:"AuthorizationUtils"},0);var o=function(i){return"change-setting-"+i},r={SETTINGS_LEVEL:"settings"},e=["access-permissions"]}
+//# sourceMappingURL=/dynamic/app/authorization/lib/c56ee292b5f3886cb254f8793e015c3f753a2568.map

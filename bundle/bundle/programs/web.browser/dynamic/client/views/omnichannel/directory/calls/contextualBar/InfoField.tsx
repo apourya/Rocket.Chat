@@ -1,0 +1,2 @@
+function module(e,n,l){let o,t,i,r,a;l.export({InfoField:()=>c}),l.link("../../../../../components/InfoPanel",{InfoPanelField(e){o=e},InfoPanelLabel(e){t=e},InfoPanelText(e){i=e}},0),l.link("react/jsx-runtime",{jsx(e){r=e},jsxs(e){a=e}},1);let c=e=>{let{label:n,info:l}=e;return a(o,{children:[r(t,{children:n}),r(i,{children:l})]})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/calls/contextualBar/0ae98f2468f309a65293f25828aadfda9aefccb1.map

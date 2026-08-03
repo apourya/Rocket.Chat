@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/typeof",{default:function(n){r=n}},0),t.export({setRef:function(){return o},useMessageComposerMergedRefs:function(){return f}}),t.link("react",{useCallback:function(n){u=n}},0);var r,u,o=function(n,e){if("function"==typeof n){n(e);return}"object"===r(n)&&(n.current=e)},f=function(){for(var n=arguments.length,e=Array(n),t=0;t<n;t++)e[t]=arguments[t];return u(function(n){e.forEach(function(e){return o(e,n)})},e)}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/da1e19ea601e38340585c97a16fb857a89ed5e52.map

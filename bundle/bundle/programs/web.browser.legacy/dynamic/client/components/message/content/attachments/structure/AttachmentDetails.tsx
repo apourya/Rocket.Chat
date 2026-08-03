@@ -1,0 +1,2 @@
+function module(t,e,n){var a,c,u;n.link("@babel/runtime/helpers/objectSpread2",{default:function(t){a=t}},0),n.link("@rocket.chat/fuselage",{Box:function(t){c=t}},0),n.link("react/jsx-runtime",{jsx:function(t){u=t}},1),n.exportDefault(function(t){return u(c,a({"rcx-attachment__details":!0,fontScale:"p2",color:"default",bg:"surface-tint",padding:16},t))})}
+//# sourceMappingURL=/dynamic/client/components/message/content/attachments/structure/11e92d6cbc7079815da1e44b63b53fbfb4bce475.map

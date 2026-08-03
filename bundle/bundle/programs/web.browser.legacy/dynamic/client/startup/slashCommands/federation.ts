@@ -1,0 +1,2 @@
+function module(a,i,o){var d;o.link("../../../app/utils/client/slashCommand",{slashCommands:function(a){d=a}},0),d.add({command:"federation",callback:void 0,options:{description:"Federation_slash_commands",params:"#command (dm) #user"},result:void 0,providesPreview:!1,previewer:void 0,previewCallback:void 0})}
+//# sourceMappingURL=/dynamic/client/startup/slashCommands/deea73a8823756a88e7b1028a48ceaa9e4f59330.map

@@ -1,0 +1,2 @@
+function module(e,n,r){r.link("@rocket.chat/fuselage",{Dropdown:function(e){t=e}},0),r.link("@rocket.chat/ui-contexts",{useLayout:function(e){o=e}},1),r.link("react",{forwardRef:function(e){i=e}},2),r.link("./EmojiPickerDesktopDropdown",{default:function(e){c=e}},3),r.link("react/jsx-runtime",{jsx:function(e){u=e}},4);var t,o,i,c,u,f=i(function(e,n){var r=e.children,i=e.reference,f=o().isMobile?t:c;return u(f,{ref:n,reference:i,children:r})});r.exportDefault(f)}
+//# sourceMappingURL=/dynamic/client/views/composer/EmojiPicker/b7e4a25ba324c754ec34697621e96b61ce77bf51.map

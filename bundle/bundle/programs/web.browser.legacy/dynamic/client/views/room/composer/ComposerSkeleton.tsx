@@ -1,0 +1,2 @@
+function module(n,e,t){var o,c,i,u,r;t.link("@rocket.chat/fuselage",{Box:function(n){o=n}},0),t.link("@rocket.chat/ui-composer",{MessageComposerSkeleton:function(n){c=n}},1),t.link("react/jsx-runtime",{jsx:function(n){i=n},Fragment:function(n){u=n},jsxs:function(n){r=n}},2),t.exportDefault(function(){return r(u,{children:[i(c,{}),i(o,{height:"x24"})]})})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/a38faa7d632a4af208ae527098720bdf82af5be6.map

@@ -1,0 +1,2 @@
+function module(e,t,s){let i,n;s.link("meteor/meteor",{Meteor(e){i=e}},0),s.link("../../stores",{PublicSettings(e){n=e}},1),n.use.subscribe(e=>{for(let t of new Set(Object.keys(i.settings)).difference(new Set(e.records.keys())))delete i.settings[t];for(let t of e.records.values())t.value!==i.settings[t._id]&&(i.settings[t._id]=t.value)})}
+//# sourceMappingURL=/dynamic/client/meteor/overrides/2843707729cfe64b20285929cf7072672127f7c3.map

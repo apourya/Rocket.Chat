@@ -1,0 +1,2 @@
+function module(e,t,r){let o,s;r.link("react/jsx-runtime",{jsx(e){o=e},jsxs(e){s=e}},0);let n={maxWidth:"100%"};r.exportDefault(e=>{let{url:t,originalType:r}=e;return s("video",{controls:!0,style:n,children:[o("source",{src:t,type:r}),"Your browser doesn't support the video element.",o("track",{kind:"captions"})]})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/bff3ef4af7b0130dd400dd4dba75fbe5acfc11e6.map

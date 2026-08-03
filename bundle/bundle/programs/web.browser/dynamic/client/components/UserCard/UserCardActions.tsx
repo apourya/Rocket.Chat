@@ -1,0 +1,2 @@
+function module(e,l,t){let r,a,u,n,o;t.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),t.link("@react-aria/toolbar",{useToolbar(e){a=e}},0),t.link("@rocket.chat/fuselage",{ButtonGroup(e){u=e}},1),t.link("react",{useRef(e){n=e}},2),t.link("react/jsx-runtime",{jsx(e){o=e}},3),t.exportDefault(e=>{let l=n(null),{toolbarProps:t}=a(e,l);return o(u,r(r({ref:l,small:!0},t),e))})}
+//# sourceMappingURL=/dynamic/client/components/UserCard/8164ca9e473ee5aa3c73620ebea72323287d0f2c.map

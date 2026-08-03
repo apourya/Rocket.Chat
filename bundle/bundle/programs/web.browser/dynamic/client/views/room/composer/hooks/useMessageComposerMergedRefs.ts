@@ -1,0 +1,2 @@
+function module(e,r,t){let o;t.export({setRef:()=>u,useMessageComposerMergedRefs:()=>c}),t.link("react",{useCallback(e){o=e}},0);let n=e=>"function"==typeof e,f=e=>"object"==typeof e,u=(e,r)=>{if(n(e)){e(r);return}f(e)&&(e.current=r)},c=function(){for(var e=arguments.length,r=Array(e),t=0;t<e;t++)r[t]=arguments[t];return o(e=>{r.forEach(r=>u(r,e))},r)}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/74f23087f121f95f528f1c6d98d3f0e24c139fdd.map

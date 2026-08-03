@@ -1,0 +1,2 @@
+function module(n,e,r){var t,o,i;r.link("@rocket.chat/fuselage",{Callout:function(n){t=n}},0),r.link("./InviteUsersWrapper",{default:function(n){o=n}},1),r.link("react/jsx-runtime",{jsx:function(n){i=n}},2),r.exportDefault(function(n){var e=n.onClose,r=n.error,l=n.onClickBack;return i(o,{onClose:e,onClickBack:l,children:i(t,{type:"danger",children:(r||"").toString()})})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomMembers/InviteUsers/10b1a7f2e6b48f21475810fa51e9da371204779e.map

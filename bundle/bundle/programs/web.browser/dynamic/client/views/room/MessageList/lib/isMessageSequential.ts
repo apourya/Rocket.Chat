@@ -1,0 +1,2 @@
+function module(e,s,i){let a,t,d;i.export({isMessageSequential:()=>l}),i.link("@rocket.chat/message-types",{MessageTypes(e){a=e}},0),i.link("date-fns",{differenceInSeconds(e){t=e}},1),i.link("./isMessageNewDay",{isMessageNewDay(e){d=e}},2);let l=(e,s,i)=>!(!s||a.isSystemMessage(e)||a.isSystemMessage(s))&&(e.tmid?[s.tmid,s._id].includes(e.tmid):!s.tmid&&!1!==e.groupable&&e.u._id===s.u._id&&e.alias===s.alias&&t(e.ts,s.ts)<i&&!d(e,s))}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/lib/fd7da60c43d315cf28e0c2d2746660522023b75b.map

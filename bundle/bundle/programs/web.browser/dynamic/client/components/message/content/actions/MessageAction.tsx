@@ -1,0 +1,2 @@
+function module(e,n,i){let l,t,a;i.link("@rocket.chat/fuselage",{Button(e){l=e}},0),i.link("react-i18next",{useTranslation(e){t=e}},1),i.link("react/jsx-runtime",{jsx(e){a=e}},2);let o=e=>"icon-videocam"===e?"video":null==e?void 0:e.replace(/^icon-/,"");i.exportDefault(e=>{let{icon:n,methodId:i,i18nLabel:c,label:r,runAction:d,danger:u}=e,{t:m}=t(),s=o(n);return a(l,{icon:s,"data-method-id":i,onClick:d(i),marginInline:4,small:!0,danger:u,children:c?m(c):r})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/actions/c84df252e81a641745ecceaba14c1f948a41df58.map

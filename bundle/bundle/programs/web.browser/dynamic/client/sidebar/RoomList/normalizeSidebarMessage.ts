@@ -1,0 +1,2 @@
+function module(e,t,n){let i,l,a;n.export({normalizeSidebarMessage:()=>r}),n.link("@rocket.chat/string-helpers",{escapeHTML(e){i=e}},0),n.link("emojione",{default(e){l=e}},1),n.link("../../../app/markdown/lib/markdown",{filterMarkdown(e){a=e}},2);let r=(e,t)=>{if(e.msg)return i(a(l.shortnameToUnicode(e.msg)));if(e.attachments){let n=e.attachments.find(e=>e.title||e.description);return null!=n&&n.description?i(n.description):null!=n&&n.title?i(n.title):t("Sent_an_attachment")}}}
+//# sourceMappingURL=/dynamic/client/sidebar/RoomList/ebab09977b714bf54ba38d50af395b48a3a1a460.map

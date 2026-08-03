@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/marketplace/AppDetailsPage/tabs/AppInstances/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './AppInstances';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,iBAAe,CAAAC,QAAA,SAAgB,EAAA"}

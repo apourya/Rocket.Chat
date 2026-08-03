@@ -1,0 +1,2 @@
+function module(e,t,n){let l;n.export({usePreventDefault:()=>r}),n.link("react",{useEffect(e){l=e}},0);let r=e=>(l(()=>{let{current:t}=e,n=e=>{var t;[e.target.nodeName,null===(t=e.target.parentElement)||void 0===t?void 0:t.nodeName].includes("BUTTON")&&e.preventDefault()};return null==t||t.addEventListener("click",n),()=>null==t?void 0:t.addEventListener("click",n)},[e]),{ref:e})}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidebar/hooks/98d7ad1586f1b8affef65cb050e105e0656bb696.map

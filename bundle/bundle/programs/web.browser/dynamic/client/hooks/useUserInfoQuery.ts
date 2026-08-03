@@ -1,0 +1,2 @@
+function module(e,t,n){let r,u,o,l;n.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),n.export({useUserInfoQuery:()=>a}),n.link("@rocket.chat/ui-contexts",{useEndpoint(e){u=e}},0),n.link("@tanstack/react-query",{keepPreviousData(e){o=e},useQuery(e){l=e}},1);let a=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{placeholderData:o},n=u("GET","/v1/users.info");return l(r({queryKey:["users.info",e],queryFn:()=>n(r({},e))},t))}}
+//# sourceMappingURL=/dynamic/client/hooks/dbb7898a9bed67872a027d13435dc46960b502af.map

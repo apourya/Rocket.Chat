@@ -1,0 +1,2 @@
+function module(s,t,o){let n;o.link("./OTRRoom",{OTRRoom(s){n=s}},0),o.exportDefault(new class{constructor(){this.instancesByRoomId=void 0,this.instancesByRoomId={}}getInstanceByRoomId(s,t){if(this.instancesByRoomId[t])return this.instancesByRoomId[t];let o=n.create(s,t);if(o)return this.instancesByRoomId[t]=o,this.instancesByRoomId[t]}closeAllInstances(){Object.values(this.instancesByRoomId).forEach(s=>{s.softReset()}),this.instancesByRoomId={}}})}
+//# sourceMappingURL=/dynamic/app/otr/client/fae8abff61d8854c67fccd7bb024744f7da8b5f1.map

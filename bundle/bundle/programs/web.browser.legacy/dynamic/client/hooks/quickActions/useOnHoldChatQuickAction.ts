@@ -1,0 +1,2 @@
+function module(n,i,e){e.export({useOnHoldChatQuickAction:function(){return c}}),e.link("react",{useMemo:function(n){o=n}},0),e.link("../../views/room/lib/quickActions",{QuickActionsEnum:function(n){u=n}},1),e.link("../useHasLicenseModule",{useHasLicenseModule:function(n){t=n}},2);var o,u,t,c=function(){var n=!0===t("livechat-enterprise");return o(function(){if(n)return{groups:["live"],id:u.OnHoldChat,title:"Omnichannel_onHold_Chat",icon:"pause-unfilled",order:4}},[n])}}
+//# sourceMappingURL=/dynamic/client/hooks/quickActions/07fe413565a72762ab64d062cdca2e935971e3b8.map

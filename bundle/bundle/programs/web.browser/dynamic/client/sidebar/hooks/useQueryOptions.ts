@@ -1,0 +1,2 @@
+function module(e,t,r){let a,l,i,s;r.link("@babel/runtime/helpers/objectSpread2",{default(e){a=e}},0),r.export({useQueryOptions:()=>o}),r.link("@rocket.chat/ui-contexts",{useUserPreference(e){l=e},useSetting(e){i=e}},0),r.link("react",{useMemo(e){s=e}},1);let o=()=>{let e=l("sidebarSortby"),t=i("UI_Use_Real_Name");return s(()=>({sort:a(a({},"activity"===e&&{lm:-1}),"activity"!==e&&a({},t?{lowerCaseFName:1}:{lowerCaseName:1}))}),[e,t])}}
+//# sourceMappingURL=/dynamic/client/sidebar/hooks/0c36c3f75d25b024d0f47ebcf5c86509d20b2999.map

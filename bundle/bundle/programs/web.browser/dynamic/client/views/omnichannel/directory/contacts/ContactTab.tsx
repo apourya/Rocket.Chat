@@ -1,0 +1,2 @@
+function module(t,e,o){let i,l,n,u;o.link("@rocket.chat/ui-contexts",{usePermission(t){i=t}},0),o.link("./ContactTable",{default(t){l=t}},1),o.link("../../../notAuthorized/NotAuthorizedPage",{default(t){n=t}},2),o.link("react/jsx-runtime",{jsx(t){u=t}},3),o.exportDefault(()=>i("view-l-room")?u(l,{}):u(n,{}))}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/contacts/cdcd4f4d9a61a1448b3294a7c832c6fe15935fc7.map

@@ -1,0 +1,2 @@
+function module(n,e,t){let i,r,a,l,c;t.link("@rocket.chat/fuselage",{Banner(n){i=n},Box(n){r=n},Icon(n){a=n}},0),t.link("react-i18next",{useTranslation(n){l=n}},1),t.link("react/jsx-runtime",{jsx(n){c=n}},2),t.exportDefault(()=>{let{t:n}=l();return c(i,{variant:"warning",icon:c(a,{name:"warning",size:"x24"}),children:c(r,{textAlign:"left",children:n("Logged_Out_Banner_Text")})})})}
+//# sourceMappingURL=/dynamic/client/components/deviceManagement/6570e50be16f503e5c3ba5e8b24147b450f4f1bb.map

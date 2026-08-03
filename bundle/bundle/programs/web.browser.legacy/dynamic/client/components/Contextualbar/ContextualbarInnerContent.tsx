@@ -1,0 +1,2 @@
+function module(n,e,t){var i,l,o,r;t.link("@babel/runtime/helpers/objectSpread2",{default:function(n){i=n}},0),t.link("@rocket.chat/fuselage",{Box:function(n){l=n}},0),t.link("react",{memo:function(n){o=n}},1),t.link("react/jsx-runtime",{jsx:function(n){r=n}},2),t.exportDefault(o(function(n){return r(l,i({"rcx-vertical-bar--inner-content":!0,position:"absolute",height:"full",display:"flex",insetInline:0},n))}))}
+//# sourceMappingURL=/dynamic/client/components/Contextualbar/72dd5f56e9384959733d77c511f88ae5a92e9781.map

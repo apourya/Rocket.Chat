@@ -1,0 +1,2 @@
+function module(o,e,m){let t;m.export({RoomProvider:()=>r,Room:()=>i,RoomNotFound:()=>n,MemberListRouter:()=>d}),m.link("react",{lazy(o){t=o}},0),m.link("./RoomSkeleton",{default:"RoomSkeleton"},1);let r=t(()=>m.dynamicImport("./providers/RoomProvider")),i=t(()=>m.dynamicImport("./Room")),n=t(()=>m.dynamicImport("./RoomNotFound")),d=t(()=>m.dynamicImport("./MemberListRouter"))}
+//# sourceMappingURL=/dynamic/client/views/room/1b32ec531a44bcf4adec5944239c219ed84a6001.map

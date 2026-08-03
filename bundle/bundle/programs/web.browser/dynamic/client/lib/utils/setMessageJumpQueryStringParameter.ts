@@ -1,0 +1,2 @@
+function module(e,t,r){let a,l,n;let i=["msg"];r.link("@babel/runtime/helpers/objectSpread2",{default(e){a=e}},0),r.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){l=e}},1),r.export({setMessageJumpQueryStringParameter:()=>o}),r.link("../../providers/RouterProvider",{router(e){n=e}},0);let o=async e=>{let t=n.getSearchParameters(),{msg:r}=t,o=l(t,i),s=new URL(window.location.href).pathname;n.navigate({pathname:s,search:e?a(a({},o),{},{msg:e}):o},{replace:!0})}}
+//# sourceMappingURL=/dynamic/client/lib/utils/2ad8390598bdfb1f0d58ebeca0e90fd252d6de5a.map

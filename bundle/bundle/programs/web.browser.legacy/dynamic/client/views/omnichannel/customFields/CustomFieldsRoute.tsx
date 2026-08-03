@@ -1,0 +1,2 @@
+function module(t,n,e){var i,u,o,c;e.link("@rocket.chat/ui-contexts",{usePermission:function(t){i=t}},0),e.link("./CustomFieldsPage",{default:function(t){u=t}},1),e.link("../../notAuthorized/NotAuthorizedPage",{default:function(t){o=t}},2),e.link("react/jsx-runtime",{jsx:function(t){c=t}},3),e.exportDefault(function(){return i("view-livechat-customfields")?c(u,{}):c(o,{})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/customFields/64acbd715cd0bec55bdb8378962d7e8df8868a57.map

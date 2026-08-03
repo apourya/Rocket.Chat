@@ -1,0 +1,2 @@
+function module(e,o,t){t.export({formatAgentListPayload:()=>r});let r=(e,o)=>{let t=[],r=[];for(let r of o){let o=r._id?e.find(e=>e._id===r._id):void 0;o&&r.count===o.count&&r.order===o.order||t.push({agentId:r.agentId,username:r.username,count:r.count,order:r.order})}for(let t of e)o.some(e=>t._id===e._id)||r.push({agentId:t.agentId,username:t.username});return{upsert:t,remove:r}}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/departments/utils/2fe7cdcdb76b94c35cbb9b54e5d7804302881734.map

@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({usePreventDefault:function(){return u}}),t.link("react",{useEffect:function(e){r=e}},0);var r,u=function(e){return r(function(){var n=e.current,t=function(e){var n;[e.target.nodeName,null===(n=e.target.parentElement)||void 0===n?void 0:n.nodeName].includes("BUTTON")&&e.preventDefault()};return null==n||n.addEventListener("click",t),function(){return null==n?void 0:n.addEventListener("click",t)}},[e]),{ref:e}}}
+//# sourceMappingURL=/dynamic/client/sidebarv2/hooks/78c144e9fc0a2e13e6c476b0ed04f5065241b5be.map

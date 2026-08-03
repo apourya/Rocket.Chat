@@ -1,0 +1,2 @@
+function module(t,n,e){var o,u,i,c;e.link("@rocket.chat/ui-contexts",{useSetting:function(t){o=t}},0),e.link("./AccountProfilePage",{default:function(t){u=t}},1),e.link("../../notAuthorized/NotAuthorizedPage",{default:function(t){i=t}},2),e.link("react/jsx-runtime",{jsx:function(t){c=t}},3),e.exportDefault(function(){return o("Accounts_AllowUserProfileChange")?c(u,{}):c(i,{})})}
+//# sourceMappingURL=/dynamic/client/views/account/profile/a010c22d5f19060a9f4fac6942d1af9c6d941393.map

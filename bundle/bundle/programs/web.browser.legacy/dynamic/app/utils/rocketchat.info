@@ -1,0 +1,2 @@
+function module(n,o,c){c.link("./rocketchat.info.js",{"*":"*+"})}
+//# sourceMappingURL=/dynamic/app/utils/0bcb403c233b7d63706d9741566eb7601920c98c.map

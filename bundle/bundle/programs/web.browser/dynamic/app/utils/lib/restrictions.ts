@@ -1,0 +1,2 @@
+function module(t,i,e){e.export({fileUploadMediaWhiteList:()=>n,fileUploadIsValidContentTypeFromSettings:()=>u});let n=function(t){if(t&&"*"!==t)return t.split(",").map(t=>t.trim())},l=function(t){if(t)return t.split(",").map(t=>t.trim())},r=function(t,i){return!!t&&!!i&&(!!i.includes(t)||!!i.filter(t=>t.indexOf("/*")>0).includes(t.replace(/(\/.*)$/,"/*")))},u=function(t,i,e){let u=l(e),f=n(i);return!(u&&t&&r(t,u))&&(f?r(t,f):!f)}}
+//# sourceMappingURL=/dynamic/app/utils/lib/30601ca8c2f78e330d37835ee58c7eebe1c5ba7b.map

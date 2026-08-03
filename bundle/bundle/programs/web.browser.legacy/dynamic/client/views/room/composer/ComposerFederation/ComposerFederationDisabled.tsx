@@ -1,0 +1,2 @@
+function module(e,t,n){var i,r,o;n.link("@rocket.chat/ui-composer",{MessageFooterCallout:function(e){i=e}},0),n.link("react-i18next",{useTranslation:function(e){r=e}},1),n.link("react/jsx-runtime",{jsx:function(e){o=e}},2),n.exportDefault(function(){var e=r().t;return o(i,{children:e("Federation_Matrix_Federated_Description_disabled")})})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/ComposerFederation/e3bdf6bf332a6247692de180649ee38560b5574d.map

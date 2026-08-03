@@ -1,0 +1,2 @@
+function module(e,n,t){var r,u,i;t.link("@babel/runtime/helpers/objectSpread2",{default:function(e){r=e}},0),t.link("@rocket.chat/fuselage",{Tag:function(e){u=e}},0),t.link("react/jsx-runtime",{jsx:function(e){i=e}},1),t.exportDefault(function(e){return i(u,r(r({role:"button",tabIndex:0},e),{},{maxWidth:"50%",flexShrink:1,flexGrow:0}))})}
+//# sourceMappingURL=/dynamic/client/views/navigation/sidepanel/SidepanelItem/fe4afe3ef29a8ef488a90ead43b247d52e115c3c.map

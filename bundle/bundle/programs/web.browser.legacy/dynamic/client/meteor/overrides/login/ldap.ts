@@ -1,0 +1,2 @@
+function module(n,o,e){var t,i,l;e.link("meteor/meteor",{Meteor:function(n){t=n}},0),e.link("../../../lib/2fa/overrideLoginMethod",{callLoginMethod:function(n){i=n},handleLogin:function(n){l=n}},1),t.loginWithLDAP=l(function(n,o){return i({methodArguments:[{ldap:!0,username:n,ldapPass:o,ldapOptions:{}}]})},function(n,o,e){return i({methodArguments:[{totp:{login:{ldap:!0,username:n,ldapPass:o,ldapOptions:{}},code:e}}]})})}
+//# sourceMappingURL=/dynamic/client/meteor/overrides/login/edf1357097f8ec982c11234f6e04d1fcddfba4a0.map

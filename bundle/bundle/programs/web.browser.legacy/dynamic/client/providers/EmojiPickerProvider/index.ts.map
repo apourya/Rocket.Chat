@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/providers/EmojiPickerProvider/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './EmojiPickerProvider';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,wBAAe,CAAA,QAAA,SAAuB,EAAA"}

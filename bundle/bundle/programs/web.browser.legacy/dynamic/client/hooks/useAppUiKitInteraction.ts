@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useAppUiKitInteraction:function(){return f}}),e.link("@rocket.chat/fuselage-hooks",{useEffectEvent:function(n){u=n}},0),e.link("@rocket.chat/ui-contexts",{useStream:function(n){i=n},useUserId:function(n){c=n}},1),e.link("react",{useEffect:function(n){o=n}},2);var u,i,c,o,f=function(n){var t=i("notify-user"),e=c(),f=u(n);o(function(){if(e)return t(e+"/uiInteraction",f)},[t,e,f])}}
+//# sourceMappingURL=/dynamic/client/hooks/f5591a1f3f46c284f1c8c37ace0d2e9cdf580357.map

@@ -1,0 +1,2 @@
+function module(e,n,t){let l,i;t.export({fireGlobalEvent:()=>a}),t.link("./fireGlobalEventBase",{fireGlobalEventBase(e){l=e}},0),t.link("../settings",{settings(e){i=e}},1);let a=(e,n)=>{var t;let a=l(e,n),o=i.peek("Iframe_Integration_send_enable");void 0!==o&&a(o,null!==(t=i.peek("Iframe_Integration_send_target_origin"))&&void 0!==t?t:"*")}}
+//# sourceMappingURL=/dynamic/client/lib/utils/f281eb039490d736c7d7e5fbca27865fc2d38667.map

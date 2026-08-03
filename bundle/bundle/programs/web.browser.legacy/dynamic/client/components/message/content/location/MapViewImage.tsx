@@ -1,0 +1,2 @@
+function module(n,t,i){var r,e,a;i.link("@rocket.chat/ui-client",{ExternalLink:function(n){r=n}},0),i.link("react-i18next",{useTranslation:function(n){e=n}},1),i.link("react/jsx-runtime",{jsx:function(n){a=n}},2),i.exportDefault(function(n){var t=n.linkUrl,i=n.imageUrl,c=e().t;return a(r,{to:t,children:a("img",{src:i,alt:c("Shared_Location")})})})}
+//# sourceMappingURL=/dynamic/client/components/message/content/location/8cad2623717593c220a8e125dda160e8a2b271fa.map

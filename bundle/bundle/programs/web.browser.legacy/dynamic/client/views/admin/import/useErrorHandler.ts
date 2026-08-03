@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({useErrorHandler:function(){return u}}),t.link("@rocket.chat/fuselage-hooks",{useEffectEvent:function(e){o=e}},0),t.link("@rocket.chat/ui-contexts",{useToastMessageDispatch:function(e){r=e}},1);var o,r,u=function(){var e=r();return o(function(n,t){console.error(n),e({type:"error",message:null!=n?n:t})})}}
+//# sourceMappingURL=/dynamic/client/views/admin/import/a688f237e6e7b05f2d4485a928701009630379a9.map

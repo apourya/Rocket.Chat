@@ -1,0 +1,2 @@
+function module(t,e,c){let r,s;c.export({useSort:()=>l}),c.link("react",{useCallback(t){r=t},useState(t){s=t}},0);let l=function(t){let e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"asc",[c,l]=s(()=>[t,e]),n=r((t,e)=>{l(c=>{let[r,s]=c;return e?[t,e]:r===t?[t,"asc"===s?"desc":"asc"]:[t,"asc"]})},[]);return{sortBy:c[0],sortDirection:c[1],setSort:n}}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/hooks/90e7605b4cf125b99969a6714d3b09d3961e6ae0.map

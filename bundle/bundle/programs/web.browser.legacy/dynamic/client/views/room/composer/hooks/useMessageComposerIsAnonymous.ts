@@ -1,0 +1,2 @@
+function module(n,o,s){s.export({useMessageComposerIsAnonymous:function(){return u}}),s.link("@rocket.chat/ui-contexts",{useSetting:function(n){e=n},useUserId:function(n){t=n}},0);var e,t,u=function(){var n=e("Accounts_AllowAnonymousRead"),o=e("Accounts_AllowAnonymousWrite"),s=t();if(!s&&!n&&!o)throw Error("Anonymous access is disabled");return!s}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/88775c7bdd12574c4e679f42d82a25d14411412c.map

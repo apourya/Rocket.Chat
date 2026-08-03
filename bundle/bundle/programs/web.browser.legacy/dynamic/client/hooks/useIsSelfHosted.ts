@@ -1,0 +1,2 @@
+function module(o,i,t){t.export({useIsSelfHosted:function(){return s}}),t.link("../views/hooks/useStatistics",{useStatistics:function(o){n=o}},0);var n,s=function(){var o,i=n(),t=i.data,s=i.isLoading;return{isSelfHosted:(null==t?void 0:null===(o=t.deploy)||void 0===o?void 0:o.platform)!=="rocket-cloud",isLoading:s}}}
+//# sourceMappingURL=/dynamic/client/hooks/1bb18a4152d9c05d0b69f8981df50ec5622ce8cb.map

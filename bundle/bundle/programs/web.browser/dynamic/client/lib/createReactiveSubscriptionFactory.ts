@@ -1,0 +1,2 @@
+function module(e,t,r){let o;r.export({createReactiveSubscriptionFactory:()=>u}),r.link("meteor/tracker",{Tracker(e){o=e}},0);let u=e=>function(){let t;for(var r=arguments.length,u=Array(r),a=0;a<r;a++)u[a]=arguments[a];let c=new Set,i=e(...u),n=()=>{i=e(...u),queueMicrotask(()=>{c.forEach(e=>{e()})})};return[e=>(c.add(e),queueMicrotask(()=>{(!t||t.stopped)&&(t=o.autorun(n))}),()=>{c.delete(e),0===c.size&&queueMicrotask(()=>{var e;return null===(e=t)||void 0===e?void 0:e.stop()})}),()=>i]}}
+//# sourceMappingURL=/dynamic/client/lib/fb4063f9806b6951310d757af72e8e01ce9c1a0e.map

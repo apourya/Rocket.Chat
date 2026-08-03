@@ -1,0 +1,2 @@
+function module(e,l,t){let n,s,r,a,i;t.link("@rocket.chat/fuselage",{MessageRole(e){n=e},MessageRoles(e){s=e}},0),t.link("react-i18next",{useTranslation(e){r=e}},1),t.link("react/jsx-runtime",{jsx(e){a=e},jsxs(e){i=e}},2),t.exportDefault(e=>{let{roles:l,isBot:t}=e,{t:c}=r();return i(s,{children:[l.map((e,l)=>a(n,{children:e},l)),t&&a(n,{children:c("Bot")})]})})}
+//# sourceMappingURL=/dynamic/client/components/message/header/390b64b1e89accd76888802aa54a21407bc6c97a.map

@@ -1,0 +1,2 @@
+function module(e,t,r){let n,l,o,a;r.link("@babel/runtime/helpers/objectSpread2",{default(e){n=e}},0),r.link("react",{forwardRef(e){l=e}},0),r.link("./PageContent",{default(e){o=e}},1),r.link("react/jsx-runtime",{jsx(e){a=e}},2);let d=l(function(e,t){return a(o,n(n({borderBlockEndColor:"transparent"},e),{},{pb:16,ref:t,borderBlockEndWidth:"default",height:"auto"}))});r.exportDefault(d)}
+//# sourceMappingURL=/dynamic/client/components/Page/973f88011f215fdc3ed1ac7a90f7828c857973fe.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/contextualBar/RoomMembers/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './RoomMembersWithData';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,wBAAe,CAAA,QAAA,SAAuB,EAAA"}

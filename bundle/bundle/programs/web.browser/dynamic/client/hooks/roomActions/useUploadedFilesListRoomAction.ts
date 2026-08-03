@@ -1,0 +1,2 @@
+function module(e,o,i){let t,l;i.export({useUploadedFilesListRoomAction:()=>a}),i.link("react",{lazy(e){t=e},useMemo(e){l=e}},0);let n=t(()=>i.dynamicImport("../../views/room/contextualBar/RoomFiles")),a=()=>l(()=>({id:"uploaded-files-list",groups:["channel","group","direct","direct_multiple","live","team"],title:"Files",icon:"clip",tabComponent:n,order:8,type:"organization"}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/227386dc8b0cbc3cf3bc297db90886c80d69ff65.map

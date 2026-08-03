@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({getAgentDerivedFromUser:function(){return r}});var r=function(e,t){if(!(e&&e.roles.includes("livechat-agent")))throw Error("User is not a livechat agent");return{agentId:e._id,username:e.username||"",_id:e._id,_updatedAt:new Date().toISOString(),departmentId:t,departmentEnabled:!0,count:0,order:0}}}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/components/OutboundMessageWizard/forms/RepliesForm/utils/166e01bd229db2f56dedf0761cd719cddc173130.map

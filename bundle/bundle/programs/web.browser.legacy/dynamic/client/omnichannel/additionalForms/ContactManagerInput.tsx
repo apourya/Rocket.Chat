@@ -1,0 +1,2 @@
+function module(e,n,t){var o,u,i;t.link("../../components/AutoCompleteAgent",{default:function(e){o=e}},0),t.link("../../hooks/useHasLicenseModule",{useHasLicenseModule:function(e){u=e}},1),t.link("react/jsx-runtime",{jsx:function(e){i=e}},2),t.exportDefault(function(e){var n=e.value,t=e.onChange;return u("livechat-enterprise")?i(o,{haveNoAgentsSelectedOption:!0,value:n,onChange:function(e){if("no-agent-selected"===e)return t("");t(e)}}):null})}
+//# sourceMappingURL=/dynamic/client/omnichannel/additionalForms/0d2e4bd1f917a721953877fbd667f8a211a9b78b.map

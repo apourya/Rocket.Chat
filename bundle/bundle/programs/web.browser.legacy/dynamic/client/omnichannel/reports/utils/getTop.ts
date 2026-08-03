@@ -1,0 +1,2 @@
+function module(e,n,t){t.link("@babel/runtime/helpers/toConsumableArray",{default:function(e){r=e}},0),t.export({getTop:function(){return u}});var r,u=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:5,n=arguments.length>1?arguments[1]:void 0,t=arguments.length>2?arguments[2]:void 0;if(n.length<e)return n;var u=n.slice(0,e),o=n.slice(e).reduce(function(e,n){return e+n.value},0);return o>0?[].concat(r(u),[t(o)]):u}}
+//# sourceMappingURL=/dynamic/client/omnichannel/reports/utils/656373a4729ae4df42220ca593e2c2e36bc5ec79.map

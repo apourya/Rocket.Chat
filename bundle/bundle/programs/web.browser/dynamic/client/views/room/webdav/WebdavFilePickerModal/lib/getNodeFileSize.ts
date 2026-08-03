@@ -1,0 +1,2 @@
+function module(t,e,o){o.export({getNodeFileSize:()=>r});let r=(t,e)=>{if("directory"===t)return"";if(0===e)return"0 B";let o=Math.floor(Math.log(e)/Math.log(1024));return"".concat(parseFloat((e/Math.pow(1024,o)).toFixed(2))," ").concat(["Bytes","KB","MB","GB","TB","PB","EB","ZB","YB"][o])}}
+//# sourceMappingURL=/dynamic/client/views/room/webdav/WebdavFilePickerModal/lib/4a1c252561b304b35dc2952a6d1883501a264583.map

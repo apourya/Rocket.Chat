@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/omnichannel/queueList/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './QueueListPage';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,kBAAe,CAAAC,QAAA,SAAiB,EAAA"}

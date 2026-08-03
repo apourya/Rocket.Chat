@@ -1,0 +1,2 @@
+function module(e,t,l){let i;l.export({applyQueryOptions:()=>r}),l.link("./pipe",{pipe(e){i=e}},0);let p=e=>{let t=[];return e&&Object.keys(e).forEach(l=>{let i=e[l];(-1===i||1===i)&&t.push({field:l,direction:i})}),t},r=(e,t)=>{let l=i(e);if(t.sort){let e=p(t.sort);for(let t=e.sort.length-1;t>=0;t--){let{field:i,direction:p}=e[t];l=l.sortByField(i,p)}}return t.skip&&(l=l.slice(t.skip,e.length)),void 0!==t.limit&&(l=l.slice(0,t.limit)),l.apply()}}
+//# sourceMappingURL=/dynamic/client/lib/cachedStores/5df7da43545c474243ad25d0263e5349bffcc2da.map

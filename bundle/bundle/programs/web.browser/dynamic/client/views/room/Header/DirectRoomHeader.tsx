@@ -1,0 +1,2 @@
+function module(e,t,l){let o,s,i,r;l.link("@rocket.chat/ui-contexts",{useUserId(e){o=e},useUserPresence(e){s=e}},0),l.link("./RoomHeader",{default(e){i=e}},1),l.link("react/jsx-runtime",{jsx(e){r=e}},2),l.exportDefault(e=>{var t;let{room:l,slots:u}=e,n=o(),d=null===(t=l.uids)||void 0===t?void 0:t.filter(e=>e!==n).shift(),a=s(d);return r(i,{slots:u,room:l,topic:null==a?void 0:a.statusText})})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/5e0d7a514c44920840cc33ec534d2278f08759a1.map

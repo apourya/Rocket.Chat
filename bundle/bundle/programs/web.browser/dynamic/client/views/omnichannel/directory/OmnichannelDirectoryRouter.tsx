@@ -1,0 +1,2 @@
+function module(e,t,n){let i,o,c,l;n.link("@rocket.chat/ui-contexts",{usePermission(e){i=e}},0),n.link("./OmnichannelDirectoryPage",{default(e){o=e}},1),n.link("../../notAuthorized/NotAuthorizedPage",{default(e){c=e}},2),n.link("react/jsx-runtime",{jsx(e){l=e}},3),n.exportDefault(()=>i("view-omnichannel-contact-center")?l(o,{}):l(c,{}))}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/be4a8896937229c0b771d39eae7e1092101019fc.map

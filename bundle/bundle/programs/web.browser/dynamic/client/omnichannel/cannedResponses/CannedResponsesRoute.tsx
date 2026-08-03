@@ -1,0 +1,2 @@
+function module(e,n,t){let i,s,a,o;t.link("@rocket.chat/ui-contexts",{usePermission(e){i=e}},0),t.link("./CannedResponsesPage",{default(e){s=e}},1),t.link("../../views/notAuthorized/NotAuthorizedPage",{default(e){a=e}},2),t.link("react/jsx-runtime",{jsx(e){o=e}},3),t.exportDefault(()=>i("manage-livechat-canned-responses")?o(s,{}):o(a,{}))}
+//# sourceMappingURL=/dynamic/client/omnichannel/cannedResponses/3d827cdabf4afdf364d37309ecb5eb8c7a24b138.map

@@ -1,0 +1,2 @@
+function module(n,t,r){r.export({watchUserId:function(){return c},watchUser:function(){return o}}),r.link("./watch",{watch:function(n){u=n}},0),r.link("../lib/user",{userIdStore:function(n){e=n}},1),r.link("../stores",{Users:function(n){i=n}},2);var u,e,i,c=function(){return u(e,function(n){return n})},o=function(){var n=c();if(n)return u(i.use,function(t){return t.get(n)})}}
+//# sourceMappingURL=/dynamic/client/meteor/379acf60c93f9c08d6d92b146a01e94530cc00a5.map

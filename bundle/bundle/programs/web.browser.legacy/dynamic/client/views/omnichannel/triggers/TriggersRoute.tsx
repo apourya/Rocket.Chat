@@ -1,0 +1,2 @@
+function module(t,n,e){var i,u,o,r;e.link("@rocket.chat/ui-contexts",{usePermission:function(t){i=t}},0),e.link("./TriggersPage",{default:function(t){u=t}},1),e.link("../../notAuthorized/NotAuthorizedPage",{default:function(t){o=t}},2),e.link("react/jsx-runtime",{jsx:function(t){r=t}},3),e.exportDefault(function(){return i("view-livechat-triggers")?r(u,{}):r(o,{})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/triggers/1b836d6df7902b929992db4c015858c3c1c4be52.map

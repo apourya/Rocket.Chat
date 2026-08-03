@@ -1,0 +1,2 @@
+function module(e,i,r){r.export({useFormattedRelativeTime:function(){return o}}),r.link("moment",{default:function(e){t=e}},0),r.link("react",{useMemo:function(e){n=e}},1);var t,n,o=function(e){return n(function(){return t.relativeTimeThreshold("s",60),t.relativeTimeThreshold("ss",0),t.relativeTimeThreshold("m",60),t.relativeTimeThreshold("h",24),t.relativeTimeThreshold("d",31),t.relativeTimeThreshold("M",12),t.duration(e).humanize()},[e])}}
+//# sourceMappingURL=/dynamic/client/hooks/ced0af9a607bf3c447c12de43a550c1c1d17be71.map

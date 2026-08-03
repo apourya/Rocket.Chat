@@ -1,0 +1,2 @@
+function module(e,u,r){let l;r.export({useFeaturePreviewEnableQuery:()=>i}),r.link("react",{useMemo(e){l=e}},0);let a=(e,u,r)=>{if(e.enableQuery){var l;e.enableQuery.value!==(null===(l=r.find(u=>{var r;return u.name===(null===(r=e.enableQuery)||void 0===r?void 0:r.name)}))||void 0===l?void 0:l.value)?(e.disabled=!0,e.value=!1):e.disabled=!1}return e},n=e=>Object.entries(e.reduce((e,u)=>((e[u.group]=e[u.group]||[]).push(u),e),{})),i=e=>l(()=>n(e.map(a)),[e])}
+//# sourceMappingURL=/dynamic/client/hooks/463d46b8dd3c9b6c1e5132b184d750a231535fc5.map

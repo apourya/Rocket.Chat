@@ -1,0 +1,2 @@
+function module(e,s,t){let a,r;t.export({useSeatsCap:()=>c}),t.link("@rocket.chat/ui-contexts",{useEndpoint(e){a=e}},0),t.link("@tanstack/react-query",{useQuery(e){r=e}},1);let c=()=>{let e=a("GET","/v1/licenses.maxActiveUsers"),s=r({queryKey:["/v1/licenses.maxActiveUsers"],queryFn:()=>e()});if(s.isSuccess)return{activeUsers:s.data.activeUsers,maxActiveUsers:s.data.maxActiveUsers&&s.data.maxActiveUsers>0?s.data.maxActiveUsers:Number.POSITIVE_INFINITY,reload:()=>s.refetch()}}}
+//# sourceMappingURL=/dynamic/client/views/admin/users/31a90f0951deb27a44aa741aa42a3c9690a0d9f0.map

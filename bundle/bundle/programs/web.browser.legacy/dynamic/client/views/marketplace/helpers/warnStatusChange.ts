@@ -1,0 +1,2 @@
+function module(t,n,s){s.export({warnStatusChange:function(){return r}}),s.link("./appErroredStatuses",{appErroredStatuses:function(t){e=t}},0),s.link("../../../../app/utils/lib/i18n",{t:function(t){a=t}},1),s.link("../../../lib/toast",{dispatchToastMessage:function(t){i=t}},2);var e,a,i,r=function(t,n){if(e.includes(n)){i({type:"error",message:(a("App_status_"+n),t)});return}i({type:"info",message:(a("App_status_"+n),t)})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/376fed6ff817799326a90ab3f761bb8cc56ce16a.map

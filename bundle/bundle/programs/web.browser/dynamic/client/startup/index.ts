@@ -1,0 +1,2 @@
+function module(l,n,i){i.link("../lib/rooms/roomTypes"),i.link("./absoluteUrl"),i.link("./appRoot"),i.link("./audit"),i.link("./callbacks"),i.link("./deviceManagement"),i.link("./iframeCommands"),i.link("./incomingMessages"),i.link("./roles"),i.link("./routes"),i.link("./slashCommands"),i.link("./startup"),i.link("./streamMessage")}
+//# sourceMappingURL=/dynamic/client/startup/1f0a332e1663c395d90d6a5257db78d2ac1d6b63.map

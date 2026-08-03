@@ -1,0 +1,2 @@
+function module(e,n,t){let a,i,l;t.link("@rocket.chat/fuselage",{Tag(e){a=e}},0),t.link("react-i18next",{useTranslation(e){i=e}},1),t.link("react/jsx-runtime",{jsx(e){l=e}},2),t.exportDefault(e=>{let{app:n}=e,{t}=i();return n.addon?l(a,{variant:"secondary",title:t("Requires_subscription_add-on"),children:t("Add-on")}):null})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppsList/278b33309777e9c5cae7eec1ebfd12804790c09d.map

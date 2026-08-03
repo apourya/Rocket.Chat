@@ -1,0 +1,2 @@
+function module(n,i,t){var r,e,u,a,l;t.link("./sidebar/AdminSidebar",{default:function(n){r=n}},0),t.link("../../portals/SidebarPortal",{default:function(n){e=n}},1),t.link("react/jsx-runtime",{jsx:function(n){u=n},Fragment:function(n){a=n},jsxs:function(n){l=n}},2),t.exportDefault(function(n){var i=n.children;return l(a,{children:[u(e,{children:u(r,{})}),i]})})}
+//# sourceMappingURL=/dynamic/client/views/admin/d5bf7a7a482bb260ac1da27aee06b94b389009ba.map

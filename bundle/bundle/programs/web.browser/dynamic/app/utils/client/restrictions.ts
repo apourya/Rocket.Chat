@@ -1,0 +1,2 @@
+function module(l,i,e){let t,n;e.export({fileUploadIsValidContentType:()=>o}),e.link("../../../client/lib/settings",{settings(l){t=l}},0),e.link("../lib/restrictions",{fileUploadIsValidContentTypeFromSettings(l){n=l}},1);let o=function(l,i){var e,o;let a=null!==(e=t.watch("FileUpload_MediaTypeBlackList"))&&void 0!==e?e:"image/svg+xml",s=null!==(o=null!=i?i:t.watch("FileUpload_MediaTypeWhiteList"))&&void 0!==o?o:"";return n(l,s,a)}}
+//# sourceMappingURL=/dynamic/app/utils/client/7556284715fdf0df9ea545e27afc9eed910ad2e4.map

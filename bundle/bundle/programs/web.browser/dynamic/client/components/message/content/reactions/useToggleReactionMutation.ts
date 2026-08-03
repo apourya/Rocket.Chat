@@ -1,0 +1,2 @@
+function module(t,e,n){let a,o,r,i;n.link("@babel/runtime/helpers/objectSpread2",{default(t){a=t}},0),n.export({useToggleReactionMutation:()=>u}),n.link("@rocket.chat/ui-contexts",{useEndpoint(t){o=t},useUserId(t){r=t}},0),n.link("@tanstack/react-query",{useMutation(t){i=t}},1);let u=t=>{let e=r(),n=o("POST","/v1/chat.react");return i(a({mutationFn:async t=>{let{mid:a,reaction:o}=t;if(!e)throw Error("Not logged in");await n({messageId:a,reaction:o})}},t))}}
+//# sourceMappingURL=/dynamic/client/components/message/content/reactions/f169eb44967f660f93b530ae71c2a50ec5ca92a2.map

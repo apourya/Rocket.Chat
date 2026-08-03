@@ -1,0 +1,2 @@
+function module(n,o,i){i.export({useCloseChatQuickAction:function(){return c}}),i.link("react",{useMemo:function(n){t=n}},0),i.link("../../views/room/lib/quickActions",{QuickActionsEnum:function(n){e=n}},1);var t,e,c=function(){return t(function(){return{groups:["live"],id:e.CloseChat,title:"End_conversation",icon:"balloon-close-top-right",order:5,color:"danger"}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/quickActions/683254df1ab703887f112930fc8816b517bd6310.map

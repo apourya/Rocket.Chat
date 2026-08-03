@@ -1,0 +1,2 @@
+function module(e,r,o){o.export({readFileAsDataURL:()=>t});let t=e=>new Promise((r,o)=>{let t=new FileReader;t.onloadend=e=>{var t;let a=null===(t=e.target)||void 0===t?void 0:t.result;if("string"==typeof a){r(a);return}o(Error("Failed to read file"))},t.onerror=e=>{o(Error("Failed to read file: ".concat(e)))},t.readAsDataURL(e)})}
+//# sourceMappingURL=/dynamic/client/components/avatar/UserAvatarEditor/29f5724f154ee71e99b6c36b0258a8a2cf6e7194.map

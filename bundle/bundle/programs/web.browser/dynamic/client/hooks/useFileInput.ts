@@ -1,0 +1,2 @@
+function module(e,t,n){let r,u;n.export({useFileInput:()=>l}),n.link("react",{useRef(e){r=e},useEffect(e){u=e}},0);let l=e=>{let t=r();return u(()=>{let n=document.createElement("input");return n.setAttribute("style","display: none;"),Object.entries(e).forEach(e=>{let[t,r]=e;n.setAttribute(t,r)}),document.body.appendChild(n),t.current=n,()=>{t.current=void 0,n.remove()}},[e]),t}}
+//# sourceMappingURL=/dynamic/client/hooks/a75069fb9bfffea4ac379de5ddbb8bb846214d98.map

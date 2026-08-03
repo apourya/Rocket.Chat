@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,c;n.export({useFontStylePreference:()=>r}),n.link("@rocket.chat/ui-contexts",{useUserPreference(e){l=e}},0),n.link("react",{useLayoutEffect(e){o=e}},1),n.link("../../../account/accessibility/hooks/useCreateFontStyleElement",{useCreateFontStyleElement(e){c=e}},2);let r=()=>{let e=l("fontSize"),t=c();o(()=>{t(e||"100%")},[e,t])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/loggedIn/6d64a2e84b01b528bba561bc3dbb6435dac8a45e.map

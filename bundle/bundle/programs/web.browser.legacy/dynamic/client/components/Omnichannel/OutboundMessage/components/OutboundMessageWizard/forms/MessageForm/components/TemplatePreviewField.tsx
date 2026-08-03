@@ -1,0 +1,2 @@
+function module(e,t,n){var a,r,o;n.link("react-hook-form",{useWatch:function(e){a=e}},0),n.link("../../../../TemplatePreview",{default:function(e){r=e}},1),n.link("react/jsx-runtime",{jsx:function(e){o=e}},2),n.exportDefault(function(e){var t=e.control,n=e.template,l=a({control:t,name:"templateParameters"});return o(r,{template:n,parameters:l})})}
+//# sourceMappingURL=/dynamic/client/components/Omnichannel/OutboundMessage/components/OutboundMessageWizard/forms/MessageForm/components/b4579ab62013b8248108ef0d20a61c22ff0e100a.map

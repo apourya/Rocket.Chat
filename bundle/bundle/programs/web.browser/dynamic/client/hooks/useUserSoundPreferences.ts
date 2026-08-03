@@ -1,0 +1,2 @@
+function module(e,o,n){let u;n.export({useUserSoundPreferences:()=>l}),n.link("@rocket.chat/ui-contexts",{useUserPreference(e){u=e}},0);let i=(e,o)=>e*o/100,l=()=>{var e,o,n;let l=null!==(e=u("masterVolume",100))&&void 0!==e?e:100,t=null!==(o=u("notificationsSoundVolume",100))&&void 0!==o?o:100,r=null!==(n=u("voipRingerVolume",100))&&void 0!==n?n:100;return{masterVolume:l,notificationsSoundVolume:i(t,l),voipRingerVolume:i(r,l)}}}
+//# sourceMappingURL=/dynamic/client/hooks/e9f03fe19fb4359a5fbb44fa501cc190f5958279.map

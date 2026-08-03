@@ -1,0 +1,2 @@
+function module(n,e,r){r.export({GenericTableLoadingTable:function(){return a}}),r.link("./GenericTableLoadingRow",{GenericTableLoadingRow:function(n){i=n}},0),r.link("react/jsx-runtime",{jsx:function(n){o=n},Fragment:function(n){t=n}},1);var i,o,t,a=function(n){var e=n.headerCells;return o(t,{children:Array.from({length:10},function(n,r){return o(i,{cols:e},r)})})}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/11a987faff9d4fed545c8b435c0c4e93ecadbfa5.map

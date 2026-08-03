@@ -1,0 +1,2 @@
+function module(n,o,t){var e,i,u,l;t.link("./Thread",{default:function(n){e=n}},0),t.link("./ThreadList",{default:function(n){i=n}},1),t.link("../../contexts/RoomToolboxContext",{useRoomToolbox:function(n){u=n}},2),t.link("react/jsx-runtime",{jsx:function(n){l=n}},3),t.exportDefault(function(){var n=u().context;return n?l(e,{tmid:n}):l(i,{})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Threads/9bdfca1cdb2cffde4bb53fc6aa78c7254947c280.map

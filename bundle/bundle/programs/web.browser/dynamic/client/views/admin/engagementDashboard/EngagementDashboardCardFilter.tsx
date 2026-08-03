@@ -1,0 +1,2 @@
+function module(e,t,n){let l,r,o,a;n.link("@rocket.chat/fuselage",{Box(e){l=e},Flex(e){r=e},InputBoxSkeleton(e){o=e}},0),n.link("react/jsx-runtime",{jsx(e){a=e}},1),n.exportDefault(e=>{let{children:t=a(o,{})}=e;return a(l,{"rcx-card__row":!0,display:"flex",justifyContent:"flex-end",alignItems:"center",wrap:"no-wrap",pbe:8,children:t&&a(r.Item,{grow:0,children:t})})})}
+//# sourceMappingURL=/dynamic/client/views/admin/engagementDashboard/c25e34de6a3dbef3bb6d1e5addd7732c355f775f.map

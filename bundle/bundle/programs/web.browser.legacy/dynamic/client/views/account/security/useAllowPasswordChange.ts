@@ -1,0 +1,2 @@
+function module(o,s,n){n.export({useAllowPasswordChange:function(){return t}}),n.link("@rocket.chat/ui-contexts",{useSetting:function(o){e=o},useUser:function(o){r=o}},0);var e,r,t=function(){var o,s,n=r(),t=e("Accounts_AllowPasswordChange"),u=e("Accounts_AllowPasswordChangeForOAuthUsers"),l=!!(null==n?void 0:null===(o=n.services)||void 0===o?void 0:null===(s=o.password)||void 0===s?void 0:s.exists);return t&&!u&&(t=l),{allowPasswordChange:t,hasLocalPassword:l}}}
+//# sourceMappingURL=/dynamic/client/views/account/security/dc102fbdf0cba04f9cf651aaef06cc4a242d1a46.map

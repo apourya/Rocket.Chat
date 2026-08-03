@@ -1,0 +1,2 @@
+function module(e,r,o){o.export({AppsContext:function(){return n}}),o.link("react",{createContext:function(e){t=e}},0),o.link("../lib/asyncState",{AsyncStatePhase:function(e){a=e}},1);var t,a,n=t({installedApps:{phase:a.LOADING,value:void 0,error:void 0},marketplaceApps:{phase:a.LOADING,value:void 0,error:void 0},privateApps:{phase:a.LOADING,value:void 0,error:void 0},reload:function(){return Promise.resolve()},orchestrator:void 0,privateAppsEnabled:!1})}
+//# sourceMappingURL=/dynamic/client/contexts/bbf38f5fb022e5c8cff0b71ad9bd9a6ff4de588e.map

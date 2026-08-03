@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useAppInstances:function(){return a}}),e.link("@rocket.chat/ui-contexts",{useEndpoint:function(n){u=n}},0),e.link("@tanstack/react-query",{useQuery:function(n){r=n}},1);var u,r,a=function(n){var t=n.appId,e=u("GET","/apps/:id/status",{id:t});return r({queryKey:["marketplace","apps",t],queryFn:function(){return e()}})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/88e7fb39be43da431cc3f12948c775233e29febd.map

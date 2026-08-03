@@ -1,0 +1,2 @@
+function module(t,n,i){i.export({useCodeHighlight:function(){return r}}),i.link("@rocket.chat/ui-contexts",{useSetting:function(t){e=t}},0),i.link("react",{useEffect:function(t){o=t}},1),i.link("../../../../app/markdown/lib/hljs",{register:function(t){c=t}},2);var e,o,c,r=function(){var t=e("Message_Code_highlight");o(function(){"string"==typeof t&&t.split(",").forEach(function(t){var n=t.trim();n&&c(n)})},[t])}}
+//# sourceMappingURL=/dynamic/client/views/root/hooks/7c748e6e406fa5766fc64f4e3cdeb42fb53191c4.map

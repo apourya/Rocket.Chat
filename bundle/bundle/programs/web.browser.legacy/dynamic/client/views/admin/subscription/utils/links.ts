@@ -1,0 +1,2 @@
+function module(t,o,c){c.export({CONTACT_SALES_LINK:function(){return r},PRICING_LINK:function(){return n},DOWNGRADE_LINK:function(){return e},TRIAL_LINK:function(){return i},GET_ADDONS_LINK:function(){return u}});var r="https://go.rocket.chat/i/contact-sales-product",n="https://go.rocket.chat/i/pricing-product",e="https://go.rocket.chat/i/docs-downgrade",i="https://go.rocket.chat/i/docs-trial",u="https://go.rocket.chat/i/get-addons"}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/utils/ab5ca0c203c4c103412d879c041d7ed547863b2f.map

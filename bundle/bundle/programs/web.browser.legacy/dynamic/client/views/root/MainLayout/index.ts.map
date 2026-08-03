@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/root/MainLayout/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import { lazy } from 'react';\n\nconst MainLayout = lazy(() => import('./MainLayout'));\n\nexport default MainLayout;\n",null],"names":["module","link","lazy","v","MainLayout","dynamicImport","exportDefault"],"mappings":"uBAASA,EAAIC,IAAA,CAAQ,QAAO,CAAAC,KAAA,SAAAC,CAAA,EAAAD,EAAAC,CAAA,CAAA,EAAA,GAE5B,IAFAD,EAEME,EAAaF,EAAK,WAAA,OAAMF,EAAAK,aAAA,CAAO,eAAe,GAFpDL,EAAAM,aAAa,CAIEF"}

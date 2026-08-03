@@ -1,0 +1,2 @@
+function module(e,t,o){let s,a,r;o.export({useToggleFavoriteAction:()=>c}),o.link("@rocket.chat/fuselage-hooks",{useEffectEvent(e){s=e}},0),o.link("@rocket.chat/ui-contexts",{useEndpoint(e){a=e},useToastMessageDispatch(e){r=e}},1);let c=e=>{let{rid:t,isFavorite:o}=e,c=a("POST","/v1/rooms.favorite"),i=r();return s(async()=>{try{await c({roomId:t,favorite:!o})}catch(e){i({type:"error",message:e})}})}}
+//# sourceMappingURL=/dynamic/client/hooks/menuActions/f213b2c5a59a816d6338012ea65e52d2cba6444a.map

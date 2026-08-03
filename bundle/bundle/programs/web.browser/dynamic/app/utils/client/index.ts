@@ -1,0 +1,2 @@
+function module(e,n,t){t.link("../rocketchat.info",{Info:"Info"},0),t.link("./lib/getUserPreference",{getUserPreference:"getUserPreference"},1),t.link("./restrictions",{fileUploadIsValidContentType:"fileUploadIsValidContentType"},2),t.link("./getUserAvatarURL",{getUserAvatarURL:"getUserAvatarURL"},3),t.link("./slashCommand",{slashCommands:"slashCommands"},4),t.link("./getURL",{getURL:"getURL"},5),t.link("./lib/RestApiClient",{APIClient:"APIClient"},6)}
+//# sourceMappingURL=/dynamic/app/utils/client/bf0cfaeac686fcc8e20b124dd1dee35716e7a6ab.map

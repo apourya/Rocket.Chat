@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/authorization/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { hasAllPermission, hasAtLeastOnePermission, hasPermission, userHasAllPermission } from './hasPermission';\nexport { hasRole } from './hasRole';\n",null],"names":["module","link","hasAllPermission","hasAtLeastOnePermission","hasPermission","userHasAllPermission","hasRole"],"mappings":"uBAAAA,EAAAC,IAAS,CAAA,kBAAkB,CAAAC,iBAAA,mBAAwCC,wBAAoB,0BAAyBC,cAAA,gBAAAC,qBAAA,sBAAA,EAAA,GAAAL,EAAAC,IAAA,CAAA,YAAA,CAAAK,QAAA,SAAA,EAAA"}

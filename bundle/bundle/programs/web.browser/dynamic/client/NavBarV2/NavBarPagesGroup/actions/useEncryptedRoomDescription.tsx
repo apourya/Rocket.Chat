@@ -1,0 +1,2 @@
+function module(e,t,n){let o,r;n.export({useEncryptedRoomDescription:()=>a}),n.link("@rocket.chat/ui-contexts",{useSetting(e){o=e}},0),n.link("react-i18next",{useTranslation(e){r=e}},1);let a=e=>{let{t}=r(),n=o("E2E_Enable");return o=>{let{isPrivate:r,encrypted:a}=o;return n?r?a?t("Encrypted_messages",{roomType:t(e)}):t("Encrypted_messages_false"):t("Encrypted_not_available",{roomType:t(e)}):t("Not_available_for_this_workspace")}}}
+//# sourceMappingURL=/dynamic/client/NavBarV2/NavBarPagesGroup/actions/d1d600766b6c5f80b9a627780aa18261012fac50.map

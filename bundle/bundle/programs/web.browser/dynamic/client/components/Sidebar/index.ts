@@ -1,0 +1,2 @@
+function module(e,t,l){let i,a,n,d,u,f,r;l.link("./Content",{default(e){i=e}},0),l.link("./Header",{default(e){a=e}},1),l.link("./ListItem",{default(e){n=e}},2),l.link("./Sidebar",{default(e){d=e}},3),l.link("./SidebarGenericItem",{default(e){u=e}},4),l.link("./SidebarItemsAssembler",{default(e){f=e}},5),l.link("./SidebarNavigationItem",{default(e){r=e}},6),l.exportDefault(Object.assign(d,{Content:i,Header:a,GenericItem:u,NavigationItem:r,ItemsAssembler:f,ListItem:n}))}
+//# sourceMappingURL=/dynamic/client/components/Sidebar/14c3c0974b4da52b71cdf0d3da6c9acadfabb6ec.map

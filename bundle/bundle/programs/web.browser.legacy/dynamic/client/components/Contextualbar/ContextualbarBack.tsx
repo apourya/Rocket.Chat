@@ -1,0 +1,2 @@
+function module(n,t,e){var a,i,r,u,o;e.link("@babel/runtime/helpers/objectSpread2",{default:function(n){a=n}},0),e.link("react",{memo:function(n){i=n}},0),e.link("react-i18next",{useTranslation:function(n){r=n}},1),e.link("./ContextualbarAction",{default:function(n){u=n}},2),e.link("react/jsx-runtime",{jsx:function(n){o=n}},3),e.exportDefault(i(function(n){var t=r().t;return o(u,a(a({},n),{},{title:t("Back"),name:"arrow-back"}))}))}
+//# sourceMappingURL=/dynamic/client/components/Contextualbar/2b1b903ec60a9dbc8760fb8d3db326a3f29cb5d6.map

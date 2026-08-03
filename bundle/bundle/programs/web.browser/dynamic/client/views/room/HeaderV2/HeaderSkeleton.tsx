@@ -1,0 +1,2 @@
+function module(e,n,t){let l,r,o,d,i;t.link("@rocket.chat/fuselage",{Skeleton(e){l=e}},0),t.link("../../../components/Header",{Header(e){r=e},HeaderContent(e){o=e},HeaderContentRow(e){d=e}},1),t.link("react/jsx-runtime",{jsx(e){i=e}},2),t.exportDefault(()=>i(r,{children:i(o,{children:i(d,{children:i(l,{width:"25%"})})})}))}
+//# sourceMappingURL=/dynamic/client/views/room/HeaderV2/695aec17490172c80138830a78e0b4f1e890e1cc.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let o,u,i,s;n.link("@rocket.chat/ui-contexts",{usePermission(e){o=e}},0),n.link("./CustomSoundsPage",{default(e){u=e}},1),n.link("../../notAuthorized/NotAuthorizedPage",{default(e){i=e}},2),n.link("react/jsx-runtime",{jsx(e){s=e}},3),n.exportDefault(()=>o("manage-sounds")?s(u,{}):s(i,{}))}
+//# sourceMappingURL=/dynamic/client/views/admin/customSounds/6c7c6994c0b702456d11167cf118a26709e96572.map

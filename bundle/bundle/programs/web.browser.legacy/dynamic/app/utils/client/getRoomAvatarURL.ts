@@ -1,0 +1,2 @@
+function module(t,o,r){r.export({getRoomAvatarURL:function(){return a}}),r.link("./getAvatarURL",{getAvatarURL:function(t){n=t}},0),r.link("../../../client/lib/settings",{settings:function(t){e=t}},1);var n,e,a=function(t){var o=t.roomId,r=t.cache,a=(e.watch("Accounts_RoomAvatarExternalProviderUrl")||"").trim().replace(/\/$/,"");return a&&"string"==typeof a?a.replace("{roomId}",o):o?n({roomId:o,cache:void 0===r?"":r}):void 0}}
+//# sourceMappingURL=/dynamic/app/utils/client/55ddfa833b76ded2ad3257d931dce13d880b1544.map

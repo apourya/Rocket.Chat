@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({useRocketSearchRoomAction:function(){return i}}),t.link("react",{lazy:function(e){r=e},useMemo:function(e){o=e}},0);var r,o,c=r(function(){return t.dynamicImport("../../views/room/contextualBar/MessageSearchTab")}),i=function(){return o(function(){return{id:"rocket-search",groups:["channel","group","direct","direct_multiple","live","team"],title:"Search_Messages",icon:"magnifier",tabComponent:c,order:5}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/536d6b22239e660d039b0c91d12ff336e07db636.map

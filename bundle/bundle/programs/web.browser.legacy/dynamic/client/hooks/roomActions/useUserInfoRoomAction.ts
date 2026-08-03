@@ -1,0 +1,2 @@
+function module(n,o,e){e.export({useUserInfoRoomAction:function(){return i}}),e.link("react",{useMemo:function(n){r=n}},0),e.link("../../views/room",{MemberListRouter:function(n){t=n}},1);var r,t,i=function(){return r(function(){return{id:"user-info",groups:["direct"],title:"User_Info",icon:"user",tabComponent:t,order:1}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/ad1e1a2767dab0c9dd64b5d96c6a8d3425d13ee6.map

@@ -1,0 +1,2 @@
+function module(r,i,e){e.export({purifyOptions:()=>o});let o={ALLOWED_TAGS:["b","i","em","strong","br","p","ul","ol","li","article","aside","figure","section","summary","h1","h2","h3","h4","h5","h6","hgroup","div","hr","span","wbr","abbr","acronym","cite","code","dfn","figcaption","mark","s","samp","sub","sup","var","time","q","del","ins","rp","rt","ruby","bdi","bdo"]}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/lib/289e4a2a38020a68e3b5852eea3f2505034f9819.map
