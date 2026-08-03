@@ -81,11 +81,12 @@ class Chat extends Component {
 	};
 
 	handleSubmit = (text) => {
-		if (this.props.onSubmit) {
+		console.log({text})
+		// if (this.props.onSubmit) {
 			this.props.onSubmit(text);
 			this.setState({ text: '' });
 			this.turnOffEmojiPicker();
-		}
+		// }
 	};
 
 	handleChangeText = (text) => {

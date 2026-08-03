@@ -204,7 +204,7 @@ export class MessageList extends MemoizedComponent {
 		}
 
 		if (typingUsernames && typingUsernames.length) {
-			items.push(<TypingIndicator key='typing' use='li' avatarResolver={avatarResolver} usernames={typingUsernames} />);
+			items.push(<TypingIndicator key='typing' use='li' avatarResolver={avatarResolver} usernames={typingUsernames}  />);
 		}
 
 		return items;

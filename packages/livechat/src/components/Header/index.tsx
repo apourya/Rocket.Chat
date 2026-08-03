@@ -83,8 +83,8 @@ export const Actions = ({ children, className = undefined, ...props }: HeaderCom
 	</nav>
 );
 
-export const Action = ({ children, primary, className = undefined, ...props }: HeaderComponentProps & { onClick?: () => void }) => (
-	<button className={createClassName(styles, 'header__action', { primary }, [className])} {...props}>
+export const Action = ({ children, primary, className = undefined,onMouseEnter,onMouseLeave, ...props }: HeaderComponentProps & { onMouseLeave?:()=>void, onMouseEnter?: () => void, onClick?: () => void }) => (
+	<button onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={createClassName(styles, 'header__action', { primary }, [className])} {...props}>
 		{children}
 	</button>
 );
