@@ -5,11 +5,13 @@ import { useTranslation, withTranslation } from 'react-i18next';
 import type { Agent } from '../../definitions/agents';
 import CloseIcon from '../../icons/close.svg';
 import UserIcon from '../../icons/user.svg';
+import UserBlueIcon from '../../icons/user-blue.svg';
 import LogoImage from '../../assets/images/logo.png'
 import Alert from '../Alert';
 import Header from '../Header';
 import Tooltip from '../Tooltip';
 import type { ScreenContextValue } from './ScreenProvider';
+import { useState } from 'react';
 
 type ScreenHeaderProps = {
 	alerts: { id: string; children: ComponentChildren;[key: string]: unknown }[];
@@ -51,6 +53,7 @@ const ScreenHeader = ({
 	hideExpandChat,
 }: ScreenHeaderProps) => {
 	const { t } = useTranslation();
+	const [userHover,SetUserHover]=useState(false)
 	const headerRef = useRef<HTMLElement>(null);
 
 	const largeHeader = () => {
@@ -91,13 +94,13 @@ const ScreenHeader = ({
 
 			<Tooltip.Container>
 				<Header.Actions>
-					<Header.Action aria-label={t('cantact_with_support')} primary onClick={onSupportClick}>
-						<UserIcon width={20} height={20} />
+					<Header.Action onMouseLeave={()=>{SetUserHover(false)}} onMouseEnter={()=>{SetUserHover(true)}} aria-label={t('cantact_with_support')} primary onClick={onSupportClick}>
+						{userHover?<UserBlueIcon width={20} height={20} />:<UserIcon width={20} height={20} />}
 						<Header.SubTitle>{t('cantact_with_support')}</Header.SubTitle>
 					</Header.Action>
 
 					{(expanded || !windowed) && (
-						<Header.Action ghost aria-label={minimized ? t('restore_chat') : t('minimize_chat')} onClick={minimized ? onRestore : onMinimize}>
+						<Header.Action  aria-label={minimized ? t('restore_chat') : t('minimize_chat')} onClick={minimized ? onRestore : onMinimize}>
 							<CloseIcon width={24} height={24} />
 						</Header.Action>
 					)}

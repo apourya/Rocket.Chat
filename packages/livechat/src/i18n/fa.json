@@ -75,7 +75,7 @@
     "sound_is_off": "صدا قطع شد",
     "sound_is_on": "صدا وصل شد",
     "start_chat": "آغاز گفتگو",
-    "support":"کارشناس",
+    "support":"در خواست ارتباط با کارشناس",
     "thanks_for_talking_with_us": "متشکر از تماس شما با ما",
     "the_chat_was_moved_back_to_queue": "گفتگو به صف برگشت",
     "the_chat_was_moved_back_to_queue_due_to_unanswered": "گفتگو از آنجایی که برای {{duration}} ثانیه بی پاسخ بود، به صف برگشت",

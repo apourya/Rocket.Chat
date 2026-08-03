@@ -37,7 +37,7 @@ const MessageSeparator = ({ date, unread, use: Element = 'div', className, style
 					t('message_separator_date', {
 						val: new Date(date),
 						formatParams: {
-							val: { month: 'short', day: '2-digit', year: 'numeric' },
+							val: { month: 'short', day: '2-digit' },
 						},
 					}).toUpperCase()) ||
 					(unread && t('unread_messages'))}

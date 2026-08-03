@@ -22,6 +22,7 @@ export const ScreenFooter = ({ children, options, limit }) => {
 		<Footer>
 			{children && <FooterContent>{children}</FooterContent>}
 			<FooterContent>
+				{options}
 				{limit}
 				{!hideWatermark && <PoweredBy />}
 			</FooterContent>
@@ -68,7 +69,7 @@ const CssVar = ({ theme }) => {
 };
 
 /** @type {{ (props: any) => JSX.Element; Content: (props: any) => JSX.Element; Footer: (props: any) => JSX.Element }} */
-export const Screen = ({ title, color, agent, children, className, unread, triggered = false, queueInfo, onSoundStop }) => {
+export const Screen = ({ title, color, agent, children, className, unread, triggered = false, queueInfo, onSoundStop,onSupportClick }) => {
 	const {
 		theme = {},
 		livechatLogo,
@@ -123,6 +124,7 @@ export const Screen = ({ title, color, agent, children, className, unread, trigg
 							onOpenWindow={onOpenWindow}
 							queueInfo={queueInfo}
 							hideExpandChat={theme.hideExpandChat}
+							onSupportClick={onSupportClick}
 						/>
 					)}
 

@@ -11,9 +11,9 @@ type TypingIndicatorProps = {
 };
 
 export const TypingIndicator = memo(({ avatarResolver, usernames = [], text, ...containerProps }: TypingIndicatorProps) => (
-	<MessageContainer {...containerProps}>
+	<MessageContainer {...containerProps} reverse>
 		<MessageContent>
-			<MessageBubble>
+			<MessageBubble style={{paddingInline:'0px'}}>
 				<TypingDots text={text} />
 			</MessageBubble>
 		</MessageContent>
