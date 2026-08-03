@@ -59,9 +59,9 @@ runs:
         cache: 'yarn'
 
     - name: Use Deno ${{ inputs.deno-version }}
-      uses: denoland/setup-deno@v1
+      uses: denoland/setup-deno@v2
       with:
-        deno-version: ${{ inputs.deno-version }}
+      deno-version: ${{ inputs.deno-version }}
 
     - name: yarn login
       shell: bash

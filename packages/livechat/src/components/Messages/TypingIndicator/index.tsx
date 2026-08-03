@@ -1,6 +1,4 @@
 import { memo } from 'preact/compat';
-
-import { MessageAvatars } from '../MessageAvatars';
 import { MessageBubble } from '../MessageBubble';
 import { MessageContainer } from '../MessageContainer';
 import { MessageContent } from '../MessageContent';
@@ -13,10 +11,9 @@ type TypingIndicatorProps = {
 };
 
 export const TypingIndicator = memo(({ avatarResolver, usernames = [], text, ...containerProps }: TypingIndicatorProps) => (
-	<MessageContainer {...containerProps}>
-		<MessageAvatars avatarResolver={avatarResolver} usernames={usernames} />
+	<MessageContainer {...containerProps} reverse>
 		<MessageContent>
-			<MessageBubble>
+			<MessageBubble style={{paddingInline:'0px'}}>
 				<TypingDots text={text} />
 			</MessageBubble>
 		</MessageContent>
