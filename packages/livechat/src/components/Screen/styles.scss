@@ -16,7 +16,6 @@ $max-lines: 12;
 	justify-content: flex-end;
 
 	.screen__inner {
-		margin-bottom: $screen-padding;
 
 		box-shadow: $screen-box-shadow;
 	}
@@ -24,7 +23,8 @@ $max-lines: 12;
 	.screen__chat-button {
 		background-size: cover !important;
 		box-shadow: $screen-box-shadow;
-		margin:$screen-padding ;
+		margin:$screen-padding;
+		margin-left:12px
 	}
 
 	.screen__chat-close-button {
@@ -38,9 +38,9 @@ $max-lines: 12;
 		background: rgba(31, 35, 41, 0.4);
 	}
 
-	&--position-left {
-		align-items: flex-start !important;
-	}
+	// &--position-left {
+	// 	align-items: flex-start !important;
+	// }
 
 	&--minimized {
 		.screen__inner,
@@ -72,7 +72,6 @@ $max-lines: 12;
 		border-radius: 4px;
 
 		.screen__inner {
-			margin-bottom: 16px;
 
 			border-radius: 4px;
 		}
