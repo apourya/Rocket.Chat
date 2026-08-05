@@ -62,7 +62,7 @@ $header-action-active-displacement: 2px;
 			text-overflow: ellipsis;
 
 			opacity: 0.7;
-
+            color:colors.$color-text-dark;
 			font-size: 12px;
 			font-weight: 500;
 			line-height: 1.5;
@@ -92,8 +92,8 @@ $header-action-active-displacement: 2px;
 			align-items: center;
 			gap: variables.$small-gap;
 			cursor: pointer;
+			color:colors.$color-text-dark;
 			font-family: variables.$font-family;
-			color: inherit;
 			border: none;
 			outline: none;
 			background: none;

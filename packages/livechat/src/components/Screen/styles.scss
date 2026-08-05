@@ -67,7 +67,7 @@ $max-lines: 12;
 	}
 
 	&--triggered {
-		padding: 16px;
+		// padding: 16px;
 
 		border-radius: 4px;
 
@@ -82,12 +82,6 @@ $max-lines: 12;
 		}
 	}
 
-  @media (max-width: 767px) {
-    .screen__chat-button {
-      padding: 11px;
-    }
-
-  }
 }
 
 .screen__inner {

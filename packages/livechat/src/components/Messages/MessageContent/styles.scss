@@ -17,5 +17,6 @@ $message-content-margin: math.div(-$message-content-gap, 2) math.div(variables.$
 
 	&--reverse {
 		align-items: flex-end;
+		width:100%
 	}
 }
