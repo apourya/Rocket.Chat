@@ -41,7 +41,9 @@ a {
 	background-color: $message-bubble-me-background-color;
 	border-radius: 12px;
 	border-bottom-right-radius: 2px;
-
+	width: 100%;
+	text-align: start;
+    justify-content: flex-start;
 	a {
 		color: var(--font-color, $message-bubble-me-link-color);
 	}

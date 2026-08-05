@@ -15,16 +15,18 @@ type ChatButtonProps = {
 
 export const ChatButton = ({ text, minimized, badge, onClick, triggered = false, className, logoUrl }: ChatButtonProps) => {
 	const [isMobile, setIsMobile] = useState(
-		typeof window !== 'undefined' ? window.innerWidth < 768 : false
+		typeof window !== 'undefined' ? window.outerWidth < 768 : false
 	);
 
 	useEffect(() => {
-		const mql = window.matchMedia('(max-width: 767px)');
-		const handleChange = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+		const handleResize = () => setIsMobile(window.outerWidth < 768);
 
-		mql.addEventListener('change', handleChange);
-		return () => mql.removeEventListener('change', handleChange);
+		handleResize();
+		window.addEventListener('resize', handleResize);
+
+		return () => window.removeEventListener('resize', handleResize);
 	}, []);
+
 
 	if (!minimized && isMobile) {
 		return null;
