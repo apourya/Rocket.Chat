@@ -139,6 +139,22 @@ export const ScreenProvider: FunctionalComponent = ({ children }) => {
 		}
 	}, [dispatch]);
 
+	useEffect(() => {
+		if (window.self !== window.top) {
+			return;
+		}
+
+		const mediaQueryList = window.matchMedia('(max-width: 480px)');
+		const handleChange = ({ matches }: MediaQueryListEvent | MediaQueryList) => {
+			dispatch({ expanded: matches });
+		};
+
+		handleChange(mediaQueryList);
+		mediaQueryList.addEventListener('change', handleChange);
+
+		return () => mediaQueryList.removeEventListener('change', handleChange);
+	}, [dispatch]);
+
 	const screenProps = {
 		theme: {
 			color: customColor || color,

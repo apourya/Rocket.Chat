@@ -32,7 +32,7 @@ export function WelcomeScreen({ onSelectSuggestion }:WelcomeScreenProps) {
         <div className={createClassName(styles, 'welcome-page')}>
             <div className={createClassName(styles, 'message-stack')}>
                 <div className={createClassName(styles, 'welcome-header')}>
-                    <img src={WelcomeImage} width={56} height={50} alt="Welcome" />
+                    <img src={WelcomeImage} width={56} height={50} alt="Welcome" className={createClassName(styles, 'welcome-image')} />
                     <div className={createClassName(styles, 'message-group')}>
                         <div className={createClassName(styles, 'bubble')}>
                             شما با{' '}

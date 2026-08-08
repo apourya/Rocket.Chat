@@ -118,7 +118,7 @@ const ContactHistoryMessage = ({ message, sequential, isNewDay, showUserAvatar }
 					)}
 					{!!quotes?.length && <Attachments attachments={quotes} />}
 					{!message.blocks && message.md && (
-						<MessageBody data-qa-type='message-body' dir='auto'>
+						<MessageBody data-qa-type='message-body' dir='rtl'>
 							<MessageContentBody md={message.md} mentions={message.mentions} channels={message.channels} />
 						</MessageBody>
 					)}
