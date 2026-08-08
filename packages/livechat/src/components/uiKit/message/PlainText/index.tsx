@@ -7,7 +7,7 @@ import MarkdownBlock from '../../../MarkdownBlock';
 
 const PlainText = ({ text, emoji = false }: { text: string; emoji?: boolean }) => {
 	return (
-		<span className={createClassName(styles, 'uikit-plain-text')} dir='auto'>
+		<span className={createClassName(styles, 'uikit-plain-text')} dir='rtl'>
 			<MarkdownBlock text={shortnameToUnicode(text)} emoticons={emoji} />
 		</span>
 	);

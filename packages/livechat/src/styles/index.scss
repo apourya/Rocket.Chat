@@ -3,11 +3,56 @@
 @use 'variables';
 
 @font-face {
-  font-family: 'IRANSans';
-  src: url('../assets/fonts/IRANSansXV.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+	font-family: 'IRANSans';
+	src:
+		url('../assets/fonts/IRANSansXV.woff2') format('woff2'),
+		url('../assets/fonts/IRANSansXV.woff') format('woff');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Charisma';
+	src: url('../assets/fonts/CharismaTF-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Charisma';
+	src: url('../assets/fonts/CharismaTF-ExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src:
+		url('../assets/fonts/Montserrat-VariableFont_wght.woff2') format('woff2-variations'),
+		url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype-variations');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.font-ir {
+	font-family: variables.$font-family-iransans;
+}
+
+.font-ir__fa-num {
+	font-family: variables.$font-family-iransans;
+	font-feature-settings: 'ss02';
+}
+
+.font-ch {
+	font-family: variables.$font-family-charisma;
+}
+
+.font-ms {
+	font-family: variables.$font-family-montserrat;
 }
 
 html,
@@ -16,8 +61,9 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	direction: rtl;
 	color: #444444;
-	font-family: 'IRANSans', sans-serif, variables.$font-family !important;
+	font-family: variables.$font-family !important;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

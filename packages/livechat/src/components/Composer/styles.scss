@@ -2,7 +2,7 @@
 @use '../../styles/helpers';
 @use '../../styles/variables';
 
-$composer-padding: 12px 6px;
+$composer-padding: 12px;
 $composer-border-width: variables.$default-border;
 $composer-border-color: colors.$color-text-light;
 $composer-border-radius: variables.$default-border-radius;
@@ -18,15 +18,25 @@ $composer-input-font-weight: 500;
 $composer-input-line-height: 1.25rem;
 $composer-input-placeholder-color: colors.$color-text-light;
 
+.divider{
+	background-color: #D6D7E2;
+	height: 1px;
+	width: 99%;
+}
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-inline: 14px;
+}
 .composer {
 	display: flex;
     align-items:flex-start;
 	width: 100%;
-	padding: $composer-padding;
+	padding-block: $composer-padding;
 
 	transition: all variables.$default-time-animation;
 
-	border-top: $composer-border-width solid $composer-border-color;
 	background-color: $composer-background-color;
 
 	&:focus-within {

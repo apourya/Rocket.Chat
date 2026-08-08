@@ -7,16 +7,26 @@ $message-content-margin: math.div(-$message-content-gap, 2) math.div(variables.$
 .message-content {
 	display: flex;
 	flex-direction: column;
-
+	width: 100%;
 	margin: $message-content-margin;
 	align-items: flex-start;
 
-	> * {
+	>* {
 		margin: math.div($message-content-gap, 2) 0;
+		width: 100%;
+		justify-content: flex-start;
 	}
 
 	&--reverse {
 		align-items: flex-end;
-		width:100%
+		width: 100%
+	}
+
+	&--auto-width {
+		width: auto;
+
+		> * {
+			width: auto;
+		}
 	}
 }

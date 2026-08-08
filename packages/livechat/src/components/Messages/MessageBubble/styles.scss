@@ -2,8 +2,8 @@
 @use '../../../styles/variables';
 
 $message-bubble-padding: 12px;
-$message-bubble-background-color: colors.$bg-color-light;
-$message-bubble-color: colors.$color-text-dark;
+$message-bubble-background-color: #F1F2F7;
+$message-bubble-color: #475177;
 $message-bubble-border-radius: variables.$default-border-radius;
 $message-bubble-link-color: colors.$color-dark-blue;
 $message-bubble-me-background-color: colors.$color-dark-blue;
@@ -21,11 +21,9 @@ $message-bubble-quoted-indicator-color: colors.$color-green;
 	display: flex;
 
 	padding: $message-bubble-padding;
-
-
 	color: $message-bubble-color;
-	border-radius: $message-bubble-border-radius;
-
+	border-radius: 12px;
+	border-bottom-left-radius: 2px;
 	background-color: var(--receiver-bubble-background-color, $message-bubble-background-color
 	);
 align-items: stretch;
@@ -43,7 +41,8 @@ a {
 	border-bottom-right-radius: 2px;
 	width: 100%;
 	text-align: start;
-    justify-content: flex-start;
+	justify-content: flex-start;
+
 	a {
 		color: var(--font-color, $message-bubble-me-link-color);
 	}
@@ -72,7 +71,6 @@ a {
 }
 
 &--system {
-	text-align: center;
 
 	background-color: transparent;
 

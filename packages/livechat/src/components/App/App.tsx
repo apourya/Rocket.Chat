@@ -6,7 +6,6 @@ import { withTranslation } from 'react-i18next';
 
 import type { Department } from '../../definitions/departments';
 import { setInitCookies } from '../../helpers/cookies';
-import { isRTL } from '../../helpers/isRTL';
 import { visibility } from '../../helpers/visibility';
 import history from '../../history';
 import Connection from '../../lib/connection';
@@ -180,6 +179,7 @@ export class App extends Component<AppProps, AppState> {
 	}
 
 	componentDidMount() {
+		document.dir = 'rtl';
 		this.initialize();
 	}
 
@@ -188,11 +188,7 @@ export class App extends Component<AppProps, AppState> {
 	}
 
 	componentDidUpdate() {
-		const { i18n } = this.props;
-
-		if (i18n.t) {
-			document.dir = isRTL(i18n.t('yes')) ? 'rtl' : 'ltr';
-		}
+		document.dir = 'rtl';
 	}
 
 	render = (_: AppProps, { initialized }: AppState) => {
