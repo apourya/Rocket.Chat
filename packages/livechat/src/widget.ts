@@ -45,11 +45,14 @@ type InitializeParams = {
 	hiddenSystemMessages: StoreState['iframe']['hiddenSystemMessages'];
 };
 
-const WIDGET_OPEN_WIDTH = 365;
-const WIDGET_OPEN_HEIGHT = 525;
+const WIDGET_OPEN_WIDTH = 386;
+const WIDGET_OPEN_HEIGHT = 640;
+const WIDGET_MIN_HEIGHT = 320;
 const WIDGET_MINIMIZED_WIDTH = 54;
 const WIDGET_MINIMIZED_HEIGHT = 54;
 const WIDGET_MARGIN = 16;
+const WIDGET_BOTTOM_OFFSET = 5;
+const WIDGET_SIDE_OFFSET = 0;
 
 window.RocketChat = window.RocketChat || { _: [] };
 const config: { url?: string } = {};
@@ -59,7 +62,7 @@ let hookQueue: [keyof HooksWidgetAPI, Parameters<HooksWidgetAPI[keyof HooksWidge
 let ready = false;
 let smallScreen = false;
 let scrollPosition: number;
-let widgetHeight: number;
+let widgetHeight: number = WIDGET_OPEN_HEIGHT;
 let popoutWindow: Window | null = null;
 
 export const VALID_CALLBACKS = [
@@ -136,6 +139,13 @@ function processHookQueue() {
 	hookQueue = [];
 }
 
+const getChromeHeight = () => WIDGET_MARGIN + WIDGET_MARGIN + WIDGET_MINIMIZED_HEIGHT;
+
+const getVisibleHeight = () => {
+	const available = window.innerHeight - WIDGET_BOTTOM_OFFSET - getChromeHeight();
+	return Math.max(WIDGET_MIN_HEIGHT, Math.min(widgetHeight, available));
+};
+
 const updateWidgetStyle = (isOpened: boolean) => {
 	if (!iframe || !widget) {
 		throw new Error('Widget is not initialized');
@@ -154,7 +164,7 @@ const updateWidgetStyle = (isOpened: boolean) => {
 	}
 
 	if (isOpened) {
-			widget.style.left = smallScreen ? '0' : '5px';
+		widget.style.left = smallScreen ? '0' : `${WIDGET_SIDE_OFFSET}px`;
 		widget.style.right = smallScreen ? '0' : 'auto';
 
 		/**
@@ -165,10 +175,10 @@ const updateWidgetStyle = (isOpened: boolean) => {
 		 * for widget.style.width
 		 */
 
-		widget.style.height = isFullscreen ? '100%' : `${WIDGET_MARGIN + widgetHeight + WIDGET_MARGIN + WIDGET_MINIMIZED_HEIGHT}px`;
+		widget.style.height = isFullscreen ? '100%' : `${getVisibleHeight() + getChromeHeight()}px`;
 		widget.style.width = isFullscreen ? '100%' : `${WIDGET_MARGIN + WIDGET_OPEN_WIDTH + WIDGET_MARGIN}px`;
 	} else {
-		widget.style.left = '5px';
+		widget.style.left = `${WIDGET_SIDE_OFFSET}px`;
 		widget.style.right = 'auto';
 		widget.style.width = `${WIDGET_MARGIN + WIDGET_MINIMIZED_WIDTH + WIDGET_MARGIN}px`;
 		widget.style.height = `${WIDGET_MARGIN + WIDGET_MINIMIZED_HEIGHT + WIDGET_MARGIN}px`;
@@ -182,8 +192,8 @@ const createWidget = (url: string) => {
 	widget.style.width = `${WIDGET_MARGIN + WIDGET_MINIMIZED_WIDTH + WIDGET_MARGIN}px`;
 	widget.style.height = `${WIDGET_MARGIN + WIDGET_MINIMIZED_HEIGHT + WIDGET_MARGIN}px`;
 	widget.style.maxHeight = '100vh';
-	widget.style.bottom = '5px';
-	widget.style.left = '5px';
+	widget.style.bottom = `${WIDGET_BOTTOM_OFFSET}px`;
+	widget.style.left = `${WIDGET_SIDE_OFFSET}px`;
 	widget.style.zIndex = '12345';
 	widget.dataset.state = 'closed';
 
@@ -218,6 +228,12 @@ const createWidget = (url: string) => {
 	const mediaQueryList = window.matchMedia('(max-width: 480px)');
 	mediaQueryList.addListener(handleMediaQueryTest);
 	handleMediaQueryTest(mediaQueryList);
+
+	window.addEventListener('resize', () => {
+		if (widget?.dataset.state === 'opened') {
+			updateWidgetStyle(true);
+		}
+	});
 };
 
 const openWidget = () => {
@@ -241,8 +257,8 @@ const setWidgetPosition = (position: 'left' | 'right' = 'left') => {
 		throw new Error('Widget is not initialized');
 	}
 
-	widget.style.left = position === 'left' ? '5px' : 'auto';
-	widget.style.right = position !== 'left' ? '5px' : 'auto';
+	widget.style.left = position === 'left' ? `${WIDGET_SIDE_OFFSET}px` : 'auto';
+	widget.style.right = position !== 'left' ? `${WIDGET_SIDE_OFFSET}px` : 'auto';
 };
 
 const resizeWidget = (height: number) => {
