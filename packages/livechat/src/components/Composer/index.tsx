@@ -278,7 +278,9 @@ export class Composer extends Component<ComposerProps, ComposerState> {
 	}
 
 	render = ({ pre, post, value, placeholder, onChange, onSubmit, onUpload, className, style }: ComposerProps) => (
-		<div className={createClassName(styles, 'composer', {}, [className])} style={style}>
+		<div className={createClassName(styles, 'wrapper', {}, [className])}>
+		<div className={createClassName(styles, 'divider', {}, [className])} />
+		<div className={createClassName(styles, 'composer', {}, [className])} style={style}>	
 			<div className={createClassName(styles, 'composer__inner', {}, [className])}>
 			<div
 				ref={this.handleRef}
@@ -304,6 +306,7 @@ export class Composer extends Component<ComposerProps, ComposerState> {
 			{pre}
 			</div>
 			{post}
+		</div>
 		</div>
 	);
 }

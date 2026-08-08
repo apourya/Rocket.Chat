@@ -47,11 +47,13 @@ $header-action-active-displacement: 2px;
 
 		.header__title {
 			overflow: hidden;
-
+			display: flex;
+			align-items: center;
+			gap: 4px;
 			text-overflow: ellipsis;
-
-			font-size: 16px;
-			font-weight: bold;
+			color: #202535;
+			font-size: 14px;
+			font-weight: 700;
 			line-height: 1.5;
 		}
 
@@ -62,7 +64,7 @@ $header-action-active-displacement: 2px;
 			text-overflow: ellipsis;
 
 			opacity: 0.7;
-            color:colors.$color-text-dark;
+			color: colors.$color-text-dark;
 			font-size: 12px;
 			font-weight: 500;
 			line-height: 1.5;
@@ -92,23 +94,28 @@ $header-action-active-displacement: 2px;
 			align-items: center;
 			gap: variables.$small-gap;
 			cursor: pointer;
-			color:colors.$color-text-dark;
+			color: #475177;
 			font-family: variables.$font-family;
 			border: none;
 			outline: none;
 			background: none;
 			justify-content: center;
-
+			background-color: #F1F2F7;
+			border-radius: 6px;
+			padding: 4px 8px;
+			font-size: 12px;
 			@include helpers.pressable-button($header-action-active-displacement, 0);
-           
+
 			&--primary {
-				 padding: 4px 8px;
 				&:hover {
 					background-color: #5467FF40;
-					color:#5467FF;
-					border-radius:6px ;
-					stroke:#5467FF !important;
+					color: #5467FF;
+
+					stroke: #5467FF !important;
 				}
+			}
+			&--ghost{
+				background-color: transparent;
 			}
 		}
 

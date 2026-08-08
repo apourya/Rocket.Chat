@@ -53,7 +53,7 @@ const ScreenHeader = ({
 	hideExpandChat,
 }: ScreenHeaderProps) => {
 	const { t } = useTranslation();
-	const [userHover,SetUserHover]=useState(false)
+	const [userHover, SetUserHover] = useState(false)
 	const headerRef = useRef<HTMLElement>(null);
 
 	const largeHeader = () => {
@@ -87,20 +87,23 @@ const ScreenHeader = ({
 			large={largeHeader()}
 		>
 
-			<Header.Picture>
+
+			<div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginRight: '12px' }}>
 				<img src={LogoImage} />
-			</Header.Picture>
+				<Header.Title>پشتیبانی هوشمند</Header.Title>
+			</div>
+
 
 
 			<Tooltip.Container>
 				<Header.Actions>
-					<Header.Action onMouseLeave={()=>{SetUserHover(false)}} onMouseEnter={()=>{SetUserHover(true)}} aria-label={t('cantact_with_support')} primary onClick={onSupportClick}>
-						{userHover?<UserBlueIcon width={20} height={20} />:<UserIcon width={20} height={20} />}
-						<Header.SubTitle>{t('cantact_with_support')}</Header.SubTitle>
+					<Header.Action onMouseLeave={() => { SetUserHover(false) }} onMouseEnter={() => { SetUserHover(true) }} aria-label={t('cantact_with_support')} primary onClick={onSupportClick}>
+						{userHover ? <UserBlueIcon width={20} height={20} /> : <UserIcon width={20} height={20} />}
+						<Header.SubTitle>ارتباط با کارشناس</Header.SubTitle>
 					</Header.Action>
 
 					{(expanded || !windowed) && (
-						<Header.Action  aria-label={minimized ? t('restore_chat') : t('minimize_chat')} onClick={minimized ? onRestore : onMinimize}>
+						<Header.Action ghost aria-label={minimized ? t('restore_chat') : t('minimize_chat')} onClick={minimized ? onRestore : onMinimize}>
 							<CloseIcon width={24} height={24} />
 						</Header.Action>
 					)}

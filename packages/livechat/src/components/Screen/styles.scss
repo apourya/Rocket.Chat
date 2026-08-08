@@ -16,15 +16,17 @@ $max-lines: 12;
 	justify-content: flex-end;
 
 	.screen__inner {
-
-		box-shadow: $screen-box-shadow;
+		// margin-bottom: -12px;
+		// margin-left: 11px;
+		box-shadow: 0 0 20px rgba(23,48,70,0.2);
+		border-radius: 12px;
 	}
 
 	.screen__chat-button {
 		background-size: cover !important;
 		box-shadow: $screen-box-shadow;
-		margin:$screen-padding;
-		margin-left:12px
+		margin: $screen-padding;
+		margin-left: 11px
 	}
 
 	.screen__chat-close-button {
@@ -43,6 +45,7 @@ $max-lines: 12;
 	// }
 
 	&--minimized {
+
 		.screen__inner,
 		.screen__chat-close-button {
 			display: none;
@@ -138,5 +141,3 @@ $max-lines: 12;
 .screen__agent-email {
 	margin: 5px;
 }
-
-
