@@ -11,7 +11,7 @@ type MessageContentBodyProps = Pick<MessageWithMdEnforced, 'mentions' | 'channel
 } & ComponentProps<typeof MessageBody>;
 
 const MessageContentBody = ({ mentions, channels, md, searchText, ...props }: MessageContentBodyProps) => (
-	<MessageBody data-qa-type='message-body' dir='auto' {...props}>
+	<MessageBody data-qa-type='message-body' dir='rtl' {...props}>
 		<Suspense fallback={<Skeleton />}>
 			<GazzodownText channels={channels} mentions={mentions} searchText={searchText}>
 				<Markup tokens={md} />

@@ -7,7 +7,7 @@ import MarkdownBlock from '../../../MarkdownBlock';
 
 const Mrkdwn = ({ text /* , verbatim = false */ }: { text: string }) => {
 	return (
-		<div className={createClassName(styles, 'uikit-mrkdwn')} dir='auto'>
+		<div className={createClassName(styles, 'uikit-mrkdwn')} dir='rtl'>
 			<MarkdownBlock text={shortnameToUnicode(text)} emoticons={true} />
 		</div>
 	);

@@ -215,7 +215,7 @@ const createWidget = (url: string) => {
 		callHook('setParentUrl', window.location.href);
 	};
 
-	const mediaQueryList = window.matchMedia('screen and (max-device-width: 480px)');
+	const mediaQueryList = window.matchMedia('(max-width: 480px)');
 	mediaQueryList.addListener(handleMediaQueryTest);
 	handleMediaQueryTest(mediaQueryList);
 };

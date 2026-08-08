@@ -24,7 +24,8 @@ $header-action-active-displacement: 2px;
 	background-color: $header-background-color;
 	box-shadow: 0 0 10px colors.$box-shadow-color;
 
-	font-size: 16px;
+	font-size: 14px;
+	font-weight: 700;
 	align-items: center;
 	justify-content: space-between;
 
@@ -52,9 +53,10 @@ $header-action-active-displacement: 2px;
 			gap: 4px;
 			text-overflow: ellipsis;
 			color: #202535;
+			font-family: variables.$font-family-charisma;
 			font-size: 14px;
-			font-weight: 700;
-			line-height: 1.5;
+			font-weight: 700 !important;
+			line-height: 1.4;
 		}
 
 		.header__subtitle {

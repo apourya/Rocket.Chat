@@ -20,6 +20,10 @@ $modal-background-color: colors.$bg-color-white;
 	height: 100%;
 
 	background-color: colors.$overlay-bg-color;
+
+	&--animated {
+		animation: modal-overlay-in variables.$drawer-animation-duration variables.$drawer-overlay-easing both;
+	}
 }
 
 .modal {
@@ -35,7 +39,7 @@ $modal-background-color: colors.$bg-color-white;
 	max-height: 80%;
 	padding: $modal-padding;
 
-	transform: translate(-50%, -50%); 
+	transform: translate(-50%, -50%);
 
 	border-radius: $modal-border-radius;
 	background-color: $modal-background-color;
@@ -59,8 +63,35 @@ $modal-background-color: colors.$bg-color-white;
 	line-height: 1.5;
 }
 
+@media (max-width: 480px) {
+	.modal {
+		position: absolute;
+		top: auto;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+		width: 100%;
+		min-width: 0;
+		max-width: 100%;
+		max-height: 85%;
+		padding-bottom: calc(#{$modal-padding} + env(safe-area-inset-bottom, 0px));
+
+		transform: none;
+
+		border-radius: 16px 16px 0 0;
+
+		&--animated {
+			will-change: transform;
+
+			animation: modal-drawer-in variables.$drawer-animation-duration variables.$drawer-easing both;
+		}
+	}
+}
+
 @media (prefers-reduced-motion) {
-	.modal--animated {
+	.modal--animated,
+	.modal__overlay--animated {
 		animation: none;
 	}
 }
@@ -75,6 +106,30 @@ $modal-background-color: colors.$bg-color-white;
 	to {
 		transform: translate(-50%, -50%);
 
+		opacity: 1;
+	}
+}
+
+@keyframes modal-drawer-in {
+	from {
+		transform: translate3d(0, 100%, 0);
+
+		opacity: 0.92;
+	}
+
+	to {
+		transform: translate3d(0, 0, 0);
+
+		opacity: 1;
+	}
+}
+
+@keyframes modal-overlay-in {
+	from {
+		opacity: 0;
+	}
+
+	to {
 		opacity: 1;
 	}
 }

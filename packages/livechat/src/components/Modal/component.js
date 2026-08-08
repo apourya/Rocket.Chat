@@ -17,14 +17,13 @@ export class Modal extends Component {
 		}
 	};
 
-	handleTouchStart = () => {
+	handleOverlayDismiss = () => {
 		const { dismissByOverlay } = this.props;
 		dismissByOverlay && this.triggerDismiss();
 	};
 
-	handleMouseDown = () => {
-		const { dismissByOverlay } = this.props;
-		dismissByOverlay && this.triggerDismiss();
+	handleModalInteraction = (event) => {
+		event.stopPropagation();
 	};
 
 	triggerDismiss = () => {
@@ -50,11 +49,16 @@ export class Modal extends Component {
 		open ? (
 			<div
 				data-qa-type='modal-overlay'
-				onTouchStart={this.handleTouchStart}
-				onMouseDown={this.handleMouseDown}
-				className={createClassName(styles, 'modal__overlay')}
+				onTouchStart={this.handleOverlayDismiss}
+				onMouseDown={this.handleOverlayDismiss}
+				className={createClassName(styles, 'modal__overlay', { animated })}
 			>
-				<div className={createClassName(styles, 'modal', { animated })} {...props}>
+				<div
+					className={createClassName(styles, 'modal', { animated })}
+					onTouchStart={this.handleModalInteraction}
+					onMouseDown={this.handleModalInteraction}
+					{...props}
+				>
 					{children}
 				</div>
 			</div>

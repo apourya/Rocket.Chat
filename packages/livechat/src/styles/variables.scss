@@ -1,4 +1,7 @@
-$font-family: 'IRANSans', arial, sans-serif;
+$font-family-iransans: 'IRANSans', sans-serif;
+$font-family-charisma: 'Charisma', 'IRANSans', sans-serif;
+$font-family-montserrat: 'Montserrat', 'IRANSans', sans-serif;
+$font-family: $font-family-iransans, 'Charisma', 'Montserrat', arial, sans-serif;
 
 $default-border: 1px;
 $default-border-radius: 2px;
@@ -10,6 +13,9 @@ $form-input-label-font-size: 12px;
 $form-input-description-font-size: 12px;
 
 $default-time-animation: 300ms;
+$drawer-animation-duration: 480ms;
+$drawer-easing: cubic-bezier(0.22, 1, 0.36, 1);
+$drawer-overlay-easing: cubic-bezier(0.4, 0, 0.2, 1);
 
 $small-gap:4px;
 $default-gap: 16px;

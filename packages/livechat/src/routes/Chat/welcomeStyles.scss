@@ -19,10 +19,10 @@
   }
 
   .message-stack {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: stretch;
     justify-content: flex-end;
     gap: 20px;
 
@@ -31,6 +31,7 @@
       flex-direction: column;
       gap: 4px;
       position: relative;
+      width: 100%;
     }
   }
 
@@ -39,6 +40,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
+    width: 100%;
   }
 
   .bubble {
@@ -47,9 +49,12 @@
     color: #475177;
     border-radius: 12px;
     border-bottom-left-radius: 2px;
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
     line-height: 1.9;
-    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
 
     strong {
       font-weight: 700;
@@ -90,8 +95,8 @@
     transition: background-color 0.15s ease, border-color 0.15s ease;
 
     &:hover {
-      background-color: #f5f5f7;
-      border-color: #c4c4c9;
+      background-color: #E8E9F2;
+      border-color: #4F5A64;
     }
   }
 }
