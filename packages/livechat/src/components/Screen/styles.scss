@@ -4,6 +4,7 @@
 
 $screen-padding: 16px;
 $screen-box-shadow: 0 (math.div($screen-padding, 2) - 1) $screen-padding 0 rgba(0, 0, 0, 0.1);
+$screen-panel-shadow: 0 2px $screen-padding 0 rgba(23, 48, 70, 0.2);
 $max-lines: 12;
 
 .screen {
@@ -18,7 +19,7 @@ $max-lines: 12;
 
 	.screen__inner {
 		margin-bottom: -12px;
-		box-shadow: 0 0 20px rgba(23, 48, 70, 0.2);
+		box-shadow: $screen-panel-shadow;
 		border-radius: 12px;
 	}
 
@@ -27,13 +28,14 @@ $max-lines: 12;
 		box-shadow: $screen-box-shadow;
 		margin: $screen-padding;
 		margin-left: 11px;
+		flex-shrink: 0;
 	}
 
 	&:not(&--expanded):not(&--windowed) {
-		padding-left: 11px;
+		padding: $screen-padding $screen-padding 0;
 
 		.screen__chat-button {
-			margin-left: 0;
+			margin: $screen-padding 0;
 		}
 	}
 

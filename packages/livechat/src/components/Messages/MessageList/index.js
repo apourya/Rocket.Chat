@@ -66,6 +66,24 @@ export class MessageList extends MemoizedComponent {
 	};
 
 	handleResize = () => {
+		if (!this.base) {
+			return;
+		}
+
+		const clientHeight = this.base.clientHeight;
+		const wasCollapsed = !this.previousClientHeight;
+		const nowExpanded = clientHeight > 0;
+		this.previousClientHeight = clientHeight;
+
+		if (wasCollapsed && nowExpanded) {
+			this.scrollPosition = MessageList.SCROLL_AT_BOTTOM;
+			const { onScrollTo, dispatch } = this.props;
+			onScrollTo && onScrollTo(MessageList.SCROLL_AT_BOTTOM);
+			if (dispatch) {
+				dispatch({ messageListPosition: MessageList.SCROLL_AT_BOTTOM });
+			}
+		}
+
 		if (this.scrollPosition === MessageList.SCROLL_AT_BOTTOM) {
 			this.base.scrollTop = this.base.scrollHeight;
 			this.isResizingFromBottom = true;
@@ -119,10 +137,18 @@ export class MessageList extends MemoizedComponent {
 	componentDidMount() {
 		this.handleResize();
 		window.addEventListener('resize', this.handleResize);
+
+		if (typeof ResizeObserver !== 'undefined' && this.base) {
+			this.resizeObserver = new ResizeObserver(() => {
+				this.handleResize();
+			});
+			this.resizeObserver.observe(this.base);
+		}
 	}
 
 	componentWillUnmount() {
 		window.removeEventListener('resize', this.handleResize);
+		this.resizeObserver?.disconnect();
 	}
 
 	isVideoConfMessage(message) {

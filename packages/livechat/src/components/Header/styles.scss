@@ -20,7 +20,7 @@ $header-action-active-displacement: 2px;
 	height: $header-height;
 	padding: 0 math.div($header-padding, 2);
 
-	color: var(--font-color, $header-color);
+	color: $header-color;
 	background-color: $header-background-color;
 	box-shadow: 0 0 10px colors.$box-shadow-color;
 
@@ -52,7 +52,7 @@ $header-action-active-displacement: 2px;
 			align-items: center;
 			gap: 4px;
 			text-overflow: ellipsis;
-			color: #202535;
+			color: $header-color;
 			font-family: variables.$font-family-charisma;
 			font-size: 14px;
 			font-weight: 700 !important;
@@ -96,13 +96,13 @@ $header-action-active-displacement: 2px;
 			align-items: center;
 			gap: variables.$small-gap;
 			cursor: pointer;
-			color: #475177;
+			color: colors.$color-text-dark;
 			font-family: variables.$font-family;
 			border: none;
 			outline: none;
 			background: none;
 			justify-content: center;
-			background-color: #F1F2F7;
+			background-color: colors.$bg-color-light;
 			border-radius: 6px;
 			padding: 4px 8px;
 			font-size: 12px;
@@ -110,10 +110,10 @@ $header-action-active-displacement: 2px;
 
 			&--primary {
 				&:hover {
-					background-color: #5467FF40;
-					color: #5467FF;
+					background-color: rgba(colors.$color-blue, 0.25);
+					color: colors.$color-blue;
 
-					stroke: #5467FF !important;
+					stroke: colors.$color-blue !important;
 				}
 			}
 			&--ghost{
