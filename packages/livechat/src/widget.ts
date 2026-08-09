@@ -166,6 +166,7 @@ const updateWidgetStyle = (isOpened: boolean) => {
 	if (isOpened) {
 		widget.style.left = smallScreen ? '0' : `${WIDGET_SIDE_OFFSET}px`;
 		widget.style.right = smallScreen ? '0' : 'auto';
+		widget.style.bottom = isFullscreen ? '0' : `${WIDGET_BOTTOM_OFFSET}px`;
 
 		/**
 		 * If we use widget.style.height = smallScreen ? '100vh' : ...
@@ -180,6 +181,7 @@ const updateWidgetStyle = (isOpened: boolean) => {
 	} else {
 		widget.style.left = `${WIDGET_SIDE_OFFSET}px`;
 		widget.style.right = 'auto';
+		widget.style.bottom = `${WIDGET_BOTTOM_OFFSET}px`;
 		widget.style.width = `${WIDGET_MARGIN + WIDGET_MINIMIZED_WIDTH + WIDGET_MARGIN}px`;
 		widget.style.height = `${WIDGET_MARGIN + WIDGET_MINIMIZED_HEIGHT + WIDGET_MARGIN}px`;
 	}
