@@ -103,7 +103,6 @@ const Message = ({
 	hideAvatar,
 	...message
 }) => {
-	console.log({message})
 	return(
 	<MessageContainer id={message._id} reverse={!me} compact={compact} use={use} className={className} style={style} system={!!message.type}>
 		{!message.type && !hideAvatar && <MessageAvatars avatarResolver={avatarResolver} usernames={getMessageUsernames(compact, message)} />}
@@ -120,7 +119,7 @@ const Message = ({
 			})}
 		</MessageContent>
 
-		{!compact && !message.type && <MessageTime normal={!me} inverse={me} ts={message.ts} userName={message.u.username}  />}
+		{!compact && !message.type && <MessageTime normal={!me} inverse={me} ts={message.ts} userName={message.u.name}  />}
 	</MessageContainer>
 )};
 

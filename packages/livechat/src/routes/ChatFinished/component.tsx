@@ -2,7 +2,6 @@ import { withTranslation } from 'react-i18next';
 
 import styles from './styles.scss';
 import { Button } from '../../components/Button';
-import { ButtonGroup } from '../../components/ButtonGroup';
 import Screen from '../../components/Screen';
 import { createClassName } from '../../helpers/createClassName';
 import Triggers from '../../lib/triggers';
@@ -26,15 +25,18 @@ const ChatFinished = ({ title, greeting, message, onRedirectChat, t }: ChatFinis
 
 	return (
 		<Screen title={title} className={createClassName(styles, 'chat-finished')}>
-			<Screen.Content>
-				<p className={createClassName(styles, 'chat-finished__greeting')}>{greeting || defaultGreeting}</p>
-				<p className={createClassName(styles, 'chat-finished__message')}>{message || defaultMessage}</p>
-
-				<ButtonGroup>
-					<Button onClick={handleClick} stack>
-						{t('new_chat')}
-					</Button>
-				</ButtonGroup>
+			<Screen.Content nopadding full>
+				<div className={createClassName(styles, 'chat-finished__body')}>
+					<div className={createClassName(styles, 'chat-finished__card')}>
+						<div className={createClassName(styles, 'chat-finished__copy')}>
+							<h1 className={createClassName(styles, 'chat-finished__greeting')}>{greeting || defaultGreeting}</h1>
+							<p className={createClassName(styles, 'chat-finished__message')}>{message || defaultMessage}</p>
+							<Button onClick={handleClick} stack className={createClassName(styles, 'chat-finished__button')}>
+								{t('new_chat')}
+							</Button>
+						</div>	
+					</div>
+				</div>
 			</Screen.Content>
 			<Screen.Footer />
 		</Screen>
