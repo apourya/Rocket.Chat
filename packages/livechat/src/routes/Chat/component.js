@@ -303,7 +303,7 @@ class Chat extends Component {
 							}
 							post={
 								<ComposerAction onClick={this.handleSendClick} disabled={text.length === 0 || loading} >
-									<SendIcon width={24} height={24} />
+									<SendIcon/>
 								</ComposerAction>
 
 							}
