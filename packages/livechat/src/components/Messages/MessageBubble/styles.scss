@@ -71,11 +71,12 @@ a {
 }
 
 &--system {
+	justify-content: center;
+
+	padding: 0;
 
 	background-color: transparent;
 
-	.message-container {
-		justify-content: center;
-	}
+	text-align: center;
 }
 }

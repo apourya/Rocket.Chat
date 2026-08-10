@@ -4,8 +4,6 @@ import { useState, type CSSProperties, type ChangeEvent, type TargetedEvent } fr
 import styles from './styles.scss';
 import { createClassName } from '../../helpers/createClassName';
 
-const escapeForRegExp = (string: string) => string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-
 type FilesDropTargetProps = {
 	overlayed?: boolean;
 	overlayText?: string;
@@ -70,30 +68,15 @@ export const FilesDropTarget = ({
 			return;
 		}
 
-		let filteredFiles = Array.from(files);
-
-		if (accept) {
-			const acceptMatchers = accept.split(',').map((acceptString) => {
-				if (acceptString.charAt(0) === '.') {
-					return ({ name }: { name: string }) => new RegExp(`${escapeForRegExp(acceptString)}$`, 'i').test(name);
-				}
-
-				const matchTypeOnly = /^(.+)\/\*$/i.exec(acceptString);
-				if (matchTypeOnly) {
-					return ({ type }: { type: string }) => new RegExp(`^${escapeForRegExp(matchTypeOnly[1])}/.*$`, 'i').test(type);
-				}
-
-				return ({ type }: { type: string }) => new RegExp(`^s${escapeForRegExp(acceptString)}$`, 'i').test(type);
-			});
-
-			filteredFiles = filteredFiles.filter((file) => acceptMatchers.some((acceptMatcher) => acceptMatcher(file)));
-		}
+		// Keep `accept` on the input for the native file picker only.
+		// Do not silently filter dropped/pasted files here so the parent can show validation errors.
+		let selectedFiles = Array.from(files);
 
 		if (!multiple) {
-			filteredFiles = filteredFiles.slice(0, 1);
+			selectedFiles = selectedFiles.slice(0, 1);
 		}
 
-		filteredFiles.length && onUpload(filteredFiles);
+		selectedFiles.length && onUpload(selectedFiles);
 	};
 
 	return (

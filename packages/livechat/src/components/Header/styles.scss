@@ -108,6 +108,12 @@ $header-action-active-displacement: 2px;
 			font-size: 12px;
 			@include helpers.pressable-button($header-action-active-displacement, 0);
 
+			&:disabled {
+				cursor: not-allowed;
+				opacity: 0.5;
+				pointer-events: none;
+			}
+
 			&--primary {
 				&:hover {
 					background-color: rgba(colors.$color-blue, 0.25);

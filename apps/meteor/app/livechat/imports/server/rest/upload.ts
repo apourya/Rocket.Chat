@@ -5,7 +5,7 @@ import { API } from '../../../../api/server';
 import { getUploadFormData } from '../../../../api/server/lib/getUploadFormData';
 import { FileUpload } from '../../../../file-upload/server';
 import { settings } from '../../../../settings/server';
-import { fileUploadIsValidContentType } from '../../../../utils/server/restrictions';
+import { getLivechatFileUploadCategory, LIVECHAT_FILE_UPLOAD_MAX_SIZE } from '../../../server/lib/fileUploadRestrictions';
 import { sendFileLivechatMessage } from '../../../server/methods/sendFileLivechatMessage';
 
 API.v1.addRoute('livechat/upload/:rid', {
@@ -34,7 +34,9 @@ API.v1.addRoute('livechat/upload/:rid', {
 			return API.v1.forbidden();
 		}
 
-		const maxFileSize = settings.get<number>('FileUpload_MaxFileSize') || 104857600;
+		const settingsMaxFileSize = settings.get<number>('FileUpload_MaxFileSize') || 104857600;
+		const maxFileSize =
+			settingsMaxFileSize > -1 ? Math.min(settingsMaxFileSize, LIVECHAT_FILE_UPLOAD_MAX_SIZE) : LIVECHAT_FILE_UPLOAD_MAX_SIZE;
 
 		const file = await getUploadFormData(
 			{
@@ -45,7 +47,8 @@ API.v1.addRoute('livechat/upload/:rid', {
 
 		const { fields, fileBuffer, filename, mimetype } = file;
 
-		if (!fileUploadIsValidContentType(mimetype)) {
+		const category = getLivechatFileUploadCategory(filename, mimetype);
+		if (!category) {
 			return API.v1.failure({
 				reason: 'error-type-not-allowed',
 			});
@@ -53,11 +56,10 @@ API.v1.addRoute('livechat/upload/:rid', {
 
 		const buffLength = fileBuffer.length;
 
-		// -1 maxFileSize means there is no limit
-		if (maxFileSize > -1 && buffLength > maxFileSize) {
+		if (buffLength > category.maxSize) {
 			return API.v1.failure({
 				reason: 'error-size-not-allowed',
-				sizeAllowed: filesize(maxFileSize),
+				sizeAllowed: filesize(category.maxSize),
 			});
 		}
 

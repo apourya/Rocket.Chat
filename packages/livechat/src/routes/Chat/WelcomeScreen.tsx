@@ -57,7 +57,7 @@ export function WelcomeScreen({ onSelectSuggestion }:WelcomeScreenProps) {
                 </div>
             </div>
 
-            <div className={createClassName(styles, 'chips-wrap')}>
+            {/* <div className={createClassName(styles, 'chips-wrap')}>
                 {suggestions.map((text) => (
                     <Button 
                         key={text} 
@@ -67,7 +67,7 @@ export function WelcomeScreen({ onSelectSuggestion }:WelcomeScreenProps) {
                         {text}
                     </Button>
                 ))}
-            </div>
+            </div> */}
         </div>
     );
 }
