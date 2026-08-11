@@ -2,29 +2,13 @@ const MB = 1024 * 1024;
 
 export const FILE_UPLOAD_CATEGORIES = {
 	image: {
-		mimeTypes: ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp'],
-		extensions: ['.jpeg', '.jpg', '.png', '.gif', '.webp'],
-		maxSize: 5 * MB,
-	},
-	pdf: {
-		mimeTypes: [
-			'application/pdf',
-			'application/x-pdf',
-			'application/acrobat',
-			'applications/vnd.pdf',
-			'text/pdf',
-			'text/x-pdf',
-		],
-		extensions: ['.pdf'],
+		mimeTypes: ['image/jpeg', 'image/jpg', 'image/png'],
+		extensions: ['.jpeg', '.jpg', '.png'],
 		maxSize: 5 * MB,
 	},
 	excel: {
-		mimeTypes: [
-			'application/vnd.ms-excel',
-			'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-			'text/csv',
-		],
-		extensions: ['.xls', '.xlsx', '.csv'],
+		mimeTypes: ['application/vnd.ms-excel'],
+		extensions: ['.xls'],
 		maxSize: 5 * MB,
 	},
 	video: {
