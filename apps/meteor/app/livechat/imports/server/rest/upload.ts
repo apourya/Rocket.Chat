@@ -65,15 +65,19 @@ API.v1.addRoute('livechat/upload/:rid', {
 
 		const fileStore = FileUpload.getStore('Uploads');
 
+		const rawMime = mimetype?.split(';')[0]?.trim().toLowerCase();
+		const normalizedType =
+			rawMime && (category.mimeTypes as readonly string[]).includes(rawMime) ? rawMime : category.mimeTypes[0];
+
 		const details = {
 			name: filename,
 			size: buffLength,
-			type: mimetype,
+			type: normalizedType,
 			rid: this.urlParams.rid,
 			visitorToken,
 		};
 
-		const uploadedFile = await fileStore.insert(details, fileBuffer);
+		const uploadedFile = await fileStore._doInsert(details, fileBuffer);
 		if (!uploadedFile) {
 			return API.v1.failure('Invalid file');
 		}

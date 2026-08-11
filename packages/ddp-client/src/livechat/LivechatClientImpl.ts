@@ -312,15 +312,27 @@ export class LivechatClientImpl extends DDPSDK implements LivechatStream, Livech
 				return reject(new Error('Invalid token'));
 			}
 
-			return this.rest.upload(
+			const xhr = this.rest.upload(
 				`/v1/livechat/upload/${rid}`,
 				{ file },
 				{
-					load: resolve,
 					error: reject,
 				},
 				{ headers: { 'x-visitor-token': this.token } },
 			);
+
+			xhr.addEventListener('load', (event) => {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					resolve(event);
+					return;
+				}
+
+				try {
+					reject(JSON.parse(xhr.responseText));
+				} catch {
+					reject(new Error(xhr.responseText || 'Upload failed'));
+				}
+			});
 		});
 	}
 

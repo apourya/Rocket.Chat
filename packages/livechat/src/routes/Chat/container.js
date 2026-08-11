@@ -201,11 +201,17 @@ class ChatContainer extends Component {
 		try {
 			await Livechat.uploadFile(rid, file);
 		} catch (error) {
-			const {
-				data: { reason, sizeAllowed } = {},
-			} = error || {};
+			const reason = error?.data?.reason || error?.reason || error?.errorType;
+			const sizeAllowed = error?.data?.sizeAllowed || error?.sizeAllowed;
 
-			await this.showUploadError(reason, sizeAllowed);
+			const mappedReason =
+				reason === 'error-invalid-file-type'
+					? 'error-type-not-allowed'
+					: reason === 'error-file-too-large'
+						? 'error-size-not-allowed'
+						: reason;
+
+			await this.showUploadError(mappedReason, sizeAllowed);
 		}
 	};
 
