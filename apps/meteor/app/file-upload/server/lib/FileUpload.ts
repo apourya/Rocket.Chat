@@ -33,6 +33,7 @@ import { canAccessRoomAsync, canAccessRoomIdAsync } from '../../../authorization
 import { settings } from '../../../settings/server';
 import { mime } from '../../../utils/lib/mimeTypes';
 import { isValidJWT, generateJWT } from '../../../utils/server/lib/JWTHelper';
+import { getLivechatFileUploadCategory } from '../../../livechat/server/lib/fileUploadRestrictions';
 import { fileUploadIsValidContentType } from '../../../utils/server/restrictions';
 
 const cookie = new Cookies();
@@ -180,8 +181,23 @@ export const FileUpload = {
 			file.type = 'application/octet-stream';
 		}
 
-		// E2EE files are of type application/octet-stream, which is whitelisted for E2EE files
-		if (!fileUploadIsValidContentType(file?.type, isE2EEUpload(file) ? 'application/octet-stream' : undefined)) {
+		const isLivechatVisitorUpload = room.t === 'l' && !file.userId;
+		if (isLivechatVisitorUpload) {
+			const category = getLivechatFileUploadCategory(file.name || '', file.type);
+			if (!category) {
+				const reason = i18n.t('File_type_is_not_accepted', { lng: language });
+				throw new Meteor.Error('error-invalid-file-type', reason);
+			}
+
+			if ((file.size || 0) > category.maxSize) {
+				const reason = i18n.t('File_exceeds_allowed_size_of_bytes', {
+					size: filesize(category.maxSize),
+					lng: language,
+				});
+				throw new Meteor.Error('error-file-too-large', reason);
+			}
+		} else if (!fileUploadIsValidContentType(file?.type, isE2EEUpload(file) ? 'application/octet-stream' : undefined)) {
+
 			const reason = i18n.t('File_type_is_not_accepted', { lng: language });
 			throw new Meteor.Error('error-invalid-file-type', reason);
 		}

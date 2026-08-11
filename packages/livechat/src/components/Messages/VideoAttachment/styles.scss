@@ -1,8 +1,18 @@
+@use '../../../styles/colors';
+
 $video-attachment-max-height: 250px;
 
 .video-attachment {
+	background-color: colors.$color-dark-blue;
+	padding: 8px;
+	border-radius: 12px;
+	border-bottom-right-radius: 2px;
+	max-width: 100%;
+
 	&__inner {
+		display: block;
 		max-width: 100%;
 		max-height: $video-attachment-max-height;
+		border-radius: 4px;
 	}
 }
