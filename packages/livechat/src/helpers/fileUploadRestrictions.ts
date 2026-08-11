@@ -7,7 +7,14 @@ export const FILE_UPLOAD_CATEGORIES = {
 		maxSize: 5 * MB,
 	},
 	pdf: {
-		mimeTypes: ['application/pdf'],
+		mimeTypes: [
+			'application/pdf',
+			'application/x-pdf',
+			'application/acrobat',
+			'applications/vnd.pdf',
+			'text/pdf',
+			'text/x-pdf',
+		],
 		extensions: ['.pdf'],
 		maxSize: 5 * MB,
 	},
@@ -44,7 +51,7 @@ export const formatUploadSizeLimit = (bytes: number): string => {
 };
 
 export const getFileUploadCategory = (file: Pick<File, 'name' | 'type'>): FileUploadCategory | undefined => {
-	const mimeType = file.type?.toLowerCase();
+	const mimeType = file.type?.split(';')[0]?.trim().toLowerCase();
 	const extension = getFileExtension(file.name);
 
 	return Object.values(FILE_UPLOAD_CATEGORIES).find(

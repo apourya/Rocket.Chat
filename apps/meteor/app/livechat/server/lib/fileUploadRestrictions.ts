@@ -7,7 +7,14 @@ export const LIVECHAT_FILE_UPLOAD_CATEGORIES = {
 		maxSize: 5 * MB,
 	},
 	pdf: {
-		mimeTypes: ['application/pdf'],
+		mimeTypes: [
+			'application/pdf',
+			'application/x-pdf',
+			'application/acrobat',
+			'applications/vnd.pdf',
+			'text/pdf',
+			'text/x-pdf',
+		],
 		extensions: ['.pdf'],
 		maxSize: 5 * MB,
 	},
@@ -42,8 +49,8 @@ export const getLivechatFileUploadCategory = (
 	filename: string,
 	mimetype?: string,
 ): LivechatFileUploadCategory | undefined => {
-	const mimeType = mimetype?.toLowerCase();
-	const extension = getFileExtension(filename);
+	const mimeType = mimetype?.split(';')[0]?.trim().toLowerCase();
+	const extension = getFileExtension(decodeURIComponent(filename));
 
 	return Object.values(LIVECHAT_FILE_UPLOAD_CATEGORIES).find(
 		({ mimeTypes, extensions }) =>
