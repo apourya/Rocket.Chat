@@ -14,6 +14,7 @@ import { Menu } from '../../components/Menu';
 import { MessageList } from '../../components/Messages';
 import { Screen } from '../../components/Screen';
 import { createClassName } from '../../helpers/createClassName';
+import { ALLOWED_UPLOAD_ACCEPT } from '../../helpers/fileUploadRestrictions';
 import ChangeIcon from '../../icons/change.svg';
 import FinishIcon from '../../icons/finish.svg';
 import SendIcon from '../../icons/send.svg';
@@ -42,6 +43,49 @@ class Chat extends Component {
 		showFeedback: false,
 		hoveredStar: 0,
 		selectedRating: 0,
+		supportClickPending: false,
+	};
+
+	isAwaitingSupportResponse = (messages = [], uid, supportText) => {
+		let lastSupportIdx = -1;
+
+		for (let i = messages.length - 1; i >= 0; i--) {
+			const message = messages[i];
+
+			if (message?.msg === supportText && (!uid || message?.u?._id === uid)) {
+				lastSupportIdx = i;
+				break;
+			}
+		}
+
+		if (lastSupportIdx === -1) {
+			return false;
+		}
+
+		for (let i = lastSupportIdx + 1; i < messages.length; i++) {
+			const message = messages[i];
+
+			if (message?.t) {
+				continue;
+			}
+
+			if (message?.u?._id && message.u._id !== uid) {
+				return false;
+			}
+		}
+
+		return true;
+	};
+
+	handleSupportClick = (supportText) => {
+		const { messages = [], uid } = this.props;
+
+		if (this.state.supportClickPending || this.isAwaitingSupportResponse(messages, uid, supportText)) {
+			return;
+		}
+
+		this.setState({ supportClickPending: true });
+		this.handleSubmit(supportText);
 	};
 
 	inputRef = createRef(null);
@@ -169,6 +213,19 @@ class Chat extends Component {
 	// 		.catch((err) => console.log("forward_room_to_crm err", err));
 	// };
 
+	componentDidUpdate() {
+		if (!this.state.supportClickPending) {
+			return;
+		}
+
+		const { messages = [], uid, t } = this.props;
+		const supportText = t('support');
+
+		if (messages.some((message) => message?.msg === supportText && (!uid || message?.u?._id === uid))) {
+			this.setState({ supportClickPending: false });
+		}
+	}
+
 	render = (
 		{
 			title,
@@ -197,8 +254,12 @@ class Chat extends Component {
 			theme,
 			...props
 		},
-		{ atBottom = true, text },
-	) => (
+		{ atBottom = true, text, supportClickPending },
+	) => {
+		const supportText = t('support');
+		const supportDisabled = supportClickPending || this.isAwaitingSupportResponse(messages, uid, supportText);
+
+		return (
 		<Screen
 			title={title || t('need_help')}
 			agent={agent || null}
@@ -210,10 +271,17 @@ class Chat extends Component {
 			className={createClassName(styles, 'chat')}
 			handleEmojiClick={this.handleEmojiClick}
 			theme={theme}
-			onSupportClick={() => this.handleSubmit(t('support'))}
+			supportDisabled={supportDisabled}
+			onSupportClick={() => this.handleSupportClick(supportText)}
 			{...props}
 		>
-			<FilesDropTarget inputRef={this.inputRef} overlayed overlayText={t('drop_here_to_upload_a_file')} onUpload={onUpload}>
+			<FilesDropTarget
+				inputRef={this.inputRef}
+				overlayed
+				overlayText={t('drop_here_to_upload_a_file')}
+				accept={ALLOWED_UPLOAD_ACCEPT}
+				onUpload={onUpload}
+			>
 				<Screen.Content nopadding>
 					{incomingCallAlert && !!incomingCallAlert.show && <CallNotification {...incomingCallAlert} dispatch={dispatch} />}
 					{incomingCallAlert?.show && ongoingCall && ongoingCall.callStatus === CallStatus.IN_PROGRESS_SAME_TAB ? (
@@ -313,7 +381,8 @@ class Chat extends Component {
 				</Screen.Footer>
 			</FilesDropTarget>
 		</Screen>
-	);
+		);
+	};
 }
 
 export default withTranslation()(Chat);

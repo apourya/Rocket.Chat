@@ -22,6 +22,7 @@ type ScreenHeaderProps = {
 	windowed: boolean;
 	onDismissAlert?: (id?: string) => void;
 	onSupportClick?: () => void;
+	supportDisabled?: boolean;
 	onEnableNotifications: () => unknown;
 	onDisableNotifications: () => unknown;
 	onMinimize: () => unknown;
@@ -43,6 +44,7 @@ const ScreenHeader = ({
 	windowed,
 	onDismissAlert,
 	onSupportClick,
+	supportDisabled = false,
 	onEnableNotifications,
 	onDisableNotifications,
 	onMinimize,
@@ -53,8 +55,16 @@ const ScreenHeader = ({
 	hideExpandChat,
 }: ScreenHeaderProps) => {
 	const { t } = useTranslation();
-	const [userHover, SetUserHover] = useState(false)
+	const [userHover, SetUserHover] = useState(false);
 	const headerRef = useRef<HTMLElement>(null);
+
+	const handleSupportClick = () => {
+		if (supportDisabled) {
+			return;
+		}
+
+		onSupportClick?.();
+	};
 
 	const largeHeader = () => {
 		return !!(agent?.email && agent.phone);
@@ -97,8 +107,21 @@ const ScreenHeader = ({
 
 			<Tooltip.Container>
 				<Header.Actions>
-					<Header.Action onMouseLeave={() => { SetUserHover(false) }} onMouseEnter={() => { SetUserHover(true) }} aria-label={t('cantact_with_support')} primary onClick={onSupportClick}>
-						{userHover ? <UserBlueIcon width={20} height={20} /> : <UserIcon width={20} height={20} />}
+					<Header.Action
+						onMouseLeave={() => {
+							SetUserHover(false);
+						}}
+						onMouseEnter={() => {
+							if (!supportDisabled) {
+								SetUserHover(true);
+							}
+						}}
+						aria-label={t('cantact_with_support')}
+						primary
+						disabled={supportDisabled}
+						onClick={handleSupportClick}
+					>
+						{userHover && !supportDisabled ? <UserBlueIcon width={20} height={20} /> : <UserIcon width={20} height={20} />}
 						<Header.SubTitle>ارتباط با کارشناس</Header.SubTitle>
 					</Header.Action>
 
