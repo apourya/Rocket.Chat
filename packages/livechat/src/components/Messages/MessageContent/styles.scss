@@ -29,4 +29,13 @@ $message-content-margin: math.div(-$message-content-gap, 2) math.div(variables.$
 			width: auto;
 		}
 	}
+
+	&--system {
+		align-items: center;
+
+		> * {
+			justify-content: center;
+			text-align: center;
+		}
+	}
 }

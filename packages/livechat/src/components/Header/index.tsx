@@ -22,7 +22,8 @@ type HeaderComponentProps = {
 	children?: ComponentChildren;
 	className?: string;
 	primary?: boolean;
-	ghost?:boolean
+	ghost?: boolean;
+	disabled?: boolean;
 };
 
 export const Header = ({
@@ -84,8 +85,28 @@ export const Actions = ({ children, className = undefined, ...props }: HeaderCom
 	</nav>
 );
 
-export const Action = ({ children, primary,ghost, className = undefined,onMouseEnter,onMouseLeave, ...props }: HeaderComponentProps & { onMouseLeave?:()=>void, onMouseEnter?: () => void, onClick?: () => void }) => (
-	<button onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={createClassName(styles, 'header__action', { primary,ghost }, [className])} {...props}>
+export const Action = ({
+	children,
+	primary,
+	ghost,
+	className = undefined,
+	onMouseEnter,
+	onMouseLeave,
+	disabled,
+	...props
+}: HeaderComponentProps & {
+	onMouseLeave?: () => void;
+	onMouseEnter?: () => void;
+	onClick?: () => void;
+	disabled?: boolean;
+}) => (
+	<button
+		onMouseEnter={onMouseEnter}
+		onMouseLeave={onMouseLeave}
+		disabled={disabled}
+		className={createClassName(styles, 'header__action', { primary, ghost }, [className])}
+		{...props}
+	>
 		{children}
 	</button>
 );

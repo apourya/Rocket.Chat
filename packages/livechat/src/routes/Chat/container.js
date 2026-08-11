@@ -8,6 +8,7 @@ import { ModalManager } from '../../components/Modal';
 import { getAvatarUrl } from '../../helpers/baseUrl';
 import { canRenderMessage } from '../../helpers/canRenderMessage';
 import { debounce } from '../../helpers/debounce';
+import { validateUploadFile } from '../../helpers/fileUploadRestrictions';
 import { throttle } from '../../helpers/throttle';
 import { upsert } from '../../helpers/upsert';
 import {
@@ -173,27 +174,38 @@ class ChatContainer extends Component {
 		await Livechat.notifyVisitorActivity(rid, user.username, []);
 	};
 
-	doFileUpload = async (rid, file) => {
+	showUploadError = async (reason, sizeAllowed) => {
 		const { alerts, dispatch, i18n } = this.props;
+
+		let message = i18n.t('fileupload_error');
+		switch (reason) {
+			case 'error-type-not-allowed':
+				message = i18n.t('media_types_not_accepted');
+				break;
+			case 'error-size-not-allowed':
+				message = i18n.t('file_exceeds_allowed_size_of_size', { size: sizeAllowed });
+				break;
+		}
+
+		const alert = { id: createToken(), children: message, error: true, timeout: 5000 };
+		await dispatch({ alerts: (alerts.push(alert), alerts) });
+	};
+
+	doFileUpload = async (rid, file) => {
+		const validation = validateUploadFile(file);
+		if (!validation.ok) {
+			await this.showUploadError(validation.reason, validation.sizeAllowed);
+			return;
+		}
 
 		try {
 			await Livechat.uploadFile(rid, file);
 		} catch (error) {
 			const {
-				data: { reason, sizeAllowed },
-			} = error;
+				data: { reason, sizeAllowed } = {},
+			} = error || {};
 
-			let message = i18n.t('fileupload_error');
-			switch (reason) {
-				case 'error-type-not-allowed':
-					message = i18n.t('media_types_not_accepted');
-					break;
-				case 'error-size-not-allowed':
-					message = i18n.t('file_exceeds_allowed_size_of_size', { size: sizeAllowed });
-			}
-
-			const alert = { id: createToken(), children: message, error: true, timeout: 5000 };
-			await dispatch({ alerts: (alerts.push(alert), alerts) });
+			await this.showUploadError(reason, sizeAllowed);
 		}
 	};
 
