@@ -118,6 +118,9 @@ class Chat extends Component {
 
 	handleUploadClick = (event) => {
 		event.preventDefault();
+		if (this.props.uploading) {
+			return;
+		}
 		this.inputRef?.current?.click();
 	};
 
@@ -242,6 +245,7 @@ class Chat extends Component {
 			avatarResolver,
 			conversationFinishedMessage,
 			loading,
+			uploading,
 			onUpload,
 			messages,
 			uploads = false,
@@ -288,7 +292,7 @@ class Chat extends Component {
 				overlayed
 				overlayText={t('drop_here_to_upload_a_file')}
 				accept={ALLOWED_UPLOAD_ACCEPT}
-				onUpload={onUpload}
+				onUpload={uploading ? undefined : onUpload}
 			>
 				<Screen.Content nopadding>
 					{incomingCallAlert && !!incomingCallAlert.show && <CallNotification {...incomingCallAlert} dispatch={dispatch} />}
@@ -360,7 +364,7 @@ class Chat extends Component {
 					) : (
 
 						<Composer
-							onUpload={onUpload}
+							onUpload={uploading ? undefined : onUpload}
 							onSubmit={this.handleSubmit}
 							onChange={this.handleChangeText}
 							placeholder={'پیام خود را بنویسید ...'}
@@ -372,7 +376,7 @@ class Chat extends Component {
 							handleEmojiClick={this.handleEmojiClick}
 							pre={
 								<ComposerActions>
-									<ComposerAction onClick={this.handleUploadClick} ghost>
+									<ComposerAction onClick={this.handleUploadClick} disabled={uploading} ghost>
 										<AttachmentIcon width={24} height={24} />
 									</ComposerAction>
 								</ComposerActions>

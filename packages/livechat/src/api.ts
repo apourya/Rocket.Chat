@@ -19,3 +19,28 @@ Livechat.rest.use(async function (request, next) {
 		throw error;
 	}
 });
+
+const originalUploadFile = Livechat.uploadFile.bind(Livechat);
+
+Livechat.uploadFile = (rid: string, file: File) =>
+	originalUploadFile(rid, file).catch((error: unknown) => {
+		const xhr =
+			typeof XMLHttpRequest !== 'undefined' && error && typeof error === 'object' && 'target' in error
+				? (error as ProgressEvent<XMLHttpRequest>).target
+				: undefined;
+		const status =
+			(error && typeof error === 'object' && 'status' in error && Number((error as { status?: number }).status)) ||
+			(error && typeof error === 'object' && 'statusCode' in error && Number((error as { statusCode?: number }).statusCode)) ||
+			(xhr instanceof XMLHttpRequest ? xhr.status : undefined);
+
+		if (status === 413 || status === 0 || (typeof ProgressEvent !== 'undefined' && error instanceof ProgressEvent)) {
+			throw {
+				status: status === 0 ? 413 : status ?? 413,
+				statusCode: status === 0 ? 413 : status ?? 413,
+				reason: 'error-payload-too-large',
+				error: 'error-payload-too-large',
+			};
+		}
+
+		throw error;
+	});

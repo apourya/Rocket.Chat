@@ -312,11 +312,30 @@ export class LivechatClientImpl extends DDPSDK implements LivechatStream, Livech
 				return reject(new Error('Invalid token'));
 			}
 
+			const rejectUpload = (fallbackMessage?: string) => {
+				let payload: Record<string, unknown> = {};
+				try {
+					const parsed = JSON.parse(xhr.responseText);
+					if (parsed && typeof parsed === 'object') {
+						payload = parsed;
+					}
+				} catch {
+					payload = { error: xhr.responseText || fallbackMessage || 'Upload failed' };
+				}
+
+				reject({
+					...payload,
+					status: xhr.status,
+					statusCode: xhr.status,
+					message: payload.message || payload.error || fallbackMessage || 'Upload failed',
+				});
+			};
+
 			const xhr = this.rest.upload(
 				`/v1/livechat/upload/${rid}`,
 				{ file },
 				{
-					error: reject,
+					error: () => rejectUpload('Upload failed'),
 				},
 				{ headers: { 'x-visitor-token': this.token } },
 			);
@@ -327,11 +346,7 @@ export class LivechatClientImpl extends DDPSDK implements LivechatStream, Livech
 					return;
 				}
 
-				try {
-					reject(JSON.parse(xhr.responseText));
-				} catch {
-					reject(new Error(xhr.responseText || 'Upload failed'));
-				}
+				rejectUpload();
 			});
 		});
 	}
