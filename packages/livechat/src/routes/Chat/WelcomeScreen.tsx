@@ -4,7 +4,10 @@ import styles from './welcomeStyles.scss';
 import { createClassName } from '../../helpers/createClassName';
 import { Button } from '../../components/Button';
 
-const FAQ_API_URL = 'https://chatbotai-stg.charisma.digital/api/faq';
+const FAQ_API_URL =
+	process.env.NODE_ENV === 'development'
+		? 'https://chatbotai-stg.charisma.digital/api/faq'
+		: 'https://chatbotai.charisma.ir/api/faq';
 
 type FaqItem = {
 	question?: string;
