@@ -35,6 +35,25 @@ const Picker = lazy(async () => {
 const host =
 	window.SERVER_URL ?? parse(window.location.search).serverUrl ?? (process.env.NODE_ENV === 'development' ? 'https://chatbot-stg.charisma.digital' : null);
 
+const SUPPORT_REQUESTED_STORAGE_PREFIX = 'livechat_support_requested_';
+
+const getSupportRequestedStorageKey = (roomId, token) => `${SUPPORT_REQUESTED_STORAGE_PREFIX}${roomId || token || 'default'}`;
+
+const isSupportRequestedStored = (roomId, token) => {
+	try {
+		return window.localStorage.getItem(getSupportRequestedStorageKey(roomId, token)) === 'true';
+	} catch {
+		return false;
+	}
+};
+
+const setSupportRequestedStored = (roomId, token) => {
+	try {
+		window.localStorage.setItem(getSupportRequestedStorageKey(roomId, token), 'true');
+	} catch {
+	}
+};
+
 class Chat extends Component {
 	state = {
 		atBottom: true,
@@ -46,46 +65,29 @@ class Chat extends Component {
 		supportClickPending: false,
 	};
 
-	isAwaitingSupportResponse = (messages = [], uid, supportText) => {
-		let lastSupportIdx = -1;
-
-		for (let i = messages.length - 1; i >= 0; i--) {
-			const message = messages[i];
-
-			if (message?.msg === supportText && (!uid || message?.u?._id === uid)) {
-				lastSupportIdx = i;
-				break;
-			}
+	hasSupportBeenRequested = (messages = [], uid, supportText, roomId, token) => {
+		if (isSupportRequestedStored(roomId, token)) {
+			return true;
 		}
 
-		if (lastSupportIdx === -1) {
-			return false;
-		}
-
-		for (let i = lastSupportIdx + 1; i < messages.length; i++) {
-			const message = messages[i];
-
-			if (message?.t) {
-				continue;
-			}
-
-			if (message?.u?._id && message.u._id !== uid) {
-				return false;
-			}
-		}
-
-		return true;
+		return messages.some((message) => message?.msg === supportText && (!uid || message?.u?._id === uid));
 	};
 
-	handleSupportClick = (supportText) => {
-		const { messages = [], uid } = this.props;
+	handleSupportClick = async (supportText) => {
+		const { messages = [], uid, room, token } = this.props;
+		const roomId = room?._id;
 
-		if (this.state.supportClickPending || this.isAwaitingSupportResponse(messages, uid, supportText)) {
+		if (this.state.supportClickPending || this.hasSupportBeenRequested(messages, uid, supportText, roomId, token)) {
 			return;
 		}
 
 		this.setState({ supportClickPending: true });
-		this.handleSubmit(supportText);
+
+		const success = await this.handleSubmit(supportText);
+
+		if (!success) {
+			this.setState({ supportClickPending: false });
+		}
 	};
 
 	inputRef = createRef(null);
@@ -124,13 +126,16 @@ class Chat extends Component {
 		this.handleSubmit(this.state.text);
 	};
 
-	handleSubmit = (text) => {
-		console.log({text})
-		// if (this.props.onSubmit) {
-			this.props.onSubmit(text);
+	handleSubmit = async (text) => {
+	
+		const success = (await this.props.onSubmit?.(text)) !== false;
+
+		if (success) {
 			this.setState({ text: '' });
 			this.turnOffEmojiPicker();
-		// }
+		}
+
+		return success;
 	};
 
 	handleChangeText = (text) => {
@@ -214,14 +219,16 @@ class Chat extends Component {
 	// };
 
 	componentDidUpdate() {
-		if (!this.state.supportClickPending) {
-			return;
+		const { messages = [], uid, t, room, token } = this.props;
+		const supportText = t('support');
+		const roomId = room?._id;
+		const supportRequested = this.hasSupportBeenRequested(messages, uid, supportText, roomId, token);
+
+		if (supportRequested) {
+			setSupportRequestedStored(roomId, token);
 		}
 
-		const { messages = [], uid, t } = this.props;
-		const supportText = t('support');
-
-		if (messages.some((message) => message?.msg === supportText && (!uid || message?.u?._id === uid))) {
+		if (this.state.supportClickPending && supportRequested) {
 			this.setState({ supportClickPending: false });
 		}
 	}
@@ -257,7 +264,8 @@ class Chat extends Component {
 		{ atBottom = true, text, supportClickPending },
 	) => {
 		const supportText = t('support');
-		const supportDisabled = supportClickPending || this.isAwaitingSupportResponse(messages, uid, supportText);
+		const supportDisabled =
+			supportClickPending || this.hasSupportBeenRequested(messages, uid, supportText, props.room?._id, props.token);
 
 		return (
 		<Screen
