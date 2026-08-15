@@ -27,6 +27,44 @@ import { createToken } from '../../lib/random';
 import { initRoom, loadMessages, loadMoreMessages, defaultRoomParams, getGreetingMessages } from '../../lib/room';
 import store from '../../store';
 
+const FILE_TOO_LARGE_MESSAGE = 'حجم فایل بیش از حد مجاز است';
+
+const isPayloadTooLargeError = (error) => {
+	// Cross-origin 413 (e.g. nginx) often arrives as status 0 / ProgressEvent with an empty body
+	// because CORS headers are missing on the error response. Network tab still shows 413.
+	if (typeof ProgressEvent !== 'undefined' && error instanceof ProgressEvent) {
+		return true;
+	}
+
+	const xhr = error?.target;
+	if (typeof XMLHttpRequest !== 'undefined' && xhr instanceof XMLHttpRequest) {
+		return xhr.status === 413 || xhr.status === 0;
+	}
+
+	const status = Number(error?.status ?? error?.statusCode);
+	if (status === 413 || status === 0) {
+		return true;
+	}
+
+	const values = [
+		error?.error,
+		error?.message,
+		error?.reason,
+		error?.errorType,
+		error?.data?.reason,
+		error?.data?.error,
+		typeof error === 'string' ? error : undefined,
+	];
+
+	return values.some((value) => {
+		if (value === 413 || value === '413') {
+			return true;
+		}
+
+		return typeof value === 'string' && /413|too large|error-file-too-large|upload failed/i.test(value);
+	});
+};
+
 const ChatWrapper = ({ children, rid }) => {
 	useRoomMessagesSubscription(rid);
 
@@ -50,6 +88,7 @@ class ChatContainer extends Component {
 		queueSpot: 0,
 		triggerQueueMessage: true,
 		estimatedWaitTime: null,
+		uploading: false,
 	};
 
 	checkConnectingAgent = async () => {
@@ -187,6 +226,9 @@ class ChatContainer extends Component {
 			case 'error-size-not-allowed':
 				message = i18n.t('file_exceeds_allowed_size_of_size', { size: sizeAllowed });
 				break;
+			case 'error-payload-too-large':
+				message = i18n.exists('file_exceeds_allowed_size') ? i18n.t('file_exceeds_allowed_size') : FILE_TOO_LARGE_MESSAGE;
+				break;
 		}
 
 		const alert = { id: createToken(), children: message, error: true, timeout: 5000 };
@@ -203,7 +245,12 @@ class ChatContainer extends Component {
 		try {
 			await Livechat.uploadFile(rid, file);
 		} catch (error) {
-			const reason = error?.data?.reason || error?.reason || error?.errorType;
+			if (isPayloadTooLargeError(error)) {
+				await this.showUploadError('error-payload-too-large');
+				return;
+			}
+
+			const reason = error?.data?.reason || error?.reason || error?.error || error?.errorType;
 			const sizeAllowed = error?.data?.sizeAllowed || error?.sizeAllowed;
 
 			const mappedReason =
@@ -225,6 +272,7 @@ class ChatContainer extends Component {
 		} = store.state;
 
 		const { dispatch, alerts, i18n } = this.props;
+		const { uploading } = this.state;
 
 		if (!fileUpload) {
 			const alert = { id: createToken(), children: i18n.t('file_upload_disabled'), error: true, timeout: 5000 };
@@ -232,10 +280,18 @@ class ChatContainer extends Component {
 			return;
 		}
 
-		await this.grantUser();
-		const { _id: rid } = await this.getRoom();
+		if (uploading || !files?.length) {
+			return;
+		}
 
-		files.forEach((file) => this.doFileUpload(rid, file));
+		this.setState({ uploading: true });
+		try {
+			await this.grantUser();
+			const { _id: rid } = await this.getRoom();
+			await Promise.all(files.map((file) => this.doFileUpload(rid, file)));
+		} finally {
+			this.setState({ uploading: false });
+		}
 	};
 
 	handleSoundStop = async () => {
@@ -420,10 +476,12 @@ class ChatContainer extends Component {
 		this.handleConnectingAgentAlert(false);
 	}
 
-	render = ({ user, ...props }) => (
+	render = ({ user, loading, ...props }) => (
 		<ChatWrapper token={props.token} rid={props.room?._id}>
 			<Chat
 				{...props}
+				loading={loading || this.state.uploading}
+				uploading={this.state.uploading}
 				avatarResolver={getAvatarUrl}
 				uid={user && user._id}
 				onTop={this.handleTop}

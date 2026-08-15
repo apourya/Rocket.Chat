@@ -31,6 +31,7 @@
     "error_starting_a_new_conversation_reason": "Error starting a new conversation: {{reason}}",
     "expand_chat": "Expand chat",
     "field_required": "Field required",
+    "file_exceeds_allowed_size": "File exceeds the allowed size",
     "file_exceeds_allowed_size_of_size": "File exceeds allowed size of {{size}}.",
     "file_upload_disabled": "File upload is disabled",
     "fileupload_error": "FileUpload Error",

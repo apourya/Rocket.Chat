@@ -1,22 +1,27 @@
 const MB = 1024 * 1024;
 
+const parseMaxSizeMb = (value: string | undefined, defaultMb: number): number => {
+	const parsed = Number(value);
+	return Number.isFinite(parsed) && parsed > 0 ? parsed * MB : defaultMb * MB;
+};
+
 export const FILE_UPLOAD_CATEGORIES = {
 	image: {
-		mimeTypes: ['image/jpeg', 'image/jpg', 'image/png'],
-		extensions: ['.jpeg', '.jpg', '.png'],
-		maxSize: 5 * MB,
+		mimeTypes: ['image/jpeg', 'image/jpg', 'image/png'] as const,
+		extensions: ['.jpeg', '.jpg', '.png'] as const,
+		maxSize: parseMaxSizeMb(process.env.LIVECHAT_FILE_UPLOAD_IMAGE_MAX_SIZE_MB, 5),
 	},
 	excel: {
-		mimeTypes: ['application/vnd.ms-excel'],
-		extensions: ['.xls'],
-		maxSize: 5 * MB,
+		mimeTypes: ['application/vnd.ms-excel'] as const,
+		extensions: ['.xls'] as const,
+		maxSize: parseMaxSizeMb(process.env.LIVECHAT_FILE_UPLOAD_EXCEL_MAX_SIZE_MB, 5),
 	},
 	video: {
-		mimeTypes: ['video/mp4', 'video/webm', 'video/ogg'],
-		extensions: ['.mp4', '.webm', '.ogg'],
-		maxSize: 20 * MB,
+		mimeTypes: ['video/mp4', 'video/webm', 'video/ogg'] as const,
+		extensions: ['.mp4', '.webm', '.ogg'] as const,
+		maxSize: parseMaxSizeMb(process.env.LIVECHAT_FILE_UPLOAD_VIDEO_MAX_SIZE_MB, 20),
 	},
-} as const;
+};
 
 export type FileUploadCategory = (typeof FILE_UPLOAD_CATEGORIES)[keyof typeof FILE_UPLOAD_CATEGORIES];
 

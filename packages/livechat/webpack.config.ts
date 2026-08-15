@@ -1,3 +1,4 @@
+import fs from 'fs';
 import path from 'path';
 
 import HtmlWebpackPlugin from 'html-webpack-plugin';
@@ -9,6 +10,50 @@ import 'webpack-dev-server';
 
 // Helper to use absolute paths in the webpack config
 const _ = (p: string) => path.resolve(__dirname, p);
+
+const FILE_UPLOAD_ENV_KEYS = [
+	'LIVECHAT_FILE_UPLOAD_IMAGE_MAX_SIZE_MB',
+	'LIVECHAT_FILE_UPLOAD_EXCEL_MAX_SIZE_MB',
+	'LIVECHAT_FILE_UPLOAD_VIDEO_MAX_SIZE_MB',
+] as const;
+
+const parseEnvFile = (filePath: string, target: Record<string, string>) => {
+	if (!fs.existsSync(filePath)) {
+		return;
+	}
+
+	for (const line of fs.readFileSync(filePath, 'utf8').split('\n')) {
+		const trimmed = line.trim();
+		if (!trimmed || trimmed.startsWith('#')) {
+			continue;
+		}
+
+		const separatorIndex = trimmed.indexOf('=');
+		if (separatorIndex === -1) {
+			continue;
+		}
+
+		const key = trimmed.slice(0, separatorIndex).trim();
+		let value = trimmed.slice(separatorIndex + 1).trim();
+		if (
+			(value.startsWith('"') && value.endsWith('"')) ||
+			(value.startsWith("'") && value.endsWith("'"))
+		) {
+			value = value.slice(1, -1);
+		}
+
+		target[key] = value;
+	}
+};
+
+const loadLivechatEnv = (mode: string): Record<string, string> => {
+	const env: Record<string, string> = {};
+	parseEnvFile(_('.env'), env);
+	parseEnvFile(_('.env.local'), env);
+	parseEnvFile(_(`.env.${mode}`), env);
+	parseEnvFile(_(`.env.${mode}.local`), env);
+	return env;
+};
 
 const common = (args: webpack.WebpackOptionsNormalized): Partial<webpack.Configuration> => ({
 	stats: 'errors-warnings',
@@ -32,7 +77,17 @@ const common = (args: webpack.WebpackOptionsNormalized): Partial<webpack.Configu
 	},
 });
 
-const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Configuration[] => [
+const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Configuration[] => {
+	const mode = args.mode === 'production' ? 'production' : 'development';
+	const livechatEnv = loadLivechatEnv(mode);
+	const fileUploadEnvDefines = Object.fromEntries(
+		FILE_UPLOAD_ENV_KEYS.map((key) => [
+			`process.env.${key}`,
+			JSON.stringify(livechatEnv[key] ?? process.env[key] ?? ''),
+		]),
+	);
+
+	return [
 	// =========================
 	// MAIN APP BUILD
 	// =========================
@@ -131,9 +186,8 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 						: '[name].chunk.css',
 			}) as unknown as webpack.WebpackPluginInstance,
 			new webpack.DefinePlugin({
-				'process.env.NODE_ENV': JSON.stringify(
-					args.mode === 'production' ? 'production' : 'development',
-				),
+				'process.env.NODE_ENV': JSON.stringify(mode),
+				...fileUploadEnvDefines,
 			}),
 			new HtmlWebpackPlugin({
 				title: 'Livechat - Rocket.Chat',
@@ -190,5 +244,6 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 		},
 	},
 ];
+};
 
 export default config;
