@@ -156,7 +156,7 @@ class ChatContainer extends Component {
 
 	handleSubmit = async (msg) => {
 		if (msg.trim() === '') {
-			return;
+			return false;
 		}
 
 		await this.grantUser();
@@ -170,8 +170,10 @@ class ChatContainer extends Component {
 			const reason = error?.error ?? error.message;
 			const alert = { id: createToken(), children: reason, error: true, timeout: 5000 };
 			await dispatch({ alerts: (alerts.push(alert), alerts) });
+			return false;
 		}
 		await Livechat.notifyVisitorActivity(rid, user.username, []);
+		return true;
 	};
 
 	showUploadError = async (reason, sizeAllowed) => {

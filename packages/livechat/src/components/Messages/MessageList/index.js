@@ -26,13 +26,103 @@ export class MessageList extends MemoizedComponent {
 
 	static SCROLL_AT_BOTTOM_AREA = 128;
 
+	static SCROLL_MESSAGE_TOP_OFFSET = 24;
+
 	// eslint-disable-next-line no-use-before-define
 	scrollPosition = MessageList.SCROLL_AT_BOTTOM;
 
+	findMessageElement = (messageId) => {
+		if (!this.content || !messageId) {
+			return null;
+		}
+
+		const element = document.getElementById(messageId);
+
+		if (!element || !this.content.contains(element)) {
+			return null;
+		}
+
+		return element;
+	};
+
+	getLastMessageId = () => {
+		const { messages } = this.props;
+
+		if (!messages?.length) {
+			return null;
+		}
+
+		return messages[messages.length - 1]._id;
+	};
+
+	scrollToLatestMessage = (messageId) => {
+		if (!this.base) {
+			return;
+		}
+
+		const id = messageId || this.pinnedMessageId || this.getLastMessageId();
+		const messageElement = this.findMessageElement(id);
+
+		if (!messageElement) {
+			return;
+		}
+
+		const containerTop = this.base.getBoundingClientRect().top;
+		const messageTop = messageElement.getBoundingClientRect().top;
+		this.base.scrollTop = Math.max(
+			0,
+			this.base.scrollTop + messageTop - containerTop - MessageList.SCROLL_MESSAGE_TOP_OFFSET,
+		);
+		this.pinnedMessageId = id;
+		this.isProgrammaticScroll = true;
+	};
+
+	scheduleScrollToLatestMessage = (messageId) => {
+		if (this.scrollToBottomFrame) {
+			cancelAnimationFrame(this.scrollToBottomFrame);
+		}
+
+		const id = messageId || this.pinnedMessageId || this.getLastMessageId();
+
+		this.scrollToBottomFrame = requestAnimationFrame(() => {
+			this.scrollToLatestMessage(id);
+			this.scrollToBottomFrame = requestAnimationFrame(() => {
+				this.scrollToLatestMessage(id);
+				delete this.scrollToBottomFrame;
+			});
+		});
+	};
+
+	setContentRef = (element) => {
+		this.content = element;
+
+		if (this.contentResizeObserver) {
+			this.contentResizeObserver.disconnect();
+		}
+
+		if (!element || typeof ResizeObserver === 'undefined') {
+			return;
+		}
+
+		if (!this.contentResizeObserver) {
+			this.contentResizeObserver = new ResizeObserver(() => {
+				this.handleContentResize();
+			});
+		}
+
+		this.contentResizeObserver.observe(element);
+	};
+
+	handleContentResize = () => {
+		if (this.scrollPosition === MessageList.SCROLL_AT_BOTTOM) {
+			this.scrollToLatestMessage(this.pinnedMessageId);
+		}
+	};
+
 	handleScroll = () => {
-		if (this.isResizingFromBottom) {
-			this.base.scrollTop = this.base.scrollHeight;
-			delete this.isResizingFromBottom;
+		if (this.isProgrammaticScroll) {
+			this.scrollToLatestMessage(this.pinnedMessageId);
+			delete this.isProgrammaticScroll;
 			return;
 		}
 
@@ -49,6 +139,10 @@ export class MessageList extends MemoizedComponent {
 			scrollPosition = MessageList.SCROLL_AT_BOTTOM;
 		} else {
 			scrollPosition = MessageList.SCROLL_FREE;
+		}
+
+		if (scrollPosition === MessageList.SCROLL_FREE) {
+			delete this.pinnedMessageId;
 		}
 
 		if (this.scrollPosition !== scrollPosition) {
@@ -77,6 +171,12 @@ export class MessageList extends MemoizedComponent {
 
 		if (wasCollapsed && nowExpanded) {
 			this.scrollPosition = MessageList.SCROLL_AT_BOTTOM;
+			const lastMessageId = this.getLastMessageId();
+
+			if (lastMessageId) {
+				this.pinnedMessageId = lastMessageId;
+			}
+
 			const { onScrollTo, dispatch } = this.props;
 			onScrollTo && onScrollTo(MessageList.SCROLL_AT_BOTTOM);
 			if (dispatch) {
@@ -85,8 +185,7 @@ export class MessageList extends MemoizedComponent {
 		}
 
 		if (this.scrollPosition === MessageList.SCROLL_AT_BOTTOM) {
-			this.base.scrollTop = this.base.scrollHeight;
-			this.isResizingFromBottom = true;
+			this.scheduleScrollToLatestMessage(this.pinnedMessageId);
 			return;
 		}
 
@@ -111,18 +210,25 @@ export class MessageList extends MemoizedComponent {
 	componentDidUpdate(prevProps) {
 		const { messages, uid } = this.props;
 		const { messages: prevMessages } = prevProps;
+		const lastMessage = messages?.[messages.length - 1];
+
+		if (messages?.length && !prevMessages?.length && lastMessage?._id) {
+			this.pinnedMessageId = lastMessage._id;
+			this.scrollPosition = MessageList.SCROLL_AT_BOTTOM;
+			this.scheduleScrollToLatestMessage(lastMessage._id);
+			return;
+		}
 
 		if (messages?.length !== prevMessages?.length) {
-			const lastMessage = messages[messages.length - 1];
-
 			if (lastMessage?.u?._id && lastMessage.u._id === uid) {
 				this.scrollPosition = MessageList.SCROLL_AT_BOTTOM;
 			}
-		}
 
-		if (this.scrollPosition === MessageList.SCROLL_AT_BOTTOM) {
-			this.base.scrollTop = this.base.scrollHeight;
-			return;
+			if (this.scrollPosition === MessageList.SCROLL_AT_BOTTOM && lastMessage?._id) {
+				this.pinnedMessageId = lastMessage._id;
+				this.scheduleScrollToLatestMessage(lastMessage._id);
+				return;
+			}
 		}
 
 		if (this.scrollPosition === MessageList.SCROLL_AT_TOP) {
@@ -135,6 +241,14 @@ export class MessageList extends MemoizedComponent {
 	}
 
 	componentDidMount() {
+		const lastMessageId = this.getLastMessageId();
+
+		if (lastMessageId) {
+			this.pinnedMessageId = lastMessageId;
+			this.scrollPosition = MessageList.SCROLL_AT_BOTTOM;
+			this.scheduleScrollToLatestMessage(lastMessageId);
+		}
+
 		this.handleResize();
 		window.addEventListener('resize', this.handleResize);
 
@@ -149,6 +263,11 @@ export class MessageList extends MemoizedComponent {
 	componentWillUnmount() {
 		window.removeEventListener('resize', this.handleResize);
 		this.resizeObserver?.disconnect();
+		this.contentResizeObserver?.disconnect();
+
+		if (this.scrollToBottomFrame) {
+			cancelAnimationFrame(this.scrollToBottomFrame);
+		}
 	}
 
 	isVideoConfMessage(message) {
@@ -244,7 +363,9 @@ export class MessageList extends MemoizedComponent {
 			style={style}
 			data-qa='message-list'
 		>
-			<ol className={createClassName(styles, 'message-list__content')}>{this.renderItems(this.props)}</ol>
+			<ol ref={this.setContentRef} className={createClassName(styles, 'message-list__content')}>
+				{this.renderItems(this.props)}
+			</ol>
 		</div>
 	);
 }
