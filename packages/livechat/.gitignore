@@ -8,3 +8,5 @@ coverage
 package-lock.json
 build.tar.gz
 .DS_Store
+.env.local
+.env.*.local

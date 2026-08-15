@@ -32,6 +32,7 @@
     "error_starting_a_new_conversation_reason": "خطا در ایجاد گفتگوی جدید: {{reason}}",
     "expand_chat": "گسترش گفتگو",
     "field_required": "فیلد اجباری است",
+    "file_exceeds_allowed_size": "حجم فایل بیش از حد مجاز است",
     "file_exceeds_allowed_size_of_size": "حجم فایل بیشتر از حد مجاز ({{size}}) است.",
     "fileupload_error": "خطا در آپلود فایل",
     "finish_this_chat": "پایان این گفتگو",
