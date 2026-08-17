@@ -19,7 +19,7 @@ $message-bubble-quoted-indicator-color: colors.$color-green;
 
 .message-bubble {
 	display: flex;
-
+    text-align: right !important;
 	padding: $message-bubble-padding;
 	color: $message-bubble-color;
 	border-radius: 12px;
